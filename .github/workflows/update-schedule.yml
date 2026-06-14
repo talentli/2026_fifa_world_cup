@@ -2,11 +2,16 @@ name: Update World Cup schedule
 
 on:
   schedule:
-    - cron: "*/10 * * * *"
+    # Offset from minute 0 to avoid GitHub Actions schedule congestion.
+    - cron: "7-59/10 * * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
+
+concurrency:
+  group: update-world-cup-schedule
+  cancel-in-progress: true
 
 jobs:
   update:
