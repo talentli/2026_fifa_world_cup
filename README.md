@@ -2,6 +2,10 @@
 
 一个面向中文用户的 2026 世界杯赛程站点，包含赛程列表、小组积分、淘汰赛视图、球队资料和 iCalendar 订阅。
 
+## 项目预览
+
+![项目运行截图](./docs/project-preview.png)
+
 项目可以作为纯静态站点部署，也可以搭配 Cloudflare Worker 定时刷新 FIFA 官方赛程数据。静态兜底文件由构建脚本生成：
 
 - `public/schedule.json`
