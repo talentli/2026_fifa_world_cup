@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-14T16:10:47.334Z",
+  "generatedAt": "2026-06-14T17:44:28.195Z",
   "timezone": "Asia/Shanghai",
-  "canonicalHost": "2026-fifa-world-cup.example.com",
+  "canonicalHost": "2026fifa.2long.cloud",
   "sources": [
     {
       "name": "FIFA World Cup 2026 match schedule",
@@ -419,8 +419,8 @@
       "stageZh": "小组赛",
       "group": "Group E",
       "groupZh": "E 组",
-      "status": 1,
-      "matchClock": "0'",
+      "status": 3,
+      "matchClock": "42'",
       "statusText": "",
       "home": {
         "code": "GER",
@@ -428,7 +428,7 @@
         "nameZh": "德国",
         "flag": "",
         "flagEmoji": "🇩🇪",
-        "score": null,
+        "score": 2,
         "penaltyScore": null
       },
       "away": {
@@ -437,12 +437,12 @@
         "nameZh": "库拉索",
         "flag": "",
         "flagEmoji": "🇨🇼",
-        "score": null,
+        "score": 1,
         "penaltyScore": null
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": 2,
+        "away": 1,
         "homePenalty": null,
         "awayPenalty": null
       },
