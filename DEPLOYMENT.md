@@ -127,15 +127,15 @@ npm run worker:deploy
 部署后记录 Worker URL，例如：
 
 ```text
-https://your-worker.your-subdomain.workers.dev
+https://api.example.com
 ```
 
 验证：
 
 ```bash
-curl https://your-worker.your-subdomain.workers.dev/status
-curl https://your-worker.your-subdomain.workers.dev/calendar.ics
-curl -X POST https://your-worker.your-subdomain.workers.dev/trigger \
+curl https://api.example.com/status
+curl https://api.example.com/calendar.ics
+curl -X POST https://api.example.com/trigger \
   -H "Authorization: Bearer <TRIGGER_TOKEN>"
 ```
 
@@ -150,7 +150,7 @@ npx wrangler tail
 通过环境变量设置 Worker 地址：
 
 ```bash
-PUBLIC_WORKER_BASE_URL=https://your-worker.your-subdomain.workers.dev npm run build
+PUBLIC_WORKER_BASE_URL=https://api.example.com npm run build
 ```
 
 如果留空，页面会从当前静态站点读取 `schedule.json`、`knockout.json` 和 `calendar.ics`。
@@ -166,7 +166,7 @@ PUBLIC_WORKER_BASE_URL=https://your-worker.your-subdomain.workers.dev npm run bu
 
 ```bash
 PUBLIC_CANONICAL_HOST=example.com \
-PUBLIC_WORKER_BASE_URL=https://your-worker.your-subdomain.workers.dev \
+PUBLIC_WORKER_BASE_URL=https://api.example.com \
 npm run build
 ```
 

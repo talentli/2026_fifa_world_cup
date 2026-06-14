@@ -34,7 +34,7 @@ PUBLIC_CANONICAL_HOST=example.com npm run build
 如果页面需要读取独立部署的 Worker，请在构建时设置：
 
 ```bash
-PUBLIC_WORKER_BASE_URL=https://your-worker.your-subdomain.workers.dev npm run build
+PUBLIC_WORKER_BASE_URL=https://api.example.com npm run build
 ```
 
 留空时页面会从当前站点读取静态 JSON/ICS 文件。
