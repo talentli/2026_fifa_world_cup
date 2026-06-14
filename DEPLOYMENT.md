@@ -147,12 +147,10 @@ npx wrangler tail
 
 ## 5. 连接前端到 Worker
 
-打开 `public/index.html`，设置 Worker 地址：
+通过环境变量设置 Worker 地址：
 
-```html
-<script>
-  window.FIFA_WORKER_BASE_URL = "https://your-worker.your-subdomain.workers.dev";
-</script>
+```bash
+PUBLIC_WORKER_BASE_URL=https://your-worker.your-subdomain.workers.dev npm run build
 ```
 
 如果留空，页面会从当前静态站点读取 `schedule.json`、`knockout.json` 和 `calendar.ics`。
@@ -160,7 +158,9 @@ npx wrangler tail
 改完后重新构建：
 
 ```bash
-PUBLIC_CANONICAL_HOST=example.com npm run build
+PUBLIC_CANONICAL_HOST=example.com \
+PUBLIC_WORKER_BASE_URL=https://your-worker.your-subdomain.workers.dev \
+npm run build
 ```
 
 ## 6. 部署静态站点
@@ -237,7 +237,7 @@ rg -n "TODO|TRIGGER_TOKEN|your-private-domain|your-email|your-worker" .
 
 确认：
 
-- `public/index.html` 中的 `FIFA_WORKER_BASE_URL` 指向你的 Worker，或保持空字符串使用静态文件
+- `PUBLIC_WORKER_BASE_URL` 指向你的 Worker，或保持空字符串使用静态文件
 - `PUBLIC_CANONICAL_HOST` 是你的公开站点域名
 - 没有提交 `.wrangler/`、`.env`、token、账号邮箱或私有域名
 - `/status` 返回 `ok: true`

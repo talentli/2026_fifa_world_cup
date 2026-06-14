@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "update": "node scripts/update-schedule.mjs",
-    "build": "node scripts/update-schedule.mjs",
+    "build": "node scripts/build-site.mjs",
     "dev": "npx --yes serve public",
     "test": "node scripts/update-schedule.mjs --check",
     "worker:dev": "npx --yes wrangler dev",

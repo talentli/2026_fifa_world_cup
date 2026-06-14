@@ -18,7 +18,7 @@ const state = {
 
 const REFRESH_INTERVAL_MS = 10 * 60 * 1000;
 const VIEWS = ["fixtures", "standings", "knockout", "teams"];
-const WORKER_BASE_URL = normalizeBaseUrl(window.FIFA_WORKER_BASE_URL);
+const WORKER_BASE_URL = normalizeBaseUrl(window.FIFA_WORKER_BASE_URL || "");
 const DATA_BASE_URL = WORKER_BASE_URL || window.location.href;
 const SCHEDULE_URL = buildDataUrl("schedule.json");
 const KNOCKOUT_URL = buildDataUrl("knockout.json");
