@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T19:00:52.750Z",
+  "generatedAt": "2026-06-14T20:39:18.396Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "sources": [
@@ -464,8 +464,8 @@
       "stageZh": "小组赛",
       "group": "Group F",
       "groupZh": "F 组",
-      "status": 1,
-      "matchClock": "",
+      "status": 3,
+      "matchClock": "39'",
       "statusText": "",
       "home": {
         "code": "NED",
@@ -473,7 +473,7 @@
         "nameZh": "荷兰",
         "flag": "",
         "flagEmoji": "🇳🇱",
-        "score": null,
+        "score": 0,
         "penaltyScore": null
       },
       "away": {
@@ -482,12 +482,12 @@
         "nameZh": "日本",
         "flag": "",
         "flagEmoji": "🇯🇵",
-        "score": null,
+        "score": 0,
         "penaltyScore": null
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": 0,
+        "away": 0,
         "homePenalty": null,
         "awayPenalty": null
       },
