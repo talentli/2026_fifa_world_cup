@@ -15,7 +15,7 @@ crons = ["*/10 * * * *"]
 # bucket_name = "fifa-2026"
 
 [vars]
-PUBLIC_CANONICAL_HOST = "2026-fifa-world-cup.example.com"
+PUBLIC_CANONICAL_HOST = "2026fifa.2long.cloud"
 
 # 可选：手动触发 /trigger 接口的 Bearer Token（wrangler secret put TRIGGER_TOKEN 设置）
 # TRIGGER_TOKEN 应作为 secret，不要在 vars 里明文写入。

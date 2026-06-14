@@ -99,7 +99,26 @@ Worker 负责实时拉取 FIFA 数据，并提供以下接口：
 npx wrangler secret put TRIGGER_TOKEN
 ```
 
-部署：
+### GitHub 自动部署
+
+仓库包含 `.github/workflows/deploy-worker.yml`，当 `main` 分支上的 Worker 相关文件变更时会自动部署。需要在 GitHub 仓库中配置：
+
+| 类型 | 名称 | 值 |
+| --- | --- | --- |
+| Repository variable | `CLOUDFLARE_ACCOUNT_ID` | Cloudflare Account ID |
+| Repository secret | `CLOUDFLARE_API_TOKEN` | Cloudflare API Token |
+
+API Token 建议使用最小权限：
+
+- Account: Workers Scripts Edit
+- Account: Workers Tail Read（可选，用于日志）
+- Account: Account Settings Read
+
+如果使用 Cron Trigger、变量或绑定，确保 token 覆盖 Worker 部署所需权限。
+
+### 手动部署
+
+本地手动部署仍可作为应急路径：
 
 ```bash
 npm run worker:deploy
