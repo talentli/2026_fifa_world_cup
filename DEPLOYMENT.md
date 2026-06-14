@@ -155,6 +155,13 @@ PUBLIC_WORKER_BASE_URL=https://your-worker.your-subdomain.workers.dev npm run bu
 
 如果留空，页面会从当前静态站点读取 `schedule.json`、`knockout.json` 和 `calendar.ics`。
 
+配置后，Pages Functions 会代理这些同域名数据路径到 Worker：
+
+- `/schedule.json`
+- `/knockout.json`
+- `/calendar.ics`
+- `/matches/match-*.ics`
+
 改完后重新构建：
 
 ```bash
