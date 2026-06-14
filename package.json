@@ -1,0 +1,17 @@
+{
+  "name": "2026_fifa_world_cup",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "update": "node scripts/update-schedule.mjs",
+    "build": "node scripts/update-schedule.mjs",
+    "dev": "npx --yes serve public",
+    "test": "node scripts/update-schedule.mjs --check",
+    "worker:dev": "npx --yes wrangler dev",
+    "worker:deploy": "npx --yes wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}

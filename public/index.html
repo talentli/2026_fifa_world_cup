@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="2026 美加墨世界杯赛程、比分、城市与日历订阅。" />
+    <link rel="canonical" href="https://example.com/" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>2026 世界杯赛程</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-shell">
+        <div class="header-main">
+          <p class="eyebrow">2026 FIFA World Cup</p>
+          <h1>世界杯赛程</h1>
+          <p class="subtitle">美加墨 104 场比赛，按北京时间查看，页面每 10 分钟更新，支持日历订阅。</p>
+        </div>
+        <div class="header-side">
+          <div class="header-actions" aria-label="快捷操作">
+            <a class="button primary" id="calendarDownload" href="./calendar.ics">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="3" y="4.5" width="18" height="16" rx="2"></rect>
+                <path d="M3 9.5h18"></path>
+                <path d="M8 3v3"></path>
+                <path d="M16 3v3"></path>
+                <circle cx="12" cy="14.5" r="1.6" fill="currentColor" stroke="none"></circle>
+              </svg>
+              <span>订阅日历</span>
+            </a>
+            <a class="button" id="scheduleDownload" href="./schedule.json">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 4v11"></path>
+                <path d="M7 10l5 5 5-5"></path>
+                <path d="M5 19h14"></path>
+              </svg>
+              <span>下载数据</span>
+            </a>
+          </div>
+          <section class="hero-next" id="heroNextMatch" aria-label="下一场比赛">
+            <p>下一场比赛</p>
+            <strong>赛程加载中</strong>
+            <span>--</span>
+          </section>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="summary-band" aria-label="赛程概览">
+        <div>
+          <span class="metric" id="totalMatches">104</span>
+          <span class="metric-label">比赛</span>
+        </div>
+        <div>
+          <span class="metric" id="finishedMatches">0</span>
+          <span class="metric-label">已完赛</span>
+        </div>
+        <div>
+          <span class="metric" id="nextMatchTime">--</span>
+          <span class="metric-label">下一场</span>
+        </div>
+        <div>
+          <span class="metric" id="updatedAt">--</span>
+          <span class="metric-label">数据更新时间</span>
+        </div>
+      </section>
+
+      <nav class="view-tabs" id="viewTabs" role="tablist" aria-label="页面视图">
+        <button class="view-tab active" data-view="fixtures" type="button" role="tab" aria-selected="true">
+          <span class="view-tab-title">赛程</span>
+          <span class="view-tab-sub">Fixtures</span>
+        </button>
+        <button class="view-tab" data-view="standings" type="button" role="tab" aria-selected="false">
+          <span class="view-tab-title">积分榜</span>
+          <span class="view-tab-sub">Standings</span>
+        </button>
+        <button class="view-tab" data-view="knockout" type="button" role="tab" aria-selected="false">
+          <span class="view-tab-title">淘汰赛</span>
+          <span class="view-tab-sub">Knockout</span>
+        </button>
+        <button class="view-tab" data-view="teams" type="button" role="tab" aria-selected="false">
+          <span class="view-tab-title">球队</span>
+          <span class="view-tab-sub">Teams</span>
+        </button>
+      </nav>
+
+      <section class="view-panel" id="viewFixtures" data-view="fixtures">
+        <section class="toolbar" aria-label="筛选赛程">
+          <label class="search-box">
+            <span>搜索</span>
+            <input id="searchInput" type="search" placeholder="球队、城市、球场、阶段" autocomplete="off" />
+          </label>
+
+          <label>
+            <span>阶段</span>
+            <select id="stageFilter">
+              <option value="">全部阶段</option>
+            </select>
+          </label>
+
+          <label>
+            <span>分组</span>
+            <select id="groupFilter">
+              <option value="">全部分组</option>
+            </select>
+          </label>
+
+          <label>
+            <span>日期</span>
+            <input id="dateFilter" type="date" />
+          </label>
+
+          <div class="segmented" role="group" aria-label="时间范围">
+            <button class="segment active" data-range="all" type="button">全部</button>
+            <button class="segment" data-range="today" type="button">今天</button>
+            <button class="segment" data-range="upcoming" type="button">未来</button>
+            <button class="segment" data-range="finished" type="button">已完赛</button>
+          </div>
+        </section>
+
+        <section class="notice">
+          <strong>日历订阅地址</strong>
+          <code id="calendarUrl">https://example.com/calendar.ics</code>
+          <button class="icon-button" id="copyCalendar" type="button" aria-label="复制日历订阅地址" title="复制日历订阅地址">复制</button>
+        </section>
+
+        <section class="team-detail" id="teamDetail" hidden></section>
+        <section class="match-list" id="matchList" aria-live="polite"></section>
+      </section>
+
+      <section class="view-panel" id="viewStandings" data-view="standings" hidden>
+        <header class="view-head">
+          <div>
+            <h2>小组积分榜</h2>
+            <p>按当前完赛比分实时计算，每 10 分钟随官方数据同步更新。前两名直接出线，各组第三名按成绩并列对比，前八位也将晋级。</p>
+          </div>
+          <span class="view-head-meta" id="standingsUpdated">--</span>
+        </header>
+        <div class="standings-grid" id="standingsGrid" aria-live="polite"></div>
+      </section>
+
+      <section class="view-panel" id="viewKnockout" data-view="knockout" hidden>
+        <header class="view-head">
+          <div>
+            <h2>淘汰赛对阵</h2>
+            <p>32 强 → 16 强 → 1/4 决赛 → 半决赛 → 决赛，每 10 分钟随官方赛程刷新。点击比分可查看进球详情。</p>
+          </div>
+          <span class="view-head-meta" id="knockoutUpdated">--</span>
+        </header>
+        <div class="knockout-board" id="knockoutBoard" aria-live="polite"></div>
+        <div class="knockout-mobile" id="knockoutMobile" aria-live="polite"></div>
+      </section>
+
+      <section class="view-panel" id="viewTeams" data-view="teams" hidden>
+        <header class="view-head">
+          <div>
+            <h2>参赛球队</h2>
+            <p>48 支参赛队的当前小组、出线展望与下一场比赛，全部依据 FIFA 官方赛程实时计算。</p>
+          </div>
+          <span class="view-head-meta" id="teamsUpdated">--</span>
+        </header>
+        <div class="teams-toolbar">
+          <label class="search-box">
+            <span>搜索球队</span>
+            <input id="teamsSearchInput" type="search" placeholder="中文 / 英文 / 三字代码 / 大洲" autocomplete="off" />
+          </label>
+          <div class="segmented confed" role="group" aria-label="按大洲" id="confedFilter">
+            <button class="segment active" data-confed="" type="button">全部</button>
+            <button class="segment" data-confed="UEFA" type="button">欧洲</button>
+            <button class="segment" data-confed="CONMEBOL" type="button">南美</button>
+            <button class="segment" data-confed="CONCACAF" type="button">中北美</button>
+            <button class="segment" data-confed="CAF" type="button">非洲</button>
+            <button class="segment" data-confed="AFC" type="button">亚洲</button>
+            <button class="segment" data-confed="OFC" type="button">大洋洲</button>
+          </div>
+        </div>
+        <div class="teams-grid" id="teamsGrid" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <footer>
+      <span>数据来源：FIFA 官方赛程；中文赛程口径参考懂球帝。</span>
+      <span>页面时区：Asia/Shanghai。</span>
+    </footer>
+
+    <script>
+      window.FIFA_WORKER_BASE_URL = "";
+    </script>
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>

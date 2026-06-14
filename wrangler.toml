@@ -1,0 +1,21 @@
+name = "fifa-2026-schedule"
+main = "worker/index.js"
+compatibility_date = "2026-06-14"
+upload_source_maps = true
+
+# 每 10 分钟由 Cloudflare 调度一次，拉取 FIFA 赛程并写入 R2。
+# Free 计划：每日 10 万次请求免费；每次调度约 3–4 次子请求，远低于 50 次上限。
+[triggers]
+crons = ["*/10 * * * *"]
+
+# R2 是可选持久化层。当前 Worker 默认使用边缘缓存自动刷新，
+# 如需启用 R2，请先在 Cloudflare Dashboard 开通 R2 并创建桶后再取消注释：
+# [[r2_buckets]]
+# binding = "FIFA_BUCKET"
+# bucket_name = "fifa-2026"
+
+[vars]
+PUBLIC_CANONICAL_HOST = "2026-fifa-world-cup.example.com"
+
+# 可选：手动触发 /trigger 接口的 Bearer Token（wrangler secret put TRIGGER_TOKEN 设置）
+# TRIGGER_TOKEN 应作为 secret，不要在 vars 里明文写入。

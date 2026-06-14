@@ -1,0 +1,5659 @@
+{
+  "generatedAt": "2026-06-14T14:11:23.907Z",
+  "timezone": "Asia/Shanghai",
+  "canonicalHost": "2026-fifa-world-cup.example.com",
+  "sources": [
+    {
+      "name": "FIFA World Cup 2026 match schedule",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/scores-fixtures"
+    },
+    {
+      "name": "懂球帝中文赛程参考",
+      "url": "https://m.dongqiudi.com/article/5543600.html"
+    }
+  ],
+  "matches": [
+    {
+      "id": "400021443",
+      "matchNumber": 1,
+      "dateUtc": "2026-06-11T19:00:00Z",
+      "localDate": "2026-06-11T13:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group A",
+      "groupZh": "A 组",
+      "status": 0,
+      "matchClock": "98'",
+      "statusText": "",
+      "home": {
+        "code": "MEX",
+        "name": "Mexico",
+        "nameZh": "墨西哥",
+        "flag": "",
+        "flagEmoji": "🇲🇽",
+        "score": 2,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "RSA",
+        "name": "South Africa",
+        "nameZh": "南非",
+        "flag": "",
+        "flagEmoji": "🇿🇦",
+        "score": 0,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": 2,
+        "away": 0,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Mexico City Stadium",
+        "city": "Mexico City",
+        "cityZh": "墨西哥城",
+        "country": "MEX"
+      },
+      "calendarPath": "matches/match-001.ics"
+    },
+    {
+      "id": "400021441",
+      "matchNumber": 2,
+      "dateUtc": "2026-06-12T02:00:00Z",
+      "localDate": "2026-06-11T20:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group A",
+      "groupZh": "A 组",
+      "status": 0,
+      "matchClock": "97'",
+      "statusText": "",
+      "home": {
+        "code": "KOR",
+        "name": "Korea Republic",
+        "nameZh": "韩国",
+        "flag": "",
+        "flagEmoji": "🇰🇷",
+        "score": 2,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "CZE",
+        "name": "Czechia",
+        "nameZh": "捷克",
+        "flag": "",
+        "flagEmoji": "🇨🇿",
+        "score": 1,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": 2,
+        "away": 1,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Guadalajara Stadium",
+        "city": "Guadalajara",
+        "cityZh": "瓜达拉哈拉",
+        "country": "MEX"
+      },
+      "calendarPath": "matches/match-002.ics"
+    },
+    {
+      "id": "400021449",
+      "matchNumber": 3,
+      "dateUtc": "2026-06-12T19:00:00Z",
+      "localDate": "2026-06-12T15:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group B",
+      "groupZh": "B 组",
+      "status": 0,
+      "matchClock": "97'",
+      "statusText": "",
+      "home": {
+        "code": "CAN",
+        "name": "Canada",
+        "nameZh": "加拿大",
+        "flag": "",
+        "flagEmoji": "🇨🇦",
+        "score": 1,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "BIH",
+        "name": "Bosnia and Herzegovina",
+        "nameZh": "波黑",
+        "flag": "",
+        "flagEmoji": "🇧🇦",
+        "score": 1,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": 1,
+        "away": 1,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Toronto Stadium",
+        "city": "Toronto",
+        "cityZh": "多伦多",
+        "country": "CAN"
+      },
+      "calendarPath": "matches/match-003.ics"
+    },
+    {
+      "id": "400021458",
+      "matchNumber": 4,
+      "dateUtc": "2026-06-13T01:00:00Z",
+      "localDate": "2026-06-12T18:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group D",
+      "groupZh": "D 组",
+      "status": 0,
+      "matchClock": "99'",
+      "statusText": "",
+      "home": {
+        "code": "USA",
+        "name": "USA",
+        "nameZh": "美国",
+        "flag": "",
+        "flagEmoji": "🇺🇸",
+        "score": 4,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "PAR",
+        "name": "Paraguay",
+        "nameZh": "巴拉圭",
+        "flag": "",
+        "flagEmoji": "🇵🇾",
+        "score": 1,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": 4,
+        "away": 1,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [
+        {
+          "teamCode": "USA",
+          "minute": "7'",
+          "player": "Damián Bobadilla",
+          "shirtNumber": 16,
+          "ownGoal": true,
+          "assist": "Weston McKennie / Christian Pulisic"
+        },
+        {
+          "teamCode": "USA",
+          "minute": "31'",
+          "player": "Folarin Balogun",
+          "shirtNumber": 20,
+          "assist": "Christian Pulisic"
+        },
+        {
+          "teamCode": "USA",
+          "minute": "45+5'",
+          "player": "Folarin Balogun",
+          "shirtNumber": 20,
+          "assist": "Malik Tillman"
+        },
+        {
+          "teamCode": "PAR",
+          "minute": "73'",
+          "player": "Mauricio",
+          "shirtNumber": 11,
+          "assist": "Julio Enciso"
+        },
+        {
+          "teamCode": "USA",
+          "minute": "90+8'",
+          "player": "Gio Reyna",
+          "shirtNumber": 7,
+          "assist": "Alex Freeman"
+        }
+      ],
+      "venue": {
+        "stadium": "Los Angeles Stadium",
+        "city": "Los Angeles",
+        "cityZh": "洛杉矶",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-004.ics"
+    },
+    {
+      "id": "400021447",
+      "matchNumber": 8,
+      "dateUtc": "2026-06-13T19:00:00Z",
+      "localDate": "2026-06-13T12:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group B",
+      "groupZh": "B 组",
+      "status": 0,
+      "matchClock": "98'",
+      "statusText": "",
+      "home": {
+        "code": "QAT",
+        "name": "Qatar",
+        "nameZh": "卡塔尔",
+        "flag": "",
+        "flagEmoji": "🇶🇦",
+        "score": 1,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "SUI",
+        "name": "Switzerland",
+        "nameZh": "瑞士",
+        "flag": "",
+        "flagEmoji": "🇨🇭",
+        "score": 1,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": 1,
+        "away": 1,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "San Francisco Bay Area Stadium",
+        "city": "San Francisco Bay Area",
+        "cityZh": "旧金山湾区",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-008.ics"
+    },
+    {
+      "id": "400021456",
+      "matchNumber": 7,
+      "dateUtc": "2026-06-13T22:00:00Z",
+      "localDate": "2026-06-13T18:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group C",
+      "groupZh": "C 组",
+      "status": 0,
+      "matchClock": "101'",
+      "statusText": "",
+      "home": {
+        "code": "BRA",
+        "name": "Brazil",
+        "nameZh": "巴西",
+        "flag": "",
+        "flagEmoji": "🇧🇷",
+        "score": 1,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "MAR",
+        "name": "Morocco",
+        "nameZh": "摩洛哥",
+        "flag": "",
+        "flagEmoji": "🇲🇦",
+        "score": 1,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": 1,
+        "away": 1,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "New York/New Jersey Stadium",
+        "city": "New Jersey",
+        "cityZh": "New Jersey",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-007.ics"
+    },
+    {
+      "id": "400021453",
+      "matchNumber": 5,
+      "dateUtc": "2026-06-14T01:00:00Z",
+      "localDate": "2026-06-13T21:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group C",
+      "groupZh": "C 组",
+      "status": 0,
+      "matchClock": "99'",
+      "statusText": "",
+      "home": {
+        "code": "HAI",
+        "name": "Haiti",
+        "nameZh": "海地",
+        "flag": "",
+        "flagEmoji": "🇭🇹",
+        "score": 0,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "SCO",
+        "name": "Scotland",
+        "nameZh": "苏格兰",
+        "flag": "",
+        "flagEmoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+        "score": 1,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": 0,
+        "away": 1,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Boston Stadium",
+        "city": "Boston",
+        "cityZh": "波士顿",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-005.ics"
+    },
+    {
+      "id": "400021463",
+      "matchNumber": 6,
+      "dateUtc": "2026-06-14T04:00:00Z",
+      "localDate": "2026-06-13T21:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group D",
+      "groupZh": "D 组",
+      "status": 0,
+      "matchClock": "97'",
+      "statusText": "",
+      "home": {
+        "code": "AUS",
+        "name": "Australia",
+        "nameZh": "澳大利亚",
+        "flag": "",
+        "flagEmoji": "🇦🇺",
+        "score": 2,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "TUR",
+        "name": "Türkiye",
+        "nameZh": "土耳其",
+        "flag": "",
+        "flagEmoji": "🇹🇷",
+        "score": 0,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": 2,
+        "away": 0,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "BC Place Vancouver",
+        "city": "Vancouver",
+        "cityZh": "温哥华",
+        "country": "CAN"
+      },
+      "calendarPath": "matches/match-006.ics"
+    },
+    {
+      "id": "400021464",
+      "matchNumber": 10,
+      "dateUtc": "2026-06-14T17:00:00Z",
+      "localDate": "2026-06-14T12:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group E",
+      "groupZh": "E 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "GER",
+        "name": "Germany",
+        "nameZh": "德国",
+        "flag": "",
+        "flagEmoji": "🇩🇪",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "CUW",
+        "name": "Curaçao",
+        "nameZh": "库拉索",
+        "flag": "",
+        "flagEmoji": "🇨🇼",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Houston Stadium",
+        "city": "Houston",
+        "cityZh": "休斯敦",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-010.ics"
+    },
+    {
+      "id": "400021470",
+      "matchNumber": 11,
+      "dateUtc": "2026-06-14T20:00:00Z",
+      "localDate": "2026-06-14T15:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group F",
+      "groupZh": "F 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "NED",
+        "name": "Netherlands",
+        "nameZh": "荷兰",
+        "flag": "",
+        "flagEmoji": "🇳🇱",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "JPN",
+        "name": "Japan",
+        "nameZh": "日本",
+        "flag": "",
+        "flagEmoji": "🇯🇵",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Dallas Stadium",
+        "city": "Dallas",
+        "cityZh": "达拉斯",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-011.ics"
+    },
+    {
+      "id": "400021467",
+      "matchNumber": 9,
+      "dateUtc": "2026-06-14T23:00:00Z",
+      "localDate": "2026-06-14T19:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group E",
+      "groupZh": "E 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "CIV",
+        "name": "Côte d'Ivoire",
+        "nameZh": "科特迪瓦",
+        "flag": "",
+        "flagEmoji": "🇨🇮",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "ECU",
+        "name": "Ecuador",
+        "nameZh": "厄瓜多尔",
+        "flag": "",
+        "flagEmoji": "🇪🇨",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Philadelphia Stadium",
+        "city": "Philadelphia",
+        "cityZh": "费城",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-009.ics"
+    },
+    {
+      "id": "400021474",
+      "matchNumber": 12,
+      "dateUtc": "2026-06-15T02:00:00Z",
+      "localDate": "2026-06-14T20:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group F",
+      "groupZh": "F 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "SWE",
+        "name": "Sweden",
+        "nameZh": "瑞典",
+        "flag": "",
+        "flagEmoji": "🇸🇪",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "TUN",
+        "name": "Tunisia",
+        "nameZh": "突尼斯",
+        "flag": "",
+        "flagEmoji": "🇹🇳",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Monterrey Stadium",
+        "city": "Monterrey",
+        "cityZh": "蒙特雷",
+        "country": "MEX"
+      },
+      "calendarPath": "matches/match-012.ics"
+    },
+    {
+      "id": "400021482",
+      "matchNumber": 14,
+      "dateUtc": "2026-06-15T16:00:00Z",
+      "localDate": "2026-06-15T12:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group H",
+      "groupZh": "H 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "ESP",
+        "name": "Spain",
+        "nameZh": "西班牙",
+        "flag": "",
+        "flagEmoji": "🇪🇸",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "CPV",
+        "name": "Cabo Verde",
+        "nameZh": "佛得角",
+        "flag": "",
+        "flagEmoji": "🇨🇻",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Atlanta Stadium",
+        "city": "Atlanta",
+        "cityZh": "亚特兰大",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-014.ics"
+    },
+    {
+      "id": "400021478",
+      "matchNumber": 16,
+      "dateUtc": "2026-06-15T19:00:00Z",
+      "localDate": "2026-06-15T12:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group G",
+      "groupZh": "G 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "BEL",
+        "name": "Belgium",
+        "nameZh": "比利时",
+        "flag": "",
+        "flagEmoji": "🇧🇪",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "EGY",
+        "name": "Egypt",
+        "nameZh": "埃及",
+        "flag": "",
+        "flagEmoji": "🇪🇬",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Seattle Stadium",
+        "city": "Seattle",
+        "cityZh": "西雅图",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-016.ics"
+    },
+    {
+      "id": "400021486",
+      "matchNumber": 13,
+      "dateUtc": "2026-06-15T22:00:00Z",
+      "localDate": "2026-06-15T18:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group H",
+      "groupZh": "H 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "KSA",
+        "name": "Saudi Arabia",
+        "nameZh": "沙特阿拉伯",
+        "flag": "",
+        "flagEmoji": "🇸🇦",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "URU",
+        "name": "Uruguay",
+        "nameZh": "乌拉圭",
+        "flag": "",
+        "flagEmoji": "🇺🇾",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Miami Stadium",
+        "city": "Miami",
+        "cityZh": "迈阿密",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-013.ics"
+    },
+    {
+      "id": "400021476",
+      "matchNumber": 15,
+      "dateUtc": "2026-06-16T01:00:00Z",
+      "localDate": "2026-06-15T18:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group G",
+      "groupZh": "G 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "IRN",
+        "name": "IR Iran",
+        "nameZh": "伊朗",
+        "flag": "",
+        "flagEmoji": "🇮🇷",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "NZL",
+        "name": "New Zealand",
+        "nameZh": "新西兰",
+        "flag": "",
+        "flagEmoji": "🇳🇿",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Los Angeles Stadium",
+        "city": "Los Angeles",
+        "cityZh": "洛杉矶",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-015.ics"
+    },
+    {
+      "id": "400021490",
+      "matchNumber": 17,
+      "dateUtc": "2026-06-16T19:00:00Z",
+      "localDate": "2026-06-16T15:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group I",
+      "groupZh": "I 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "FRA",
+        "name": "France",
+        "nameZh": "法国",
+        "flag": "",
+        "flagEmoji": "🇫🇷",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "SEN",
+        "name": "Senegal",
+        "nameZh": "塞内加尔",
+        "flag": "",
+        "flagEmoji": "🇸🇳",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "New York/New Jersey Stadium",
+        "city": "New Jersey",
+        "cityZh": "New Jersey",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-017.ics"
+    },
+    {
+      "id": "400021488",
+      "matchNumber": 18,
+      "dateUtc": "2026-06-16T22:00:00Z",
+      "localDate": "2026-06-16T18:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group I",
+      "groupZh": "I 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "IRQ",
+        "name": "Iraq",
+        "nameZh": "伊拉克",
+        "flag": "",
+        "flagEmoji": "🇮🇶",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "NOR",
+        "name": "Norway",
+        "nameZh": "挪威",
+        "flag": "",
+        "flagEmoji": "🇳🇴",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Boston Stadium",
+        "city": "Boston",
+        "cityZh": "波士顿",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-018.ics"
+    },
+    {
+      "id": "400021496",
+      "matchNumber": 19,
+      "dateUtc": "2026-06-17T01:00:00Z",
+      "localDate": "2026-06-16T20:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group J",
+      "groupZh": "J 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "ARG",
+        "name": "Argentina",
+        "nameZh": "阿根廷",
+        "flag": "",
+        "flagEmoji": "🇦🇷",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "ALG",
+        "name": "Algeria",
+        "nameZh": "阿尔及利亚",
+        "flag": "",
+        "flagEmoji": "🇩🇿",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Kansas City Stadium",
+        "city": "Kansas City",
+        "cityZh": "堪萨斯城",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-019.ics"
+    },
+    {
+      "id": "400021498",
+      "matchNumber": 20,
+      "dateUtc": "2026-06-17T04:00:00Z",
+      "localDate": "2026-06-16T21:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group J",
+      "groupZh": "J 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "AUT",
+        "name": "Austria",
+        "nameZh": "奥地利",
+        "flag": "",
+        "flagEmoji": "🇦🇹",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "JOR",
+        "name": "Jordan",
+        "nameZh": "约旦",
+        "flag": "",
+        "flagEmoji": "🇯🇴",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "San Francisco Bay Area Stadium",
+        "city": "San Francisco Bay Area",
+        "cityZh": "旧金山湾区",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-020.ics"
+    },
+    {
+      "id": "400021502",
+      "matchNumber": 23,
+      "dateUtc": "2026-06-17T17:00:00Z",
+      "localDate": "2026-06-17T12:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group K",
+      "groupZh": "K 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "POR",
+        "name": "Portugal",
+        "nameZh": "葡萄牙",
+        "flag": "",
+        "flagEmoji": "🇵🇹",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "COD",
+        "name": "Congo DR",
+        "nameZh": "民主刚果",
+        "flag": "",
+        "flagEmoji": "🇨🇩",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Houston Stadium",
+        "city": "Houston",
+        "cityZh": "休斯敦",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-023.ics"
+    },
+    {
+      "id": "400021507",
+      "matchNumber": 22,
+      "dateUtc": "2026-06-17T20:00:00Z",
+      "localDate": "2026-06-17T15:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group L",
+      "groupZh": "L 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "ENG",
+        "name": "England",
+        "nameZh": "英格兰",
+        "flag": "",
+        "flagEmoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "CRO",
+        "name": "Croatia",
+        "nameZh": "克罗地亚",
+        "flag": "",
+        "flagEmoji": "🇭🇷",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Dallas Stadium",
+        "city": "Dallas",
+        "cityZh": "达拉斯",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-022.ics"
+    },
+    {
+      "id": "400021510",
+      "matchNumber": 21,
+      "dateUtc": "2026-06-17T23:00:00Z",
+      "localDate": "2026-06-17T19:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group L",
+      "groupZh": "L 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "GHA",
+        "name": "Ghana",
+        "nameZh": "加纳",
+        "flag": "",
+        "flagEmoji": "🇬🇭",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "PAN",
+        "name": "Panama",
+        "nameZh": "巴拿马",
+        "flag": "",
+        "flagEmoji": "🇵🇦",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Toronto Stadium",
+        "city": "Toronto",
+        "cityZh": "多伦多",
+        "country": "CAN"
+      },
+      "calendarPath": "matches/match-021.ics"
+    },
+    {
+      "id": "400021504",
+      "matchNumber": 24,
+      "dateUtc": "2026-06-18T02:00:00Z",
+      "localDate": "2026-06-17T20:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group K",
+      "groupZh": "K 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "UZB",
+        "name": "Uzbekistan",
+        "nameZh": "乌兹别克斯坦",
+        "flag": "",
+        "flagEmoji": "🇺🇿",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "COL",
+        "name": "Colombia",
+        "nameZh": "哥伦比亚",
+        "flag": "",
+        "flagEmoji": "🇨🇴",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Mexico City Stadium",
+        "city": "Mexico City",
+        "cityZh": "墨西哥城",
+        "country": "MEX"
+      },
+      "calendarPath": "matches/match-024.ics"
+    },
+    {
+      "id": "400021440",
+      "matchNumber": 25,
+      "dateUtc": "2026-06-18T16:00:00Z",
+      "localDate": "2026-06-18T12:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group A",
+      "groupZh": "A 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "CZE",
+        "name": "Czechia",
+        "nameZh": "捷克",
+        "flag": "",
+        "flagEmoji": "🇨🇿",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "RSA",
+        "name": "South Africa",
+        "nameZh": "南非",
+        "flag": "",
+        "flagEmoji": "🇿🇦",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Atlanta Stadium",
+        "city": "Atlanta",
+        "cityZh": "亚特兰大",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-025.ics"
+    },
+    {
+      "id": "400021446",
+      "matchNumber": 26,
+      "dateUtc": "2026-06-18T19:00:00Z",
+      "localDate": "2026-06-18T12:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group B",
+      "groupZh": "B 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "SUI",
+        "name": "Switzerland",
+        "nameZh": "瑞士",
+        "flag": "",
+        "flagEmoji": "🇨🇭",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "BIH",
+        "name": "Bosnia and Herzegovina",
+        "nameZh": "波黑",
+        "flag": "",
+        "flagEmoji": "🇧🇦",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Los Angeles Stadium",
+        "city": "Los Angeles",
+        "cityZh": "洛杉矶",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-026.ics"
+    },
+    {
+      "id": "400021450",
+      "matchNumber": 27,
+      "dateUtc": "2026-06-18T22:00:00Z",
+      "localDate": "2026-06-18T15:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group B",
+      "groupZh": "B 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "CAN",
+        "name": "Canada",
+        "nameZh": "加拿大",
+        "flag": "",
+        "flagEmoji": "🇨🇦",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "QAT",
+        "name": "Qatar",
+        "nameZh": "卡塔尔",
+        "flag": "",
+        "flagEmoji": "🇶🇦",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "BC Place Vancouver",
+        "city": "Vancouver",
+        "cityZh": "温哥华",
+        "country": "CAN"
+      },
+      "calendarPath": "matches/match-027.ics"
+    },
+    {
+      "id": "400021442",
+      "matchNumber": 28,
+      "dateUtc": "2026-06-19T01:00:00Z",
+      "localDate": "2026-06-18T19:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group A",
+      "groupZh": "A 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "MEX",
+        "name": "Mexico",
+        "nameZh": "墨西哥",
+        "flag": "",
+        "flagEmoji": "🇲🇽",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "KOR",
+        "name": "Korea Republic",
+        "nameZh": "韩国",
+        "flag": "",
+        "flagEmoji": "🇰🇷",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Guadalajara Stadium",
+        "city": "Guadalajara",
+        "cityZh": "瓜达拉哈拉",
+        "country": "MEX"
+      },
+      "calendarPath": "matches/match-028.ics"
+    },
+    {
+      "id": "400021462",
+      "matchNumber": 32,
+      "dateUtc": "2026-06-19T19:00:00Z",
+      "localDate": "2026-06-19T12:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group D",
+      "groupZh": "D 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "USA",
+        "name": "USA",
+        "nameZh": "美国",
+        "flag": "",
+        "flagEmoji": "🇺🇸",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "AUS",
+        "name": "Australia",
+        "nameZh": "澳大利亚",
+        "flag": "",
+        "flagEmoji": "🇦🇺",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Seattle Stadium",
+        "city": "Seattle",
+        "cityZh": "西雅图",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-032.ics"
+    },
+    {
+      "id": "400021454",
+      "matchNumber": 30,
+      "dateUtc": "2026-06-19T22:00:00Z",
+      "localDate": "2026-06-19T18:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group C",
+      "groupZh": "C 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "SCO",
+        "name": "Scotland",
+        "nameZh": "苏格兰",
+        "flag": "",
+        "flagEmoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "MAR",
+        "name": "Morocco",
+        "nameZh": "摩洛哥",
+        "flag": "",
+        "flagEmoji": "🇲🇦",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Boston Stadium",
+        "city": "Boston",
+        "cityZh": "波士顿",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-030.ics"
+    },
+    {
+      "id": "400021457",
+      "matchNumber": 29,
+      "dateUtc": "2026-06-20T00:30:00Z",
+      "localDate": "2026-06-19T20:30:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group C",
+      "groupZh": "C 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "BRA",
+        "name": "Brazil",
+        "nameZh": "巴西",
+        "flag": "",
+        "flagEmoji": "🇧🇷",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "HAI",
+        "name": "Haiti",
+        "nameZh": "海地",
+        "flag": "",
+        "flagEmoji": "🇭🇹",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Philadelphia Stadium",
+        "city": "Philadelphia",
+        "cityZh": "费城",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-029.ics"
+    },
+    {
+      "id": "400021460",
+      "matchNumber": 31,
+      "dateUtc": "2026-06-20T03:00:00Z",
+      "localDate": "2026-06-19T20:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group D",
+      "groupZh": "D 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "TUR",
+        "name": "Türkiye",
+        "nameZh": "土耳其",
+        "flag": "",
+        "flagEmoji": "🇹🇷",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "PAR",
+        "name": "Paraguay",
+        "nameZh": "巴拉圭",
+        "flag": "",
+        "flagEmoji": "🇵🇾",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "San Francisco Bay Area Stadium",
+        "city": "San Francisco Bay Area",
+        "cityZh": "旧金山湾区",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-031.ics"
+    },
+    {
+      "id": "400021472",
+      "matchNumber": 35,
+      "dateUtc": "2026-06-20T17:00:00Z",
+      "localDate": "2026-06-20T12:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group F",
+      "groupZh": "F 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "NED",
+        "name": "Netherlands",
+        "nameZh": "荷兰",
+        "flag": "",
+        "flagEmoji": "🇳🇱",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "SWE",
+        "name": "Sweden",
+        "nameZh": "瑞典",
+        "flag": "",
+        "flagEmoji": "🇸🇪",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Houston Stadium",
+        "city": "Houston",
+        "cityZh": "休斯敦",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-035.ics"
+    },
+    {
+      "id": "400021469",
+      "matchNumber": 33,
+      "dateUtc": "2026-06-20T20:00:00Z",
+      "localDate": "2026-06-20T16:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group E",
+      "groupZh": "E 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "GER",
+        "name": "Germany",
+        "nameZh": "德国",
+        "flag": "",
+        "flagEmoji": "🇩🇪",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "CIV",
+        "name": "Côte d'Ivoire",
+        "nameZh": "科特迪瓦",
+        "flag": "",
+        "flagEmoji": "🇨🇮",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Toronto Stadium",
+        "city": "Toronto",
+        "cityZh": "多伦多",
+        "country": "CAN"
+      },
+      "calendarPath": "matches/match-033.ics"
+    },
+    {
+      "id": "400021465",
+      "matchNumber": 34,
+      "dateUtc": "2026-06-21T00:00:00Z",
+      "localDate": "2026-06-20T19:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group E",
+      "groupZh": "E 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "ECU",
+        "name": "Ecuador",
+        "nameZh": "厄瓜多尔",
+        "flag": "",
+        "flagEmoji": "🇪🇨",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "CUW",
+        "name": "Curaçao",
+        "nameZh": "库拉索",
+        "flag": "",
+        "flagEmoji": "🇨🇼",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Kansas City Stadium",
+        "city": "Kansas City",
+        "cityZh": "堪萨斯城",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-034.ics"
+    },
+    {
+      "id": "400021475",
+      "matchNumber": 36,
+      "dateUtc": "2026-06-21T04:00:00Z",
+      "localDate": "2026-06-20T22:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group F",
+      "groupZh": "F 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "TUN",
+        "name": "Tunisia",
+        "nameZh": "突尼斯",
+        "flag": "",
+        "flagEmoji": "🇹🇳",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "JPN",
+        "name": "Japan",
+        "nameZh": "日本",
+        "flag": "",
+        "flagEmoji": "🇯🇵",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Monterrey Stadium",
+        "city": "Monterrey",
+        "cityZh": "蒙特雷",
+        "country": "MEX"
+      },
+      "calendarPath": "matches/match-036.ics"
+    },
+    {
+      "id": "400021483",
+      "matchNumber": 38,
+      "dateUtc": "2026-06-21T16:00:00Z",
+      "localDate": "2026-06-21T12:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group H",
+      "groupZh": "H 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "ESP",
+        "name": "Spain",
+        "nameZh": "西班牙",
+        "flag": "",
+        "flagEmoji": "🇪🇸",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "KSA",
+        "name": "Saudi Arabia",
+        "nameZh": "沙特阿拉伯",
+        "flag": "",
+        "flagEmoji": "🇸🇦",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Atlanta Stadium",
+        "city": "Atlanta",
+        "cityZh": "亚特兰大",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-038.ics"
+    },
+    {
+      "id": "400021477",
+      "matchNumber": 39,
+      "dateUtc": "2026-06-21T19:00:00Z",
+      "localDate": "2026-06-21T12:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group G",
+      "groupZh": "G 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "BEL",
+        "name": "Belgium",
+        "nameZh": "比利时",
+        "flag": "",
+        "flagEmoji": "🇧🇪",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "IRN",
+        "name": "IR Iran",
+        "nameZh": "伊朗",
+        "flag": "",
+        "flagEmoji": "🇮🇷",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Los Angeles Stadium",
+        "city": "Los Angeles",
+        "cityZh": "洛杉矶",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-039.ics"
+    },
+    {
+      "id": "400021487",
+      "matchNumber": 37,
+      "dateUtc": "2026-06-21T22:00:00Z",
+      "localDate": "2026-06-21T18:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group H",
+      "groupZh": "H 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "URU",
+        "name": "Uruguay",
+        "nameZh": "乌拉圭",
+        "flag": "",
+        "flagEmoji": "🇺🇾",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "CPV",
+        "name": "Cabo Verde",
+        "nameZh": "佛得角",
+        "flag": "",
+        "flagEmoji": "🇨🇻",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Miami Stadium",
+        "city": "Miami",
+        "cityZh": "迈阿密",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-037.ics"
+    },
+    {
+      "id": "400021480",
+      "matchNumber": 40,
+      "dateUtc": "2026-06-22T01:00:00Z",
+      "localDate": "2026-06-21T18:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group G",
+      "groupZh": "G 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "NZL",
+        "name": "New Zealand",
+        "nameZh": "新西兰",
+        "flag": "",
+        "flagEmoji": "🇳🇿",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "EGY",
+        "name": "Egypt",
+        "nameZh": "埃及",
+        "flag": "",
+        "flagEmoji": "🇪🇬",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "BC Place Vancouver",
+        "city": "Vancouver",
+        "cityZh": "温哥华",
+        "country": "CAN"
+      },
+      "calendarPath": "matches/match-040.ics"
+    },
+    {
+      "id": "400021494",
+      "matchNumber": 43,
+      "dateUtc": "2026-06-22T17:00:00Z",
+      "localDate": "2026-06-22T12:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group J",
+      "groupZh": "J 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "ARG",
+        "name": "Argentina",
+        "nameZh": "阿根廷",
+        "flag": "",
+        "flagEmoji": "🇦🇷",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "AUT",
+        "name": "Austria",
+        "nameZh": "奥地利",
+        "flag": "",
+        "flagEmoji": "🇦🇹",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Dallas Stadium",
+        "city": "Dallas",
+        "cityZh": "达拉斯",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-043.ics"
+    },
+    {
+      "id": "400021492",
+      "matchNumber": 42,
+      "dateUtc": "2026-06-22T21:00:00Z",
+      "localDate": "2026-06-22T17:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group I",
+      "groupZh": "I 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "FRA",
+        "name": "France",
+        "nameZh": "法国",
+        "flag": "",
+        "flagEmoji": "🇫🇷",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "IRQ",
+        "name": "Iraq",
+        "nameZh": "伊拉克",
+        "flag": "",
+        "flagEmoji": "🇮🇶",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Philadelphia Stadium",
+        "city": "Philadelphia",
+        "cityZh": "费城",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-042.ics"
+    },
+    {
+      "id": "400021491",
+      "matchNumber": 41,
+      "dateUtc": "2026-06-23T00:00:00Z",
+      "localDate": "2026-06-22T20:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group I",
+      "groupZh": "I 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "NOR",
+        "name": "Norway",
+        "nameZh": "挪威",
+        "flag": "",
+        "flagEmoji": "🇳🇴",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "SEN",
+        "name": "Senegal",
+        "nameZh": "塞内加尔",
+        "flag": "",
+        "flagEmoji": "🇸🇳",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "New York/New Jersey Stadium",
+        "city": "New Jersey",
+        "cityZh": "New Jersey",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-041.ics"
+    },
+    {
+      "id": "400021499",
+      "matchNumber": 44,
+      "dateUtc": "2026-06-23T03:00:00Z",
+      "localDate": "2026-06-22T20:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group J",
+      "groupZh": "J 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "JOR",
+        "name": "Jordan",
+        "nameZh": "约旦",
+        "flag": "",
+        "flagEmoji": "🇯🇴",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "ALG",
+        "name": "Algeria",
+        "nameZh": "阿尔及利亚",
+        "flag": "",
+        "flagEmoji": "🇩🇿",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "San Francisco Bay Area Stadium",
+        "city": "San Francisco Bay Area",
+        "cityZh": "旧金山湾区",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-044.ics"
+    },
+    {
+      "id": "400021503",
+      "matchNumber": 47,
+      "dateUtc": "2026-06-23T17:00:00Z",
+      "localDate": "2026-06-23T12:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group K",
+      "groupZh": "K 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "POR",
+        "name": "Portugal",
+        "nameZh": "葡萄牙",
+        "flag": "",
+        "flagEmoji": "🇵🇹",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "UZB",
+        "name": "Uzbekistan",
+        "nameZh": "乌兹别克斯坦",
+        "flag": "",
+        "flagEmoji": "🇺🇿",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Houston Stadium",
+        "city": "Houston",
+        "cityZh": "休斯敦",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-047.ics"
+    },
+    {
+      "id": "400021506",
+      "matchNumber": 45,
+      "dateUtc": "2026-06-23T20:00:00Z",
+      "localDate": "2026-06-23T16:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group L",
+      "groupZh": "L 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "ENG",
+        "name": "England",
+        "nameZh": "英格兰",
+        "flag": "",
+        "flagEmoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "GHA",
+        "name": "Ghana",
+        "nameZh": "加纳",
+        "flag": "",
+        "flagEmoji": "🇬🇭",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Boston Stadium",
+        "city": "Boston",
+        "cityZh": "波士顿",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-045.ics"
+    },
+    {
+      "id": "400021511",
+      "matchNumber": 46,
+      "dateUtc": "2026-06-23T23:00:00Z",
+      "localDate": "2026-06-23T19:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group L",
+      "groupZh": "L 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "PAN",
+        "name": "Panama",
+        "nameZh": "巴拿马",
+        "flag": "",
+        "flagEmoji": "🇵🇦",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "CRO",
+        "name": "Croatia",
+        "nameZh": "克罗地亚",
+        "flag": "",
+        "flagEmoji": "🇭🇷",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Toronto Stadium",
+        "city": "Toronto",
+        "cityZh": "多伦多",
+        "country": "CAN"
+      },
+      "calendarPath": "matches/match-046.ics"
+    },
+    {
+      "id": "400021501",
+      "matchNumber": 48,
+      "dateUtc": "2026-06-24T02:00:00Z",
+      "localDate": "2026-06-23T20:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group K",
+      "groupZh": "K 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "COL",
+        "name": "Colombia",
+        "nameZh": "哥伦比亚",
+        "flag": "",
+        "flagEmoji": "🇨🇴",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "COD",
+        "name": "Congo DR",
+        "nameZh": "民主刚果",
+        "flag": "",
+        "flagEmoji": "🇨🇩",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Guadalajara Stadium",
+        "city": "Guadalajara",
+        "cityZh": "瓜达拉哈拉",
+        "country": "MEX"
+      },
+      "calendarPath": "matches/match-048.ics"
+    },
+    {
+      "id": "400021448",
+      "matchNumber": 52,
+      "dateUtc": "2026-06-24T19:00:00Z",
+      "localDate": "2026-06-24T12:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group B",
+      "groupZh": "B 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "BIH",
+        "name": "Bosnia and Herzegovina",
+        "nameZh": "波黑",
+        "flag": "",
+        "flagEmoji": "🇧🇦",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "QAT",
+        "name": "Qatar",
+        "nameZh": "卡塔尔",
+        "flag": "",
+        "flagEmoji": "🇶🇦",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Seattle Stadium",
+        "city": "Seattle",
+        "cityZh": "西雅图",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-052.ics"
+    },
+    {
+      "id": "400021451",
+      "matchNumber": 51,
+      "dateUtc": "2026-06-24T19:00:00Z",
+      "localDate": "2026-06-24T12:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group B",
+      "groupZh": "B 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "SUI",
+        "name": "Switzerland",
+        "nameZh": "瑞士",
+        "flag": "",
+        "flagEmoji": "🇨🇭",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "CAN",
+        "name": "Canada",
+        "nameZh": "加拿大",
+        "flag": "",
+        "flagEmoji": "🇨🇦",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "BC Place Vancouver",
+        "city": "Vancouver",
+        "cityZh": "温哥华",
+        "country": "CAN"
+      },
+      "calendarPath": "matches/match-051.ics"
+    },
+    {
+      "id": "400021452",
+      "matchNumber": 50,
+      "dateUtc": "2026-06-24T22:00:00Z",
+      "localDate": "2026-06-24T18:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group C",
+      "groupZh": "C 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "MAR",
+        "name": "Morocco",
+        "nameZh": "摩洛哥",
+        "flag": "",
+        "flagEmoji": "🇲🇦",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "HAI",
+        "name": "Haiti",
+        "nameZh": "海地",
+        "flag": "",
+        "flagEmoji": "🇭🇹",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Atlanta Stadium",
+        "city": "Atlanta",
+        "cityZh": "亚特兰大",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-050.ics"
+    },
+    {
+      "id": "400021455",
+      "matchNumber": 49,
+      "dateUtc": "2026-06-24T22:00:00Z",
+      "localDate": "2026-06-24T18:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group C",
+      "groupZh": "C 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "SCO",
+        "name": "Scotland",
+        "nameZh": "苏格兰",
+        "flag": "",
+        "flagEmoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "BRA",
+        "name": "Brazil",
+        "nameZh": "巴西",
+        "flag": "",
+        "flagEmoji": "🇧🇷",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Miami Stadium",
+        "city": "Miami",
+        "cityZh": "迈阿密",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-049.ics"
+    },
+    {
+      "id": "400021445",
+      "matchNumber": 54,
+      "dateUtc": "2026-06-25T01:00:00Z",
+      "localDate": "2026-06-24T19:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group A",
+      "groupZh": "A 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "RSA",
+        "name": "South Africa",
+        "nameZh": "南非",
+        "flag": "",
+        "flagEmoji": "🇿🇦",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "KOR",
+        "name": "Korea Republic",
+        "nameZh": "韩国",
+        "flag": "",
+        "flagEmoji": "🇰🇷",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Monterrey Stadium",
+        "city": "Monterrey",
+        "cityZh": "蒙特雷",
+        "country": "MEX"
+      },
+      "calendarPath": "matches/match-054.ics"
+    },
+    {
+      "id": "400021444",
+      "matchNumber": 53,
+      "dateUtc": "2026-06-25T01:00:00Z",
+      "localDate": "2026-06-24T19:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group A",
+      "groupZh": "A 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "CZE",
+        "name": "Czechia",
+        "nameZh": "捷克",
+        "flag": "",
+        "flagEmoji": "🇨🇿",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "MEX",
+        "name": "Mexico",
+        "nameZh": "墨西哥",
+        "flag": "",
+        "flagEmoji": "🇲🇽",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Mexico City Stadium",
+        "city": "Mexico City",
+        "cityZh": "墨西哥城",
+        "country": "MEX"
+      },
+      "calendarPath": "matches/match-053.ics"
+    },
+    {
+      "id": "400021468",
+      "matchNumber": 55,
+      "dateUtc": "2026-06-25T20:00:00Z",
+      "localDate": "2026-06-25T16:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group E",
+      "groupZh": "E 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "CUW",
+        "name": "Curaçao",
+        "nameZh": "库拉索",
+        "flag": "",
+        "flagEmoji": "🇨🇼",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "CIV",
+        "name": "Côte d'Ivoire",
+        "nameZh": "科特迪瓦",
+        "flag": "",
+        "flagEmoji": "🇨🇮",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Philadelphia Stadium",
+        "city": "Philadelphia",
+        "cityZh": "费城",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-055.ics"
+    },
+    {
+      "id": "400021466",
+      "matchNumber": 56,
+      "dateUtc": "2026-06-25T20:00:00Z",
+      "localDate": "2026-06-25T16:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group E",
+      "groupZh": "E 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "ECU",
+        "name": "Ecuador",
+        "nameZh": "厄瓜多尔",
+        "flag": "",
+        "flagEmoji": "🇪🇨",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "GER",
+        "name": "Germany",
+        "nameZh": "德国",
+        "flag": "",
+        "flagEmoji": "🇩🇪",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "New York/New Jersey Stadium",
+        "city": "New Jersey",
+        "cityZh": "New Jersey",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-056.ics"
+    },
+    {
+      "id": "400021473",
+      "matchNumber": 58,
+      "dateUtc": "2026-06-25T23:00:00Z",
+      "localDate": "2026-06-25T18:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group F",
+      "groupZh": "F 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "TUN",
+        "name": "Tunisia",
+        "nameZh": "突尼斯",
+        "flag": "",
+        "flagEmoji": "🇹🇳",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "NED",
+        "name": "Netherlands",
+        "nameZh": "荷兰",
+        "flag": "",
+        "flagEmoji": "🇳🇱",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Kansas City Stadium",
+        "city": "Kansas City",
+        "cityZh": "堪萨斯城",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-058.ics"
+    },
+    {
+      "id": "400021471",
+      "matchNumber": 57,
+      "dateUtc": "2026-06-25T23:00:00Z",
+      "localDate": "2026-06-25T18:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group F",
+      "groupZh": "F 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "JPN",
+        "name": "Japan",
+        "nameZh": "日本",
+        "flag": "",
+        "flagEmoji": "🇯🇵",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "SWE",
+        "name": "Sweden",
+        "nameZh": "瑞典",
+        "flag": "",
+        "flagEmoji": "🇸🇪",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Dallas Stadium",
+        "city": "Dallas",
+        "cityZh": "达拉斯",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-057.ics"
+    },
+    {
+      "id": "400021461",
+      "matchNumber": 60,
+      "dateUtc": "2026-06-26T02:00:00Z",
+      "localDate": "2026-06-25T19:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group D",
+      "groupZh": "D 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "PAR",
+        "name": "Paraguay",
+        "nameZh": "巴拉圭",
+        "flag": "",
+        "flagEmoji": "🇵🇾",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "AUS",
+        "name": "Australia",
+        "nameZh": "澳大利亚",
+        "flag": "",
+        "flagEmoji": "🇦🇺",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "San Francisco Bay Area Stadium",
+        "city": "San Francisco Bay Area",
+        "cityZh": "旧金山湾区",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-060.ics"
+    },
+    {
+      "id": "400021459",
+      "matchNumber": 59,
+      "dateUtc": "2026-06-26T02:00:00Z",
+      "localDate": "2026-06-25T19:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group D",
+      "groupZh": "D 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "TUR",
+        "name": "Türkiye",
+        "nameZh": "土耳其",
+        "flag": "",
+        "flagEmoji": "🇹🇷",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "USA",
+        "name": "USA",
+        "nameZh": "美国",
+        "flag": "",
+        "flagEmoji": "🇺🇸",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Los Angeles Stadium",
+        "city": "Los Angeles",
+        "cityZh": "洛杉矶",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-059.ics"
+    },
+    {
+      "id": "400021493",
+      "matchNumber": 62,
+      "dateUtc": "2026-06-26T19:00:00Z",
+      "localDate": "2026-06-26T15:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group I",
+      "groupZh": "I 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "SEN",
+        "name": "Senegal",
+        "nameZh": "塞内加尔",
+        "flag": "",
+        "flagEmoji": "🇸🇳",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "IRQ",
+        "name": "Iraq",
+        "nameZh": "伊拉克",
+        "flag": "",
+        "flagEmoji": "🇮🇶",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Toronto Stadium",
+        "city": "Toronto",
+        "cityZh": "多伦多",
+        "country": "CAN"
+      },
+      "calendarPath": "matches/match-062.ics"
+    },
+    {
+      "id": "400021489",
+      "matchNumber": 61,
+      "dateUtc": "2026-06-26T19:00:00Z",
+      "localDate": "2026-06-26T15:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group I",
+      "groupZh": "I 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "NOR",
+        "name": "Norway",
+        "nameZh": "挪威",
+        "flag": "",
+        "flagEmoji": "🇳🇴",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "FRA",
+        "name": "France",
+        "nameZh": "法国",
+        "flag": "",
+        "flagEmoji": "🇫🇷",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Boston Stadium",
+        "city": "Boston",
+        "cityZh": "波士顿",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-061.ics"
+    },
+    {
+      "id": "400021484",
+      "matchNumber": 66,
+      "dateUtc": "2026-06-27T00:00:00Z",
+      "localDate": "2026-06-26T18:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group H",
+      "groupZh": "H 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "URU",
+        "name": "Uruguay",
+        "nameZh": "乌拉圭",
+        "flag": "",
+        "flagEmoji": "🇺🇾",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "ESP",
+        "name": "Spain",
+        "nameZh": "西班牙",
+        "flag": "",
+        "flagEmoji": "🇪🇸",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Guadalajara Stadium",
+        "city": "Guadalajara",
+        "cityZh": "瓜达拉哈拉",
+        "country": "MEX"
+      },
+      "calendarPath": "matches/match-066.ics"
+    },
+    {
+      "id": "400021485",
+      "matchNumber": 65,
+      "dateUtc": "2026-06-27T00:00:00Z",
+      "localDate": "2026-06-26T19:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group H",
+      "groupZh": "H 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "CPV",
+        "name": "Cabo Verde",
+        "nameZh": "佛得角",
+        "flag": "",
+        "flagEmoji": "🇨🇻",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "KSA",
+        "name": "Saudi Arabia",
+        "nameZh": "沙特阿拉伯",
+        "flag": "",
+        "flagEmoji": "🇸🇦",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Houston Stadium",
+        "city": "Houston",
+        "cityZh": "休斯敦",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-065.ics"
+    },
+    {
+      "id": "400021481",
+      "matchNumber": 64,
+      "dateUtc": "2026-06-27T03:00:00Z",
+      "localDate": "2026-06-26T20:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group G",
+      "groupZh": "G 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "NZL",
+        "name": "New Zealand",
+        "nameZh": "新西兰",
+        "flag": "",
+        "flagEmoji": "🇳🇿",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "BEL",
+        "name": "Belgium",
+        "nameZh": "比利时",
+        "flag": "",
+        "flagEmoji": "🇧🇪",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "BC Place Vancouver",
+        "city": "Vancouver",
+        "cityZh": "温哥华",
+        "country": "CAN"
+      },
+      "calendarPath": "matches/match-064.ics"
+    },
+    {
+      "id": "400021479",
+      "matchNumber": 63,
+      "dateUtc": "2026-06-27T03:00:00Z",
+      "localDate": "2026-06-26T20:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group G",
+      "groupZh": "G 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "EGY",
+        "name": "Egypt",
+        "nameZh": "埃及",
+        "flag": "",
+        "flagEmoji": "🇪🇬",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "IRN",
+        "name": "IR Iran",
+        "nameZh": "伊朗",
+        "flag": "",
+        "flagEmoji": "🇮🇷",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Seattle Stadium",
+        "city": "Seattle",
+        "cityZh": "西雅图",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-063.ics"
+    },
+    {
+      "id": "400021508",
+      "matchNumber": 67,
+      "dateUtc": "2026-06-27T21:00:00Z",
+      "localDate": "2026-06-27T17:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group L",
+      "groupZh": "L 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "PAN",
+        "name": "Panama",
+        "nameZh": "巴拿马",
+        "flag": "",
+        "flagEmoji": "🇵🇦",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "ENG",
+        "name": "England",
+        "nameZh": "英格兰",
+        "flag": "",
+        "flagEmoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "New York/New Jersey Stadium",
+        "city": "New Jersey",
+        "cityZh": "New Jersey",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-067.ics"
+    },
+    {
+      "id": "400021509",
+      "matchNumber": 68,
+      "dateUtc": "2026-06-27T21:00:00Z",
+      "localDate": "2026-06-27T17:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group L",
+      "groupZh": "L 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "CRO",
+        "name": "Croatia",
+        "nameZh": "克罗地亚",
+        "flag": "",
+        "flagEmoji": "🇭🇷",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "GHA",
+        "name": "Ghana",
+        "nameZh": "加纳",
+        "flag": "",
+        "flagEmoji": "🇬🇭",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Philadelphia Stadium",
+        "city": "Philadelphia",
+        "cityZh": "费城",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-068.ics"
+    },
+    {
+      "id": "400021500",
+      "matchNumber": 72,
+      "dateUtc": "2026-06-27T23:30:00Z",
+      "localDate": "2026-06-27T19:30:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group K",
+      "groupZh": "K 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "COD",
+        "name": "Congo DR",
+        "nameZh": "民主刚果",
+        "flag": "",
+        "flagEmoji": "🇨🇩",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "UZB",
+        "name": "Uzbekistan",
+        "nameZh": "乌兹别克斯坦",
+        "flag": "",
+        "flagEmoji": "🇺🇿",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Atlanta Stadium",
+        "city": "Atlanta",
+        "cityZh": "亚特兰大",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-072.ics"
+    },
+    {
+      "id": "400021505",
+      "matchNumber": 71,
+      "dateUtc": "2026-06-27T23:30:00Z",
+      "localDate": "2026-06-27T19:30:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group K",
+      "groupZh": "K 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "COL",
+        "name": "Colombia",
+        "nameZh": "哥伦比亚",
+        "flag": "",
+        "flagEmoji": "🇨🇴",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "POR",
+        "name": "Portugal",
+        "nameZh": "葡萄牙",
+        "flag": "",
+        "flagEmoji": "🇵🇹",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Miami Stadium",
+        "city": "Miami",
+        "cityZh": "迈阿密",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-071.ics"
+    },
+    {
+      "id": "400021497",
+      "matchNumber": 69,
+      "dateUtc": "2026-06-28T02:00:00Z",
+      "localDate": "2026-06-27T21:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group J",
+      "groupZh": "J 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "ALG",
+        "name": "Algeria",
+        "nameZh": "阿尔及利亚",
+        "flag": "",
+        "flagEmoji": "🇩🇿",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "AUT",
+        "name": "Austria",
+        "nameZh": "奥地利",
+        "flag": "",
+        "flagEmoji": "🇦🇹",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Kansas City Stadium",
+        "city": "Kansas City",
+        "cityZh": "堪萨斯城",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-069.ics"
+    },
+    {
+      "id": "400021495",
+      "matchNumber": 70,
+      "dateUtc": "2026-06-28T02:00:00Z",
+      "localDate": "2026-06-27T21:00:00Z",
+      "stage": "First Stage",
+      "stageZh": "小组赛",
+      "group": "Group J",
+      "groupZh": "J 组",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "JOR",
+        "name": "Jordan",
+        "nameZh": "约旦",
+        "flag": "",
+        "flagEmoji": "🇯🇴",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "ARG",
+        "name": "Argentina",
+        "nameZh": "阿根廷",
+        "flag": "",
+        "flagEmoji": "🇦🇷",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Dallas Stadium",
+        "city": "Dallas",
+        "cityZh": "达拉斯",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-070.ics"
+    },
+    {
+      "id": "400021518",
+      "matchNumber": 73,
+      "dateUtc": "2026-06-28T19:00:00Z",
+      "localDate": "2026-06-28T12:00:00Z",
+      "stage": "Round of 32",
+      "stageZh": "32 强赛",
+      "group": "",
+      "groupZh": "",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Los Angeles Stadium",
+        "city": "Los Angeles",
+        "cityZh": "洛杉矶",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-073.ics"
+    },
+    {
+      "id": "400021516",
+      "matchNumber": 76,
+      "dateUtc": "2026-06-29T17:00:00Z",
+      "localDate": "2026-06-29T12:00:00Z",
+      "stage": "Round of 32",
+      "stageZh": "32 强赛",
+      "group": "",
+      "groupZh": "",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Houston Stadium",
+        "city": "Houston",
+        "cityZh": "休斯敦",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-076.ics"
+    },
+    {
+      "id": "400021513",
+      "matchNumber": 74,
+      "dateUtc": "2026-06-29T20:30:00Z",
+      "localDate": "2026-06-29T16:30:00Z",
+      "stage": "Round of 32",
+      "stageZh": "32 强赛",
+      "group": "",
+      "groupZh": "",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Boston Stadium",
+        "city": "Boston",
+        "cityZh": "波士顿",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-074.ics"
+    },
+    {
+      "id": "400021522",
+      "matchNumber": 75,
+      "dateUtc": "2026-06-30T01:00:00Z",
+      "localDate": "2026-06-29T19:00:00Z",
+      "stage": "Round of 32",
+      "stageZh": "32 强赛",
+      "group": "",
+      "groupZh": "",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Monterrey Stadium",
+        "city": "Monterrey",
+        "cityZh": "蒙特雷",
+        "country": "MEX"
+      },
+      "calendarPath": "matches/match-075.ics"
+    },
+    {
+      "id": "400021514",
+      "matchNumber": 78,
+      "dateUtc": "2026-06-30T17:00:00Z",
+      "localDate": "2026-06-30T12:00:00Z",
+      "stage": "Round of 32",
+      "stageZh": "32 强赛",
+      "group": "",
+      "groupZh": "",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Dallas Stadium",
+        "city": "Dallas",
+        "cityZh": "达拉斯",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-078.ics"
+    },
+    {
+      "id": "400021523",
+      "matchNumber": 77,
+      "dateUtc": "2026-06-30T21:00:00Z",
+      "localDate": "2026-06-30T17:00:00Z",
+      "stage": "Round of 32",
+      "stageZh": "32 强赛",
+      "group": "",
+      "groupZh": "",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "New York/New Jersey Stadium",
+        "city": "New Jersey",
+        "cityZh": "New Jersey",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-077.ics"
+    },
+    {
+      "id": "400021520",
+      "matchNumber": 79,
+      "dateUtc": "2026-07-01T01:00:00Z",
+      "localDate": "2026-06-30T19:00:00Z",
+      "stage": "Round of 32",
+      "stageZh": "32 强赛",
+      "group": "",
+      "groupZh": "",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Mexico City Stadium",
+        "city": "Mexico City",
+        "cityZh": "墨西哥城",
+        "country": "MEX"
+      },
+      "calendarPath": "matches/match-079.ics"
+    },
+    {
+      "id": "400021512",
+      "matchNumber": 80,
+      "dateUtc": "2026-07-01T16:00:00Z",
+      "localDate": "2026-07-01T12:00:00Z",
+      "stage": "Round of 32",
+      "stageZh": "32 强赛",
+      "group": "",
+      "groupZh": "",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Atlanta Stadium",
+        "city": "Atlanta",
+        "cityZh": "亚特兰大",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-080.ics"
+    },
+    {
+      "id": "400021525",
+      "matchNumber": 82,
+      "dateUtc": "2026-07-01T20:00:00Z",
+      "localDate": "2026-07-01T13:00:00Z",
+      "stage": "Round of 32",
+      "stageZh": "32 强赛",
+      "group": "",
+      "groupZh": "",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Seattle Stadium",
+        "city": "Seattle",
+        "cityZh": "西雅图",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-082.ics"
+    },
+    {
+      "id": "400021524",
+      "matchNumber": 81,
+      "dateUtc": "2026-07-02T00:00:00Z",
+      "localDate": "2026-07-01T17:00:00Z",
+      "stage": "Round of 32",
+      "stageZh": "32 强赛",
+      "group": "",
+      "groupZh": "",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "San Francisco Bay Area Stadium",
+        "city": "San Francisco Bay Area",
+        "cityZh": "旧金山湾区",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-081.ics"
+    },
+    {
+      "id": "400021519",
+      "matchNumber": 84,
+      "dateUtc": "2026-07-02T19:00:00Z",
+      "localDate": "2026-07-02T12:00:00Z",
+      "stage": "Round of 32",
+      "stageZh": "32 强赛",
+      "group": "",
+      "groupZh": "",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Los Angeles Stadium",
+        "city": "Los Angeles",
+        "cityZh": "洛杉矶",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-084.ics"
+    },
+    {
+      "id": "400021526",
+      "matchNumber": 83,
+      "dateUtc": "2026-07-02T23:00:00Z",
+      "localDate": "2026-07-02T19:00:00Z",
+      "stage": "Round of 32",
+      "stageZh": "32 强赛",
+      "group": "",
+      "groupZh": "",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Toronto Stadium",
+        "city": "Toronto",
+        "cityZh": "多伦多",
+        "country": "CAN"
+      },
+      "calendarPath": "matches/match-083.ics"
+    },
+    {
+      "id": "400021527",
+      "matchNumber": 85,
+      "dateUtc": "2026-07-03T03:00:00Z",
+      "localDate": "2026-07-02T20:00:00Z",
+      "stage": "Round of 32",
+      "stageZh": "32 强赛",
+      "group": "",
+      "groupZh": "",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "BC Place Vancouver",
+        "city": "Vancouver",
+        "cityZh": "温哥华",
+        "country": "CAN"
+      },
+      "calendarPath": "matches/match-085.ics"
+    },
+    {
+      "id": "400021515",
+      "matchNumber": 88,
+      "dateUtc": "2026-07-03T18:00:00Z",
+      "localDate": "2026-07-03T13:00:00Z",
+      "stage": "Round of 32",
+      "stageZh": "32 强赛",
+      "group": "",
+      "groupZh": "",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Dallas Stadium",
+        "city": "Dallas",
+        "cityZh": "达拉斯",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-088.ics"
+    },
+    {
+      "id": "400021521",
+      "matchNumber": 86,
+      "dateUtc": "2026-07-03T22:00:00Z",
+      "localDate": "2026-07-03T18:00:00Z",
+      "stage": "Round of 32",
+      "stageZh": "32 强赛",
+      "group": "",
+      "groupZh": "",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Miami Stadium",
+        "city": "Miami",
+        "cityZh": "迈阿密",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-086.ics"
+    },
+    {
+      "id": "400021517",
+      "matchNumber": 87,
+      "dateUtc": "2026-07-04T01:30:00Z",
+      "localDate": "2026-07-03T20:30:00Z",
+      "stage": "Round of 32",
+      "stageZh": "32 强赛",
+      "group": "",
+      "groupZh": "",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Kansas City Stadium",
+        "city": "Kansas City",
+        "cityZh": "堪萨斯城",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-087.ics"
+    },
+    {
+      "id": "400021530",
+      "matchNumber": 90,
+      "dateUtc": "2026-07-04T17:00:00Z",
+      "localDate": "2026-07-04T12:00:00Z",
+      "stage": "Round of 16",
+      "stageZh": "16 强赛",
+      "group": "",
+      "groupZh": "",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Houston Stadium",
+        "city": "Houston",
+        "cityZh": "休斯敦",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-090.ics"
+    },
+    {
+      "id": "400021533",
+      "matchNumber": 89,
+      "dateUtc": "2026-07-04T21:00:00Z",
+      "localDate": "2026-07-04T17:00:00Z",
+      "stage": "Round of 16",
+      "stageZh": "16 强赛",
+      "group": "",
+      "groupZh": "",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Philadelphia Stadium",
+        "city": "Philadelphia",
+        "cityZh": "费城",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-089.ics"
+    },
+    {
+      "id": "400021532",
+      "matchNumber": 91,
+      "dateUtc": "2026-07-05T20:00:00Z",
+      "localDate": "2026-07-05T16:00:00Z",
+      "stage": "Round of 16",
+      "stageZh": "16 强赛",
+      "group": "",
+      "groupZh": "",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "New York/New Jersey Stadium",
+        "city": "New Jersey",
+        "cityZh": "New Jersey",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-091.ics"
+    },
+    {
+      "id": "400021531",
+      "matchNumber": 92,
+      "dateUtc": "2026-07-06T00:00:00Z",
+      "localDate": "2026-07-05T18:00:00Z",
+      "stage": "Round of 16",
+      "stageZh": "16 强赛",
+      "group": "",
+      "groupZh": "",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Mexico City Stadium",
+        "city": "Mexico City",
+        "cityZh": "墨西哥城",
+        "country": "MEX"
+      },
+      "calendarPath": "matches/match-092.ics"
+    },
+    {
+      "id": "400021529",
+      "matchNumber": 93,
+      "dateUtc": "2026-07-06T19:00:00Z",
+      "localDate": "2026-07-06T14:00:00Z",
+      "stage": "Round of 16",
+      "stageZh": "16 强赛",
+      "group": "",
+      "groupZh": "",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Dallas Stadium",
+        "city": "Dallas",
+        "cityZh": "达拉斯",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-093.ics"
+    },
+    {
+      "id": "400021534",
+      "matchNumber": 94,
+      "dateUtc": "2026-07-07T00:00:00Z",
+      "localDate": "2026-07-06T17:00:00Z",
+      "stage": "Round of 16",
+      "stageZh": "16 强赛",
+      "group": "",
+      "groupZh": "",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Seattle Stadium",
+        "city": "Seattle",
+        "cityZh": "西雅图",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-094.ics"
+    },
+    {
+      "id": "400021528",
+      "matchNumber": 95,
+      "dateUtc": "2026-07-07T16:00:00Z",
+      "localDate": "2026-07-07T12:00:00Z",
+      "stage": "Round of 16",
+      "stageZh": "16 强赛",
+      "group": "",
+      "groupZh": "",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Atlanta Stadium",
+        "city": "Atlanta",
+        "cityZh": "亚特兰大",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-095.ics"
+    },
+    {
+      "id": "400021535",
+      "matchNumber": 96,
+      "dateUtc": "2026-07-07T20:00:00Z",
+      "localDate": "2026-07-07T13:00:00Z",
+      "stage": "Round of 16",
+      "stageZh": "16 强赛",
+      "group": "",
+      "groupZh": "",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "BC Place Vancouver",
+        "city": "Vancouver",
+        "cityZh": "温哥华",
+        "country": "CAN"
+      },
+      "calendarPath": "matches/match-096.ics"
+    },
+    {
+      "id": "400021536",
+      "matchNumber": 97,
+      "dateUtc": "2026-07-09T20:00:00Z",
+      "localDate": "2026-07-09T16:00:00Z",
+      "stage": "Quarter-final",
+      "stageZh": "四分之一决赛",
+      "group": "",
+      "groupZh": "",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Boston Stadium",
+        "city": "Boston",
+        "cityZh": "波士顿",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-097.ics"
+    },
+    {
+      "id": "400021538",
+      "matchNumber": 98,
+      "dateUtc": "2026-07-10T19:00:00Z",
+      "localDate": "2026-07-10T12:00:00Z",
+      "stage": "Quarter-final",
+      "stageZh": "四分之一决赛",
+      "group": "",
+      "groupZh": "",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Los Angeles Stadium",
+        "city": "Los Angeles",
+        "cityZh": "洛杉矶",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-098.ics"
+    },
+    {
+      "id": "400021539",
+      "matchNumber": 99,
+      "dateUtc": "2026-07-11T21:00:00Z",
+      "localDate": "2026-07-11T17:00:00Z",
+      "stage": "Quarter-final",
+      "stageZh": "四分之一决赛",
+      "group": "",
+      "groupZh": "",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Miami Stadium",
+        "city": "Miami",
+        "cityZh": "迈阿密",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-099.ics"
+    },
+    {
+      "id": "400021537",
+      "matchNumber": 100,
+      "dateUtc": "2026-07-12T01:00:00Z",
+      "localDate": "2026-07-11T20:00:00Z",
+      "stage": "Quarter-final",
+      "stageZh": "四分之一决赛",
+      "group": "",
+      "groupZh": "",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Kansas City Stadium",
+        "city": "Kansas City",
+        "cityZh": "堪萨斯城",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-100.ics"
+    },
+    {
+      "id": "400021541",
+      "matchNumber": 101,
+      "dateUtc": "2026-07-14T19:00:00Z",
+      "localDate": "2026-07-14T14:00:00Z",
+      "stage": "Semi-final",
+      "stageZh": "半决赛",
+      "group": "",
+      "groupZh": "",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Dallas Stadium",
+        "city": "Dallas",
+        "cityZh": "达拉斯",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-101.ics"
+    },
+    {
+      "id": "400021540",
+      "matchNumber": 102,
+      "dateUtc": "2026-07-15T19:00:00Z",
+      "localDate": "2026-07-15T15:00:00Z",
+      "stage": "Semi-final",
+      "stageZh": "半决赛",
+      "group": "",
+      "groupZh": "",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Atlanta Stadium",
+        "city": "Atlanta",
+        "cityZh": "亚特兰大",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-102.ics"
+    },
+    {
+      "id": "400021542",
+      "matchNumber": 103,
+      "dateUtc": "2026-07-18T21:00:00Z",
+      "localDate": "2026-07-18T17:00:00Z",
+      "stage": "Play-off for third place",
+      "stageZh": "三四名决赛",
+      "group": "",
+      "groupZh": "",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "Miami Stadium",
+        "city": "Miami",
+        "cityZh": "迈阿密",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-103.ics"
+    },
+    {
+      "id": "400021543",
+      "matchNumber": 104,
+      "dateUtc": "2026-07-19T19:00:00Z",
+      "localDate": "2026-07-19T15:00:00Z",
+      "stage": "Final",
+      "stageZh": "决赛",
+      "group": "",
+      "groupZh": "",
+      "status": 1,
+      "matchClock": "",
+      "statusText": "",
+      "home": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "away": {
+        "code": "TBD",
+        "name": "TBD",
+        "nameZh": "待定",
+        "flag": "",
+        "flagEmoji": "◇",
+        "score": null,
+        "penaltyScore": null
+      },
+      "score": {
+        "home": null,
+        "away": null,
+        "homePenalty": null,
+        "awayPenalty": null
+      },
+      "goals": [],
+      "venue": {
+        "stadium": "New York/New Jersey Stadium",
+        "city": "New Jersey",
+        "cityZh": "New Jersey",
+        "country": "USA"
+      },
+      "calendarPath": "matches/match-104.ics"
+    }
+  ],
+  "teams": {
+    "ALG": {
+      "code": "ALG",
+      "name": "Algeria",
+      "nameZh": "阿尔及利亚",
+      "flagEmoji": "🇩🇿",
+      "confederation": "非洲 CAF",
+      "intro": "阿尔及利亚身体对抗强、转换速度快，常在高强度比赛里制造压迫和二点球优势。",
+      "highlights": [
+        "边路推进和定位球是重要得分方式。",
+        "面对技术型强队时，防线纪律和反击效率会决定上限。",
+        "小组赛每一分都很关键。"
+      ],
+      "tier": "非洲劲旅",
+      "starPlayers": [
+        "里亚德·马赫雷斯",
+        "伊斯梅尔·本纳塞尔",
+        "拉米·本塞拜尼"
+      ]
+    },
+    "ARG": {
+      "code": "ARG",
+      "name": "Argentina",
+      "nameZh": "阿根廷",
+      "flagEmoji": "🇦🇷",
+      "confederation": "南美 CONMEBOL",
+      "intro": "阿根廷是卫冕冠军，控球、节奏变化和关键球员个人能力仍是最大看点。",
+      "highlights": [
+        "卫冕压力与阵容更新之间的平衡。",
+        "中前场小范围配合能否持续撕开密集防守。",
+        "淘汰赛经验丰富，是争冠观察重点。"
+      ],
+      "tier": "卫冕冠军 / 争冠热门",
+      "starPlayers": [
+        "利昂内尔·梅西",
+        "劳塔罗·马丁内斯",
+        "恩佐·费尔南德斯",
+        "亚历克西斯·麦卡利斯特"
+      ]
+    },
+    "AUS": {
+      "code": "AUS",
+      "name": "Australia",
+      "nameZh": "澳大利亚",
+      "flagEmoji": "🇦🇺",
+      "confederation": "亚洲 AFC",
+      "intro": "澳大利亚以身体强度、空中对抗和执行力见长，比赛风格直接而务实。",
+      "highlights": [
+        "定位球和边路传中威胁稳定。",
+        "面对控球强队时，防守站位和反击第一脚很关键。",
+        "小组赛抗压能力值得关注。"
+      ],
+      "tier": "亚洲硬朗派",
+      "starPlayers": [
+        "马修·瑞安",
+        "杰克逊·欧文",
+        "哈里·苏塔"
+      ]
+    },
+    "AUT": {
+      "code": "AUT",
+      "name": "Austria",
+      "nameZh": "奥地利",
+      "flagEmoji": "🇦🇹",
+      "confederation": "欧洲 UEFA",
+      "intro": "奥地利整体压迫和中场覆盖能力突出，擅长把比赛带入高节奏对抗。",
+      "highlights": [
+        "前场压迫后的就地反抢。",
+        "中场体能和跑动质量是比赛基底。",
+        "对强队时能否把压迫转化为进球机会。"
+      ],
+      "tier": "欧洲强队",
+      "starPlayers": [
+        "大卫·阿拉巴",
+        "马塞尔·萨比策",
+        "克里斯托夫·鲍姆加特纳"
+      ]
+    },
+    "BEL": {
+      "code": "BEL",
+      "name": "Belgium",
+      "nameZh": "比利时",
+      "flagEmoji": "🇧🇪",
+      "confederation": "欧洲 UEFA",
+      "intro": "比利时仍具备成熟的进攻组织和高水平个人能力，新老交替效果是核心悬念。",
+      "highlights": [
+        "中前场创造力与防线稳定性的平衡。",
+        "面对低位防守时的破局效率。",
+        "关键球员健康和状态会显著影响走势。"
+      ],
+      "tier": "欧洲强队",
+      "starPlayers": [
+        "凯文·德布劳内",
+        "罗梅卢·卢卡库",
+        "杰里米·多库"
+      ]
+    },
+    "BIH": {
+      "code": "BIH",
+      "name": "Bosnia and Herzegovina",
+      "nameZh": "波黑",
+      "flagEmoji": "🇧🇦",
+      "confederation": "欧洲 UEFA",
+      "intro": "波黑技术细腻，前场有支点和终结能力，适合打出有层次的阵地进攻。",
+      "highlights": [
+        "中锋支点和二线插上配合。",
+        "防守转换速度是需要观察的环节。",
+        "若能控制比赛节奏，有机会制造惊喜。"
+      ],
+      "tier": "欧洲挑战者",
+      "starPlayers": [
+        "埃丁·哲科",
+        "米拉莱姆·皮亚尼奇",
+        "阿内尔·艾哈迈德霍季奇"
+      ]
+    },
+    "BRA": {
+      "code": "BRA",
+      "name": "Brazil",
+      "nameZh": "巴西",
+      "flagEmoji": "🇧🇷",
+      "confederation": "南美 CONMEBOL",
+      "intro": "巴西天赋厚度和边路爆点仍然亮眼，攻防转换质量决定能走多远。",
+      "highlights": [
+        "边锋一对一和禁区前沿创造力。",
+        "中后场保护与反击防守。",
+        "世界杯传统豪门，任何阶段都是焦点。"
+      ],
+      "tier": "传统豪门 / 争冠热门",
+      "starPlayers": [
+        "维尼修斯",
+        "罗德里戈",
+        "内马尔",
+        "阿利松"
+      ]
+    },
+    "CAN": {
+      "code": "CAN",
+      "name": "Canada",
+      "nameZh": "加拿大",
+      "flagEmoji": "🇨🇦",
+      "confederation": "中北美及加勒比 CONCACAF",
+      "intro": "加拿大主场作战，速度、冲击力和主场氛围会给比赛带来很强变量。",
+      "highlights": [
+        "主场第一场的情绪和节奏管理。",
+        "边路速度是主要武器。",
+        "能否把冲击力转化为稳定得分机会。"
+      ],
+      "tier": "东道主 / 潜在黑马",
+      "starPlayers": [
+        "阿方索·戴维斯",
+        "乔纳森·戴维",
+        "斯蒂芬·欧斯塔基奥"
+      ]
+    },
+    "CIV": {
+      "code": "CIV",
+      "name": "Côte d'Ivoire",
+      "nameZh": "科特迪瓦",
+      "flagEmoji": "🇨🇮",
+      "confederation": "非洲 CAF",
+      "intro": "科特迪瓦身体素质出色，前场冲击强，比赛中经常依靠个人能力打开局面。",
+      "highlights": [
+        "前锋和边路球员的单点爆破。",
+        "中场防守覆盖决定比赛稳定性。",
+        "面对欧洲球队时的节奏适应。"
+      ],
+      "tier": "非洲强队",
+      "starPlayers": [
+        "塞巴斯蒂安·阿莱",
+        "弗兰克·凯西",
+        "奥迪隆·科苏努"
+      ]
+    },
+    "COD": {
+      "code": "COD",
+      "name": "Congo DR",
+      "nameZh": "民主刚果",
+      "flagEmoji": "🇨🇩",
+      "confederation": "非洲 CAF",
+      "intro": "民主刚果对抗能力强，比赛风格直接，若能提升攻防衔接会很难缠。",
+      "highlights": [
+        "反击速度和禁区冲击。",
+        "定位球攻防可能影响关键比分。",
+        "首次阶段的心理稳定性值得关注。"
+      ],
+      "tier": "非洲挑战者",
+      "starPlayers": [
+        "约安·维萨",
+        "尚塞尔·姆本巴",
+        "塞德里克·巴坎布"
+      ]
+    },
+    "COL": {
+      "code": "COL",
+      "name": "Colombia",
+      "nameZh": "哥伦比亚",
+      "flagEmoji": "🇨🇴",
+      "confederation": "南美 CONMEBOL",
+      "intro": "哥伦比亚技术与身体结合出色，前场灵感和中场对抗都有很高观赏性。",
+      "highlights": [
+        "中前场创造力是最大看点。",
+        "转换进攻速度快，适合开放比赛。",
+        "面对高压球队时的出球质量。"
+      ],
+      "tier": "南美强队 / 潜在黑马",
+      "starPlayers": [
+        "路易斯·迪亚斯",
+        "哈梅斯·罗德里格斯",
+        "约翰·杜兰"
+      ]
+    },
+    "CPV": {
+      "code": "CPV",
+      "name": "Cabo Verde",
+      "nameZh": "佛得角",
+      "flagEmoji": "🇨🇻",
+      "confederation": "非洲 CAF",
+      "intro": "佛得角是扩军世界杯背景下的代表性新力量，整体纪律和反击效率值得关注。",
+      "highlights": [
+        "队史大赛舞台的表现。",
+        "防守组织和快速推进。",
+        "面对强队时能否把握少数机会。"
+      ],
+      "tier": "世界杯新军",
+      "starPlayers": [
+        "贝贝",
+        "瑞安·门德斯",
+        "加里·罗德里格斯"
+      ]
+    },
+    "CRO": {
+      "code": "CRO",
+      "name": "Croatia",
+      "nameZh": "克罗地亚",
+      "flagEmoji": "🇭🇷",
+      "confederation": "欧洲 UEFA",
+      "intro": "克罗地亚大赛经验丰富，中场控节奏能力长期稳定，是淘汰赛气质很强的球队。",
+      "highlights": [
+        "中场传控和比赛降速能力。",
+        "老将经验与新生力量衔接。",
+        "胶着比赛中的心理优势。"
+      ],
+      "tier": "大赛型强队",
+      "starPlayers": [
+        "卢卡·莫德里奇",
+        "马特奥·科瓦契奇",
+        "约什科·格瓦迪奥尔"
+      ]
+    },
+    "CUW": {
+      "code": "CUW",
+      "name": "Curaçao",
+      "nameZh": "库拉索",
+      "flagEmoji": "🇨🇼",
+      "confederation": "中北美及加勒比 CONCACAF",
+      "intro": "库拉索是本届的黑马观察对象，阵容国际化，比赛态度积极。",
+      "highlights": [
+        "首次世界杯阶段的适应速度。",
+        "防守紧凑度和反击质量。",
+        "面对传统强队时的抗压表现。"
+      ],
+      "tier": "世界杯新军 / 黑马观察",
+      "starPlayers": [
+        "莱安德罗·巴库纳",
+        "容·巴库纳",
+        "库科·马蒂纳"
+      ]
+    },
+    "CZE": {
+      "code": "CZE",
+      "name": "Czechia",
+      "nameZh": "捷克",
+      "flagEmoji": "🇨🇿",
+      "confederation": "欧洲 UEFA",
+      "intro": "捷克注重整体、防守和定位球，比赛风格硬朗，常能把对手拖入消耗战。",
+      "highlights": [
+        "定位球和禁区争顶。",
+        "中后场纪律性。",
+        "面对速度型球队时的回追保护。"
+      ],
+      "tier": "欧洲硬朗派",
+      "starPlayers": [
+        "帕特里克·希克",
+        "托马什·绍切克",
+        "安东宁·巴拉克"
+      ]
+    },
+    "ECU": {
+      "code": "ECU",
+      "name": "Ecuador",
+      "nameZh": "厄瓜多尔",
+      "flagEmoji": "🇪🇨",
+      "confederation": "南美 CONMEBOL",
+      "intro": "厄瓜多尔年轻、冲击力强，中后场运动能力突出，适合高强度比赛。",
+      "highlights": [
+        "身体和速度带来的压迫感。",
+        "年轻球员在大赛中的成熟度。",
+        "攻防转换是主要看点。"
+      ],
+      "tier": "南美潜力股",
+      "starPlayers": [
+        "莫伊塞斯·凯塞多",
+        "皮耶罗·因卡皮耶",
+        "恩纳·瓦伦西亚"
+      ]
+    },
+    "EGY": {
+      "code": "EGY",
+      "name": "Egypt",
+      "nameZh": "埃及",
+      "flagEmoji": "🇪🇬",
+      "confederation": "非洲 CAF",
+      "intro": "埃及防守组织成熟，前场关键球员能决定比赛，整体打法务实高效。",
+      "highlights": [
+        "反击中的最后一传和终结。",
+        "防守阵型保持能力。",
+        "关键球员能否在强对抗中持续输出。"
+      ],
+      "tier": "非洲强队",
+      "starPlayers": [
+        "穆罕默德·萨拉赫",
+        "奥马尔·马尔穆什",
+        "穆罕默德·埃尔内尼"
+      ]
+    },
+    "ENG": {
+      "code": "ENG",
+      "name": "England",
+      "nameZh": "英格兰",
+      "flagEmoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "confederation": "欧洲 UEFA",
+      "intro": "英格兰阵容深度突出，前场选择丰富，争冠预期和临场调度是最大话题。",
+      "highlights": [
+        "豪华攻击线如何组合。",
+        "中场控制和边后卫使用。",
+        "淘汰赛心理压力仍是焦点。"
+      ],
+      "tier": "争冠热门",
+      "starPlayers": [
+        "哈里·凯恩",
+        "裘德·贝林厄姆",
+        "布卡约·萨卡",
+        "菲尔·福登"
+      ]
+    },
+    "ESP": {
+      "code": "ESP",
+      "name": "Spain",
+      "nameZh": "西班牙",
+      "flagEmoji": "🇪🇸",
+      "confederation": "欧洲 UEFA",
+      "intro": "西班牙以传控和高位压迫见长，年轻攻击手让球队更具纵向速度。",
+      "highlights": [
+        "控球优势能否转化为高质量射门。",
+        "边路突破和中路渗透的结合。",
+        "面对直接打法时的防守转换。"
+      ],
+      "tier": "争冠热门",
+      "starPlayers": [
+        "罗德里",
+        "拉明·亚马尔",
+        "佩德里",
+        "尼科·威廉姆斯"
+      ]
+    },
+    "FRA": {
+      "code": "FRA",
+      "name": "France",
+      "nameZh": "法国",
+      "flagEmoji": "🇫🇷",
+      "confederation": "欧洲 UEFA",
+      "intro": "法国阵容天赋和厚度顶级，速度、力量与个人能力构成稳定争冠底盘。",
+      "highlights": [
+        "反击速度和前场终结。",
+        "多位置人才储备带来的战术弹性。",
+        "强强对话中的控制力。"
+      ],
+      "tier": "争冠热门",
+      "starPlayers": [
+        "基利安·姆巴佩",
+        "奥斯曼·登贝莱",
+        "安托万·格列兹曼",
+        "威廉·萨利巴"
+      ]
+    },
+    "GER": {
+      "code": "GER",
+      "name": "Germany",
+      "nameZh": "德国",
+      "flagEmoji": "🇩🇪",
+      "confederation": "欧洲 UEFA",
+      "intro": "德国注重整体和战术执行，阵容更新后的稳定性是本届核心观察点。",
+      "highlights": [
+        "中场组织和前场压迫。",
+        "面对密集防守时的效率。",
+        "大赛经验与年轻活力的结合。"
+      ],
+      "tier": "传统豪门 / 强队",
+      "starPlayers": [
+        "贾马尔·穆西亚拉",
+        "弗洛里安·维尔茨",
+        "约书亚·基米希",
+        "曼努埃尔·诺伊尔"
+      ]
+    },
+    "GHA": {
+      "code": "GHA",
+      "name": "Ghana",
+      "nameZh": "加纳",
+      "flagEmoji": "🇬🇭",
+      "confederation": "非洲 CAF",
+      "intro": "加纳身体能力强，比赛开放度高，前场冲击和中场硬度都很鲜明。",
+      "highlights": [
+        "速度型进攻能否打穿防线。",
+        "防守专注度会影响比赛波动。",
+        "非洲劲旅的淘汰赛竞争力。"
+      ],
+      "tier": "非洲劲旅",
+      "starPlayers": [
+        "穆罕默德·库杜斯",
+        "托马斯·帕尔特伊",
+        "伊尼亚基·威廉姆斯"
+      ]
+    },
+    "HAI": {
+      "code": "HAI",
+      "name": "Haiti",
+      "nameZh": "海地",
+      "flagEmoji": "🇭🇹",
+      "confederation": "中北美及加勒比 CONCACAF",
+      "intro": "海地重返大赛舞台，身体冲击和团队韧性会是他们争分的基础。",
+      "highlights": [
+        "弱势局面下的防守韧性。",
+        "边路推进和快速反击。",
+        "队史叙事本身就是看点。"
+      ],
+      "tier": "中北美挑战者",
+      "starPlayers": [
+        "达克恩斯·纳宗",
+        "弗朗茨迪·皮埃罗",
+        "让-里克纳·贝勒加德"
+      ]
+    },
+    "IRN": {
+      "code": "IRN",
+      "name": "IR Iran",
+      "nameZh": "伊朗",
+      "flagEmoji": "🇮🇷",
+      "confederation": "亚洲 AFC",
+      "intro": "伊朗防守扎实、反击效率高，是亚洲球队中大赛经验最稳定的代表之一。",
+      "highlights": [
+        "低位防守后的快速出球。",
+        "锋线把握机会能力。",
+        "面对强队时的比赛耐心。"
+      ],
+      "tier": "亚洲强队",
+      "starPlayers": [
+        "迈赫迪·塔雷米",
+        "萨达尔·阿兹蒙",
+        "阿里雷扎·贾汉巴赫什"
+      ]
+    },
+    "IRQ": {
+      "code": "IRQ",
+      "name": "Iraq",
+      "nameZh": "伊拉克",
+      "flagEmoji": "🇮🇶",
+      "confederation": "亚洲 AFC",
+      "intro": "伊拉克技术和斗志兼具，若能保持防守稳定，具备搅动小组格局的能力。",
+      "highlights": [
+        "中前场灵活配合。",
+        "比赛情绪和节奏控制。",
+        "对抗强队时的防线耐心。"
+      ],
+      "tier": "亚洲挑战者",
+      "starPlayers": [
+        "阿里·贾西姆",
+        "艾曼·侯赛因",
+        "易卜拉欣·巴耶什"
+      ]
+    },
+    "JOR": {
+      "code": "JOR",
+      "name": "Jordan",
+      "nameZh": "约旦",
+      "flagEmoji": "🇯🇴",
+      "confederation": "亚洲 AFC",
+      "intro": "约旦近年来竞争力提升明显，防守反击清晰，团队执行力强。",
+      "highlights": [
+        "亚洲新势力在世界杯舞台的表现。",
+        "快速反击和边路传中。",
+        "面对强队时能否保持阵型紧凑。"
+      ],
+      "tier": "亚洲黑马",
+      "starPlayers": [
+        "穆萨·塔马里",
+        "亚赞·阿尔奈马特",
+        "努尔·拉瓦布德"
+      ]
+    },
+    "JPN": {
+      "code": "JPN",
+      "name": "Japan",
+      "nameZh": "日本",
+      "flagEmoji": "🇯🇵",
+      "confederation": "亚洲 AFC",
+      "intro": "日本技术细腻、整体成熟，快速传接和高强度跑动让他们很具竞争力。",
+      "highlights": [
+        "中场压迫和小范围配合。",
+        "旅欧球员带来的阵容厚度。",
+        "亚洲球队冲击更高阶段的代表。"
+      ],
+      "tier": "亚洲强队 / 潜在黑马",
+      "starPlayers": [
+        "久保建英",
+        "三笘薰",
+        "远藤航",
+        "堂安律"
+      ]
+    },
+    "KOR": {
+      "code": "KOR",
+      "name": "Korea Republic",
+      "nameZh": "韩国",
+      "flagEmoji": "🇰🇷",
+      "confederation": "亚洲 AFC",
+      "intro": "韩国跑动能力强，攻防节奏快，前场核心的个人能力是重要变量。",
+      "highlights": [
+        "快速转换和前场冲刺。",
+        "高强度跑动能否持续 90 分钟。",
+        "关键球员状态影响上限。"
+      ],
+      "tier": "亚洲强队",
+      "starPlayers": [
+        "孙兴慜",
+        "金玟哉",
+        "李刚仁",
+        "黄喜灿"
+      ]
+    },
+    "KSA": {
+      "code": "KSA",
+      "name": "Saudi Arabia",
+      "nameZh": "沙特阿拉伯",
+      "flagEmoji": "🇸🇦",
+      "confederation": "亚洲 AFC",
+      "intro": "沙特技术风格鲜明，敢于控球和前压，大赛中具备制造冷门的历史经验。",
+      "highlights": [
+        "中场控球与防线身后保护。",
+        "面对强压时的出球稳定性。",
+        "亚洲球队之间的横向比较。"
+      ],
+      "tier": "亚洲强队",
+      "starPlayers": [
+        "萨利姆·多萨里",
+        "菲拉斯·布赖坎",
+        "穆罕默德·卡努"
+      ]
+    },
+    "MAR": {
+      "code": "MAR",
+      "name": "Morocco",
+      "nameZh": "摩洛哥",
+      "flagEmoji": "🇲🇦",
+      "confederation": "非洲 CAF",
+      "intro": "摩洛哥延续强硬防守和快速转换风格，团队纪律性和大赛自信非常突出。",
+      "highlights": [
+        "防守体系的延续性。",
+        "边路推进和反击效率。",
+        "能否复制上届深度晋级表现。"
+      ],
+      "tier": "非洲强队 / 潜在黑马",
+      "starPlayers": [
+        "阿什拉夫·哈基米",
+        "索菲扬·阿姆拉巴特",
+        "优素福·恩内斯里"
+      ]
+    },
+    "MEX": {
+      "code": "MEX",
+      "name": "Mexico",
+      "nameZh": "墨西哥",
+      "flagEmoji": "🇲🇽",
+      "confederation": "中北美及加勒比 CONCACAF",
+      "intro": "墨西哥主场作战，技术、节奏和球迷氛围都将成为揭幕阶段的重要看点。",
+      "highlights": [
+        "揭幕战带来的巨大关注度。",
+        "主场压力和情绪管理。",
+        "中前场创造力能否稳定输出。"
+      ],
+      "tier": "东道主 / 传统强队",
+      "starPlayers": [
+        "圣地亚哥·希门尼斯",
+        "埃德森·阿尔瓦雷斯",
+        "吉列尔莫·奥乔亚"
+      ]
+    },
+    "NED": {
+      "code": "NED",
+      "name": "Netherlands",
+      "nameZh": "荷兰",
+      "flagEmoji": "🇳🇱",
+      "confederation": "欧洲 UEFA",
+      "intro": "荷兰身体条件、后防质量和边路推进兼备，整体结构感很强。",
+      "highlights": [
+        "三线均衡度和防线压迫范围。",
+        "边翼卫或边锋的推进选择。",
+        "淘汰赛对抗强队时的韧性。"
+      ],
+      "tier": "欧洲强队",
+      "starPlayers": [
+        "维吉尔·范戴克",
+        "科迪·加克波",
+        "弗兰基·德容",
+        "哈维·西蒙斯"
+      ]
+    },
+    "NOR": {
+      "code": "NOR",
+      "name": "Norway",
+      "nameZh": "挪威",
+      "flagEmoji": "🇳🇴",
+      "confederation": "欧洲 UEFA",
+      "intro": "挪威锋线冲击力极强，进攻端明星效应明显，是本届最受关注的欧洲球队之一。",
+      "highlights": [
+        "强力中锋和中场输送的连接。",
+        "防守端能否支撑高目标。",
+        "面对顶级防线时的破门方式。"
+      ],
+      "tier": "欧洲潜在黑马",
+      "starPlayers": [
+        "埃尔林·哈兰德",
+        "马丁·厄德高",
+        "亚历山大·瑟洛特"
+      ]
+    },
+    "NZL": {
+      "code": "NZL",
+      "name": "New Zealand",
+      "nameZh": "新西兰",
+      "flagEmoji": "🇳🇿",
+      "confederation": "大洋洲 OFC",
+      "intro": "新西兰身体对抗和空中能力突出，比赛方式简洁，定位球很重要。",
+      "highlights": [
+        "禁区争顶和定位球质量。",
+        "防守阵型能否顶住持续压力。",
+        "大洋洲代表的竞争力检验。"
+      ],
+      "tier": "大洋洲代表",
+      "starPlayers": [
+        "克里斯·伍德",
+        "萨普里特·辛格",
+        "乔·贝尔"
+      ]
+    },
+    "PAN": {
+      "code": "PAN",
+      "name": "Panama",
+      "nameZh": "巴拿马",
+      "flagEmoji": "🇵🇦",
+      "confederation": "中北美及加勒比 CONCACAF",
+      "intro": "巴拿马团队性强，作风硬朗，擅长把比赛带入高对抗和高消耗。",
+      "highlights": [
+        "中后场纪律和身体对抗。",
+        "边路反击速度。",
+        "面对强队时的定位球机会。"
+      ],
+      "tier": "中北美挑战者",
+      "starPlayers": [
+        "阿尼瓦尔·戈多伊",
+        "阿达尔贝托·卡拉斯基利亚",
+        "迈克尔·穆里略"
+      ]
+    },
+    "PAR": {
+      "code": "PAR",
+      "name": "Paraguay",
+      "nameZh": "巴拉圭",
+      "flagEmoji": "🇵🇾",
+      "confederation": "南美 CONMEBOL",
+      "intro": "巴拉圭防守传统强硬，比赛韧性足，常能在胶着局里寻找机会。",
+      "highlights": [
+        "防守硬度和定位球。",
+        "低比分比赛中的耐心。",
+        "南美对抗风格的代表。"
+      ],
+      "tier": "南美硬朗派",
+      "starPlayers": [
+        "米格尔·阿尔米隆",
+        "胡利奥·恩西索",
+        "古斯塔沃·戈麦斯"
+      ]
+    },
+    "POR": {
+      "code": "POR",
+      "name": "Portugal",
+      "nameZh": "葡萄牙",
+      "flagEmoji": "🇵🇹",
+      "confederation": "欧洲 UEFA",
+      "intro": "葡萄牙阵容技术含量高，前场选择丰富，攻势足球和代际交替都很有话题。",
+      "highlights": [
+        "攻击线组合和球权分配。",
+        "中场创造力极强。",
+        "明星球员的大赛叙事。"
+      ],
+      "tier": "争冠热门",
+      "starPlayers": [
+        "克里斯蒂亚诺·罗纳尔多",
+        "布鲁诺·费尔南德斯",
+        "贝尔纳多·席尔瓦",
+        "若昂·内维斯"
+      ]
+    },
+    "QAT": {
+      "code": "QAT",
+      "name": "Qatar",
+      "nameZh": "卡塔尔",
+      "flagEmoji": "🇶🇦",
+      "confederation": "亚洲 AFC",
+      "intro": "卡塔尔技术风格偏细，团队磨合时间长，亚洲杯经验能帮助他们应对大赛。",
+      "highlights": [
+        "控球时的耐心组织。",
+        "面对高压时的抗压出球。",
+        "与同组强队的节奏差异。"
+      ],
+      "tier": "亚洲挑战者",
+      "starPlayers": [
+        "阿克拉姆·阿菲夫",
+        "阿尔莫兹·阿里",
+        "哈桑·海多斯"
+      ]
+    },
+    "RSA": {
+      "code": "RSA",
+      "name": "South Africa",
+      "nameZh": "南非",
+      "flagEmoji": "🇿🇦",
+      "confederation": "非洲 CAF",
+      "intro": "南非速度和活力突出，揭幕战即登场，比赛关注度很高。",
+      "highlights": [
+        "揭幕战压力下的执行力。",
+        "前场速度能否制造空间。",
+        "防线面对主场球队时的稳定性。"
+      ],
+      "tier": "非洲挑战者",
+      "starPlayers": [
+        "珀西·陶",
+        "特博霍·莫科埃纳",
+        "龙文·威廉姆斯"
+      ]
+    },
+    "SCO": {
+      "code": "SCO",
+      "name": "Scotland",
+      "nameZh": "苏格兰",
+      "flagEmoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+      "confederation": "欧洲 UEFA",
+      "intro": "苏格兰对抗强、团队性鲜明，中场拼抢和边路冲击是传统优势。",
+      "highlights": [
+        "身体对抗和二点球争夺。",
+        "边路传中质量。",
+        "面对技术型球队时的压迫强度。"
+      ],
+      "tier": "欧洲硬朗派",
+      "starPlayers": [
+        "安迪·罗伯逊",
+        "斯科特·麦克托米奈",
+        "约翰·麦金"
+      ]
+    },
+    "SEN": {
+      "code": "SEN",
+      "name": "Senegal",
+      "nameZh": "塞内加尔",
+      "flagEmoji": "🇸🇳",
+      "confederation": "非洲 CAF",
+      "intro": "塞内加尔身体、速度和大赛经验兼备，是非洲球队中竞争力最稳定的一支。",
+      "highlights": [
+        "攻防两端身体优势明显。",
+        "边路爆点和中路冲击。",
+        "淘汰赛潜力值得重点看。"
+      ],
+      "tier": "非洲强队 / 潜在黑马",
+      "starPlayers": [
+        "萨迪奥·马内",
+        "卡利杜·库利巴利",
+        "尼古拉斯·杰克逊"
+      ]
+    },
+    "SUI": {
+      "code": "SUI",
+      "name": "Switzerland",
+      "nameZh": "瑞士",
+      "flagEmoji": "🇨🇭",
+      "confederation": "欧洲 UEFA",
+      "intro": "瑞士整体稳定、纪律性强，常在大赛中展现很高的下限。",
+      "highlights": [
+        "防守组织和中场平衡。",
+        "关键比赛里的抗压经验。",
+        "阵地战效率决定上限。"
+      ],
+      "tier": "欧洲稳定强队",
+      "starPlayers": [
+        "格拉尼特·扎卡",
+        "曼努埃尔·阿坎吉",
+        "布雷尔·恩博洛"
+      ]
+    },
+    "SWE": {
+      "code": "SWE",
+      "name": "Sweden",
+      "nameZh": "瑞典",
+      "flagEmoji": "🇸🇪",
+      "confederation": "欧洲 UEFA",
+      "intro": "瑞典身体条件好、结构清晰，擅长防守组织和直接进攻。",
+      "highlights": [
+        "定位球和禁区对抗。",
+        "防线整体移动。",
+        "进攻端效率是突破关键。"
+      ],
+      "tier": "欧洲挑战者",
+      "starPlayers": [
+        "亚历山大·伊萨克",
+        "德扬·库卢塞夫斯基",
+        "维克托·约克雷斯"
+      ]
+    },
+    "TUN": {
+      "code": "TUN",
+      "name": "Tunisia",
+      "nameZh": "突尼斯",
+      "flagEmoji": "🇹🇳",
+      "confederation": "非洲 CAF",
+      "intro": "突尼斯防守强度和团队纪律突出，比赛风格务实，常让强队踢得不舒服。",
+      "highlights": [
+        "防守阵型和中场拦截。",
+        "快速反击的第一脚处理。",
+        "小组赛争分能力很关键。"
+      ],
+      "tier": "非洲挑战者",
+      "starPlayers": [
+        "埃利亚斯·斯希里",
+        "汉尼拔·梅布里",
+        "尤瑟夫·姆萨克尼"
+      ]
+    },
+    "TUR": {
+      "code": "TUR",
+      "name": "Türkiye",
+      "nameZh": "土耳其",
+      "flagEmoji": "🇹🇷",
+      "confederation": "欧洲 UEFA",
+      "intro": "土耳其年轻活力和进攻激情兼具，比赛情绪浓度高，观赏性强。",
+      "highlights": [
+        "年轻球员创造力。",
+        "高节奏进攻带来的波动。",
+        "领先或落后时的情绪管理。"
+      ],
+      "tier": "欧洲潜在黑马",
+      "starPlayers": [
+        "哈坎·恰尔汗奥卢",
+        "阿尔达·居莱尔",
+        "凯南·伊尔迪兹"
+      ]
+    },
+    "URU": {
+      "code": "URU",
+      "name": "Uruguay",
+      "nameZh": "乌拉圭",
+      "flagEmoji": "🇺🇾",
+      "confederation": "南美 CONMEBOL",
+      "intro": "乌拉圭对抗强硬、转换犀利，兼具传统斗志和现代压迫打法。",
+      "highlights": [
+        "高强度逼抢和快速推进。",
+        "锋线终结能力。",
+        "强强对话里的身体对抗。"
+      ],
+      "tier": "南美强队 / 潜在黑马",
+      "starPlayers": [
+        "费德里科·巴尔韦德",
+        "达尔文·努涅斯",
+        "罗纳德·阿劳霍"
+      ]
+    },
+    "USA": {
+      "code": "USA",
+      "name": "USA",
+      "nameZh": "美国",
+      "flagEmoji": "🇺🇸",
+      "confederation": "中北美及加勒比 CONCACAF",
+      "intro": "美国主场作战，阵容年轻且速度快，主场表现会直接影响赛事热度。",
+      "highlights": [
+        "主场优势和年轻阵容能量。",
+        "中前场速度冲击。",
+        "关键战中的经验和稳定性。"
+      ],
+      "tier": "东道主 / 潜在黑马",
+      "starPlayers": [
+        "克里斯蒂安·普利西奇",
+        "韦斯顿·麦肯尼",
+        "泰勒·亚当斯",
+        "乔瓦尼·雷纳"
+      ]
+    },
+    "UZB": {
+      "code": "UZB",
+      "name": "Uzbekistan",
+      "nameZh": "乌兹别克斯坦",
+      "flagEmoji": "🇺🇿",
+      "confederation": "亚洲 AFC",
+      "intro": "乌兹别克斯坦首次登上世界杯正赛舞台，技术基础扎实，团队执行力强。",
+      "highlights": [
+        "队史首次世界杯的表现。",
+        "中场组织和防守纪律。",
+        "面对高强度压迫时的适应。"
+      ],
+      "tier": "世界杯新军",
+      "starPlayers": [
+        "埃尔多尔·肖穆罗多夫",
+        "阿博斯别克·法伊祖拉耶夫",
+        "阿卜杜科迪尔·胡萨诺夫"
+      ]
+    }
+  }
+}
