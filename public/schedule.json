@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T21:31:42.141Z",
+  "generatedAt": "2026-06-15T23:23:08.938Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "sources": [
@@ -689,8 +689,8 @@
       "stageZh": "小组赛",
       "group": "Group H",
       "groupZh": "H 组",
-      "status": 1,
-      "matchClock": "0'",
+      "status": 3,
+      "matchClock": "57'",
       "statusText": "",
       "home": {
         "code": "KSA",
@@ -698,7 +698,7 @@
         "nameZh": "沙特阿拉伯",
         "flag": "",
         "flagEmoji": "🇸🇦",
-        "score": null,
+        "score": 1,
         "penaltyScore": null
       },
       "away": {
@@ -707,12 +707,12 @@
         "nameZh": "乌拉圭",
         "flag": "",
         "flagEmoji": "🇺🇾",
-        "score": null,
+        "score": 0,
         "penaltyScore": null
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": 1,
+        "away": 0,
         "homePenalty": null,
         "awayPenalty": null
       },
