@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T13:40:01.892Z",
+  "generatedAt": "2026-06-15T18:18:44.203Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "sources": [
@@ -599,8 +599,8 @@
       "stageZh": "小组赛",
       "group": "Group H",
       "groupZh": "H 组",
-      "status": 1,
-      "matchClock": "",
+      "status": 0,
+      "matchClock": "96'",
       "statusText": "",
       "home": {
         "code": "ESP",
@@ -608,7 +608,7 @@
         "nameZh": "西班牙",
         "flag": "",
         "flagEmoji": "🇪🇸",
-        "score": null,
+        "score": 0,
         "penaltyScore": null
       },
       "away": {
@@ -617,12 +617,12 @@
         "nameZh": "佛得角",
         "flag": "",
         "flagEmoji": "🇨🇻",
-        "score": null,
+        "score": 0,
         "penaltyScore": null
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": 0,
+        "away": 0,
         "homePenalty": null,
         "awayPenalty": null
       },
@@ -645,7 +645,7 @@
       "group": "Group G",
       "groupZh": "G 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "BEL",
