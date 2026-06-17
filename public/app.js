@@ -8,7 +8,7 @@ const state = {
   selectedMatchId: "",
   openGoalMatchId: "",
   view: "fixtures",
-  range: "all",
+  range: "upcoming",
   search: "",
   stage: "",
   group: "",
@@ -651,11 +651,16 @@ function shouldJumpToInitialFixtureDate() {
     !state.stage &&
     !state.group &&
     !state.date &&
-    state.range === "all"
+    state.range === "upcoming"
   );
 }
 
 function initialFixtureDateKey() {
+  if (state.range === "upcoming") {
+    const next = state.matches.find((match) => !isFinished(match) && new Date(match.dateUtc) >= new Date());
+    return next ? shanghaiDateKey(next.dateUtc) : shanghaiDateKey(new Date());
+  }
+
   const todayKey = shanghaiDateKey(new Date());
   if (state.matches.some((match) => shanghaiDateKey(match.dateUtc) === todayKey)) return todayKey;
   const next = state.matches.find((match) => !isFinished(match) && new Date(match.dateUtc) >= new Date());
