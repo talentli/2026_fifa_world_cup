@@ -41,8 +41,9 @@ PUBLIC_WORKER_BASE_URL=https://api.example.com npm run build
 留空时页面会从当前站点读取静态 JSON/ICS 文件。
 
 Cloudflare Pages 部署时如果配置了 `PUBLIC_WORKER_BASE_URL`，Pages Functions 会把
-`/schedule.json`、`/knockout.json`、`/predictions.json`、`/calendar.ics` 和 `/matches/match-*.ics`
-代理到 Worker，因此同域名下的数据地址也会跟随 Worker 自动刷新。
+`/schedule.json`、`/knockout.json`、`/calendar.ics` 和 `/matches/match-*.ics`
+代理到 Worker，因此同域名下的赛程数据地址也会跟随 Worker 自动刷新。`/predictions.json`
+由 Codex 定时任务更新并作为 Pages 静态文件发布，不代理到 Worker。
 
 ## AI 预测
 

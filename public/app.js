@@ -21,11 +21,10 @@ const state = {
 const REFRESH_INTERVAL_MS = 10 * 60 * 1000;
 const VIEWS = ["fixtures", "predictions", "standings", "knockout", "teams"];
 const WORKER_BASE_URL = normalizeBaseUrl(window.FIFA_WORKER_BASE_URL || "");
-const DATA_BASE_URL = WORKER_BASE_URL || window.location.href;
 const SCHEDULE_URL = buildDataUrl("schedule.json");
 const KNOCKOUT_URL = buildDataUrl("knockout.json");
 const CALENDAR_URL = buildDataUrl("calendar.ics");
-const PREDICTIONS_URL = buildDataUrl("predictions.json");
+const PREDICTIONS_URL = new URL("predictions.json", window.location.href).toString();
 const CCTV_URL = "https://worldcup.cctv.com/2026/index.shtml";
 
 const KNOCKOUT_STAGES = [
@@ -98,7 +97,9 @@ function normalizeBaseUrl(value) {
 }
 
 function buildDataUrl(path) {
-  return new URL(path.replace(/^\/+/, ""), `${DATA_BASE_URL.replace(/\/?$/, "/")}`).toString();
+  const normalizedPath = path.replace(/^\/+/, "");
+  if (WORKER_BASE_URL) return new URL(normalizedPath, `${WORKER_BASE_URL}/`).toString();
+  return new URL(normalizedPath, window.location.href).toString();
 }
 
 function shanghaiDateKey(value) {

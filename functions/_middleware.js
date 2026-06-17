@@ -1,7 +1,6 @@
 const PROXYABLE_PATHS = new Set([
   "/calendar.ics",
   "/knockout.json",
-  "/predictions.json",
   "/schedule.json"
 ]);
 
