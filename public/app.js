@@ -27,6 +27,7 @@ const KNOCKOUT_URL = buildDataUrl("knockout.json");
 const CALENDAR_URL = buildDataUrl("calendar.ics");
 const PREDICTIONS_URL = new URL("predictions.json", window.location.href).toString();
 const CCTV_URL = "https://worldcup.cctv.com/2026/index.shtml";
+let scheduleLoadVersion = 0;
 
 const KNOCKOUT_STAGES = [
   { key: "Round of 32", labelZh: "32 强赛" },
@@ -1377,7 +1378,7 @@ function syncRoute() {
 
 async function loadPredictions() {
   try {
-    const response = await fetch(PREDICTIONS_URL, { cache: "no-store" });
+    const response = await fetch(PREDICTIONS_URL);
     if (response.status === 404) return emptyPredictions();
     if (!response.ok) throw new Error(`Unable to load predictions: ${response.status}`);
     return normalizePredictions(await response.json());
@@ -1388,18 +1389,25 @@ async function loadPredictions() {
 }
 
 async function loadSchedule() {
-  const response = await fetch(SCHEDULE_URL, { cache: "no-store" });
+  const loadVersion = ++scheduleLoadVersion;
+  const response = await fetch(SCHEDULE_URL);
   if (!response.ok) throw new Error(`Unable to load schedule: ${response.status}`);
-  const [schedule, predictions] = await Promise.all([response.json(), loadPredictions()]);
+  const schedule = await response.json();
   state.data = schedule;
   state.matches = state.data.matches;
   state.teams = state.data.teams || {};
-  state.predictions = predictions;
-  state.predictionIndex = indexPredictions(predictions.predictions);
   populateFilters(state.matches);
   updateSummary();
   render();
   jumpToInitialFixtureDate();
+
+  loadPredictions().then((predictions) => {
+    if (loadVersion !== scheduleLoadVersion) return;
+    state.predictions = predictions;
+    state.predictionIndex = indexPredictions(predictions.predictions);
+    updateSummary();
+    render();
+  });
 }
 
 async function init() {
