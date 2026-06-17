@@ -20,6 +20,7 @@ const CORS = {
 const SCHEDULE_KEY = "schedule.json";
 const KNOCKOUT_KEY = "knockout.json";
 const CALENDAR_KEY = "calendar.ics";
+const PREDICTIONS_KEY = "predictions.json";
 const CACHE_TTL_SECONDS = 600;
 
 function canonicalHost(env) {
@@ -146,6 +147,35 @@ async function serveCalendar(env, ctx) {
   return new Response(content, { headers: calendarHeaders() });
 }
 
+async function servePredictions(env) {
+  if (!env.FIFA_BUCKET) {
+    return new Response(JSON.stringify(emptyPredictions(), null, 2) + "\n", {
+      headers: jsonHeaders("public, max-age=60")
+    });
+  }
+
+  const object = await env.FIFA_BUCKET.get(PREDICTIONS_KEY);
+  if (!object) {
+    return new Response(JSON.stringify(emptyPredictions(), null, 2) + "\n", {
+      headers: jsonHeaders("public, max-age=60")
+    });
+  }
+
+  const headers = jsonHeaders("public, max-age=300");
+  if (object.httpEtag) headers.ETag = object.httpEtag;
+  return new Response(object.body, { headers });
+}
+
+function emptyPredictions() {
+  return {
+    generatedAt: null,
+    timezone: "Asia/Shanghai",
+    sourceSkill: "lottery-analyzer",
+    status: "empty",
+    predictions: []
+  };
+}
+
 async function serveMatchIcs(env, ctx, pathSegment) {
   // pathSegment 形如 "match-001.ics"
   const m = pathSegment.match(/^match-(\d+)\.ics$/);
@@ -189,6 +219,9 @@ async function handleFetch(request, env, ctx) {
   if (path === "calendar.ics") {
     return serveCalendar(env, ctx);
   }
+  if (path === "predictions.json") {
+    return servePredictions(env);
+  }
   if (path.startsWith("matches/")) {
     const resp = await serveMatchIcs(env, ctx, path.slice("matches/".length));
     if (resp) return resp;
@@ -200,6 +233,7 @@ async function handleFetch(request, env, ctx) {
         ok: !!cached,
         lastUpdated: cached?.schedule.generatedAt ?? null,
         matches: cached?.schedule.matches.length ?? null,
+        predictions: env.FIFA_BUCKET ? "r2" : "empty",
         storage: env.FIFA_BUCKET ? "cache+r2" : "cache"
       }),
       { headers: jsonHeaders("no-store") }

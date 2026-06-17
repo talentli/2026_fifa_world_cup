@@ -2,6 +2,8 @@ const state = {
   data: null,
   matches: [],
   teams: {},
+  predictions: null,
+  predictionIndex: new Map(),
   selectedTeamCode: "",
   selectedMatchId: "",
   openGoalMatchId: "",
@@ -17,12 +19,13 @@ const state = {
 };
 
 const REFRESH_INTERVAL_MS = 10 * 60 * 1000;
-const VIEWS = ["fixtures", "standings", "knockout", "teams"];
+const VIEWS = ["fixtures", "predictions", "standings", "knockout", "teams"];
 const WORKER_BASE_URL = normalizeBaseUrl(window.FIFA_WORKER_BASE_URL || "");
 const DATA_BASE_URL = WORKER_BASE_URL || window.location.href;
 const SCHEDULE_URL = buildDataUrl("schedule.json");
 const KNOCKOUT_URL = buildDataUrl("knockout.json");
 const CALENDAR_URL = buildDataUrl("calendar.ics");
+const PREDICTIONS_URL = buildDataUrl("predictions.json");
 const CCTV_URL = "https://worldcup.cctv.com/2026/index.shtml";
 
 const KNOCKOUT_STAGES = [
@@ -40,6 +43,7 @@ const els = {
   finishedMatches: document.querySelector("#finishedMatches"),
   nextMatchTime: document.querySelector("#nextMatchTime"),
   updatedAt: document.querySelector("#updatedAt"),
+  predictionSpotlight: document.querySelector("#predictionSpotlight"),
   searchInput: document.querySelector("#searchInput"),
   stageFilter: document.querySelector("#stageFilter"),
   groupFilter: document.querySelector("#groupFilter"),
@@ -56,6 +60,9 @@ const els = {
   ),
   standingsGrid: document.querySelector("#standingsGrid"),
   standingsUpdated: document.querySelector("#standingsUpdated"),
+  predictionSummary: document.querySelector("#predictionSummary"),
+  predictionList: document.querySelector("#predictionList"),
+  predictionsUpdated: document.querySelector("#predictionsUpdated"),
   knockoutBoard: document.querySelector("#knockoutBoard"),
   knockoutMobile: document.querySelector("#knockoutMobile"),
   knockoutUpdated: document.querySelector("#knockoutUpdated"),
@@ -141,6 +148,65 @@ function escapeHtml(value) {
     .replace(/'/g, "&#39;");
 }
 
+function emptyPredictions() {
+  return {
+    generatedAt: null,
+    timezone: "Asia/Shanghai",
+    sourceSkill: "lottery-analyzer",
+    status: "empty",
+    predictions: []
+  };
+}
+
+function normalizePredictions(payload) {
+  if (!payload || !Array.isArray(payload.predictions)) return emptyPredictions();
+  return {
+    generatedAt: payload.generatedAt || null,
+    timezone: payload.timezone || "Asia/Shanghai",
+    sourceSkill: payload.sourceSkill || "lottery-analyzer",
+    status: payload.status || "ready",
+    disclaimer: payload.disclaimer || "",
+    predictions: payload.predictions.filter((item) => item && item.matchId)
+  };
+}
+
+function indexPredictions(predictions) {
+  return new Map(predictions.map((item) => [String(item.matchId), item]));
+}
+
+function predictionForMatch(match) {
+  return state.predictionIndex.get(String(match.id));
+}
+
+function formatPercent(value) {
+  const num = Number(value);
+  if (!Number.isFinite(num)) return "--";
+  return `${Math.round(num)}%`;
+}
+
+function predictionProbabilities(prediction) {
+  const probs = prediction?.probabilities || {};
+  return {
+    home: Number(probs.homeWin),
+    draw: Number(probs.draw),
+    away: Number(probs.awayWin)
+  };
+}
+
+function resultTipText(prediction, match) {
+  if (!prediction?.resultTip) return "待定";
+  if (prediction.resultTip === "胜") return `${match.home.nameZh} 胜`;
+  if (prediction.resultTip === "平") return "平局";
+  if (prediction.resultTip === "负") return `${match.away.nameZh} 胜`;
+  return prediction.resultTip;
+}
+
+function predictionUpdatedLabel(value) {
+  return value
+    ? `${compactDateFormatter.format(new Date(value))} ${timeFormatter.format(new Date(value))}`
+    : "--";
+}
+
 function searchable(match) {
   return [
     match.home.name,
@@ -209,9 +275,16 @@ function updateSummary() {
     : "--";
   els.updatedAt.textContent = updatedLabel;
   if (els.standingsUpdated) els.standingsUpdated.textContent = `更新于 ${updatedLabel}`;
+  if (els.predictionsUpdated) {
+    const predictionLabel = state.predictions?.generatedAt
+      ? predictionUpdatedLabel(state.predictions.generatedAt)
+      : "暂无预测";
+    els.predictionsUpdated.textContent = state.predictions?.generatedAt ? `预测更新于 ${predictionLabel}` : predictionLabel;
+  }
   if (els.knockoutUpdated) els.knockoutUpdated.textContent = `更新于 ${updatedLabel}`;
   if (els.teamsUpdated) els.teamsUpdated.textContent = `更新于 ${updatedLabel}`;
   updateHeroFeaturedMatch(live[0] || next, live.length > 0);
+  renderPredictionSpotlight();
 }
 
 function updateHeroFeaturedMatch(match, live = false) {
@@ -302,6 +375,78 @@ function teamRow(team, match) {
   `;
 }
 
+function compactPrediction(match) {
+  const prediction = predictionForMatch(match);
+  if (!prediction) return "";
+  const probs = predictionProbabilities(prediction);
+  const topLine = [
+    resultTipText(prediction, match),
+    prediction.score ? `比分 ${prediction.score}` : "",
+    prediction.totalGoals ? `总进球 ${prediction.totalGoals}` : ""
+  ].filter(Boolean).join(" · ");
+  const source = prediction.oddsSource || prediction.sourceSummary || "lottery-analyzer";
+  return `
+    <section class="prediction-strip" aria-label="${escapeHtml(match.home.nameZh)} 对 ${escapeHtml(match.away.nameZh)} AI 预测">
+      <div>
+        <span class="prediction-kicker">AI预测</span>
+        <strong>${escapeHtml(topLine || "待赛前确认")}</strong>
+        <small>${escapeHtml(prediction.confidenceLevel || "未定级")} · ${escapeHtml(source)}</small>
+      </div>
+      <div class="prediction-probs" aria-label="胜平负概率">
+        <span>${escapeHtml(match.home.code)} ${formatPercent(probs.home)}</span>
+        <span>平 ${formatPercent(probs.draw)}</span>
+        <span>${escapeHtml(match.away.code)} ${formatPercent(probs.away)}</span>
+      </div>
+    </section>
+  `;
+}
+
+function spotlightPredictionItem() {
+  const predictions = state.predictions?.predictions || [];
+  if (!predictions.length) return null;
+  const matchesById = new Map(state.matches.map((match) => [String(match.id), match]));
+  const items = predictions
+    .map((prediction) => ({ prediction, match: matchesById.get(String(prediction.matchId)) }))
+    .filter((item) => item.match)
+    .sort((a, b) => new Date(a.match.dateUtc) - new Date(b.match.dateUtc));
+  return items.find(({ match }) => !isFinished(match)) || items[0] || null;
+}
+
+function renderPredictionSpotlight() {
+  if (!els.predictionSpotlight) return;
+  const item = spotlightPredictionItem();
+  const generatedAt = state.predictions?.generatedAt ? predictionUpdatedLabel(state.predictions.generatedAt) : "";
+
+  if (!item) {
+    els.predictionSpotlight.innerHTML = `
+      <div>
+        <span class="prediction-kicker">AI预测</span>
+        <strong>预测数据待生成</strong>
+        <small>每天 12:00 由 Codex 调用 lottery-analyzer 更新。</small>
+      </div>
+      <button class="spotlight-action" data-view-target="predictions" type="button">查看预测</button>
+    `;
+    return;
+  }
+
+  const { match, prediction } = item;
+  const probs = predictionProbabilities(prediction);
+  const date = new Date(match.dateUtc);
+  els.predictionSpotlight.innerHTML = `
+    <div class="spotlight-main">
+      <span class="prediction-kicker">AI预测 · ${escapeHtml(prediction.confidenceLevel || "未定级")}</span>
+      <strong>${escapeHtml(match.home.nameZh)} vs ${escapeHtml(match.away.nameZh)}：${escapeHtml(resultTipText(prediction, match))}</strong>
+      <small>${dateFormatter.format(date)} ${timeFormatter.format(date)} · ${prediction.score ? `比分 ${escapeHtml(prediction.score)}` : "比分待定"} · 更新 ${escapeHtml(generatedAt || "待生成")}</small>
+    </div>
+    <div class="spotlight-probs">
+      <span>${escapeHtml(match.home.code)} ${formatPercent(probs.home)}</span>
+      <span>平 ${formatPercent(probs.draw)}</span>
+      <span>${escapeHtml(match.away.code)} ${formatPercent(probs.away)}</span>
+    </div>
+    <button class="spotlight-action" data-view-target="predictions" type="button">全部预测</button>
+  `;
+}
+
 function matchCard(match) {
   const date = new Date(match.dateUtc);
   const phase = match.groupZh ? `${match.stageZh} · ${match.groupZh}` : match.stageZh;
@@ -341,6 +486,7 @@ function matchCard(match) {
           <a class="cctv-link" href="${CCTV_URL}" target="_blank" rel="noopener noreferrer" aria-label="打开 CCTV 世界杯页面">CCTV直播</a>
         </div>
       </div>
+      ${compactPrediction(match)}
     </article>
   `;
 }
@@ -492,6 +638,100 @@ function renderFixtures() {
       `;
     })
     .join("");
+}
+
+// ---------- Predictions ----------
+
+function predictionCard(match, prediction) {
+  const date = new Date(match.dateUtc);
+  const probs = predictionProbabilities(prediction);
+  const source = prediction.oddsSource || prediction.sourceSummary || "未标注";
+  const confidence = prediction.confidenceLevel || "未定级";
+  const updated = prediction.updatedAt ? predictionUpdatedLabel(prediction.updatedAt) : predictionUpdatedLabel(state.predictions?.generatedAt);
+  const bars = [
+    { key: "home", label: match.home.nameZh, value: probs.home },
+    { key: "draw", label: "平局", value: probs.draw },
+    { key: "away", label: match.away.nameZh, value: probs.away }
+  ];
+
+  return `
+    <article class="prediction-card">
+      <header>
+        <div>
+          <span class="prediction-kicker">Match ${escapeHtml(match.matchNumber || "-")} · ${dateFormatter.format(date)} ${timeFormatter.format(date)}</span>
+          <h3>${escapeHtml(match.home.nameZh)} vs ${escapeHtml(match.away.nameZh)}</h3>
+        </div>
+        <span class="prediction-level">${escapeHtml(confidence)}</span>
+      </header>
+      <div class="prediction-main">
+        <div class="prediction-pick">
+          <span>推荐倾向</span>
+          <strong>${escapeHtml(resultTipText(prediction, match))}</strong>
+          <small>${escapeHtml([prediction.score ? `比分 ${prediction.score}` : "", prediction.halfFull ? `半全场 ${prediction.halfFull}` : "", prediction.totalGoals ? `总进球 ${prediction.totalGoals}` : ""].filter(Boolean).join(" · ") || "待赛前确认")}</small>
+        </div>
+        <div class="prediction-bars">
+          ${bars
+            .map((item) => `
+              <div class="prediction-bar">
+                <span>${escapeHtml(item.label)}</span>
+                <div><i style="width: ${Math.max(0, Math.min(100, Number.isFinite(item.value) ? item.value : 0))}%"></i></div>
+                <strong>${formatPercent(item.value)}</strong>
+              </div>
+            `)
+            .join("")}
+        </div>
+      </div>
+      <p>${escapeHtml(prediction.rationale || "预测分析待 Codex 定时任务补充。")}</p>
+      <footer>
+        <span>${escapeHtml(match.stageZh)}${match.groupZh ? ` · ${escapeHtml(match.groupZh)}` : ""}</span>
+        <span>来源：${escapeHtml(source)}</span>
+        <span>更新：${escapeHtml(updated)}</span>
+      </footer>
+    </article>
+  `;
+}
+
+function renderPredictions() {
+  if (!els.predictionSummary || !els.predictionList) return;
+  const predictions = state.predictions?.predictions || [];
+  const matchesById = new Map(state.matches.map((match) => [String(match.id), match]));
+  const matched = predictions
+    .map((prediction) => ({ prediction, match: matchesById.get(String(prediction.matchId)) }))
+    .filter((item) => item.match)
+    .sort((a, b) => new Date(a.match.dateUtc) - new Date(b.match.dateUtc));
+  const upcoming = matched.filter(({ match }) => !isFinished(match));
+  const locked = matched.filter(({ prediction }) => prediction.locked).length;
+  const generatedAt = state.predictions?.generatedAt ? predictionUpdatedLabel(state.predictions.generatedAt) : "暂无";
+
+  els.predictionSummary.innerHTML = `
+    <div>
+      <span class="metric">${matched.length}</span>
+      <span class="metric-label">已覆盖场次</span>
+    </div>
+    <div>
+      <span class="metric">${upcoming.length}</span>
+      <span class="metric-label">待赛预测</span>
+    </div>
+    <div>
+      <span class="metric">${locked}</span>
+      <span class="metric-label">赛后锁定</span>
+    </div>
+    <div>
+      <span class="metric">${escapeHtml(generatedAt)}</span>
+      <span class="metric-label">预测更新时间</span>
+    </div>
+  `;
+
+  if (!matched.length) {
+    els.predictionList.innerHTML = `
+      <div class="empty">
+        暂无 AI 预测。Codex 定时任务会在每天 12:00 调用 lottery-analyzer 生成并校验 predictions.json。
+      </div>
+    `;
+    return;
+  }
+
+  els.predictionList.innerHTML = matched.map(({ match, prediction }) => predictionCard(match, prediction)).join("");
 }
 
 // ---------- Standings ----------
@@ -976,6 +1216,7 @@ function setView(view) {
 
 function render() {
   if (state.view === "fixtures") renderFixtures();
+  else if (state.view === "predictions") renderPredictions();
   else if (state.view === "standings") renderStandings();
   else if (state.view === "knockout") renderKnockout();
   else if (state.view === "teams") renderTeams();
@@ -994,6 +1235,16 @@ function bindEvents() {
     setView(tab.dataset.view);
     render();
   });
+
+  if (els.predictionSpotlight) {
+    els.predictionSpotlight.addEventListener("click", (event) => {
+      const target = event.target.closest("[data-view-target]");
+      if (!target) return;
+      setView(target.dataset.viewTarget);
+      render();
+      document.querySelector("#viewTabs")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  }
 
   if (els.knockoutMobile) {
     els.knockoutMobile.addEventListener("click", (event) => {
@@ -1085,12 +1336,27 @@ function syncRoute() {
   if (state.selectedTeamCode) state.view = "fixtures";
 }
 
+async function loadPredictions() {
+  try {
+    const response = await fetch(PREDICTIONS_URL, { cache: "no-store" });
+    if (response.status === 404) return emptyPredictions();
+    if (!response.ok) throw new Error(`Unable to load predictions: ${response.status}`);
+    return normalizePredictions(await response.json());
+  } catch (error) {
+    console.warn("Predictions refresh failed", error);
+    return state.predictions || emptyPredictions();
+  }
+}
+
 async function loadSchedule() {
   const response = await fetch(SCHEDULE_URL, { cache: "no-store" });
   if (!response.ok) throw new Error(`Unable to load schedule: ${response.status}`);
-  state.data = await response.json();
+  const [schedule, predictions] = await Promise.all([response.json(), loadPredictions()]);
+  state.data = schedule;
   state.matches = state.data.matches;
   state.teams = state.data.teams || {};
+  state.predictions = predictions;
+  state.predictionIndex = indexPredictions(predictions.predictions);
   populateFilters(state.matches);
   updateSummary();
   render();

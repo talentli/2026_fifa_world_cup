@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-17T05:24:21.611Z",
+  "generatedAt": "2026-06-17T09:18:19.769Z",
   "timezone": "Asia/Shanghai",
-  "canonicalHost": "2026fifa.2long.cloud",
+  "canonicalHost": "2026-fifa-world-cup.example.com",
   "sources": [
     {
       "name": "FIFA World Cup 2026 match schedule",
@@ -914,8 +914,8 @@
       "stageZh": "小组赛",
       "group": "Group J",
       "groupZh": "J 组",
-      "status": 3,
-      "matchClock": "59'",
+      "status": 0,
+      "matchClock": "103'",
       "statusText": "",
       "home": {
         "code": "AUT",
@@ -923,7 +923,7 @@
         "nameZh": "奥地利",
         "flag": "",
         "flagEmoji": "🇦🇹",
-        "score": 1,
+        "score": 3,
         "penaltyScore": null
       },
       "away": {
@@ -936,7 +936,7 @@
         "penaltyScore": null
       },
       "score": {
-        "home": 1,
+        "home": 3,
         "away": 1,
         "homePenalty": null,
         "awayPenalty": null

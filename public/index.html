@@ -65,10 +65,16 @@
         </div>
       </section>
 
+      <section class="prediction-spotlight" id="predictionSpotlight" aria-live="polite"></section>
+
       <nav class="view-tabs" id="viewTabs" role="tablist" aria-label="页面视图">
         <button class="view-tab active" data-view="fixtures" type="button" role="tab" aria-selected="true">
           <span class="view-tab-title">赛程</span>
           <span class="view-tab-sub">Fixtures</span>
+        </button>
+        <button class="view-tab" data-view="predictions" type="button" role="tab" aria-selected="false">
+          <span class="view-tab-title">AI预测</span>
+          <span class="view-tab-sub">Forecast</span>
         </button>
         <button class="view-tab" data-view="standings" type="button" role="tab" aria-selected="false">
           <span class="view-tab-title">积分榜</span>
@@ -126,6 +132,18 @@
 
         <section class="team-detail" id="teamDetail" hidden></section>
         <section class="match-list" id="matchList" aria-live="polite"></section>
+      </section>
+
+      <section class="view-panel" id="viewPredictions" data-view="predictions" hidden>
+        <header class="view-head">
+          <div>
+            <h2>AI 胜率预测</h2>
+            <p>每天中午 12 点由 Codex 调用 lottery-analyzer skill 更新，展示近期场次胜平负概率、推荐倾向、预测比分和数据来源。</p>
+          </div>
+          <span class="view-head-meta" id="predictionsUpdated">--</span>
+        </header>
+        <section class="prediction-summary" id="predictionSummary" aria-live="polite"></section>
+        <section class="prediction-list" id="predictionList" aria-live="polite"></section>
       </section>
 
       <section class="view-panel" id="viewStandings" data-view="standings" hidden>

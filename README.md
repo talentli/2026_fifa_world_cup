@@ -10,6 +10,7 @@
 
 - `public/schedule.json`
 - `public/knockout.json`
+- `public/predictions.json`
 - `public/calendar.ics`
 - `public/matches/match-*.ics`
 
@@ -40,8 +41,29 @@ PUBLIC_WORKER_BASE_URL=https://api.example.com npm run build
 留空时页面会从当前站点读取静态 JSON/ICS 文件。
 
 Cloudflare Pages 部署时如果配置了 `PUBLIC_WORKER_BASE_URL`，Pages Functions 会把
-`/schedule.json`、`/knockout.json`、`/calendar.ics` 和 `/matches/match-*.ics`
+`/schedule.json`、`/knockout.json`、`/predictions.json`、`/calendar.ics` 和 `/matches/match-*.ics`
 代理到 Worker，因此同域名下的数据地址也会跟随 Worker 自动刷新。
+
+## AI 预测
+
+页面会读取 `public/predictions.json` 并展示“AI预测”视图。该文件由 Codex 定时任务每天 12:00 调用 `lottery-analyzer` skill 更新，字段约定：
+
+- `generatedAt`：预测生成时间，ISO 字符串或 `null`
+- `sourceSkill`：固定为 `lottery-analyzer`
+- `predictions[].matchId`：必须对应 `schedule.json` 中的比赛 `id`
+- `predictions[].resultTip`：`胜`、`平`、`负` 或 `待定`
+- `predictions[].probabilities`：`homeWin`、`draw`、`awayWin`，合计约为 100
+- `predictions[].confidenceLevel`：`铁胆级`、`稳胆级`、`大概率`、`中等概率`、`低概率` 或 `待定`
+- `predictions[].score`：预测比分，例如 `2:1`
+- `predictions[].locked`：已完赛场次必须为 `true`
+
+更新后运行：
+
+```bash
+npm run validate:predictions
+```
+
+校验会检查比赛 ID、概率范围、主客方向与预测比分的一致性，以及已完赛预测是否锁定。
 
 ## 部署
 
@@ -51,6 +73,7 @@ Cloudflare Pages 部署时如果配置了 `PUBLIC_WORKER_BASE_URL`，Pages Funct
 
 ```bash
 npm run test
+npm run validate:predictions
 npm run worker:dev
 npm run worker:deploy
 ```
