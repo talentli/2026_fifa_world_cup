@@ -15,7 +15,8 @@ const state = {
   date: "",
   teamsSearch: "",
   teamsConfed: "",
-  knockoutStage: ""
+  knockoutStage: "",
+  initialFixtureJumpDone: false
 };
 
 const REFRESH_INTERVAL_MS = 10 * 60 * 1000;
@@ -622,7 +623,7 @@ function renderFixtures() {
     .map(([key, items]) => {
       const date = new Date(items[0].dateUtc);
       return `
-        <div class="date-group">
+        <div class="date-group" data-date-key="${escapeHtml(key)}">
           <div class="date-title">
             <h2>${dateFormatter.format(date)}</h2>
             <span>${key} · ${items.length} 场</span>
@@ -639,6 +640,38 @@ function renderFixtures() {
       `;
     })
     .join("");
+}
+
+function shouldJumpToInitialFixtureDate() {
+  return (
+    !state.initialFixtureJumpDone &&
+    state.view === "fixtures" &&
+    !state.selectedTeamCode &&
+    !state.search &&
+    !state.stage &&
+    !state.group &&
+    !state.date &&
+    state.range === "all"
+  );
+}
+
+function initialFixtureDateKey() {
+  const todayKey = shanghaiDateKey(new Date());
+  if (state.matches.some((match) => shanghaiDateKey(match.dateUtc) === todayKey)) return todayKey;
+  const next = state.matches.find((match) => !isFinished(match) && new Date(match.dateUtc) >= new Date());
+  return next ? shanghaiDateKey(next.dateUtc) : todayKey;
+}
+
+function jumpToInitialFixtureDate() {
+  if (!shouldJumpToInitialFixtureDate()) return;
+  state.initialFixtureJumpDone = true;
+
+  requestAnimationFrame(() => {
+    const key = initialFixtureDateKey();
+    const target = document.querySelector(`.date-group[data-date-key="${key}"]`);
+    if (!target) return;
+    target.scrollIntoView({ block: "start" });
+  });
 }
 
 // ---------- Predictions ----------
@@ -1361,6 +1394,7 @@ async function loadSchedule() {
   populateFilters(state.matches);
   updateSummary();
   render();
+  jumpToInitialFixtureDate();
 }
 
 async function init() {
