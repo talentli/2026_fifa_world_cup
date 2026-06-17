@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T21:34:52.899Z",
+  "generatedAt": "2026-06-17T23:07:16.262Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "sources": [
@@ -1004,8 +1004,8 @@
       "stageZh": "小组赛",
       "group": "Group L",
       "groupZh": "L 组",
-      "status": 3,
-      "matchClock": "69'",
+      "status": 0,
+      "matchClock": "97'",
       "statusText": "",
       "home": {
         "code": "ENG",
@@ -1013,7 +1013,7 @@
         "nameZh": "英格兰",
         "flag": "",
         "flagEmoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-        "score": 3,
+        "score": 4,
         "penaltyScore": null
       },
       "away": {
@@ -1026,7 +1026,7 @@
         "penaltyScore": null
       },
       "score": {
-        "home": 3,
+        "home": 4,
         "away": 2,
         "homePenalty": null,
         "awayPenalty": null
@@ -1049,8 +1049,8 @@
       "stageZh": "小组赛",
       "group": "Group L",
       "groupZh": "L 组",
-      "status": 1,
-      "matchClock": "0'",
+      "status": 3,
+      "matchClock": "6'",
       "statusText": "",
       "home": {
         "code": "GHA",
@@ -1058,7 +1058,7 @@
         "nameZh": "加纳",
         "flag": "",
         "flagEmoji": "🇬🇭",
-        "score": null,
+        "score": 0,
         "penaltyScore": null
       },
       "away": {
@@ -1067,12 +1067,12 @@
         "nameZh": "巴拿马",
         "flag": "",
         "flagEmoji": "🇵🇦",
-        "score": null,
+        "score": 0,
         "penaltyScore": null
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": 0,
+        "away": 0,
         "homePenalty": null,
         "awayPenalty": null
       },
