@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T14:22:10.943Z",
+  "generatedAt": "2026-06-18T17:41:49.077Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "sources": [
@@ -1139,8 +1139,8 @@
       "stageZh": "小组赛",
       "group": "Group A",
       "groupZh": "A 组",
-      "status": 1,
-      "matchClock": "",
+      "status": 3,
+      "matchClock": "80'",
       "statusText": "",
       "home": {
         "code": "CZE",
@@ -1148,7 +1148,7 @@
         "nameZh": "捷克",
         "flag": "",
         "flagEmoji": "🇨🇿",
-        "score": null,
+        "score": 1,
         "penaltyScore": null
       },
       "away": {
@@ -1157,12 +1157,12 @@
         "nameZh": "南非",
         "flag": "",
         "flagEmoji": "🇿🇦",
-        "score": null,
+        "score": 0,
         "penaltyScore": null
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": 1,
+        "away": 0,
         "homePenalty": null,
         "awayPenalty": null
       },
@@ -1185,7 +1185,7 @@
       "group": "Group B",
       "groupZh": "B 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "SUI",
