@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T23:07:16.262Z",
+  "generatedAt": "2026-06-18T01:45:03.432Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "sources": [
@@ -1049,8 +1049,8 @@
       "stageZh": "小组赛",
       "group": "Group L",
       "groupZh": "L 组",
-      "status": 3,
-      "matchClock": "6'",
+      "status": 0,
+      "matchClock": "102'",
       "statusText": "",
       "home": {
         "code": "GHA",
@@ -1058,7 +1058,7 @@
         "nameZh": "加纳",
         "flag": "",
         "flagEmoji": "🇬🇭",
-        "score": 0,
+        "score": 1,
         "penaltyScore": null
       },
       "away": {
@@ -1071,7 +1071,7 @@
         "penaltyScore": null
       },
       "score": {
-        "home": 0,
+        "home": 1,
         "away": 0,
         "homePenalty": null,
         "awayPenalty": null
@@ -1095,7 +1095,7 @@
       "group": "Group K",
       "groupZh": "K 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "UZB",
