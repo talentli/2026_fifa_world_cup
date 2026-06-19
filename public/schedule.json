@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T00:10:49.502Z",
+  "generatedAt": "2026-06-19T05:28:35.505Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "sources": [
@@ -1274,8 +1274,8 @@
       "stageZh": "小组赛",
       "group": "Group A",
       "groupZh": "A 组",
-      "status": 1,
-      "matchClock": "0'",
+      "status": 0,
+      "matchClock": "97'",
       "statusText": "",
       "home": {
         "code": "MEX",
@@ -1283,7 +1283,7 @@
         "nameZh": "墨西哥",
         "flag": "",
         "flagEmoji": "🇲🇽",
-        "score": null,
+        "score": 1,
         "penaltyScore": null
       },
       "away": {
@@ -1292,12 +1292,12 @@
         "nameZh": "韩国",
         "flag": "",
         "flagEmoji": "🇰🇷",
-        "score": null,
+        "score": 0,
         "penaltyScore": null
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": 1,
+        "away": 0,
         "homePenalty": null,
         "awayPenalty": null
       },
@@ -3573,11 +3573,11 @@
       "matchClock": "",
       "statusText": "",
       "home": {
-        "code": "TBD",
-        "name": "TBD",
-        "nameZh": "待定",
+        "code": "MEX",
+        "name": "Mexico",
+        "nameZh": "墨西哥",
         "flag": "",
-        "flagEmoji": "◇",
+        "flagEmoji": "🇲🇽",
         "score": null,
         "penaltyScore": null
       },
