@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T22:39:37.113Z",
+  "generatedAt": "2026-06-19T23:53:16.170Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "sources": [
@@ -1365,7 +1365,7 @@
       "group": "Group C",
       "groupZh": "C 组",
       "status": 3,
-      "matchClock": "39'",
+      "matchClock": "90'+1'",
       "statusText": "",
       "home": {
         "code": "SCO",
@@ -1410,7 +1410,7 @@
       "group": "Group C",
       "groupZh": "C 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "BRA",
