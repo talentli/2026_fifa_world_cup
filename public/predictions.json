@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T04:10:25.650Z",
+  "generatedAt": "2026-06-19T04:02:09.000Z",
   "timezone": "Asia/Shanghai",
   "sourceSkill": "lottery-analyzer",
   "status": "partial",
@@ -44,161 +44,180 @@
       "oddsSource": "中国竞彩网官方足球计算器未检索到本场SPF/HAFU/TTG（疑似停售或未开放），赔率待定；参考FIFA官方赛前预告。"
     },
     {
-      "matchId": "400021510",
-      "matchNumber": 21,
-      "updatedAt": "2026-06-17T04:10:25.650Z",
-      "locked": false,
-      "resultTip": "胜",
-      "confidenceLevel": "中等概率",
-      "probabilities": {
-        "homeWin": 45,
-        "draw": 29,
-        "awayWin": 26
-      },
-      "score": "2:1",
-      "totalGoals": "3球",
-      "halfFull": "胜胜",
-      "rationale": "FIFA Group L焦点把加纳与巴拿马都放在本组中后段，竞彩网SPF 1.98/3.05/3.37也显示这是一场接近五五开的比赛；加纳身体对抗和前场爆点略占先，巴拿马组织度更平整，倾向加纳小比分抢下首战。",
-      "sourceSummary": "中国竞彩网官方足球计算器HAD/HAFU/TTG（2026-06-17抓取）+ FIFA Matchday 7 preview/Group L in focus。",
-      "oddsSource": "中国竞彩网官方足球计算器：SPF 1.98/3.05/3.37；半全场最低赔 胜胜 3.15；总进球最低赔 2球 3.05。"
-    },
-    {
-      "matchId": "400021507",
-      "matchNumber": 22,
-      "updatedAt": "2026-06-17T04:10:25.650Z",
-      "locked": false,
-      "resultTip": "胜",
-      "confidenceLevel": "大概率",
-      "probabilities": {
-        "homeWin": 58,
-        "draw": 25,
-        "awayWin": 17
-      },
-      "score": "2:0",
-      "totalGoals": "2球",
-      "halfFull": "胜胜",
-      "rationale": "FIFA Matchday 7预告把英格兰对克罗地亚列为当日焦点强强话题，竞彩网SPF 1.53/3.50/5.25也明显倾向英格兰；克罗地亚大赛经验仍是变量，但英格兰边路速度、板凳深度和持续压制力更被看好。",
-      "sourceSummary": "中国竞彩网官方足球计算器HAD/HAFU/TTG（2026-06-17抓取）+ FIFA Matchday 7 preview/Group L in focus。",
-      "oddsSource": "中国竞彩网官方足球计算器：SPF 1.53/3.50/5.25；半全场最低赔 胜胜 2.37；总进球最低赔 2球 3.10。"
-    },
-    {
-      "matchId": "400021502",
-      "matchNumber": 23,
-      "updatedAt": "2026-06-17T04:10:25.650Z",
+      "matchId": "400021457",
+      "matchNumber": 29,
+      "updatedAt": "2026-06-19T04:02:09.000Z",
       "locked": false,
       "resultTip": "胜",
       "confidenceLevel": "稳胆级",
       "probabilities": {
-        "homeWin": 78,
-        "draw": 15,
+        "homeWin": 79,
+        "draw": 14,
         "awayWin": 7
       },
       "score": "3:0",
       "totalGoals": "3球",
       "halfFull": "胜胜",
-      "rationale": "FIFA Group K焦点将葡萄牙列为本组头号热门，刚果金的主要资本是身体和速度；竞彩网SPF主胜仅1.13、半全场胜胜1.55，官方固定奖金已明确给出强倾向，预计葡萄牙能从开场就掌控比赛。",
-      "sourceSummary": "中国竞彩网官方足球计算器HAD/HAFU/TTG（2026-06-17抓取）+ FIFA Matchday 7 preview/Group K in focus。",
-      "oddsSource": "中国竞彩网官方足球计算器：SPF 1.13/5.86/13.50；半全场最低赔 胜胜 1.55；总进球最低赔 3球 3.50。"
+      "rationale": "巴西首轮被摩洛哥1比1逼平，控场在但终结效率一般；海地首战0比1负于苏格兰，比赛强度与阵地防守稳定性都偏弱。中国竞彩网本场未返回SPF，但让球(-2)主队1.73、半全场胜胜1.26已给出极强倾向，结合巴西必须抢分修正小组形势，更看好其打出强势反弹。",
+      "sourceSummary": "中国竞彩网官方足球计算器 HHAD/HAFU/TTG（2026-06-19抓取，SPF未返回） + public/schedule.json 首轮赛果（来源含 FIFA 官方赛程）。",
+      "oddsSource": "中国竞彩网官方足球计算器：SPF待定；让球(-2) 1.73/4.10/3.25；半全场最低赔 胜胜 1.26；总进球最低赔 3球 4.00、4球 4.10。"
     },
     {
-      "matchId": "400021504",
-      "matchNumber": 24,
-      "updatedAt": "2026-06-17T04:10:25.650Z",
+      "matchId": "400021454",
+      "matchNumber": 30,
+      "updatedAt": "2026-06-19T04:02:09.000Z",
       "locked": false,
       "resultTip": "负",
-      "confidenceLevel": "稳胆级",
+      "confidenceLevel": "大概率",
       "probabilities": {
-        "homeWin": 9,
-        "draw": 18,
-        "awayWin": 73
+        "homeWin": 17,
+        "draw": 25,
+        "awayWin": 58
       },
       "score": "0:2",
       "totalGoals": "2球",
       "halfFull": "负负",
-      "rationale": "FIFA Group K焦点中哥伦比亚与葡萄牙被视为主要出线热门，乌兹别克斯坦首战更依赖纪律性和防守韧性；竞彩网SPF客胜1.22、半全场负负1.79已经把哥伦比亚优势写得很清楚，倾向客队零封拿下。",
-      "sourceSummary": "中国竞彩网官方足球计算器HAD/HAFU/TTG（2026-06-17抓取）+ FIFA Matchday 7 preview/Group K in focus。",
-      "oddsSource": "中国竞彩网官方足球计算器：SPF 9.65/4.85/1.22；半全场最低赔 负负 1.79；总进球最低赔 2球 3.25。"
+      "rationale": "苏格兰首轮1比0拿下海地，节奏控制尚可但进攻爆点有限；摩洛哥首战1比1逼平巴西，反击效率和对抗质量都更有说服力。竞彩网SPF 5.35/3.42/1.54与半全场负负2.50都明显偏向摩洛哥，结合两队首轮含金量差异，本场更倾向客队在拉锯战中兑现优势。",
+      "sourceSummary": "中国竞彩网官方足球计算器 HAD/HHAD/HAFU/TTG（2026-06-19抓取） + public/schedule.json 首轮赛果（来源含 FIFA 官方赛程）。",
+      "oddsSource": "中国竞彩网官方足球计算器：SPF 5.35/3.42/1.54；让球(+1) 2.14/3.18/2.88；半全场最低赔 负负 2.50；总进球最低赔 2球 3.10。"
     },
     {
-      "matchId": "400021440",
-      "matchNumber": 25,
-      "updatedAt": "2026-06-17T04:10:25.650Z",
-      "locked": false,
-      "resultTip": "胜",
-      "confidenceLevel": "中等概率",
-      "probabilities": {
-        "homeWin": 51,
-        "draw": 28,
-        "awayWin": 21
-      },
-      "score": "1:0",
-      "totalGoals": "1球",
-      "halfFull": "平胜",
-      "rationale": "捷克首轮1比2不敌韩国但进攻端并非全无回应，南非首战0比2负墨西哥且后场承压更多；竞彩网SPF 1.74/3.20/4.15只给出中度主倾向，预计仍是节奏谨慎的关键分争夺，但更看好捷克止跌。",
-      "sourceSummary": "FIFA官方赛程首轮结果 + 中国竞彩网官方足球计算器HAD/HAFU/TTG（2026-06-17抓取）+ FIFA Group A in focus。",
-      "oddsSource": "中国竞彩网官方足球计算器：SPF 1.74/3.20/4.15；半全场最低赔 胜胜 2.70；总进球最低赔 2球 3.10。"
-    },
-    {
-      "matchId": "400021446",
-      "matchNumber": 26,
-      "updatedAt": "2026-06-17T04:10:25.650Z",
-      "locked": false,
-      "resultTip": "胜",
-      "confidenceLevel": "大概率",
-      "probabilities": {
-        "homeWin": 65,
-        "draw": 22,
-        "awayWin": 13
-      },
-      "score": "2:0",
-      "totalGoals": "2球",
-      "halfFull": "胜胜",
-      "rationale": "瑞士首轮1比1卡塔尔守住分数，波黑与加拿大同样1比1，双方都不算慢热；不过竞彩网SPF 1.35/4.10/6.90明显压低主胜，结合瑞士更成熟的结构与控场能力，倾向瑞士在第二轮打出更明确优势。",
-      "sourceSummary": "FIFA官方赛程首轮结果 + 中国竞彩网官方足球计算器HAD/HAFU/TTG（2026-06-17抓取）+ FIFA Group B in focus。",
-      "oddsSource": "中国竞彩网官方足球计算器：SPF 1.35/4.10/6.90；半全场最低赔 胜胜 1.90；总进球最低赔 2球 3.35。"
-    },
-    {
-      "matchId": "400021450",
-      "matchNumber": 27,
-      "updatedAt": "2026-06-17T04:10:25.650Z",
-      "locked": false,
-      "resultTip": "胜",
-      "confidenceLevel": "稳胆级",
-      "probabilities": {
-        "homeWin": 71,
-        "draw": 19,
-        "awayWin": 10
-      },
-      "score": "2:0",
-      "totalGoals": "2球",
-      "halfFull": "胜胜",
-      "rationale": "加拿大首轮1比1波黑，卡塔尔首轮1比1瑞士，双方都拿到起步分；但竞彩网SPF 1.24/4.70/9.10已接近强势胆，加拿大连续在主场环境作战、整体冲击力也更被高看，倾向其在第二轮全取三分。",
-      "sourceSummary": "FIFA官方赛程首轮结果 + 中国竞彩网官方足球计算器HAD/HAFU/TTG（2026-06-17抓取）+ FIFA Group B in focus。",
-      "oddsSource": "中国竞彩网官方足球计算器：SPF 1.24/4.70/9.10；半全场最低赔 胜胜 1.70；总进球最低赔 3球 3.45。"
-    },
-    {
-      "matchId": "400021442",
-      "matchNumber": 28,
-      "updatedAt": "2026-06-17T04:10:25.650Z",
+      "matchId": "400021460",
+      "matchNumber": 31,
+      "updatedAt": "2026-06-19T04:02:09.000Z",
       "locked": false,
       "resultTip": "胜",
       "confidenceLevel": "中等概率",
       "probabilities": {
         "homeWin": 47,
-        "draw": 30,
-        "awayWin": 23
+        "draw": 28,
+        "awayWin": 25
       },
-      "score": "1:0",
-      "totalGoals": "1球",
+      "score": "2:1",
+      "totalGoals": "3球",
       "halfFull": "平胜",
-      "rationale": "墨西哥首战2比0南非，韩国首战2比1击败捷克，双方都以三分开局；竞彩网SPF 1.86/3.00/3.87只是轻压主队，说明这场仍有拉锯空间，但墨西哥整体转换稳定性和主场氛围优势略好，倾向低比分主胜。",
-      "sourceSummary": "FIFA官方赛程首轮结果 + 中国竞彩网官方足球计算器HAD/HAFU/TTG（2026-06-17抓取）+ FIFA Group A in focus。",
-      "oddsSource": "中国竞彩网官方足球计算器：SPF 1.86/3.00/3.87；半全场最低赔 胜胜 3.05；总进球最低赔 2球 3.00。"
+      "rationale": "土耳其首轮0比2不敌澳大利亚，后场被转换打出多次身后空间；巴拉圭则1比4惨败美国，失球数更高、防线稳定性问题更直接。竞彩网SPF 1.88/3.15/3.57只给出中度主倾向，说明这仍是容错不高的抢分战，但结合主队让球(-1)结构与巴拉圭首战失压表现，更看好土耳其小比分反弹。",
+      "sourceSummary": "中国竞彩网官方足球计算器 HAD/HHAD/HAFU/TTG（2026-06-19抓取） + public/schedule.json 首轮赛果（来源含 FIFA 官方赛程）。",
+      "oddsSource": "中国竞彩网官方足球计算器：SPF 1.88/3.15/3.57；让球(-1) 4.00/3.35/1.72；半全场最低赔 胜胜 2.95；总进球最低赔 2球 3.20。"
     },
     {
-      "matchId": "400021457",
-      "matchNumber": 29,
-      "updatedAt": "2026-06-17T04:10:25.650Z",
+      "matchId": "400021462",
+      "matchNumber": 32,
+      "updatedAt": "2026-06-19T04:02:09.000Z",
+      "locked": false,
+      "resultTip": "胜",
+      "confidenceLevel": "大概率",
+      "probabilities": {
+        "homeWin": 61,
+        "draw": 23,
+        "awayWin": 16
+      },
+      "score": "2:1",
+      "totalGoals": "3球",
+      "halfFull": "胜胜",
+      "rationale": "美国首轮4比1击穿巴拉圭，前场推进和终结效率都在高位；澳大利亚2比0击败土耳其，同样展现出防守纪律和反击执行力。竞彩网SPF 1.45/3.83/5.60仍明显压低主胜，结合美国首战火力与主场环境优势，看好其在节奏更快的对攻局中继续占先。",
+      "sourceSummary": "中国竞彩网官方足球计算器 HAD/HHAD/HAFU/TTG（2026-06-19抓取） + public/schedule.json 首轮赛果（来源含 FIFA 官方赛程）。",
+      "oddsSource": "中国竞彩网官方足球计算器：SPF 1.45/3.83/5.60；让球(-1) 2.51/3.25/2.36；半全场最低赔 胜胜 2.15；总进球最低赔 2球 3.40、3球 3.50。"
+    },
+    {
+      "matchId": "400021469",
+      "matchNumber": 33,
+      "updatedAt": "2026-06-19T04:02:09.000Z",
+      "locked": false,
+      "resultTip": "胜",
+      "confidenceLevel": "稳胆级",
+      "probabilities": {
+        "homeWin": 63,
+        "draw": 22,
+        "awayWin": 15
+      },
+      "score": "3:1",
+      "totalGoals": "4球",
+      "halfFull": "胜胜",
+      "rationale": "德国首轮7比1横扫库拉索，进攻层次和定位球效率都已经打开；科特迪瓦首战1比0拿下厄瓜多尔，防守韧性不错但比赛主动权并不长期在手。竞彩网SPF 1.40/4.15/5.75与半全场胜胜2.00持续支持德国，考虑到科特迪瓦反击也有速度，本场更像是德国主导下的中高比分主胜。",
+      "sourceSummary": "中国竞彩网官方足球计算器 HAD/HHAD/HAFU/TTG（2026-06-19抓取） + public/schedule.json 首轮赛果（来源含 FIFA 官方赛程）。",
+      "oddsSource": "中国竞彩网官方足球计算器：SPF 1.40/4.15/5.75；让球(-1) 2.27/3.55/2.46；半全场最低赔 胜胜 2.00；总进球最低赔 3球 3.40、2球 3.70。"
+    },
+    {
+      "matchId": "400021465",
+      "matchNumber": 34,
+      "updatedAt": "2026-06-19T04:02:09.000Z",
+      "locked": false,
+      "resultTip": "胜",
+      "confidenceLevel": "大概率",
+      "probabilities": {
+        "homeWin": 74,
+        "draw": 16,
+        "awayWin": 10
+      },
+      "score": "3:0",
+      "totalGoals": "3球",
+      "halfFull": "胜胜",
+      "rationale": "厄瓜多尔首轮0比1惜败科特迪瓦，过程里并非完全被压制；库拉索则被德国7比1全面打穿，攻守对抗强度都明显落后。竞彩网本场未返回SPF，但让球(-2)主队1.95、半全场胜胜1.31已经给出主队深让信号，结合两队首轮表现差距，更看好厄瓜多尔完成低风险反弹。",
+      "sourceSummary": "中国竞彩网官方足球计算器 HHAD/HAFU/TTG（2026-06-19抓取，SPF未返回） + public/schedule.json 首轮赛果（来源含 FIFA 官方赛程）。",
+      "oddsSource": "中国竞彩网官方足球计算器：SPF待定；让球(-2) 1.95/3.95/2.75；半全场最低赔 胜胜 1.31；总进球最低赔 3球 3.50、2球 4.30。"
+    },
+    {
+      "matchId": "400021472",
+      "matchNumber": 35,
+      "updatedAt": "2026-06-19T04:02:09.000Z",
+      "locked": false,
+      "resultTip": "胜",
+      "confidenceLevel": "大概率",
+      "probabilities": {
+        "homeWin": 55,
+        "draw": 25,
+        "awayWin": 20
+      },
+      "score": "2:1",
+      "totalGoals": "3球",
+      "halfFull": "平胜",
+      "rationale": "荷兰首轮2比2战平日本，进攻创造力在线但防线转换保护不够稳；瑞典则5比1大胜突尼斯，锋线状态明显更热。竞彩网SPF 1.59/3.58/4.52依然把荷兰放在主导位置，说明市场更看重其整体阵容深度与控场能力，这场更像是强强对攻下的荷兰险胜。",
+      "sourceSummary": "中国竞彩网官方足球计算器 HAD/HHAD/HAFU/TTG（2026-06-19抓取） + public/schedule.json 首轮赛果（来源含 FIFA 官方赛程）。",
+      "oddsSource": "中国竞彩网官方足球计算器：SPF 1.59/3.58/4.52；让球(-1) 2.86/3.45/2.04；半全场最低赔 胜胜 2.45；总进球最低赔 3球 3.40、2球 3.45。"
+    },
+    {
+      "matchId": "400021475",
+      "matchNumber": 36,
+      "updatedAt": "2026-06-19T04:02:09.000Z",
+      "locked": false,
+      "resultTip": "负",
+      "confidenceLevel": "大概率",
+      "probabilities": {
+        "homeWin": 15,
+        "draw": 23,
+        "awayWin": 62
+      },
+      "score": "0:2",
+      "totalGoals": "2球",
+      "halfFull": "负负",
+      "rationale": "突尼斯首轮1比5惨败瑞典，防线在高压下连续失位；日本则2比2逼平荷兰，整体推进和反击质量都更有说服力。竞彩网SPF 6.00/3.80/1.43与半全场负负2.06已把客队优势拉开，结合两队首轮内容，本场更倾向日本掌控节奏后完成两连不败。",
+      "sourceSummary": "中国竞彩网官方足球计算器 HAD/HHAD/HAFU/TTG（2026-06-19抓取） + public/schedule.json 首轮赛果（来源含 FIFA 官方赛程）。",
+      "oddsSource": "中国竞彩网官方足球计算器：SPF 6.00/3.80/1.43；让球(+1) 2.38/3.25/2.49；半全场最低赔 负负 2.06；总进球最低赔 2球 3.30、3球 3.60。"
+    },
+    {
+      "matchId": "400021487",
+      "matchNumber": 37,
+      "updatedAt": "2026-06-19T04:02:09.000Z",
+      "locked": false,
+      "resultTip": "胜",
+      "confidenceLevel": "稳胆级",
+      "probabilities": {
+        "homeWin": 68,
+        "draw": 22,
+        "awayWin": 10
+      },
+      "score": "2:0",
+      "totalGoals": "2球",
+      "halfFull": "胜胜",
+      "rationale": "乌拉圭首轮1比1战平沙特，比赛内容略显保守但中后场控制仍在；佛得角首战0比0逼平西班牙，说明其低位防守韧性不差，不过持续进攻威胁有限。竞彩网SPF 1.31/4.00/8.60和半全场胜胜1.90持续支持乌拉圭，本场更看好其在更主动的压制下完成零封取胜。",
+      "sourceSummary": "中国竞彩网官方足球计算器 HAD/HHAD/HAFU/TTG（2026-06-19抓取） + public/schedule.json 首轮赛果（来源含 FIFA 官方赛程）。",
+      "oddsSource": "中国竞彩网官方足球计算器：SPF 1.31/4.00/8.60；让球(-1) 2.16/3.23/2.80；半全场最低赔 胜胜 1.90；总进球最低赔 2球 3.10、3球 3.75。"
+    },
+    {
+      "matchId": "400021483",
+      "matchNumber": 38,
+      "updatedAt": "2026-06-19T04:02:09.000Z",
       "locked": false,
       "resultTip": "胜",
       "confidenceLevel": "稳胆级",
@@ -210,66 +229,47 @@
       "score": "3:0",
       "totalGoals": "3球",
       "halfFull": "胜胜",
-      "rationale": "巴西首轮被摩洛哥1比1逼平，海地则0比1不敌苏格兰；本次竞彩网抓取未返回SPF，但半全场胜胜1.29和总进球3球/4球处于最低区间，官方玩法仍明显倾向巴西强势反弹，预计主队将主动提速修正首战。",
-      "sourceSummary": "FIFA官方赛程首轮结果 + 中国竞彩网官方足球计算器HAFU/TTG（2026-06-17抓取，未返回SPF）+ FIFA Group C in focus。",
-      "oddsSource": "中国竞彩网官方足球计算器：未返回SPF；半全场最低赔 胜胜 1.29；总进球低赔集中在 3球 3.70、4球 4.20。"
+      "rationale": "西班牙首轮被佛得角0比0逼平，控球优势没能转化成终结效率；沙特首战1比1逼平乌拉圭，防守纪律和转换速度都不差。竞彩网本场未返回SPF，但让球(-2)主队1.83、半全场胜胜1.26都维持深让结构，结合西班牙必须抢分的处境，本场仍看好其通过持续压迫打出反弹。",
+      "sourceSummary": "中国竞彩网官方足球计算器 HHAD/HAFU/TTG（2026-06-19抓取，SPF未返回） + public/schedule.json 首轮赛果（来源含 FIFA 官方赛程）。",
+      "oddsSource": "中国竞彩网官方足球计算器：SPF待定；让球(-2) 1.83/4.00/3.00；半全场最低赔 胜胜 1.26；总进球最低赔 3球 3.60、4球 4.20。"
     },
     {
-      "matchId": "400021454",
-      "matchNumber": 30,
-      "updatedAt": "2026-06-17T04:10:25.650Z",
-      "locked": false,
-      "resultTip": "负",
-      "confidenceLevel": "大概率",
-      "probabilities": {
-        "homeWin": 18,
-        "draw": 27,
-        "awayWin": 55
-      },
-      "score": "0:2",
-      "totalGoals": "2球",
-      "halfFull": "负负",
-      "rationale": "苏格兰首轮1比0海地拿到务实三分，但摩洛哥首轮1比1逼平巴西的含金量明显更高；竞彩网SPF客胜1.62压到最低，说明官方固定奖金同样更看好摩洛哥，倾向其凭更强对抗和反击效率带走比赛。",
-      "sourceSummary": "FIFA官方赛程首轮结果 + 中国竞彩网官方足球计算器HAD/HAFU/TTG（2026-06-17抓取）+ FIFA Group C in focus。",
-      "oddsSource": "中国竞彩网官方足球计算器：SPF 4.90/3.25/1.62；半全场最低赔 负负 2.50；总进球最低赔 2球 3.05。"
-    },
-    {
-      "matchId": "400021460",
-      "matchNumber": 31,
-      "updatedAt": "2026-06-17T04:10:25.650Z",
+      "matchId": "400021477",
+      "matchNumber": 39,
+      "updatedAt": "2026-06-19T04:02:09.000Z",
       "locked": false,
       "resultTip": "胜",
-      "confidenceLevel": "中等概率",
+      "confidenceLevel": "稳胆级",
       "probabilities": {
-        "homeWin": 45,
-        "draw": 29,
-        "awayWin": 26
-      },
-      "score": "1:0",
-      "totalGoals": "1球",
-      "halfFull": "平胜",
-      "rationale": "土耳其首轮0比2负于澳大利亚，巴拉圭则1比4被美国打穿，两队都带着防线修补压力进入第二轮；竞彩网SPF 1.96/3.05/3.43只是轻度主倾向，预计会先以谨慎试探为主，但更看好土耳其守住关键三分。",
-      "sourceSummary": "FIFA官方赛程首轮结果 + 中国竞彩网官方足球计算器HAD/HAFU/TTG（2026-06-17抓取）+ FIFA Group D in focus。",
-      "oddsSource": "中国竞彩网官方足球计算器：SPF 1.96/3.05/3.43；半全场最低赔 胜胜 3.20；总进球最低赔 2球 3.00。"
-    },
-    {
-      "matchId": "400021462",
-      "matchNumber": 32,
-      "updatedAt": "2026-06-17T04:10:25.650Z",
-      "locked": false,
-      "resultTip": "胜",
-      "confidenceLevel": "大概率",
-      "probabilities": {
-        "homeWin": 60,
-        "draw": 24,
-        "awayWin": 16
+        "homeWin": 67,
+        "draw": 21,
+        "awayWin": 12
       },
       "score": "2:1",
       "totalGoals": "3球",
       "halfFull": "胜胜",
-      "rationale": "美国首轮4比1巴拉圭，进攻效率是目前D组最亮眼的一档；澳大利亚首战2比0击败土耳其，同样具备反击速度。竞彩网SPF 1.47/3.70/5.60仍明确偏向美国，预计主队火力足以压过澳洲的转换威胁。",
-      "sourceSummary": "FIFA官方赛程首轮结果 + 中国竞彩网官方足球计算器HAD/HAFU/TTG（2026-06-17抓取）+ FIFA Group D in focus。",
-      "oddsSource": "中国竞彩网官方足球计算器：SPF 1.47/3.70/5.60；半全场最低赔 胜胜 2.15；总进球最低赔 2球 3.10。"
+      "rationale": "比利时首轮1比1战平埃及，场面占优但把握机会能力一般；伊朗首战2比2战平新西兰，进攻端有回应但防线同样给出空间。竞彩网SPF 1.33/4.26/7.00和半全场胜胜1.83继续明显倾向比利时，考虑伊朗仍有反击产出，本场更像是比利时可控但未必轻松的主胜。",
+      "sourceSummary": "中国竞彩网官方足球计算器 HAD/HHAD/HAFU/TTG（2026-06-19抓取） + public/schedule.json 首轮赛果（来源含 FIFA 官方赛程）。",
+      "oddsSource": "中国竞彩网官方足球计算器：SPF 1.33/4.26/7.00；让球(-1) 2.06/3.50/2.79；半全场最低赔 胜胜 1.83；总进球最低赔 3球 3.40、2球 3.65。"
+    },
+    {
+      "matchId": "400021480",
+      "matchNumber": 40,
+      "updatedAt": "2026-06-19T04:02:09.000Z",
+      "locked": false,
+      "resultTip": "负",
+      "confidenceLevel": "大概率",
+      "probabilities": {
+        "homeWin": 16,
+        "draw": 24,
+        "awayWin": 60
+      },
+      "score": "0:2",
+      "totalGoals": "2球",
+      "halfFull": "负负",
+      "rationale": "新西兰首轮2比2战平伊朗，反击效率不错但对强度更高的压迫处理仍有风险；埃及首战1比1战平比利时，整体防守层次和比赛控制感更成熟。竞彩网SPF 5.70/3.72/1.46与半全场负负2.05持续压低客胜，结合两队首轮内容，本场更倾向埃及在中后场站稳后拿下关键三分。",
+      "sourceSummary": "中国竞彩网官方足球计算器 HAD/HHAD/HAFU/TTG（2026-06-19抓取） + public/schedule.json 首轮赛果（来源含 FIFA 官方赛程）。",
+      "oddsSource": "中国竞彩网官方足球计算器：SPF 5.70/3.72/1.46；让球(+1) 2.30/3.40/2.50；半全场最低赔 负负 2.05；总进球最低赔 2球 3.20、3球 3.60。"
     }
   ]
 }
