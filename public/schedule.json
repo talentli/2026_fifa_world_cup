@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T22:23:47.396Z",
+  "generatedAt": "2026-06-19T00:10:49.502Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "sources": [
@@ -1229,8 +1229,8 @@
       "stageZh": "小组赛",
       "group": "Group B",
       "groupZh": "B 组",
-      "status": 3,
-      "matchClock": "22'",
+      "status": 0,
+      "matchClock": "100'",
       "statusText": "",
       "home": {
         "code": "CAN",
@@ -1238,7 +1238,7 @@
         "nameZh": "加拿大",
         "flag": "",
         "flagEmoji": "🇨🇦",
-        "score": 1,
+        "score": 6,
         "penaltyScore": null
       },
       "away": {
@@ -1251,7 +1251,7 @@
         "penaltyScore": null
       },
       "score": {
-        "home": 1,
+        "home": 6,
         "away": 0,
         "homePenalty": null,
         "awayPenalty": null
@@ -1275,7 +1275,7 @@
       "group": "Group A",
       "groupZh": "A 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "MEX",
