@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T21:38:34.523Z",
+  "generatedAt": "2026-06-19T22:39:37.113Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "sources": [
@@ -1364,8 +1364,8 @@
       "stageZh": "小组赛",
       "group": "Group C",
       "groupZh": "C 组",
-      "status": 1,
-      "matchClock": "0'",
+      "status": 3,
+      "matchClock": "39'",
       "statusText": "",
       "home": {
         "code": "SCO",
@@ -1373,7 +1373,7 @@
         "nameZh": "苏格兰",
         "flag": "",
         "flagEmoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-        "score": null,
+        "score": 0,
         "penaltyScore": null
       },
       "away": {
@@ -1382,12 +1382,12 @@
         "nameZh": "摩洛哥",
         "flag": "",
         "flagEmoji": "🇲🇦",
-        "score": null,
+        "score": 1,
         "penaltyScore": null
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": 0,
+        "away": 1,
         "homePenalty": null,
         "awayPenalty": null
       },
