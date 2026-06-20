@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T14:40:43.587Z",
+  "generatedAt": "2026-06-20T16:08:27.963Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "sources": [
@@ -1500,7 +1500,7 @@
       "group": "Group F",
       "groupZh": "F 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "NED",
