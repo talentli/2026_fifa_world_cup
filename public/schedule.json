@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T19:25:31.828Z",
+  "generatedAt": "2026-06-20T20:51:13.177Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "sources": [
@@ -1544,8 +1544,8 @@
       "stageZh": "小组赛",
       "group": "Group E",
       "groupZh": "E 组",
-      "status": 1,
-      "matchClock": "0'",
+      "status": 3,
+      "matchClock": "45'+6'",
       "statusText": "",
       "home": {
         "code": "GER",
@@ -1553,7 +1553,7 @@
         "nameZh": "德国",
         "flag": "",
         "flagEmoji": "🇩🇪",
-        "score": null,
+        "score": 0,
         "penaltyScore": null
       },
       "away": {
@@ -1562,12 +1562,12 @@
         "nameZh": "科特迪瓦",
         "flag": "",
         "flagEmoji": "🇨🇮",
-        "score": null,
+        "score": 1,
         "penaltyScore": null
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": 0,
+        "away": 1,
         "homePenalty": null,
         "awayPenalty": null
       },
