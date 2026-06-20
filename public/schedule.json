@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T03:54:59.851Z",
+  "generatedAt": "2026-06-20T07:54:54.197Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "sources": [
@@ -1454,8 +1454,8 @@
       "stageZh": "小组赛",
       "group": "Group D",
       "groupZh": "D 组",
-      "status": 3,
-      "matchClock": "45'+10'",
+      "status": 0,
+      "matchClock": "99'",
       "statusText": "",
       "home": {
         "code": "TUR",
@@ -1500,7 +1500,7 @@
       "group": "Group F",
       "groupZh": "F 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "NED",
@@ -1545,7 +1545,7 @@
       "group": "Group E",
       "groupZh": "E 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "GER",
@@ -1590,7 +1590,7 @@
       "group": "Group E",
       "groupZh": "E 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "ECU",
@@ -1635,7 +1635,7 @@
       "group": "Group F",
       "groupZh": "F 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "TUN",
@@ -1680,7 +1680,7 @@
       "group": "Group H",
       "groupZh": "H 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "ESP",
@@ -1725,7 +1725,7 @@
       "group": "Group G",
       "groupZh": "G 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "BEL",
@@ -1770,7 +1770,7 @@
       "group": "Group H",
       "groupZh": "H 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "URU",
@@ -1815,7 +1815,7 @@
       "group": "Group G",
       "groupZh": "G 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "NZL",
@@ -1860,7 +1860,7 @@
       "group": "Group J",
       "groupZh": "J 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "ARG",
@@ -1905,7 +1905,7 @@
       "group": "Group I",
       "groupZh": "I 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "FRA",
@@ -1950,7 +1950,7 @@
       "group": "Group I",
       "groupZh": "I 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "NOR",
@@ -1995,7 +1995,7 @@
       "group": "Group J",
       "groupZh": "J 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "JOR",
@@ -2040,7 +2040,7 @@
       "group": "Group K",
       "groupZh": "K 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "POR",
@@ -2085,7 +2085,7 @@
       "group": "Group L",
       "groupZh": "L 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "ENG",
@@ -2130,7 +2130,7 @@
       "group": "Group L",
       "groupZh": "L 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "PAN",
@@ -2175,7 +2175,7 @@
       "group": "Group K",
       "groupZh": "K 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "COL",
@@ -2220,7 +2220,7 @@
       "group": "Group B",
       "groupZh": "B 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "BIH",
@@ -2265,7 +2265,7 @@
       "group": "Group B",
       "groupZh": "B 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "SUI",
@@ -2310,7 +2310,7 @@
       "group": "Group C",
       "groupZh": "C 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "MAR",
@@ -2355,7 +2355,7 @@
       "group": "Group C",
       "groupZh": "C 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "SCO",
@@ -2400,7 +2400,7 @@
       "group": "Group A",
       "groupZh": "A 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "RSA",
@@ -2445,7 +2445,7 @@
       "group": "Group A",
       "groupZh": "A 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "CZE",
@@ -2490,7 +2490,7 @@
       "group": "Group E",
       "groupZh": "E 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "CUW",
@@ -2535,7 +2535,7 @@
       "group": "Group E",
       "groupZh": "E 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "ECU",
@@ -2580,7 +2580,7 @@
       "group": "Group F",
       "groupZh": "F 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "TUN",
@@ -2625,7 +2625,7 @@
       "group": "Group F",
       "groupZh": "F 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "JPN",
@@ -2670,7 +2670,7 @@
       "group": "Group D",
       "groupZh": "D 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "PAR",
@@ -2715,7 +2715,7 @@
       "group": "Group D",
       "groupZh": "D 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "TUR",
@@ -2760,7 +2760,7 @@
       "group": "Group I",
       "groupZh": "I 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "SEN",
@@ -2805,7 +2805,7 @@
       "group": "Group I",
       "groupZh": "I 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "NOR",
@@ -2850,7 +2850,7 @@
       "group": "Group H",
       "groupZh": "H 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "URU",
@@ -2895,7 +2895,7 @@
       "group": "Group H",
       "groupZh": "H 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "CPV",
@@ -2940,7 +2940,7 @@
       "group": "Group G",
       "groupZh": "G 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "NZL",
@@ -2985,7 +2985,7 @@
       "group": "Group G",
       "groupZh": "G 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "EGY",
@@ -3030,7 +3030,7 @@
       "group": "Group L",
       "groupZh": "L 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "PAN",
@@ -3075,7 +3075,7 @@
       "group": "Group L",
       "groupZh": "L 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "CRO",
@@ -3120,7 +3120,7 @@
       "group": "Group K",
       "groupZh": "K 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "COD",
@@ -3165,7 +3165,7 @@
       "group": "Group K",
       "groupZh": "K 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "COL",
@@ -3210,7 +3210,7 @@
       "group": "Group J",
       "groupZh": "J 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "ALG",
@@ -3255,7 +3255,7 @@
       "group": "Group J",
       "groupZh": "J 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "JOR",
@@ -3708,11 +3708,11 @@
       "matchClock": "",
       "statusText": "",
       "home": {
-        "code": "TBD",
-        "name": "TBD",
-        "nameZh": "待定",
+        "code": "USA",
+        "name": "USA",
+        "nameZh": "美国",
         "flag": "",
-        "flagEmoji": "◇",
+        "flagEmoji": "🇺🇸",
         "score": null,
         "penaltyScore": null
       },
