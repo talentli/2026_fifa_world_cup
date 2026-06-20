@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T04:02:09.000Z",
+  "generatedAt": "2026-06-20T04:24:48.327Z",
   "timezone": "Asia/Shanghai",
   "sourceSkill": "lottery-analyzer",
   "status": "partial",
@@ -270,6 +270,158 @@
       "rationale": "新西兰首轮2比2战平伊朗，反击效率不错但对强度更高的压迫处理仍有风险；埃及首战1比1战平比利时，整体防守层次和比赛控制感更成熟。竞彩网SPF 5.70/3.72/1.46与半全场负负2.05持续压低客胜，结合两队首轮内容，本场更倾向埃及在中后场站稳后拿下关键三分。",
       "sourceSummary": "中国竞彩网官方足球计算器 HAD/HHAD/HAFU/TTG（2026-06-19抓取） + public/schedule.json 首轮赛果（来源含 FIFA 官方赛程）。",
       "oddsSource": "中国竞彩网官方足球计算器：SPF 5.70/3.72/1.46；让球(+1) 2.30/3.40/2.50；半全场最低赔 负负 2.05；总进球最低赔 2球 3.20、3球 3.60。"
+    },
+    {
+      "matchId": "400021491",
+      "matchNumber": 41,
+      "updatedAt": "2026-06-20T04:24:48.327Z",
+      "locked": false,
+      "resultTip": "胜",
+      "confidenceLevel": "中等概率",
+      "probabilities": {
+        "homeWin": 45,
+        "draw": 29,
+        "awayWin": 26
+      },
+      "score": "2:1",
+      "totalGoals": "3球",
+      "halfFull": "平胜",
+      "rationale": "挪威首轮4比1击败伊拉克，进攻效率与转换速度先打出来；塞内加尔首战1比3负于法国，身体对抗仍在，但后场连续防守质量一般。FIFA赛前预告把这场定义为颇具看点的直接对话，结合挪威首战内容更完整，本场略倾向主队延续火热开局。",
+      "sourceSummary": "FIFA Norway-Senegal match preview + public/schedule.json 首轮赛果（挪威4比1伊拉克、塞内加尔1比3法国）。",
+      "oddsSource": "中国竞彩网官方足球计算器/接口本次校验受腾讯云WAF拦截，未能核验本场SPF/HAFU/TTG，赔率待定；赛前判断仅参考FIFA官方预告与 public/schedule.json 已赛结果。"
+    },
+    {
+      "matchId": "400021492",
+      "matchNumber": 42,
+      "updatedAt": "2026-06-20T04:24:48.327Z",
+      "locked": false,
+      "resultTip": "胜",
+      "confidenceLevel": "稳胆级",
+      "probabilities": {
+        "homeWin": 82,
+        "draw": 12,
+        "awayWin": 6
+      },
+      "score": "3:0",
+      "totalGoals": "3球",
+      "halfFull": "胜胜",
+      "rationale": "法国首轮3比1拿下塞内加尔，进攻层次和强强对抗稳定性都已在线；伊拉克首战1比4负于挪威，防线在持续压迫下暴露出大量空间。FIFA赛前预告强调这将是法国在费城的关键抢分战，结合两队首轮内容差距，本场仍应明显倾向法国。",
+      "sourceSummary": "FIFA France-Iraq match preview + public/schedule.json 首轮赛果（法国3比1塞内加尔、伊拉克1比4挪威）。",
+      "oddsSource": "中国竞彩网官方足球计算器/接口本次校验受腾讯云WAF拦截，未能核验本场SPF/HAFU/TTG，赔率待定；赛前判断仅参考FIFA官方预告与 public/schedule.json 已赛结果。"
+    },
+    {
+      "matchId": "400021494",
+      "matchNumber": 43,
+      "updatedAt": "2026-06-20T04:24:48.327Z",
+      "locked": false,
+      "resultTip": "胜",
+      "confidenceLevel": "大概率",
+      "probabilities": {
+        "homeWin": 54,
+        "draw": 27,
+        "awayWin": 19
+      },
+      "score": "2:1",
+      "totalGoals": "3球",
+      "halfFull": "平胜",
+      "rationale": "阿根廷首轮3比0完胜阿尔及利亚，比赛控制力和终结效率都比预期更稳；奥地利3比1击败约旦，同样展现了高压体系的执行力。FIFA把这场描述为阿根廷与朗尼克麾下奥地利之间的焦点对话，综合首轮表现，仍稍看好阿根廷在更高质量对抗中兑现硬实力。",
+      "sourceSummary": "FIFA Argentina-Austria match preview + public/schedule.json 首轮赛果（阿根廷3比0阿尔及利亚、奥地利3比1约旦）。",
+      "oddsSource": "中国竞彩网官方足球计算器/接口本次校验受腾讯云WAF拦截，未能核验本场SPF/HAFU/TTG，赔率待定；赛前判断仅参考FIFA官方预告与 public/schedule.json 已赛结果。"
+    },
+    {
+      "matchId": "400021499",
+      "matchNumber": 44,
+      "updatedAt": "2026-06-20T04:24:48.327Z",
+      "locked": false,
+      "resultTip": "平",
+      "confidenceLevel": "中等概率",
+      "probabilities": {
+        "homeWin": 33,
+        "draw": 36,
+        "awayWin": 31
+      },
+      "score": "1:1",
+      "totalGoals": "2球",
+      "halfFull": "平平",
+      "rationale": "约旦首轮1比3负于奥地利但仍制造了反击输出，阿尔及利亚则在0比3输给阿根廷的比赛里长时间被压制。FIFA将本场定义为关乎出线前景的阿拉伯内战，两队都背负抢分压力，结合首轮内容与比赛性质，更像是谨慎开局下的拉锯平局。",
+      "sourceSummary": "FIFA Jordan-Algeria match preview + public/schedule.json 首轮赛果（约旦1比3奥地利、阿尔及利亚0比3阿根廷）。",
+      "oddsSource": "中国竞彩网官方足球计算器/接口本次校验受腾讯云WAF拦截，未能核验本场SPF/HAFU/TTG，赔率待定；赛前判断仅参考FIFA官方预告与 public/schedule.json 已赛结果。"
+    },
+    {
+      "matchId": "400021506",
+      "matchNumber": 45,
+      "updatedAt": "2026-06-20T04:24:48.327Z",
+      "locked": false,
+      "resultTip": "胜",
+      "confidenceLevel": "大概率",
+      "probabilities": {
+        "homeWin": 67,
+        "draw": 21,
+        "awayWin": 12
+      },
+      "score": "2:1",
+      "totalGoals": "3球",
+      "halfFull": "胜胜",
+      "rationale": "英格兰首轮4比2击败克罗地亚，FIFA赛后回顾明确点出其进攻端表现抢眼；加纳则1比0小胜巴拿马，拿到结果但比赛开放度有限。两队都带着三分而来，但若按首轮创造力与持续压迫质量比较，英格兰仍然更值得高看一线。",
+      "sourceSummary": "FIFA England-Ghana match preview + FIFA Matchday 7 review（England impressed） + public/schedule.json 首轮赛果。",
+      "oddsSource": "中国竞彩网官方足球计算器/接口本次校验受腾讯云WAF拦截，未能核验本场SPF/HAFU/TTG，赔率待定；赛前判断仅参考FIFA官方预告、FIFA赛后回顾与 public/schedule.json 已赛结果。"
+    },
+    {
+      "matchId": "400021511",
+      "matchNumber": 46,
+      "updatedAt": "2026-06-20T04:24:48.327Z",
+      "locked": false,
+      "resultTip": "负",
+      "confidenceLevel": "大概率",
+      "probabilities": {
+        "homeWin": 19,
+        "draw": 25,
+        "awayWin": 56
+      },
+      "score": "1:2",
+      "totalGoals": "3球",
+      "halfFull": "平负",
+      "rationale": "巴拿马首轮0比1负于加纳，防守韧性尚可，但进攻端持续威胁不足；克罗地亚虽以2比4输给英格兰，却至少证明了在高强度对攻里仍有终结能力。结合双方首轮内容和FIFA赛前对这组比赛强度的定位，本场更倾向克罗地亚在更需要积分时打出回应。",
+      "sourceSummary": "FIFA Panama-Croatia match preview + FIFA Matchday 7 review + public/schedule.json 首轮赛果（巴拿马0比1加纳、克罗地亚2比4英格兰）。",
+      "oddsSource": "中国竞彩网官方足球计算器/接口本次校验受腾讯云WAF拦截，未能核验本场SPF/HAFU/TTG，赔率待定；赛前判断仅参考FIFA官方预告、FIFA赛后回顾与 public/schedule.json 已赛结果。"
+    },
+    {
+      "matchId": "400021503",
+      "matchNumber": 47,
+      "updatedAt": "2026-06-20T04:24:48.327Z",
+      "locked": false,
+      "resultTip": "胜",
+      "confidenceLevel": "稳胆级",
+      "probabilities": {
+        "homeWin": 72,
+        "draw": 18,
+        "awayWin": 10
+      },
+      "score": "2:0",
+      "totalGoals": "2球",
+      "halfFull": "胜胜",
+      "rationale": "葡萄牙首轮1比1被民主刚果逼平，结果不理想，但FIFA在赛前和分组聚焦里仍把其视为K组头号实力点；乌兹别克斯坦首战1比3负于哥伦比亚，攻防节奏都被更高档球队压住。对比首轮内容与阵容上限，本场仍更看好葡萄牙完成修正。",
+      "sourceSummary": "FIFA Portugal-Uzbekistan match preview + FIFA Group K in focus + public/schedule.json 首轮赛果（葡萄牙1比1民主刚果、乌兹别克斯坦1比3哥伦比亚）。",
+      "oddsSource": "中国竞彩网官方足球计算器/接口本次校验受腾讯云WAF拦截，未能核验本场SPF/HAFU/TTG，赔率待定；赛前判断仅参考FIFA官方预告、分组前瞻与 public/schedule.json 已赛结果。"
+    },
+    {
+      "matchId": "400021501",
+      "matchNumber": 48,
+      "updatedAt": "2026-06-20T04:24:48.327Z",
+      "locked": false,
+      "resultTip": "胜",
+      "confidenceLevel": "大概率",
+      "probabilities": {
+        "homeWin": 58,
+        "draw": 25,
+        "awayWin": 17
+      },
+      "score": "2:1",
+      "totalGoals": "3球",
+      "halfFull": "平胜",
+      "rationale": "哥伦比亚首轮3比1拿下乌兹别克斯坦，进攻效率和比赛控制感都较完整；民主刚果则1比1逼平葡萄牙，身体对抗和反击冲击证明其并非软柿子。K组出线竞争会因此变得更紧，综合双方首轮质量，哥伦比亚仍是更有机会主导比赛的一方。",
+      "sourceSummary": "FIFA Colombia team profile/Group K in focus + public/schedule.json 首轮赛果（哥伦比亚3比1乌兹别克斯坦、民主刚果1比1葡萄牙）。",
+      "oddsSource": "中国竞彩网官方足球计算器/接口本次校验受腾讯云WAF拦截，未能核验本场SPF/HAFU/TTG，赔率待定；赛前判断仅参考FIFA官方资料与 public/schedule.json 已赛结果。"
     }
   ]
 }
