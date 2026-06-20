@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T23:53:16.170Z",
+  "generatedAt": "2026-06-20T03:54:59.851Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "sources": [
@@ -1364,8 +1364,8 @@
       "stageZh": "小组赛",
       "group": "Group C",
       "groupZh": "C 组",
-      "status": 3,
-      "matchClock": "90'+1'",
+      "status": 0,
+      "matchClock": "97'",
       "statusText": "",
       "home": {
         "code": "SCO",
@@ -1409,8 +1409,8 @@
       "stageZh": "小组赛",
       "group": "Group C",
       "groupZh": "C 组",
-      "status": 1,
-      "matchClock": "0'",
+      "status": 0,
+      "matchClock": "96'",
       "statusText": "",
       "home": {
         "code": "BRA",
@@ -1418,7 +1418,7 @@
         "nameZh": "巴西",
         "flag": "",
         "flagEmoji": "🇧🇷",
-        "score": null,
+        "score": 3,
         "penaltyScore": null
       },
       "away": {
@@ -1427,12 +1427,12 @@
         "nameZh": "海地",
         "flag": "",
         "flagEmoji": "🇭🇹",
-        "score": null,
+        "score": 0,
         "penaltyScore": null
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": 3,
+        "away": 0,
         "homePenalty": null,
         "awayPenalty": null
       },
@@ -1454,8 +1454,8 @@
       "stageZh": "小组赛",
       "group": "Group D",
       "groupZh": "D 组",
-      "status": 1,
-      "matchClock": "",
+      "status": 3,
+      "matchClock": "45'+10'",
       "statusText": "",
       "home": {
         "code": "TUR",
@@ -1463,7 +1463,7 @@
         "nameZh": "土耳其",
         "flag": "",
         "flagEmoji": "🇹🇷",
-        "score": null,
+        "score": 0,
         "penaltyScore": null
       },
       "away": {
@@ -1472,12 +1472,12 @@
         "nameZh": "巴拉圭",
         "flag": "",
         "flagEmoji": "🇵🇾",
-        "score": null,
+        "score": 1,
         "penaltyScore": null
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": 0,
+        "away": 1,
         "homePenalty": null,
         "awayPenalty": null
       },
