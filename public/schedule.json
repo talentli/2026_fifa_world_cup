@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T02:05:11.441Z",
+  "generatedAt": "2026-06-21T07:06:14.118Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "sources": [
@@ -1634,8 +1634,8 @@
       "stageZh": "小组赛",
       "group": "Group F",
       "groupZh": "F 组",
-      "status": 1,
-      "matchClock": "",
+      "status": 0,
+      "matchClock": "97'",
       "statusText": "",
       "home": {
         "code": "TUN",
@@ -1643,7 +1643,7 @@
         "nameZh": "突尼斯",
         "flag": "",
         "flagEmoji": "🇹🇳",
-        "score": null,
+        "score": 0,
         "penaltyScore": null
       },
       "away": {
@@ -1652,12 +1652,12 @@
         "nameZh": "日本",
         "flag": "",
         "flagEmoji": "🇯🇵",
-        "score": null,
+        "score": 4,
         "penaltyScore": null
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": 0,
+        "away": 4,
         "homePenalty": null,
         "awayPenalty": null
       },
