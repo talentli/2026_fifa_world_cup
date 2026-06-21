@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T23:35:58.746Z",
+  "generatedAt": "2026-06-21T02:05:11.441Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "sources": [
@@ -1589,8 +1589,8 @@
       "stageZh": "小组赛",
       "group": "Group E",
       "groupZh": "E 组",
-      "status": 1,
-      "matchClock": "0'",
+      "status": 0,
+      "matchClock": "96'",
       "statusText": "",
       "home": {
         "code": "ECU",
@@ -1598,7 +1598,7 @@
         "nameZh": "厄瓜多尔",
         "flag": "",
         "flagEmoji": "🇪🇨",
-        "score": null,
+        "score": 0,
         "penaltyScore": null
       },
       "away": {
@@ -1607,12 +1607,12 @@
         "nameZh": "库拉索",
         "flag": "",
         "flagEmoji": "🇨🇼",
-        "score": null,
+        "score": 0,
         "penaltyScore": null
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": 0,
+        "away": 0,
         "homePenalty": null,
         "awayPenalty": null
       },
@@ -3393,11 +3393,11 @@
       "matchClock": "",
       "statusText": "",
       "home": {
-        "code": "TBD",
-        "name": "TBD",
-        "nameZh": "待定",
+        "code": "GER",
+        "name": "Germany",
+        "nameZh": "德国",
         "flag": "",
-        "flagEmoji": "◇",
+        "flagEmoji": "🇩🇪",
         "score": null,
         "penaltyScore": null
       },
