@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T21:54:25.840Z",
+  "generatedAt": "2026-06-21T23:20:51.379Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "sources": [
@@ -1769,8 +1769,8 @@
       "stageZh": "小组赛",
       "group": "Group H",
       "groupZh": "H 组",
-      "status": 1,
-      "matchClock": "0'",
+      "status": 3,
+      "matchClock": "55'",
       "statusText": "",
       "home": {
         "code": "URU",
@@ -1778,7 +1778,7 @@
         "nameZh": "乌拉圭",
         "flag": "",
         "flagEmoji": "🇺🇾",
-        "score": null,
+        "score": 2,
         "penaltyScore": null
       },
       "away": {
@@ -1787,12 +1787,12 @@
         "nameZh": "佛得角",
         "flag": "",
         "flagEmoji": "🇨🇻",
-        "score": null,
+        "score": 1,
         "penaltyScore": null
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": 2,
+        "away": 1,
         "homePenalty": null,
         "awayPenalty": null
       },
