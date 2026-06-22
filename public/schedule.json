@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T23:20:51.379Z",
+  "generatedAt": "2026-06-22T02:02:01.233Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "sources": [
@@ -1769,8 +1769,8 @@
       "stageZh": "小组赛",
       "group": "Group H",
       "groupZh": "H 组",
-      "status": 3,
-      "matchClock": "55'",
+      "status": 0,
+      "matchClock": "99'",
       "statusText": "",
       "home": {
         "code": "URU",
@@ -1787,12 +1787,12 @@
         "nameZh": "佛得角",
         "flag": "",
         "flagEmoji": "🇨🇻",
-        "score": 1,
+        "score": 2,
         "penaltyScore": null
       },
       "score": {
         "home": 2,
-        "away": 1,
+        "away": 2,
         "homePenalty": null,
         "awayPenalty": null
       },
@@ -1814,7 +1814,7 @@
       "stageZh": "小组赛",
       "group": "Group G",
       "groupZh": "G 组",
-      "status": 1,
+      "status": 3,
       "matchClock": "",
       "statusText": "",
       "home": {
@@ -1823,7 +1823,7 @@
         "nameZh": "新西兰",
         "flag": "",
         "flagEmoji": "🇳🇿",
-        "score": null,
+        "score": 1,
         "penaltyScore": null
       },
       "away": {
@@ -1832,12 +1832,12 @@
         "nameZh": "埃及",
         "flag": "",
         "flagEmoji": "🇪🇬",
-        "score": null,
+        "score": 0,
         "penaltyScore": null
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": 1,
+        "away": 0,
         "homePenalty": null,
         "awayPenalty": null
       },
