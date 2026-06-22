@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T04:07:38Z",
+  "generatedAt": "2026-06-22T04:11:00Z",
   "timezone": "Asia/Shanghai",
   "sourceSkill": "lottery-analyzer",
   "status": "partial",
@@ -123,7 +123,7 @@
       "matchId": "400021469",
       "matchNumber": 33,
       "updatedAt": "2026-06-19T04:02:09.000Z",
-      "locked": false,
+      "locked": true,
       "resultTip": "胜",
       "confidenceLevel": "稳胆级",
       "probabilities": {
@@ -142,7 +142,7 @@
       "matchId": "400021465",
       "matchNumber": 34,
       "updatedAt": "2026-06-19T04:02:09.000Z",
-      "locked": false,
+      "locked": true,
       "resultTip": "胜",
       "confidenceLevel": "大概率",
       "probabilities": {
@@ -161,7 +161,7 @@
       "matchId": "400021472",
       "matchNumber": 35,
       "updatedAt": "2026-06-19T04:02:09.000Z",
-      "locked": false,
+      "locked": true,
       "resultTip": "胜",
       "confidenceLevel": "大概率",
       "probabilities": {
@@ -274,121 +274,216 @@
     {
       "matchId": "400021491",
       "matchNumber": 41,
-      "updatedAt": "2026-06-21T04:07:38Z",
+      "updatedAt": "2026-06-22T04:11:00Z",
       "locked": false,
       "resultTip": "胜",
       "confidenceLevel": "中等概率",
       "probabilities": {
-        "homeWin": 45,
-        "draw": 29,
-        "awayWin": 26
+        "homeWin": 48,
+        "draw": 27,
+        "awayWin": 25
       },
       "score": "2:1",
       "totalGoals": "3球",
-      "halfFull": "平胜",
-      "rationale": "挪威首轮4比1击败伊拉克，进攻效率与转换速度先打出来；塞内加尔首战1比3负于法国，身体对抗不差但后场承压明显。竞彩网SPF 1.99/3.26/3.12只给出轻度主倾向，且让球(-1)客队1.62说明赢球空间未被完全拉开，因此仍看好挪威小比分占先。",
-      "sourceSummary": "中国竞彩网官方足球计算器 getMatchCalculatorV1.qry（2026-06-21抓取） + public/schedule.json 首轮赛果（挪威4比1伊拉克、塞内加尔1比3法国）。",
-      "oddsSource": "中国竞彩网官方足球计算器：SPF 1.99/3.26/3.12；让球(-1) 4.00/3.82/1.62；半全场最低赔 胜胜 3.25；总进球最低赔 2球 3.35。"
+      "halfFull": "胜胜",
+      "rationale": "挪威首轮4比1击败伊拉克，前场转换和终结效率已经打出来；塞内加尔首战1比3负于法国，身体对抗仍在，但后防连续回追时暴露出空当。中国竞彩网当前SPF 1.88/3.44/3.26只给主队中度优势，结合首轮内容与半全场胜胜最低赔，仍倾向挪威在对攻局中小胜。",
+      "sourceSummary": "中国竞彩网官方足球计算器 getMatchCalculatorV1.qry（2026-06-22 浏览器抓取） + public/schedule.json 已结束赛果（挪威4比1伊拉克、法国3比1塞内加尔；来源含 FIFA 官方赛程/比分页）。",
+      "oddsSource": "中国竞彩网官方足球计算器：SPF 1.88/3.44/3.26（更新时间 2026-06-22 12:03:14）；半全场最低赔 胜胜 2.90；总进球最低赔 2球 3.35、3球 3.60。"
     },
     {
       "matchId": "400021492",
       "matchNumber": 42,
-      "updatedAt": "2026-06-21T04:07:38Z",
+      "updatedAt": "2026-06-22T04:11:00Z",
       "locked": false,
       "resultTip": "胜",
       "confidenceLevel": "稳胆级",
       "probabilities": {
-        "homeWin": 82,
-        "draw": 12,
+        "homeWin": 83,
+        "draw": 11,
         "awayWin": 6
       },
       "score": "3:0",
       "totalGoals": "3球",
       "halfFull": "胜胜",
-      "rationale": "法国首轮3比1拿下塞内加尔，进攻层次和强强对抗稳定性都已在线；伊拉克首战1比4负于挪威，防线在持续压迫下暴露出大量空间。竞彩网本场SPF未返回，但让球(-3)主队2.61/平4.50/客1.91与半全场胜胜1.23都维持深让结构，本场仍明显倾向法国。",
-      "sourceSummary": "中国竞彩网官方足球计算器 getMatchCalculatorV1.qry（2026-06-21抓取，SPF未返回） + public/schedule.json 首轮赛果（法国3比1塞内加尔、伊拉克1比4挪威）。",
-      "oddsSource": "中国竞彩网官方足球计算器：SPF待定；让球(-3) 2.61/4.50/1.91；半全场最低赔 胜胜 1.23；总进球最低赔 3球 3.80。"
+      "rationale": "法国首轮3比1拿下塞内加尔，强强对抗中的推进层次和终结质量都在线；伊拉克首战1比4负于挪威，防线在高压下持续失位。中国竞彩网当前页面仍未给出SPF，但半全场胜胜1.20与比分3比0/4比0处在最低区间，说明官方结构依旧是深让主胜，本场继续看法国正路打穿。",
+      "sourceSummary": "中国竞彩网官方足球计算器 getMatchCalculatorV1.qry（2026-06-22 浏览器抓取，SPF未返回） + public/schedule.json 已结束赛果（法国3比1塞内加尔、伊拉克1比4挪威；来源含 FIFA 官方赛程/比分页）。",
+      "oddsSource": "中国竞彩网官方足球计算器：SPF待定；半全场最低赔 胜胜 1.20（更新时间 2026-06-22 11:50:22）；总进球最低赔 3球 3.90、4球 4.10；比分最低赔 3:0 5.10、4:0 6.00。"
     },
     {
       "matchId": "400021494",
       "matchNumber": 43,
-      "updatedAt": "2026-06-21T04:07:38Z",
+      "updatedAt": "2026-06-22T04:11:00Z",
       "locked": false,
       "resultTip": "胜",
-      "confidenceLevel": "大概率",
+      "confidenceLevel": "稳胆级",
       "probabilities": {
-        "homeWin": 54,
-        "draw": 27,
-        "awayWin": 19
+        "homeWin": 68,
+        "draw": 21,
+        "awayWin": 11
       },
-      "score": "2:1",
-      "totalGoals": "3球",
-      "halfFull": "平胜",
-      "rationale": "阿根廷首轮3比0完胜阿尔及利亚，比赛控制力和终结效率都更稳；奥地利3比1击败约旦，同样展现了高压体系执行力。竞彩网SPF 1.45/3.80/5.65仍把阿根廷放在清晰主导位，结合卫冕冠军的比赛管理能力，仍稍看好其在高质量对抗中兑现硬实力。",
-      "sourceSummary": "中国竞彩网官方足球计算器 getMatchCalculatorV1.qry（2026-06-21抓取） + public/schedule.json 首轮赛果（阿根廷3比0阿尔及利亚、奥地利3比1约旦）。",
-      "oddsSource": "中国竞彩网官方足球计算器：SPF 1.45/3.80/5.65；让球(-1) 2.45/3.45/2.32；半全场最低赔 胜胜 2.15；总进球最低赔 2球 3.25。"
+      "score": "2:0",
+      "totalGoals": "2球",
+      "halfFull": "胜胜",
+      "rationale": "阿根廷首轮3比0完胜阿尔及利亚，比赛控制力和终结效率都比同组对手更稳定；奥地利3比1击败约旦，同样展现了压迫强度，但后场并非没有空当。中国竞彩网当前SPF 1.33/4.15/7.30、半全场胜胜1.96，且比分最低赔集中在1比0和2比0，说明官方对阿根廷继续领跑的判断比上次更强。",
+      "sourceSummary": "中国竞彩网官方足球计算器 getMatchCalculatorV1.qry（2026-06-22 浏览器抓取） + public/schedule.json 已结束赛果（阿根廷3比0阿尔及利亚、奥地利3比1约旦；来源含 FIFA 官方赛程/比分页）。",
+      "oddsSource": "中国竞彩网官方足球计算器：SPF 1.33/4.15/7.30（更新时间 2026-06-22 11:49:30）；半全场最低赔 胜胜 1.96；总进球最低赔 2球 3.45、3球 3.50；比分最低赔 2:0 6.00、1:0 6.25。"
     },
     {
       "matchId": "400021499",
       "matchNumber": 44,
-      "updatedAt": "2026-06-21T04:07:38Z",
+      "updatedAt": "2026-06-22T04:11:00Z",
       "locked": false,
       "resultTip": "负",
       "confidenceLevel": "大概率",
       "probabilities": {
-        "homeWin": 16,
-        "draw": 24,
-        "awayWin": 60
+        "homeWin": 15,
+        "draw": 23,
+        "awayWin": 62
       },
       "score": "0:2",
       "totalGoals": "2球",
       "halfFull": "负负",
-      "rationale": "约旦首轮1比3负于奥地利，反击能制造威胁但阵地防守强度不足；阿尔及利亚虽然0比3负于阿根廷，面对的却是本组最强对手。竞彩网SPF 5.82/3.80/1.44与半全场负负2.10明显倾向阿尔及利亚，考虑双方都背负抢分压力，本场更看好客队先稳后发力。",
-      "sourceSummary": "中国竞彩网官方足球计算器 getMatchCalculatorV1.qry（2026-06-21抓取） + public/schedule.json 首轮赛果（约旦1比3奥地利、阿尔及利亚0比3阿根廷）。",
-      "oddsSource": "中国竞彩网官方足球计算器：SPF 5.82/3.80/1.44；让球(+1) 2.40/3.35/2.42；半全场最低赔 负负 2.10；总进球最低赔 2球 3.25。"
+      "rationale": "约旦首轮1比3负于奥地利，反击能制造瞬时冲击，但阵地防守强度不足；阿尔及利亚虽然0比3输给阿根廷，对手却是本组最强一档。中国竞彩网当前SPF 5.95/3.90/1.42与半全场负负2.05继续把客胜压在低位，比分最低赔也集中在0比1和0比2，本场更偏向阿尔及利亚稳住节奏后拿下。",
+      "sourceSummary": "中国竞彩网官方足球计算器 getMatchCalculatorV1.qry（2026-06-22 浏览器抓取） + public/schedule.json 已结束赛果（约旦1比3奥地利、阿尔及利亚0比3阿根廷；来源含 FIFA 官方赛程/比分页）。",
+      "oddsSource": "中国竞彩网官方足球计算器：SPF 5.95/3.90/1.42（更新时间 2026-06-22 10:19:03）；半全场最低赔 负负 2.05；总进球最低赔 2球 3.25、3球 3.60；比分最低赔 0:1 5.60、0:2 6.20。"
     },
     {
       "matchId": "400021506",
       "matchNumber": 45,
-      "updatedAt": "2026-06-21T04:07:38Z",
+      "updatedAt": "2026-06-22T04:11:00Z",
       "locked": false,
       "resultTip": "胜",
-      "confidenceLevel": "大概率",
+      "confidenceLevel": "稳胆级",
       "probabilities": {
-        "homeWin": 67,
-        "draw": 21,
-        "awayWin": 12
+        "homeWin": 74,
+        "draw": 17,
+        "awayWin": 9
       },
-      "score": "2:1",
+      "score": "3:0",
       "totalGoals": "3球",
       "halfFull": "胜胜",
-      "rationale": "英格兰首轮4比2击败克罗地亚，前场持续压迫和终结效率都在线；加纳1比0小胜巴拿马，拿到结果但比赛开放度有限。竞彩网本场SPF未返回，不过让球(-2)主队2.49/平3.90/客2.12与半全场胜胜1.45仍给出明显主倾向，本场继续看好英格兰掌控节奏。",
-      "sourceSummary": "中国竞彩网官方足球计算器 getMatchCalculatorV1.qry（2026-06-21抓取，SPF未返回） + public/schedule.json 首轮赛果（英格兰4比2克罗地亚、加纳1比0巴拿马）。",
-      "oddsSource": "中国竞彩网官方足球计算器：SPF待定；让球(-2) 2.49/3.90/2.12；半全场最低赔 胜胜 1.45；总进球最低赔 3球 3.40。"
+      "rationale": "英格兰首轮4比2击败克罗地亚，前场持续压迫和终结效率都在线；加纳1比0小胜巴拿马，结果不错，但对抗上限和阵容厚度仍低一档。中国竞彩网当前页面未返回SPF，不过半全场胜胜1.45，比分最低赔集中在2比0和3比0，结合英格兰首战火力，本场仍看主队持续压制。",
+      "sourceSummary": "中国竞彩网官方足球计算器 getMatchCalculatorV1.qry（2026-06-22 浏览器抓取，SPF未返回） + public/schedule.json 已结束赛果（英格兰4比2克罗地亚、加纳1比0巴拿马；来源含 FIFA 官方赛程/比分页）。",
+      "oddsSource": "中国竞彩网官方足球计算器：SPF待定；半全场最低赔 胜胜 1.45；总进球最低赔 3球 3.40、2球 4.10；比分最低赔 2:0 5.70、3:0 6.00。"
     },
     {
       "matchId": "400021511",
       "matchNumber": 46,
-      "updatedAt": "2026-06-21T04:07:38Z",
+      "updatedAt": "2026-06-22T04:11:00Z",
       "locked": false,
       "resultTip": "负",
       "confidenceLevel": "大概率",
       "probabilities": {
-        "homeWin": 19,
-        "draw": 25,
-        "awayWin": 56
+        "homeWin": 14,
+        "draw": 23,
+        "awayWin": 63
       },
-      "score": "1:2",
-      "totalGoals": "3球",
-      "halfFull": "平负",
-      "rationale": "巴拿马首轮0比1负于加纳，防守韧性尚可，但进攻端持续威胁不足；克罗地亚虽以2比4输给英格兰，却至少证明了在高强度对攻里仍有终结能力。竞彩网SPF 6.00/3.95/1.41与半全场负负2.00明显偏向克罗地亚，本场更倾向客队在抢分战中兑现经验优势。",
-      "sourceSummary": "中国竞彩网官方足球计算器 getMatchCalculatorV1.qry（2026-06-21抓取） + public/schedule.json 首轮赛果（巴拿马0比1加纳、克罗地亚2比4英格兰）。",
-      "oddsSource": "中国竞彩网官方足球计算器：SPF 6.00/3.95/1.41；让球(+1) 2.42/3.40/2.37；半全场最低赔 负负 2.00；总进球最低赔 2球 3.30。"
+      "score": "0:2",
+      "totalGoals": "2球",
+      "halfFull": "负负",
+      "rationale": "巴拿马首轮0比1负于加纳，防守韧性尚可，但进攻端持续输出偏弱；克罗地亚虽然2比4负于英格兰，却至少证明了对强队时仍有组织和终结能力。中国竞彩网当前SPF 6.38/3.95/1.39、半全场负负2.00，比分最低赔集中在1比2、0比1和0比2，客队优势比上次更清晰。",
+      "sourceSummary": "中国竞彩网官方足球计算器 getMatchCalculatorV1.qry（2026-06-22 浏览器抓取） + public/schedule.json 已结束赛果（巴拿马0比1加纳、英格兰4比2克罗地亚；来源含 FIFA 官方赛程/比分页）。",
+      "oddsSource": "中国竞彩网官方足球计算器：SPF 6.38/3.95/1.39（更新时间 2026-06-22 11:33:30）；半全场最低赔 负负 2.00；总进球最低赔 2球 3.30、3球 3.50；比分最低赔 1:2 6.00、0:1 6.50、0:2 6.75。"
     },
     {
       "matchId": "400021503",
       "matchNumber": 47,
-      "updatedAt": "2026-06-21T04:07:38Z",
+      "updatedAt": "2026-06-22T04:11:00Z",
+      "locked": false,
+      "resultTip": "胜",
+      "confidenceLevel": "稳胆级",
+      "probabilities": {
+        "homeWin": 75,
+        "draw": 16,
+        "awayWin": 9
+      },
+      "score": "2:0",
+      "totalGoals": "2球",
+      "halfFull": "胜胜",
+      "rationale": "葡萄牙首轮1比1被民主刚果逼平，结果不理想但阵容上限和控场能力仍在；乌兹别克斯坦首战1比3负于哥伦比亚，攻防节奏都被更高档球队压住。中国竞彩网当前页面未返回SPF，但半全场胜胜1.40、比分最低赔集中在2比0和3比0，说明官方仍把这场定义为葡萄牙修正局。",
+      "sourceSummary": "中国竞彩网官方足球计算器 getMatchCalculatorV1.qry（2026-06-22 浏览器抓取，SPF未返回） + public/schedule.json 已结束赛果（葡萄牙1比1民主刚果、乌兹别克斯坦1比3哥伦比亚；来源含 FIFA 官方赛程/比分页）。",
+      "oddsSource": "中国竞彩网官方足球计算器：SPF待定；半全场最低赔 胜胜 1.40；总进球最低赔 3球 3.40、2球 4.10；比分最低赔 2:0 5.70、3:0 6.00、1:0 6.70。"
+    },
+    {
+      "matchId": "400021501",
+      "matchNumber": 48,
+      "updatedAt": "2026-06-22T04:11:00Z",
+      "locked": false,
+      "resultTip": "胜",
+      "confidenceLevel": "大概率",
+      "probabilities": {
+        "homeWin": 64,
+        "draw": 22,
+        "awayWin": 14
+      },
+      "score": "2:0",
+      "totalGoals": "2球",
+      "halfFull": "胜胜",
+      "rationale": "哥伦比亚首轮3比1拿下乌兹别克斯坦，进攻效率和比赛控制感都较完整；民主刚果1比1逼平葡萄牙，身体对抗和反击冲击证明其并非弱旅。中国竞彩网当前SPF仍显示1.36/3.85/7.50，半全场胜胜1.90，比分最低赔集中在1比0和2比0，说明官方仍更看好哥伦比亚以低风险方式掌控比赛。",
+      "sourceSummary": "中国竞彩网官方足球计算器 getMatchCalculatorV1.qry（当前页面显示 SPF 更新时间 2026-06-21 09:15:03） + public/schedule.json 已结束赛果（哥伦比亚3比1乌兹别克斯坦、葡萄牙1比1民主刚果；来源含 FIFA 官方赛程/比分页）。",
+      "oddsSource": "中国竞彩网官方足球计算器：SPF 1.36/3.85/7.50（页面显示更新时间 2026-06-21 09:15:03）；半全场最低赔 胜胜 1.90；总进球最低赔 2球 3.15、3球 3.60；比分最低赔 1:0 5.50、2:0 6.00。"
+    },
+    {
+      "matchId": "400021455",
+      "matchNumber": 49,
+      "updatedAt": "2026-06-22T04:11:00Z",
+      "locked": false,
+      "resultTip": "负",
+      "confidenceLevel": "稳胆级",
+      "probabilities": {
+        "homeWin": 9,
+        "draw": 17,
+        "awayWin": 74
+      },
+      "score": "0:2",
+      "totalGoals": "2球",
+      "halfFull": "负负",
+      "rationale": "苏格兰前两轮1比0海地、0比1摩洛哥，比赛风格偏硬但上限有限；巴西先1比1摩洛哥、再3比0海地，整体压制力已经回到正轨。中国竞彩网当前SPF 7.85/4.80/1.26与半全场负负1.75都持续压低客胜，比分最低赔集中在0比2和0比1，本场仍是巴西正路。",
+      "sourceSummary": "中国竞彩网官方足球计算器 getMatchCalculatorV1.qry（2026-06-22 浏览器抓取） + public/schedule.json 已结束赛果（苏格兰1比0海地、0比1摩洛哥；巴西1比1摩洛哥、3比0海地；来源含 FIFA 官方赛程/比分页）。",
+      "oddsSource": "中国竞彩网官方足球计算器：SPF 7.85/4.80/1.26（更新时间 2026-06-22 09:27:20）；半全场最低赔 负负 1.75；总进球最低赔 3球 3.40、2球 3.70；比分最低赔 0:2 6.00、0:1 6.50。"
+    },
+    {
+      "matchId": "400021452",
+      "matchNumber": 50,
+      "updatedAt": "2026-06-22T04:11:00Z",
+      "locked": false,
+      "resultTip": "胜",
+      "confidenceLevel": "稳胆级",
+      "probabilities": {
+        "homeWin": 76,
+        "draw": 15,
+        "awayWin": 9
+      },
+      "score": "2:0",
+      "totalGoals": "2球",
+      "halfFull": "胜胜",
+      "rationale": "摩洛哥前两轮1比1巴西、1比0苏格兰，防守稳定性和反击效率都很扎实；海地则先0比1苏格兰、再0比3巴西，比赛强度上来后机会很少。中国竞彩网当前页面未返回SPF，但半全场胜胜1.36、比分最低赔2比0和3比0，仍把摩洛哥定义为这一时段更稳的一边。",
+      "sourceSummary": "中国竞彩网官方足球计算器 getMatchCalculatorV1.qry（2026-06-22 浏览器抓取，SPF未返回） + public/schedule.json 已结束赛果（摩洛哥1比1巴西、1比0苏格兰；海地0比1苏格兰、0比3巴西；来源含 FIFA 官方赛程/比分页）。",
+      "oddsSource": "中国竞彩网官方足球计算器：SPF待定；半全场最低赔 胜胜 1.36；总进球最低赔 3球 3.55、2球 4.15；比分最低赔 2:0 5.40、3:0 6.00。"
+    },
+    {
+      "matchId": "400021451",
+      "matchNumber": 51,
+      "updatedAt": "2026-06-22T04:11:00Z",
+      "locked": false,
+      "resultTip": "平",
+      "confidenceLevel": "中等概率",
+      "probabilities": {
+        "homeWin": 36,
+        "draw": 34,
+        "awayWin": 30
+      },
+      "score": "1:1",
+      "totalGoals": "2球",
+      "halfFull": "平平",
+      "rationale": "瑞士前两轮1比1战平卡塔尔、4比1击败波黑，整体结构稳定；加拿大则先后1比1战平波黑、6比0击穿卡塔尔，冲击力更猛。中国竞彩网当前SPF 2.30/2.62/3.20里平局赔位被压得很低，比分最低赔就是1比1，说明这场更接近强度互咬下的均势战。",
+      "sourceSummary": "中国竞彩网官方足球计算器 getMatchCalculatorV1.qry（2026-06-22 浏览器抓取） + public/schedule.json 已结束赛果（瑞士1比1卡塔尔、4比1波黑；加拿大1比1波黑、6比0卡塔尔；来源含 FIFA 官方赛程/比分页）。",
+      "oddsSource": "中国竞彩网官方足球计算器：SPF 2.30/2.62/3.20（更新时间 2026-06-22 09:27:20）；半全场最低赔 胜胜 3.80、平平 4.15；总进球最低赔 2球 2.90；比分最低赔 1:1 4.50。"
+    },
+    {
+      "matchId": "400021448",
+      "matchNumber": 52,
+      "updatedAt": "2026-06-22T04:11:00Z",
       "locked": false,
       "resultTip": "胜",
       "confidenceLevel": "稳胆级",
@@ -400,28 +495,47 @@
       "score": "2:0",
       "totalGoals": "2球",
       "halfFull": "胜胜",
-      "rationale": "葡萄牙首轮1比1被民主刚果逼平，结果不理想但阵容上限仍在；乌兹别克斯坦首战1比3负于哥伦比亚，攻防节奏都被更高档球队压住。竞彩网本场SPF未返回，但让球(-2)主队2.39/平3.90/客2.20与半全场胜胜1.40继续支持葡萄牙，本场仍更看好其完成修正。",
-      "sourceSummary": "中国竞彩网官方足球计算器 getMatchCalculatorV1.qry（2026-06-21抓取，SPF未返回） + public/schedule.json 首轮赛果（葡萄牙1比1民主刚果、乌兹别克斯坦1比3哥伦比亚）。",
-      "oddsSource": "中国竞彩网官方足球计算器：SPF待定；让球(-2) 2.39/3.90/2.20；半全场最低赔 胜胜 1.40；总进球最低赔 3球 3.40。"
+      "rationale": "波黑前两轮1比1战平加拿大、1比4负于瑞士，防线不稳但对卡塔尔仍有对位优势；卡塔尔则先1比1瑞士、后0比6惨败加拿大，比赛强度下滑更明显。中国竞彩网当前SPF 1.38/4.45/5.55配合半全场胜胜1.90，继续把主胜放在明显低位，本场更看好波黑抢到关键三分。",
+      "sourceSummary": "中国竞彩网官方足球计算器 getMatchCalculatorV1.qry（2026-06-22 浏览器抓取） + public/schedule.json 已结束赛果（波黑1比1加拿大、1比4瑞士；卡塔尔1比1瑞士、0比6加拿大；来源含 FIFA 官方赛程/比分页）。",
+      "oddsSource": "中国竞彩网官方足球计算器：SPF 1.38/4.45/5.55（更新时间 2026-06-22 09:27:20）；半全场最低赔 胜胜 1.90；总进球最低赔 3球 3.30、2球 3.90；比分最低赔 2:1 6.25、2:0 7.10。"
     },
     {
-      "matchId": "400021501",
-      "matchNumber": 48,
-      "updatedAt": "2026-06-21T04:07:38Z",
+      "matchId": "400021444",
+      "matchNumber": 53,
+      "updatedAt": "2026-06-22T04:11:00Z",
       "locked": false,
-      "resultTip": "胜",
-      "confidenceLevel": "大概率",
+      "resultTip": "负",
+      "confidenceLevel": "中等概率",
       "probabilities": {
-        "homeWin": 58,
-        "draw": 25,
-        "awayWin": 17
+        "homeWin": 26,
+        "draw": 29,
+        "awayWin": 45
       },
-      "score": "2:1",
-      "totalGoals": "3球",
-      "halfFull": "平胜",
-      "rationale": "哥伦比亚首轮3比1拿下乌兹别克斯坦，进攻效率和比赛控制感都较完整；民主刚果1比1逼平葡萄牙，身体对抗和反击冲击证明其并非软柿子。竞彩网SPF 1.36/3.85/7.50与半全场胜胜1.90持续支持哥伦比亚，考虑K组出线竞争升温，本场仍看好其主导比赛。",
-      "sourceSummary": "中国竞彩网官方足球计算器 getMatchCalculatorV1.qry（2026-06-21抓取） + public/schedule.json 首轮赛果（哥伦比亚3比1乌兹别克斯坦、民主刚果1比1葡萄牙）。",
-      "oddsSource": "中国竞彩网官方足球计算器：SPF 1.36/3.85/7.50；让球(-1) 2.27/3.30/2.60；半全场最低赔 胜胜 1.90；总进球最低赔 2球 3.15。"
+      "score": "0:1",
+      "totalGoals": "1球",
+      "halfFull": "平负",
+      "rationale": "捷克前两轮1比2负于韩国、1比1战平南非，防守稳定性不足；墨西哥则2比0南非、1比0韩国取得两连胜，比赛管理能力是本组最稳。中国竞彩网当前SPF 3.35/3.25/1.91只给出中度客倾向，配合半全场平负与比分0比1处在低位，更像是墨西哥继续控场拿分的节奏。",
+      "sourceSummary": "中国竞彩网官方足球计算器 getMatchCalculatorV1.qry（2026-06-22 浏览器抓取） + public/schedule.json 已结束赛果（捷克1比2韩国、1比1南非；墨西哥2比0南非、1比0韩国；来源含 FIFA 官方赛程/比分页）。",
+      "oddsSource": "中国竞彩网官方足球计算器：SPF 3.35/3.25/1.91（更新时间 2026-06-22 09:27:20）；半全场最低赔 负负 3.10、平负 4.75；总进球最低赔 2球 3.25、3球 3.60；比分最低赔 1:1 6.20、0:1 6.50。"
+    },
+    {
+      "matchId": "400021445",
+      "matchNumber": 54,
+      "updatedAt": "2026-06-22T04:11:00Z",
+      "locked": false,
+      "resultTip": "负",
+      "confidenceLevel": "中等概率",
+      "probabilities": {
+        "homeWin": 24,
+        "draw": 27,
+        "awayWin": 49
+      },
+      "score": "0:1",
+      "totalGoals": "1球",
+      "halfFull": "平负",
+      "rationale": "南非前两轮0比2负于墨西哥、1比1战平捷克，比赛韧性在，但进攻效率一般；韩国则2比1击败捷克、0比1小负墨西哥，整体比赛内容稍高一档。中国竞彩网当前SPF 4.65/3.28/1.64明确偏向韩国，不过比分最低赔仍落在1比1和0比1附近，说明更像是一场低比分客胜。",
+      "sourceSummary": "中国竞彩网官方足球计算器 getMatchCalculatorV1.qry（2026-06-22 浏览器抓取） + public/schedule.json 已结束赛果（南非0比2墨西哥、1比1捷克；韩国2比1捷克、0比1墨西哥；来源含 FIFA 官方赛程/比分页）。",
+      "oddsSource": "中国竞彩网官方足球计算器：SPF 4.65/3.28/1.64（更新时间 2026-06-22 09:27:20）；半全场最低赔 负负 2.60、平负 4.25；总进球最低赔 2球 3.10、1球 4.10；比分最低赔 1:1 5.75、0:1 6.00。"
     }
   ]
 }
