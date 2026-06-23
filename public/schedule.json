@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T22:36:38.661Z",
+  "generatedAt": "2026-06-23T23:41:00.499Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "sources": [
@@ -2129,8 +2129,8 @@
       "stageZh": "小组赛",
       "group": "Group L",
       "groupZh": "L 组",
-      "status": 1,
-      "matchClock": "0'",
+      "status": 3,
+      "matchClock": "41'",
       "statusText": "",
       "home": {
         "code": "PAN",
@@ -2138,7 +2138,7 @@
         "nameZh": "巴拿马",
         "flag": "",
         "flagEmoji": "🇵🇦",
-        "score": null,
+        "score": 0,
         "penaltyScore": null
       },
       "away": {
@@ -2147,12 +2147,12 @@
         "nameZh": "克罗地亚",
         "flag": "",
         "flagEmoji": "🇭🇷",
-        "score": null,
+        "score": 0,
         "penaltyScore": null
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": 0,
+        "away": 0,
         "homePenalty": null,
         "awayPenalty": null
       },
