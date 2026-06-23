@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T21:04:37.565Z",
+  "generatedAt": "2026-06-23T22:36:38.661Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "sources": [
@@ -2084,8 +2084,8 @@
       "stageZh": "小组赛",
       "group": "Group L",
       "groupZh": "L 组",
-      "status": 3,
-      "matchClock": "",
+      "status": 0,
+      "matchClock": "97'",
       "statusText": "",
       "home": {
         "code": "ENG",
@@ -2130,7 +2130,7 @@
       "group": "Group L",
       "groupZh": "L 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "PAN",
