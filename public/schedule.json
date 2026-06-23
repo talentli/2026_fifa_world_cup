@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T04:40:21.401Z",
+  "generatedAt": "2026-06-23T08:21:45.569Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "sources": [
@@ -1994,8 +1994,8 @@
       "stageZh": "小组赛",
       "group": "Group J",
       "groupZh": "J 组",
-      "status": 3,
-      "matchClock": "78'",
+      "status": 0,
+      "matchClock": "98'",
       "statusText": "",
       "home": {
         "code": "JOR",
@@ -2012,12 +2012,12 @@
         "nameZh": "阿尔及利亚",
         "flag": "",
         "flagEmoji": "🇩🇿",
-        "score": 1,
+        "score": 2,
         "penaltyScore": null
       },
       "score": {
         "home": 1,
-        "away": 1,
+        "away": 2,
         "homePenalty": null,
         "awayPenalty": null
       },
@@ -3933,11 +3933,11 @@
       "matchClock": "",
       "statusText": "",
       "home": {
-        "code": "TBD",
-        "name": "TBD",
-        "nameZh": "待定",
+        "code": "ARG",
+        "name": "Argentina",
+        "nameZh": "阿根廷",
         "flag": "",
-        "flagEmoji": "◇",
+        "flagEmoji": "🇦🇷",
         "score": null,
         "penaltyScore": null
       },

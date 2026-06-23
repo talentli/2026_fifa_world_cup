@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T04:40:21.401Z",
+  "generatedAt": "2026-06-23T08:21:45.569Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "stages": [
@@ -650,11 +650,11 @@
           "matchClock": "",
           "statusText": "",
           "home": {
-            "code": "TBD",
-            "name": "TBD",
-            "nameZh": "待定",
+            "code": "ARG",
+            "name": "Argentina",
+            "nameZh": "阿根廷",
             "flag": "",
-            "flagEmoji": "◇",
+            "flagEmoji": "🇦🇷",
             "score": null,
             "penaltyScore": null
           },
