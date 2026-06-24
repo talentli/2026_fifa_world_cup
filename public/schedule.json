@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T01:47:17.321Z",
+  "generatedAt": "2026-06-24T06:06:30.100Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "sources": [
@@ -2174,8 +2174,8 @@
       "stageZh": "小组赛",
       "group": "Group K",
       "groupZh": "K 组",
-      "status": 1,
-      "matchClock": "0'",
+      "status": 0,
+      "matchClock": "97'",
       "statusText": "",
       "home": {
         "code": "COL",
@@ -2183,7 +2183,7 @@
         "nameZh": "哥伦比亚",
         "flag": "",
         "flagEmoji": "🇨🇴",
-        "score": null,
+        "score": 1,
         "penaltyScore": null
       },
       "away": {
@@ -2192,12 +2192,12 @@
         "nameZh": "民主刚果",
         "flag": "",
         "flagEmoji": "🇨🇩",
-        "score": null,
+        "score": 0,
         "penaltyScore": null
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": 1,
+        "away": 0,
         "homePenalty": null,
         "awayPenalty": null
       },
