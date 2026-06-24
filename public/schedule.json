@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T21:02:11.145Z",
+  "generatedAt": "2026-06-24T22:37:39.102Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "sources": [
@@ -2309,8 +2309,8 @@
       "stageZh": "小组赛",
       "group": "Group C",
       "groupZh": "C 组",
-      "status": 1,
-      "matchClock": "",
+      "status": 3,
+      "matchClock": "37'",
       "statusText": "",
       "home": {
         "code": "MAR",
@@ -2318,7 +2318,7 @@
         "nameZh": "摩洛哥",
         "flag": "",
         "flagEmoji": "🇲🇦",
-        "score": null,
+        "score": 0,
         "penaltyScore": null
       },
       "away": {
@@ -2327,12 +2327,12 @@
         "nameZh": "海地",
         "flag": "",
         "flagEmoji": "🇭🇹",
-        "score": null,
+        "score": 1,
         "penaltyScore": null
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": 0,
+        "away": 1,
         "homePenalty": null,
         "awayPenalty": null
       },
@@ -2354,8 +2354,8 @@
       "stageZh": "小组赛",
       "group": "Group C",
       "groupZh": "C 组",
-      "status": 1,
-      "matchClock": "",
+      "status": 3,
+      "matchClock": "36'",
       "statusText": "",
       "home": {
         "code": "SCO",
@@ -2363,7 +2363,7 @@
         "nameZh": "苏格兰",
         "flag": "",
         "flagEmoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-        "score": null,
+        "score": 0,
         "penaltyScore": null
       },
       "away": {
@@ -2372,12 +2372,12 @@
         "nameZh": "巴西",
         "flag": "",
         "flagEmoji": "🇧🇷",
-        "score": null,
+        "score": 1,
         "penaltyScore": null
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": 0,
+        "away": 1,
         "homePenalty": null,
         "awayPenalty": null
       },
