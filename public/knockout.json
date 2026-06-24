@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T19:16:24.040Z",
+  "generatedAt": "2026-06-24T21:02:11.145Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "stages": [
@@ -29,11 +29,11 @@
             "penaltyScore": null
           },
           "away": {
-            "code": "TBD",
-            "name": "TBD",
-            "nameZh": "待定",
+            "code": "CAN",
+            "name": "Canada",
+            "nameZh": "加拿大",
             "flag": "",
-            "flagEmoji": "◇",
+            "flagEmoji": "🇨🇦",
             "score": null,
             "penaltyScore": null
           },
@@ -560,11 +560,11 @@
           "matchClock": "",
           "statusText": "",
           "home": {
-            "code": "TBD",
-            "name": "TBD",
-            "nameZh": "待定",
+            "code": "SUI",
+            "name": "Switzerland",
+            "nameZh": "瑞士",
             "flag": "",
-            "flagEmoji": "◇",
+            "flagEmoji": "🇨🇭",
             "score": null,
             "penaltyScore": null
           },
