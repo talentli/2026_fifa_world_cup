@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T21:16:48.507Z",
+  "generatedAt": "2026-06-25T22:52:57.851Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "stages": [
@@ -200,11 +200,11 @@
           "matchClock": "",
           "statusText": "",
           "home": {
-            "code": "TBD",
-            "name": "TBD",
-            "nameZh": "待定",
+            "code": "CIV",
+            "name": "Côte d'Ivoire",
+            "nameZh": "科特迪瓦",
             "flag": "",
-            "flagEmoji": "◇",
+            "flagEmoji": "🇨🇮",
             "score": null,
             "penaltyScore": null
           },

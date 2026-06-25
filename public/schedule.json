@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T21:16:48.507Z",
+  "generatedAt": "2026-06-25T22:52:57.851Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "sources": [
@@ -2489,8 +2489,8 @@
       "stageZh": "小组赛",
       "group": "Group E",
       "groupZh": "E 组",
-      "status": 3,
-      "matchClock": "55'",
+      "status": 0,
+      "matchClock": "97'",
       "statusText": "",
       "home": {
         "code": "CUW",
@@ -2507,12 +2507,12 @@
         "nameZh": "科特迪瓦",
         "flag": "",
         "flagEmoji": "🇨🇮",
-        "score": 1,
+        "score": 2,
         "penaltyScore": null
       },
       "score": {
         "home": 0,
-        "away": 1,
+        "away": 2,
         "homePenalty": null,
         "awayPenalty": null
       },
@@ -2534,8 +2534,8 @@
       "stageZh": "小组赛",
       "group": "Group E",
       "groupZh": "E 组",
-      "status": 3,
-      "matchClock": "56'",
+      "status": 0,
+      "matchClock": "98'",
       "statusText": "",
       "home": {
         "code": "ECU",
@@ -2543,7 +2543,7 @@
         "nameZh": "厄瓜多尔",
         "flag": "",
         "flagEmoji": "🇪🇨",
-        "score": 1,
+        "score": 2,
         "penaltyScore": null
       },
       "away": {
@@ -2556,7 +2556,7 @@
         "penaltyScore": null
       },
       "score": {
-        "home": 1,
+        "home": 2,
         "away": 1,
         "homePenalty": null,
         "awayPenalty": null
@@ -2580,7 +2580,7 @@
       "group": "Group F",
       "groupZh": "F 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "TUN",
@@ -2625,7 +2625,7 @@
       "group": "Group F",
       "groupZh": "F 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "JPN",
@@ -3483,11 +3483,11 @@
       "matchClock": "",
       "statusText": "",
       "home": {
-        "code": "TBD",
-        "name": "TBD",
-        "nameZh": "待定",
+        "code": "CIV",
+        "name": "Côte d'Ivoire",
+        "nameZh": "科特迪瓦",
         "flag": "",
-        "flagEmoji": "◇",
+        "flagEmoji": "🇨🇮",
         "score": null,
         "penaltyScore": null
       },
