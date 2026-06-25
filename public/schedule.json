@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T23:52:38.276Z",
+  "generatedAt": "2026-06-25T03:37:27.430Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "sources": [
@@ -2309,8 +2309,8 @@
       "stageZh": "小组赛",
       "group": "Group C",
       "groupZh": "C 组",
-      "status": 3,
-      "matchClock": "90'",
+      "status": 0,
+      "matchClock": "99'",
       "statusText": "",
       "home": {
         "code": "MAR",
@@ -2354,8 +2354,8 @@
       "stageZh": "小组赛",
       "group": "Group C",
       "groupZh": "C 组",
-      "status": 3,
-      "matchClock": "87'",
+      "status": 0,
+      "matchClock": "97'",
       "statusText": "",
       "home": {
         "code": "SCO",
@@ -2399,8 +2399,8 @@
       "stageZh": "小组赛",
       "group": "Group A",
       "groupZh": "A 组",
-      "status": 1,
-      "matchClock": "0'",
+      "status": 0,
+      "matchClock": "97'",
       "statusText": "",
       "home": {
         "code": "RSA",
@@ -2408,7 +2408,7 @@
         "nameZh": "南非",
         "flag": "",
         "flagEmoji": "🇿🇦",
-        "score": null,
+        "score": 1,
         "penaltyScore": null
       },
       "away": {
@@ -2417,12 +2417,12 @@
         "nameZh": "韩国",
         "flag": "",
         "flagEmoji": "🇰🇷",
-        "score": null,
+        "score": 0,
         "penaltyScore": null
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": 1,
+        "away": 0,
         "homePenalty": null,
         "awayPenalty": null
       },
@@ -2444,8 +2444,8 @@
       "stageZh": "小组赛",
       "group": "Group A",
       "groupZh": "A 组",
-      "status": 1,
-      "matchClock": "0'",
+      "status": 0,
+      "matchClock": "97'",
       "statusText": "",
       "home": {
         "code": "CZE",
@@ -2453,7 +2453,7 @@
         "nameZh": "捷克",
         "flag": "",
         "flagEmoji": "🇨🇿",
-        "score": null,
+        "score": 0,
         "penaltyScore": null
       },
       "away": {
@@ -2462,12 +2462,12 @@
         "nameZh": "墨西哥",
         "flag": "",
         "flagEmoji": "🇲🇽",
-        "score": null,
+        "score": 3,
         "penaltyScore": null
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": 0,
+        "away": 3,
         "homePenalty": null,
         "awayPenalty": null
       },
@@ -3303,11 +3303,11 @@
       "matchClock": "",
       "statusText": "",
       "home": {
-        "code": "TBD",
-        "name": "TBD",
-        "nameZh": "待定",
+        "code": "RSA",
+        "name": "South Africa",
+        "nameZh": "南非",
         "flag": "",
-        "flagEmoji": "◇",
+        "flagEmoji": "🇿🇦",
         "score": null,
         "penaltyScore": null
       },
@@ -3348,11 +3348,11 @@
       "matchClock": "",
       "statusText": "",
       "home": {
-        "code": "TBD",
-        "name": "TBD",
-        "nameZh": "待定",
+        "code": "BRA",
+        "name": "Brazil",
+        "nameZh": "巴西",
         "flag": "",
-        "flagEmoji": "◇",
+        "flagEmoji": "🇧🇷",
         "score": null,
         "penaltyScore": null
       },
@@ -3447,11 +3447,11 @@
         "penaltyScore": null
       },
       "away": {
-        "code": "TBD",
-        "name": "TBD",
-        "nameZh": "待定",
+        "code": "MAR",
+        "name": "Morocco",
+        "nameZh": "摩洛哥",
         "flag": "",
-        "flagEmoji": "◇",
+        "flagEmoji": "🇲🇦",
         "score": null,
         "penaltyScore": null
       },

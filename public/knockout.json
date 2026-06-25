@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T23:52:38.276Z",
+  "generatedAt": "2026-06-25T03:37:27.430Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "stages": [
@@ -20,11 +20,11 @@
           "matchClock": "",
           "statusText": "",
           "home": {
-            "code": "TBD",
-            "name": "TBD",
-            "nameZh": "待定",
+            "code": "RSA",
+            "name": "South Africa",
+            "nameZh": "南非",
             "flag": "",
-            "flagEmoji": "◇",
+            "flagEmoji": "🇿🇦",
             "score": null,
             "penaltyScore": null
           },
@@ -65,11 +65,11 @@
           "matchClock": "",
           "statusText": "",
           "home": {
-            "code": "TBD",
-            "name": "TBD",
-            "nameZh": "待定",
+            "code": "BRA",
+            "name": "Brazil",
+            "nameZh": "巴西",
             "flag": "",
-            "flagEmoji": "◇",
+            "flagEmoji": "🇧🇷",
             "score": null,
             "penaltyScore": null
           },
@@ -164,11 +164,11 @@
             "penaltyScore": null
           },
           "away": {
-            "code": "TBD",
-            "name": "TBD",
-            "nameZh": "待定",
+            "code": "MAR",
+            "name": "Morocco",
+            "nameZh": "摩洛哥",
             "flag": "",
-            "flagEmoji": "◇",
+            "flagEmoji": "🇲🇦",
             "score": null,
             "penaltyScore": null
           },
