@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T03:37:27.430Z",
+  "generatedAt": "2026-06-25T07:02:37.213Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "stages": [
@@ -17,7 +17,7 @@
           "group": "",
           "groupZh": "",
           "status": 1,
-          "matchClock": "",
+          "matchClock": "0'",
           "statusText": "",
           "home": {
             "code": "RSA",

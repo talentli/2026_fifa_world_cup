@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T03:37:27.430Z",
+  "generatedAt": "2026-06-25T07:02:37.213Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "sources": [
@@ -2490,7 +2490,7 @@
       "group": "Group E",
       "groupZh": "E 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "CUW",
@@ -2535,7 +2535,7 @@
       "group": "Group E",
       "groupZh": "E 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "ECU",
@@ -2580,7 +2580,7 @@
       "group": "Group F",
       "groupZh": "F 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "TUN",
@@ -2625,7 +2625,7 @@
       "group": "Group F",
       "groupZh": "F 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "JPN",
@@ -2670,7 +2670,7 @@
       "group": "Group D",
       "groupZh": "D 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "PAR",
@@ -2715,7 +2715,7 @@
       "group": "Group D",
       "groupZh": "D 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "TUR",
@@ -2760,7 +2760,7 @@
       "group": "Group I",
       "groupZh": "I 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "SEN",
@@ -2805,7 +2805,7 @@
       "group": "Group I",
       "groupZh": "I 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "NOR",
@@ -2850,7 +2850,7 @@
       "group": "Group H",
       "groupZh": "H 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "URU",
@@ -2895,7 +2895,7 @@
       "group": "Group H",
       "groupZh": "H 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "CPV",
@@ -2940,7 +2940,7 @@
       "group": "Group G",
       "groupZh": "G 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "NZL",
@@ -2985,7 +2985,7 @@
       "group": "Group G",
       "groupZh": "G 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "EGY",
@@ -3030,7 +3030,7 @@
       "group": "Group L",
       "groupZh": "L 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "PAN",
@@ -3075,7 +3075,7 @@
       "group": "Group L",
       "groupZh": "L 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "CRO",
@@ -3120,7 +3120,7 @@
       "group": "Group K",
       "groupZh": "K 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "COD",
@@ -3165,7 +3165,7 @@
       "group": "Group K",
       "groupZh": "K 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "COL",
@@ -3210,7 +3210,7 @@
       "group": "Group J",
       "groupZh": "J 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "ALG",
@@ -3255,7 +3255,7 @@
       "group": "Group J",
       "groupZh": "J 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "JOR",
@@ -3300,7 +3300,7 @@
       "group": "",
       "groupZh": "",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "RSA",
