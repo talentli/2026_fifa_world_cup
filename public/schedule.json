@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T21:39:44.921Z",
+  "generatedAt": "2026-06-26T22:54:22.395Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "sources": [
@@ -2850,7 +2850,7 @@
       "group": "Group H",
       "groupZh": "H 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "URU",
@@ -2895,7 +2895,7 @@
       "group": "Group H",
       "groupZh": "H 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "CPV",
