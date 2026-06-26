@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T20:06:02.546Z",
+  "generatedAt": "2026-06-26T21:39:44.921Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "sources": [
@@ -2759,8 +2759,8 @@
       "stageZh": "小组赛",
       "group": "Group I",
       "groupZh": "I 组",
-      "status": 3,
-      "matchClock": "",
+      "status": 0,
+      "matchClock": "97'",
       "statusText": "",
       "home": {
         "code": "SEN",
@@ -2768,7 +2768,7 @@
         "nameZh": "塞内加尔",
         "flag": "",
         "flagEmoji": "🇸🇳",
-        "score": 1,
+        "score": 5,
         "penaltyScore": null
       },
       "away": {
@@ -2781,7 +2781,7 @@
         "penaltyScore": null
       },
       "score": {
-        "home": 1,
+        "home": 5,
         "away": 0,
         "homePenalty": null,
         "awayPenalty": null
@@ -2804,8 +2804,8 @@
       "stageZh": "小组赛",
       "group": "Group I",
       "groupZh": "I 组",
-      "status": 3,
-      "matchClock": "",
+      "status": 0,
+      "matchClock": "96'",
       "statusText": "",
       "home": {
         "code": "NOR",
@@ -2822,12 +2822,12 @@
         "nameZh": "法国",
         "flag": "",
         "flagEmoji": "🇫🇷",
-        "score": 3,
+        "score": 4,
         "penaltyScore": null
       },
       "score": {
         "home": 1,
-        "away": 3,
+        "away": 4,
         "homePenalty": null,
         "awayPenalty": null
       },
@@ -3492,11 +3492,11 @@
         "penaltyScore": null
       },
       "away": {
-        "code": "TBD",
-        "name": "TBD",
-        "nameZh": "待定",
+        "code": "NOR",
+        "name": "Norway",
+        "nameZh": "挪威",
         "flag": "",
-        "flagEmoji": "◇",
+        "flagEmoji": "🇳🇴",
         "score": null,
         "penaltyScore": null
       },
@@ -3528,11 +3528,11 @@
       "matchClock": "",
       "statusText": "",
       "home": {
-        "code": "TBD",
-        "name": "TBD",
-        "nameZh": "待定",
+        "code": "FRA",
+        "name": "France",
+        "nameZh": "法国",
         "flag": "",
-        "flagEmoji": "◇",
+        "flagEmoji": "🇫🇷",
         "score": null,
         "penaltyScore": null
       },
