@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T00:10:50.557Z",
+  "generatedAt": "2026-06-26T04:43:13.514Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "stages": [
@@ -74,11 +74,11 @@
             "penaltyScore": null
           },
           "away": {
-            "code": "TBD",
-            "name": "TBD",
-            "nameZh": "待定",
+            "code": "JPN",
+            "name": "Japan",
+            "nameZh": "日本",
             "flag": "",
-            "flagEmoji": "◇",
+            "flagEmoji": "🇯🇵",
             "score": null,
             "penaltyScore": null
           },
@@ -155,11 +155,11 @@
           "matchClock": "",
           "statusText": "",
           "home": {
-            "code": "TBD",
-            "name": "TBD",
-            "nameZh": "待定",
+            "code": "NED",
+            "name": "Netherlands",
+            "nameZh": "荷兰",
             "flag": "",
-            "flagEmoji": "◇",
+            "flagEmoji": "🇳🇱",
             "score": null,
             "penaltyScore": null
           },
@@ -434,11 +434,11 @@
             "penaltyScore": null
           },
           "away": {
-            "code": "TBD",
-            "name": "TBD",
-            "nameZh": "待定",
+            "code": "BIH",
+            "name": "Bosnia and Herzegovina",
+            "nameZh": "波黑",
             "flag": "",
-            "flagEmoji": "◇",
+            "flagEmoji": "🇧🇦",
             "score": null,
             "penaltyScore": null
           },
@@ -605,11 +605,11 @@
           "matchClock": "",
           "statusText": "",
           "home": {
-            "code": "TBD",
-            "name": "TBD",
-            "nameZh": "待定",
+            "code": "AUS",
+            "name": "Australia",
+            "nameZh": "澳大利亚",
             "flag": "",
-            "flagEmoji": "◇",
+            "flagEmoji": "🇦🇺",
             "score": null,
             "penaltyScore": null
           },
