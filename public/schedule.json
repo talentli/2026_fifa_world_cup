@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T22:35:41.555Z",
+  "generatedAt": "2026-06-27T23:40:31.335Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "sources": [
@@ -3029,8 +3029,8 @@
       "stageZh": "小组赛",
       "group": "Group L",
       "groupZh": "L 组",
-      "status": 3,
-      "matchClock": "77'",
+      "status": 0,
+      "matchClock": "98'",
       "statusText": "",
       "home": {
         "code": "PAN",
@@ -3074,8 +3074,8 @@
       "stageZh": "小组赛",
       "group": "Group L",
       "groupZh": "L 组",
-      "status": 3,
-      "matchClock": "74'",
+      "status": 0,
+      "matchClock": "98'",
       "statusText": "",
       "home": {
         "code": "CRO",
@@ -3083,7 +3083,7 @@
         "nameZh": "克罗地亚",
         "flag": "",
         "flagEmoji": "🇭🇷",
-        "score": 1,
+        "score": 2,
         "penaltyScore": null
       },
       "away": {
@@ -3092,12 +3092,12 @@
         "nameZh": "加纳",
         "flag": "",
         "flagEmoji": "🇬🇭",
-        "score": 0,
+        "score": 1,
         "penaltyScore": null
       },
       "score": {
-        "home": 1,
-        "away": 0,
+        "home": 2,
+        "away": 1,
         "homePenalty": null,
         "awayPenalty": null
       },
@@ -3119,8 +3119,8 @@
       "stageZh": "小组赛",
       "group": "Group K",
       "groupZh": "K 组",
-      "status": 1,
-      "matchClock": "0'",
+      "status": 3,
+      "matchClock": "9'",
       "statusText": "",
       "home": {
         "code": "COD",
@@ -3128,7 +3128,7 @@
         "nameZh": "民主刚果",
         "flag": "",
         "flagEmoji": "🇨🇩",
-        "score": null,
+        "score": 0,
         "penaltyScore": null
       },
       "away": {
@@ -3137,12 +3137,12 @@
         "nameZh": "乌兹别克斯坦",
         "flag": "",
         "flagEmoji": "🇺🇿",
-        "score": null,
+        "score": 0,
         "penaltyScore": null
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": 0,
+        "away": 0,
         "homePenalty": null,
         "awayPenalty": null
       },
@@ -3164,8 +3164,8 @@
       "stageZh": "小组赛",
       "group": "Group K",
       "groupZh": "K 组",
-      "status": 1,
-      "matchClock": "0'",
+      "status": 3,
+      "matchClock": "9'",
       "statusText": "",
       "home": {
         "code": "COL",
@@ -3173,7 +3173,7 @@
         "nameZh": "哥伦比亚",
         "flag": "",
         "flagEmoji": "🇨🇴",
-        "score": null,
+        "score": 0,
         "penaltyScore": null
       },
       "away": {
@@ -3182,12 +3182,12 @@
         "nameZh": "葡萄牙",
         "flag": "",
         "flagEmoji": "🇵🇹",
-        "score": null,
+        "score": 0,
         "penaltyScore": null
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": 0,
+        "away": 0,
         "homePenalty": null,
         "awayPenalty": null
       },
@@ -3582,11 +3582,11 @@
         "penaltyScore": null
       },
       "away": {
-        "code": "TBD",
-        "name": "TBD",
-        "nameZh": "待定",
+        "code": "ECU",
+        "name": "Ecuador",
+        "nameZh": "厄瓜多尔",
         "flag": "",
-        "flagEmoji": "◇",
+        "flagEmoji": "🇪🇨",
         "score": null,
         "penaltyScore": null
       },
@@ -3618,11 +3618,11 @@
       "matchClock": "",
       "statusText": "",
       "home": {
-        "code": "TBD",
-        "name": "TBD",
-        "nameZh": "待定",
+        "code": "ENG",
+        "name": "England",
+        "nameZh": "英格兰",
         "flag": "",
-        "flagEmoji": "◇",
+        "flagEmoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "score": null,
         "penaltyScore": null
       },
@@ -3807,11 +3807,11 @@
         "penaltyScore": null
       },
       "away": {
-        "code": "TBD",
-        "name": "TBD",
-        "nameZh": "待定",
+        "code": "CRO",
+        "name": "Croatia",
+        "nameZh": "克罗地亚",
         "flag": "",
-        "flagEmoji": "◇",
+        "flagEmoji": "🇭🇷",
         "score": null,
         "penaltyScore": null
       },
@@ -3987,11 +3987,11 @@
         "penaltyScore": null
       },
       "away": {
-        "code": "TBD",
-        "name": "TBD",
-        "nameZh": "待定",
+        "code": "GHA",
+        "name": "Ghana",
+        "nameZh": "加纳",
         "flag": "",
-        "flagEmoji": "◇",
+        "flagEmoji": "🇬🇭",
         "score": null,
         "penaltyScore": null
       },
