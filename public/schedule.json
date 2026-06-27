@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T00:13:41.214Z",
+  "generatedAt": "2026-06-27T04:29:00.904Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "sources": [
@@ -2849,8 +2849,8 @@
       "stageZh": "小组赛",
       "group": "Group H",
       "groupZh": "H 组",
-      "status": 3,
-      "matchClock": "13'",
+      "status": 0,
+      "matchClock": "97'",
       "statusText": "",
       "home": {
         "code": "URU",
@@ -2867,12 +2867,12 @@
         "nameZh": "西班牙",
         "flag": "",
         "flagEmoji": "🇪🇸",
-        "score": 0,
+        "score": 1,
         "penaltyScore": null
       },
       "score": {
         "home": 0,
-        "away": 0,
+        "away": 1,
         "homePenalty": null,
         "awayPenalty": null
       },
@@ -2894,8 +2894,8 @@
       "stageZh": "小组赛",
       "group": "Group H",
       "groupZh": "H 组",
-      "status": 3,
-      "matchClock": "12'",
+      "status": 0,
+      "matchClock": "96'",
       "statusText": "",
       "home": {
         "code": "CPV",
@@ -2939,8 +2939,8 @@
       "stageZh": "小组赛",
       "group": "Group G",
       "groupZh": "G 组",
-      "status": 1,
-      "matchClock": "",
+      "status": 3,
+      "matchClock": "66'",
       "statusText": "",
       "home": {
         "code": "NZL",
@@ -2948,7 +2948,7 @@
         "nameZh": "新西兰",
         "flag": "",
         "flagEmoji": "🇳🇿",
-        "score": null,
+        "score": 0,
         "penaltyScore": null
       },
       "away": {
@@ -2957,12 +2957,12 @@
         "nameZh": "比利时",
         "flag": "",
         "flagEmoji": "🇧🇪",
-        "score": null,
+        "score": 3,
         "penaltyScore": null
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": 0,
+        "away": 3,
         "homePenalty": null,
         "awayPenalty": null
       },
@@ -2984,8 +2984,8 @@
       "stageZh": "小组赛",
       "group": "Group G",
       "groupZh": "G 组",
-      "status": 1,
-      "matchClock": "",
+      "status": 3,
+      "matchClock": "65'",
       "statusText": "",
       "home": {
         "code": "EGY",
@@ -2993,7 +2993,7 @@
         "nameZh": "埃及",
         "flag": "",
         "flagEmoji": "🇪🇬",
-        "score": null,
+        "score": 1,
         "penaltyScore": null
       },
       "away": {
@@ -3002,12 +3002,12 @@
         "nameZh": "伊朗",
         "flag": "",
         "flagEmoji": "🇮🇷",
-        "score": null,
+        "score": 1,
         "penaltyScore": null
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": 1,
+        "away": 1,
         "homePenalty": null,
         "awayPenalty": null
       },
@@ -3402,11 +3402,11 @@
         "penaltyScore": null
       },
       "away": {
-        "code": "TBD",
-        "name": "TBD",
-        "nameZh": "待定",
+        "code": "PAR",
+        "name": "Paraguay",
+        "nameZh": "巴拉圭",
         "flag": "",
-        "flagEmoji": "◇",
+        "flagEmoji": "🇵🇾",
         "score": null,
         "penaltyScore": null
       },
@@ -3537,11 +3537,11 @@
         "penaltyScore": null
       },
       "away": {
-        "code": "TBD",
-        "name": "TBD",
-        "nameZh": "待定",
+        "code": "SWE",
+        "name": "Sweden",
+        "nameZh": "瑞典",
         "flag": "",
-        "flagEmoji": "◇",
+        "flagEmoji": "🇸🇪",
         "score": null,
         "penaltyScore": null
       },
@@ -3753,11 +3753,11 @@
       "matchClock": "",
       "statusText": "",
       "home": {
-        "code": "TBD",
-        "name": "TBD",
-        "nameZh": "待定",
+        "code": "ESP",
+        "name": "Spain",
+        "nameZh": "西班牙",
         "flag": "",
-        "flagEmoji": "◇",
+        "flagEmoji": "🇪🇸",
         "score": null,
         "penaltyScore": null
       },
@@ -3942,11 +3942,11 @@
         "penaltyScore": null
       },
       "away": {
-        "code": "TBD",
-        "name": "TBD",
-        "nameZh": "待定",
+        "code": "CPV",
+        "name": "Cabo Verde",
+        "nameZh": "佛得角",
         "flag": "",
-        "flagEmoji": "◇",
+        "flagEmoji": "🇨🇻",
         "score": null,
         "penaltyScore": null
       },
