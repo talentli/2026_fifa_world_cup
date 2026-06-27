@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T04:29:00.904Z",
+  "generatedAt": "2026-06-27T07:38:06.982Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "sources": [
@@ -2939,8 +2939,8 @@
       "stageZh": "小组赛",
       "group": "Group G",
       "groupZh": "G 组",
-      "status": 3,
-      "matchClock": "66'",
+      "status": 0,
+      "matchClock": "96'",
       "statusText": "",
       "home": {
         "code": "NZL",
@@ -2948,7 +2948,7 @@
         "nameZh": "新西兰",
         "flag": "",
         "flagEmoji": "🇳🇿",
-        "score": 0,
+        "score": 1,
         "penaltyScore": null
       },
       "away": {
@@ -2957,12 +2957,12 @@
         "nameZh": "比利时",
         "flag": "",
         "flagEmoji": "🇧🇪",
-        "score": 3,
+        "score": 5,
         "penaltyScore": null
       },
       "score": {
-        "home": 0,
-        "away": 3,
+        "home": 1,
+        "away": 5,
         "homePenalty": null,
         "awayPenalty": null
       },
@@ -2984,8 +2984,8 @@
       "stageZh": "小组赛",
       "group": "Group G",
       "groupZh": "G 组",
-      "status": 3,
-      "matchClock": "65'",
+      "status": 0,
+      "matchClock": "99'",
       "statusText": "",
       "home": {
         "code": "EGY",
@@ -3663,11 +3663,11 @@
       "matchClock": "",
       "statusText": "",
       "home": {
-        "code": "TBD",
-        "name": "TBD",
-        "nameZh": "待定",
+        "code": "BEL",
+        "name": "Belgium",
+        "nameZh": "比利时",
         "flag": "",
-        "flagEmoji": "◇",
+        "flagEmoji": "🇧🇪",
         "score": null,
         "penaltyScore": null
       },
@@ -3897,11 +3897,11 @@
         "penaltyScore": null
       },
       "away": {
-        "code": "TBD",
-        "name": "TBD",
-        "nameZh": "待定",
+        "code": "EGY",
+        "name": "Egypt",
+        "nameZh": "埃及",
         "flag": "",
-        "flagEmoji": "◇",
+        "flagEmoji": "🇪🇬",
         "score": null,
         "penaltyScore": null
       },
