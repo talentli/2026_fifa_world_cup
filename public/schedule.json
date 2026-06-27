@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T18:44:15.164Z",
+  "generatedAt": "2026-06-27T20:00:26.898Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "sources": [
@@ -3030,7 +3030,7 @@
       "group": "Group L",
       "groupZh": "L 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "PAN",
@@ -3075,7 +3075,7 @@
       "group": "Group L",
       "groupZh": "L 组",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "CRO",
