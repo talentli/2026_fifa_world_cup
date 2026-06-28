@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T06:33:37.192Z",
+  "generatedAt": "2026-06-28T09:45:55.022Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "stages": [
@@ -17,7 +17,7 @@
           "group": "",
           "groupZh": "",
           "status": 1,
-          "matchClock": "0'",
+          "matchClock": "",
           "statusText": "",
           "home": {
             "code": "RSA",
@@ -62,7 +62,7 @@
           "group": "",
           "groupZh": "",
           "status": 1,
-          "matchClock": "0'",
+          "matchClock": "",
           "statusText": "",
           "home": {
             "code": "BRA",
@@ -107,7 +107,7 @@
           "group": "",
           "groupZh": "",
           "status": 1,
-          "matchClock": "0'",
+          "matchClock": "",
           "statusText": "",
           "home": {
             "code": "GER",
@@ -152,7 +152,7 @@
           "group": "",
           "groupZh": "",
           "status": 1,
-          "matchClock": "0'",
+          "matchClock": "",
           "statusText": "",
           "home": {
             "code": "NED",
@@ -197,7 +197,7 @@
           "group": "",
           "groupZh": "",
           "status": 1,
-          "matchClock": "0'",
+          "matchClock": "",
           "statusText": "",
           "home": {
             "code": "CIV",
@@ -242,7 +242,7 @@
           "group": "",
           "groupZh": "",
           "status": 1,
-          "matchClock": "0'",
+          "matchClock": "",
           "statusText": "",
           "home": {
             "code": "FRA",
@@ -287,7 +287,7 @@
           "group": "",
           "groupZh": "",
           "status": 1,
-          "matchClock": "0'",
+          "matchClock": "",
           "statusText": "",
           "home": {
             "code": "MEX",
@@ -332,7 +332,7 @@
           "group": "",
           "groupZh": "",
           "status": 1,
-          "matchClock": "0'",
+          "matchClock": "",
           "statusText": "",
           "home": {
             "code": "ENG",
@@ -377,7 +377,7 @@
           "group": "",
           "groupZh": "",
           "status": 1,
-          "matchClock": "0'",
+          "matchClock": "",
           "statusText": "",
           "home": {
             "code": "BEL",
@@ -422,7 +422,7 @@
           "group": "",
           "groupZh": "",
           "status": 1,
-          "matchClock": "0'",
+          "matchClock": "",
           "statusText": "",
           "home": {
             "code": "USA",
@@ -467,7 +467,7 @@
           "group": "",
           "groupZh": "",
           "status": 1,
-          "matchClock": "0'",
+          "matchClock": "",
           "statusText": "",
           "home": {
             "code": "ESP",
@@ -512,7 +512,7 @@
           "group": "",
           "groupZh": "",
           "status": 1,
-          "matchClock": "0'",
+          "matchClock": "",
           "statusText": "",
           "home": {
             "code": "POR",
@@ -557,7 +557,7 @@
           "group": "",
           "groupZh": "",
           "status": 1,
-          "matchClock": "0'",
+          "matchClock": "",
           "statusText": "",
           "home": {
             "code": "SUI",
@@ -602,7 +602,7 @@
           "group": "",
           "groupZh": "",
           "status": 1,
-          "matchClock": "0'",
+          "matchClock": "",
           "statusText": "",
           "home": {
             "code": "AUS",
@@ -647,7 +647,7 @@
           "group": "",
           "groupZh": "",
           "status": 1,
-          "matchClock": "0'",
+          "matchClock": "",
           "statusText": "",
           "home": {
             "code": "ARG",
@@ -692,7 +692,7 @@
           "group": "",
           "groupZh": "",
           "status": 1,
-          "matchClock": "0'",
+          "matchClock": "",
           "statusText": "",
           "home": {
             "code": "COL",
