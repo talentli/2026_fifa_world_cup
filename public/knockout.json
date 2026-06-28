@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T18:54:42.250Z",
+  "generatedAt": "2026-06-28T20:17:45.856Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "stages": [
@@ -16,8 +16,8 @@
           "stageZh": "32 强赛",
           "group": "",
           "groupZh": "",
-          "status": 1,
-          "matchClock": "0'",
+          "status": 3,
+          "matchClock": "57'",
           "statusText": "",
           "home": {
             "code": "RSA",
@@ -25,7 +25,7 @@
             "nameZh": "南非",
             "flag": "",
             "flagEmoji": "🇿🇦",
-            "score": null,
+            "score": 0,
             "penaltyScore": null
           },
           "away": {
@@ -34,12 +34,12 @@
             "nameZh": "加拿大",
             "flag": "",
             "flagEmoji": "🇨🇦",
-            "score": null,
+            "score": 0,
             "penaltyScore": null
           },
           "score": {
-            "home": null,
-            "away": null,
+            "home": 0,
+            "away": 0,
             "homePenalty": null,
             "awayPenalty": null
           },
