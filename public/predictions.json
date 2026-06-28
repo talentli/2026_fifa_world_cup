@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T04:20:00Z",
+  "generatedAt": "2026-06-28T10:21:49Z",
   "timezone": "Asia/Shanghai",
   "sourceSkill": "lottery-analyzer",
   "status": "ready",
@@ -882,21 +882,21 @@
     {
       "matchId": "400021518",
       "matchNumber": 73,
-      "updatedAt": "2026-06-24T04:20:00Z",
+      "updatedAt": "2026-06-28T10:21:49Z",
       "locked": false,
-      "resultTip": "待定",
-      "confidenceLevel": "待定",
+      "resultTip": "负",
+      "confidenceLevel": "大概率",
       "probabilities": {
-        "homeWin": 34,
-        "draw": 33,
-        "awayWin": 33
+        "homeWin": 16,
+        "draw": 24,
+        "awayWin": 60
       },
-      "score": "待定",
-      "totalGoals": "待定",
-      "halfFull": "待定",
-      "rationale": "淘汰赛对阵尚未在FIFA官方赛程中完全确定，需待小组赛结束并形成正式对阵后再按球队状态与官方赔率刷新。",
-      "sourceSummary": "FIFA官方赛程/淘汰赛签位页（截至2026-06-24）；对阵未完全确定，中国竞彩网赔率待定。",
-      "oddsSource": "对阵待定；中国竞彩网官方赔率待定。"
+      "score": "0:2",
+      "totalGoals": "2球",
+      "halfFull": "负负",
+      "rationale": "中国竞彩网SPF 5.55/3.55/1.50与半全场最低赔负负2.40，明确把加拿大放在上风。加拿大小组赛1比1波黑、6比0卡塔尔、1比2瑞士，整体创造力和终结上限高于南非；南非虽1比0韩国历史性出线，但三场只进2球。FIFA与The Guardian赛前消息显示阿方索·戴维斯、莫伊斯·邦比托回归，加拿大仅伊斯梅尔·科内继续缺阵且欧斯塔基奥体能待观察，更倾向加拿大在淘汰赛先手兑现效率。",
+      "sourceSummary": "中国竞彩网官方移动足球计算器（2026-06-28 浏览器抓取） + FIFA 南非vs加拿大赛前页/加拿大1比2瑞士/南非1比0韩国 + The Guardian 2026-06-28 加拿大赛前伤停消息 + public/schedule.json 小组赛赛果。",
+      "oddsSource": "中国竞彩网官方移动足球计算器（2026-06-28 浏览器抓取）：SPF 5.55/3.55/1.50；让球(+1) 2.23/3.12/2.78；半全场最低赔 负负 2.40；总进球最低赔 2球 3.20；比分低赔 0:1 5.70、1:2 5.80、0:2 6.40。"
     },
     {
       "matchId": "400021513",
