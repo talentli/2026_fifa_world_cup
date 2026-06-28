@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T01:55:29.229Z",
+  "generatedAt": "2026-06-28T06:33:37.192Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "stages": [
@@ -17,7 +17,7 @@
           "group": "",
           "groupZh": "",
           "status": 1,
-          "matchClock": "",
+          "matchClock": "0'",
           "statusText": "",
           "home": {
             "code": "RSA",
@@ -62,7 +62,7 @@
           "group": "",
           "groupZh": "",
           "status": 1,
-          "matchClock": "",
+          "matchClock": "0'",
           "statusText": "",
           "home": {
             "code": "BRA",
@@ -107,7 +107,7 @@
           "group": "",
           "groupZh": "",
           "status": 1,
-          "matchClock": "",
+          "matchClock": "0'",
           "statusText": "",
           "home": {
             "code": "GER",
@@ -152,7 +152,7 @@
           "group": "",
           "groupZh": "",
           "status": 1,
-          "matchClock": "",
+          "matchClock": "0'",
           "statusText": "",
           "home": {
             "code": "NED",
@@ -197,7 +197,7 @@
           "group": "",
           "groupZh": "",
           "status": 1,
-          "matchClock": "",
+          "matchClock": "0'",
           "statusText": "",
           "home": {
             "code": "CIV",
@@ -242,7 +242,7 @@
           "group": "",
           "groupZh": "",
           "status": 1,
-          "matchClock": "",
+          "matchClock": "0'",
           "statusText": "",
           "home": {
             "code": "FRA",
@@ -287,7 +287,7 @@
           "group": "",
           "groupZh": "",
           "status": 1,
-          "matchClock": "",
+          "matchClock": "0'",
           "statusText": "",
           "home": {
             "code": "MEX",
@@ -332,7 +332,7 @@
           "group": "",
           "groupZh": "",
           "status": 1,
-          "matchClock": "",
+          "matchClock": "0'",
           "statusText": "",
           "home": {
             "code": "ENG",
@@ -377,7 +377,7 @@
           "group": "",
           "groupZh": "",
           "status": 1,
-          "matchClock": "",
+          "matchClock": "0'",
           "statusText": "",
           "home": {
             "code": "BEL",
@@ -422,7 +422,7 @@
           "group": "",
           "groupZh": "",
           "status": 1,
-          "matchClock": "",
+          "matchClock": "0'",
           "statusText": "",
           "home": {
             "code": "USA",
@@ -467,7 +467,7 @@
           "group": "",
           "groupZh": "",
           "status": 1,
-          "matchClock": "",
+          "matchClock": "0'",
           "statusText": "",
           "home": {
             "code": "ESP",
@@ -479,11 +479,11 @@
             "penaltyScore": null
           },
           "away": {
-            "code": "TBD",
-            "name": "TBD",
-            "nameZh": "待定",
+            "code": "AUT",
+            "name": "Austria",
+            "nameZh": "奥地利",
             "flag": "",
-            "flagEmoji": "◇",
+            "flagEmoji": "🇦🇹",
             "score": null,
             "penaltyScore": null
           },
@@ -512,7 +512,7 @@
           "group": "",
           "groupZh": "",
           "status": 1,
-          "matchClock": "",
+          "matchClock": "0'",
           "statusText": "",
           "home": {
             "code": "POR",
@@ -557,7 +557,7 @@
           "group": "",
           "groupZh": "",
           "status": 1,
-          "matchClock": "",
+          "matchClock": "0'",
           "statusText": "",
           "home": {
             "code": "SUI",
@@ -569,11 +569,11 @@
             "penaltyScore": null
           },
           "away": {
-            "code": "TBD",
-            "name": "TBD",
-            "nameZh": "待定",
+            "code": "ALG",
+            "name": "Algeria",
+            "nameZh": "阿尔及利亚",
             "flag": "",
-            "flagEmoji": "◇",
+            "flagEmoji": "🇩🇿",
             "score": null,
             "penaltyScore": null
           },
@@ -602,7 +602,7 @@
           "group": "",
           "groupZh": "",
           "status": 1,
-          "matchClock": "",
+          "matchClock": "0'",
           "statusText": "",
           "home": {
             "code": "AUS",
@@ -647,7 +647,7 @@
           "group": "",
           "groupZh": "",
           "status": 1,
-          "matchClock": "",
+          "matchClock": "0'",
           "statusText": "",
           "home": {
             "code": "ARG",
@@ -692,7 +692,7 @@
           "group": "",
           "groupZh": "",
           "status": 1,
-          "matchClock": "",
+          "matchClock": "0'",
           "statusText": "",
           "home": {
             "code": "COL",
