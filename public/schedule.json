@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T20:17:45.856Z",
+  "generatedAt": "2026-06-28T21:37:56.901Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "sources": [
@@ -3299,8 +3299,8 @@
       "stageZh": "32 强赛",
       "group": "",
       "groupZh": "",
-      "status": 3,
-      "matchClock": "57'",
+      "status": 0,
+      "matchClock": "97'",
       "statusText": "",
       "home": {
         "code": "RSA",
@@ -3317,12 +3317,12 @@
         "nameZh": "加拿大",
         "flag": "",
         "flagEmoji": "🇨🇦",
-        "score": 0,
+        "score": 1,
         "penaltyScore": null
       },
       "score": {
         "home": 0,
-        "away": 0,
+        "away": 1,
         "homePenalty": null,
         "awayPenalty": null
       },
@@ -4023,11 +4023,11 @@
       "matchClock": "",
       "statusText": "",
       "home": {
-        "code": "TBD",
-        "name": "TBD",
-        "nameZh": "待定",
+        "code": "CAN",
+        "name": "Canada",
+        "nameZh": "加拿大",
         "flag": "",
-        "flagEmoji": "◇",
+        "flagEmoji": "🇨🇦",
         "score": null,
         "penaltyScore": null
       },
