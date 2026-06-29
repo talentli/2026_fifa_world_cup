@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T10:21:49Z",
+  "generatedAt": "2026-06-29T04:28:07Z",
   "timezone": "Asia/Shanghai",
   "sourceSkill": "lottery-analyzer",
   "status": "ready",
@@ -541,7 +541,7 @@
       "matchId": "400021468",
       "matchNumber": 55,
       "updatedAt": "2026-06-25T04:20:00Z",
-      "locked": false,
+      "locked": true,
       "resultTip": "负",
       "confidenceLevel": "大概率",
       "probabilities": {
@@ -560,7 +560,7 @@
       "matchId": "400021466",
       "matchNumber": 56,
       "updatedAt": "2026-06-25T04:20:00Z",
-      "locked": false,
+      "locked": true,
       "resultTip": "负",
       "confidenceLevel": "大概率",
       "probabilities": {
@@ -579,7 +579,7 @@
       "matchId": "400021471",
       "matchNumber": 57,
       "updatedAt": "2026-06-25T04:20:00Z",
-      "locked": false,
+      "locked": true,
       "resultTip": "胜",
       "confidenceLevel": "中等概率",
       "probabilities": {
@@ -598,7 +598,7 @@
       "matchId": "400021473",
       "matchNumber": 58,
       "updatedAt": "2026-06-25T04:20:00Z",
-      "locked": false,
+      "locked": true,
       "resultTip": "负",
       "confidenceLevel": "稳胆级",
       "probabilities": {
@@ -617,7 +617,7 @@
       "matchId": "400021459",
       "matchNumber": 59,
       "updatedAt": "2026-06-25T04:20:00Z",
-      "locked": false,
+      "locked": true,
       "resultTip": "负",
       "confidenceLevel": "中等概率",
       "probabilities": {
@@ -636,7 +636,7 @@
       "matchId": "400021461",
       "matchNumber": 60,
       "updatedAt": "2026-06-25T04:20:00Z",
-      "locked": false,
+      "locked": true,
       "resultTip": "平",
       "confidenceLevel": "中等概率",
       "probabilities": {
@@ -655,7 +655,7 @@
       "matchId": "400021489",
       "matchNumber": 61,
       "updatedAt": "2026-06-25T04:20:00Z",
-      "locked": false,
+      "locked": true,
       "resultTip": "负",
       "confidenceLevel": "大概率",
       "probabilities": {
@@ -674,7 +674,7 @@
       "matchId": "400021493",
       "matchNumber": 62,
       "updatedAt": "2026-06-25T04:20:00Z",
-      "locked": false,
+      "locked": true,
       "resultTip": "胜",
       "confidenceLevel": "大概率",
       "probabilities": {
@@ -693,7 +693,7 @@
       "matchId": "400021479",
       "matchNumber": 63,
       "updatedAt": "2026-06-25T04:20:00Z",
-      "locked": false,
+      "locked": true,
       "resultTip": "平",
       "confidenceLevel": "中等概率",
       "probabilities": {
@@ -712,7 +712,7 @@
       "matchId": "400021481",
       "matchNumber": 64,
       "updatedAt": "2026-06-25T04:20:00Z",
-      "locked": false,
+      "locked": true,
       "resultTip": "负",
       "confidenceLevel": "大概率",
       "probabilities": {
@@ -731,7 +731,7 @@
       "matchId": "400021485",
       "matchNumber": 65,
       "updatedAt": "2026-06-25T04:20:00Z",
-      "locked": false,
+      "locked": true,
       "resultTip": "胜",
       "confidenceLevel": "中等概率",
       "probabilities": {
@@ -750,7 +750,7 @@
       "matchId": "400021484",
       "matchNumber": 66,
       "updatedAt": "2026-06-25T04:20:00Z",
-      "locked": false,
+      "locked": true,
       "resultTip": "负",
       "confidenceLevel": "大概率",
       "probabilities": {
@@ -769,7 +769,7 @@
       "matchId": "400021508",
       "matchNumber": 67,
       "updatedAt": "2026-06-25T04:20:00Z",
-      "locked": false,
+      "locked": true,
       "resultTip": "负",
       "confidenceLevel": "稳胆级",
       "probabilities": {
@@ -788,7 +788,7 @@
       "matchId": "400021509",
       "matchNumber": 68,
       "updatedAt": "2026-06-25T04:20:00Z",
-      "locked": false,
+      "locked": true,
       "resultTip": "胜",
       "confidenceLevel": "大概率",
       "probabilities": {
@@ -807,7 +807,7 @@
       "matchId": "400021497",
       "matchNumber": 69,
       "updatedAt": "2026-06-25T04:20:00Z",
-      "locked": false,
+      "locked": true,
       "resultTip": "平",
       "confidenceLevel": "中等概率",
       "probabilities": {
@@ -826,7 +826,7 @@
       "matchId": "400021495",
       "matchNumber": 70,
       "updatedAt": "2026-06-25T04:20:00Z",
-      "locked": false,
+      "locked": true,
       "resultTip": "负",
       "confidenceLevel": "稳胆级",
       "probabilities": {
@@ -845,7 +845,7 @@
       "matchId": "400021505",
       "matchNumber": 71,
       "updatedAt": "2026-06-25T04:20:00Z",
-      "locked": false,
+      "locked": true,
       "resultTip": "负",
       "confidenceLevel": "中等概率",
       "probabilities": {
@@ -864,7 +864,7 @@
       "matchId": "400021500",
       "matchNumber": 72,
       "updatedAt": "2026-06-25T04:20:00Z",
-      "locked": false,
+      "locked": true,
       "resultTip": "胜",
       "confidenceLevel": "中等概率",
       "probabilities": {
@@ -901,287 +901,287 @@
     {
       "matchId": "400021513",
       "matchNumber": 74,
-      "updatedAt": "2026-06-24T04:20:00Z",
+      "updatedAt": "2026-06-29T04:28:07Z",
       "locked": false,
-      "resultTip": "待定",
-      "confidenceLevel": "待定",
+      "resultTip": "胜",
+      "confidenceLevel": "稳胆级",
       "probabilities": {
-        "homeWin": 34,
-        "draw": 33,
-        "awayWin": 33
+        "homeWin": 74,
+        "draw": 17,
+        "awayWin": 9
       },
-      "score": "待定",
-      "totalGoals": "待定",
-      "halfFull": "待定",
-      "rationale": "淘汰赛对阵尚未在FIFA官方赛程中完全确定，需待小组赛结束并形成正式对阵后再按球队状态与官方赔率刷新。",
-      "sourceSummary": "FIFA官方赛程/淘汰赛签位页（截至2026-06-24）；对阵未完全确定，中国竞彩网赔率待定。",
-      "oddsSource": "对阵待定；中国竞彩网官方赔率待定。"
+      "score": "3:0",
+      "totalGoals": "3球",
+      "halfFull": "胜胜",
+      "rationale": "德国小组三战打出10球，虽然末轮1比2负于厄瓜多尔，但前两轮对库拉索和科特迪瓦仍持续兑现高位压制；巴拉圭三场只进2球，面对美国曾被打穿，更多依靠低位防守与单点反击抢分。中国竞彩网SPF 1.20/5.18/9.70与半全场胜胜1.63把主胜压得很低，说明官方结构仍明显倾向德国在淘汰赛早段建立优势。",
+      "sourceSummary": "中国竞彩网官方足球计算器 getMatchCalculatorV1.qry（2026-06-29 抓取） + public/schedule.json 当前小组赛已结束赛果（来源含 FIFA 官方赛程/比分页）。",
+      "oddsSource": "中国竞彩网官方足球计算器：SPF 1.20/5.18/9.70；让球(-1) 1.70/3.90/3.52；半全场最低赔 胜胜 1.63；总进球最低赔 3球 3.50、2球 3.90。"
     },
     {
       "matchId": "400021522",
       "matchNumber": 75,
-      "updatedAt": "2026-06-24T04:20:00Z",
+      "updatedAt": "2026-06-29T04:28:07Z",
       "locked": false,
-      "resultTip": "待定",
-      "confidenceLevel": "待定",
+      "resultTip": "胜",
+      "confidenceLevel": "中等概率",
       "probabilities": {
-        "homeWin": 34,
-        "draw": 33,
-        "awayWin": 33
+        "homeWin": 45,
+        "draw": 30,
+        "awayWin": 25
       },
-      "score": "待定",
-      "totalGoals": "待定",
-      "halfFull": "待定",
-      "rationale": "淘汰赛对阵尚未在FIFA官方赛程中完全确定，需待小组赛结束并形成正式对阵后再按球队状态与官方赔率刷新。",
-      "sourceSummary": "FIFA官方赛程/淘汰赛签位页（截至2026-06-24）；对阵未完全确定，中国竞彩网赔率待定。",
-      "oddsSource": "对阵待定；中国竞彩网官方赔率待定。"
+      "score": "2:1",
+      "totalGoals": "3球",
+      "halfFull": "平胜",
+      "rationale": "荷兰与摩洛哥都以不败战绩晋级，前者三战10球、进攻层次更立体，后者则连续对巴西和苏格兰拿分，反击效率和防守韧性都过关。中国竞彩网SPF 1.97/2.95/3.53只给荷兰轻度优势，平赔被压在2字头，说明这更像是强强拉锯战；结合荷兰小组赛后两轮连续打出5球和3球，仍稍偏其在后程完成兑现。",
+      "sourceSummary": "中国竞彩网官方足球计算器 getMatchCalculatorV1.qry（2026-06-29 抓取） + public/schedule.json 当前小组赛已结束赛果（来源含 FIFA 官方赛程/比分页）。",
+      "oddsSource": "中国竞彩网官方足球计算器：SPF 1.97/2.95/3.53；让球(-1) 4.18/3.48/1.66；半全场最低赔 胜胜 3.15；总进球最低赔 2球 3.20。"
     },
     {
       "matchId": "400021516",
       "matchNumber": 76,
-      "updatedAt": "2026-06-24T04:20:00Z",
+      "updatedAt": "2026-06-29T04:28:07Z",
       "locked": false,
-      "resultTip": "待定",
-      "confidenceLevel": "待定",
+      "resultTip": "胜",
+      "confidenceLevel": "大概率",
       "probabilities": {
-        "homeWin": 34,
-        "draw": 33,
-        "awayWin": 33
+        "homeWin": 59,
+        "draw": 24,
+        "awayWin": 17
       },
-      "score": "待定",
-      "totalGoals": "待定",
-      "halfFull": "待定",
-      "rationale": "淘汰赛对阵尚未在FIFA官方赛程中完全确定，需待小组赛结束并形成正式对阵后再按球队状态与官方赔率刷新。",
-      "sourceSummary": "FIFA官方赛程/淘汰赛签位页（截至2026-06-24）；对阵未完全确定，中国竞彩网赔率待定。",
-      "oddsSource": "对阵待定；中国竞彩网官方赔率待定。"
+      "score": "2:1",
+      "totalGoals": "3球",
+      "halfFull": "平胜",
+      "rationale": "巴西小组三场2胜1平、7进1失，先后零封海地与苏格兰，整体压制力已经回到高位；日本同样不败出线，但面对荷兰与瑞典两场强度更高的比赛都没能全取三分。中国竞彩网SPF 1.49/3.72/5.28继续明确支持巴西，考虑日本前场转换速度和进球能力不弱，这场更像是巴西掌控节奏但未必轻松的主胜。",
+      "sourceSummary": "中国竞彩网官方足球计算器 getMatchCalculatorV1.qry（2026-06-29 抓取） + public/schedule.json 当前小组赛已结束赛果（来源含 FIFA 官方赛程/比分页）。",
+      "oddsSource": "中国竞彩网官方足球计算器：SPF 1.49/3.72/5.28；让球(-1) 2.71/3.15/2.26；半全场最低赔 胜胜 2.47；总进球最低赔 2球 3.40。"
     },
     {
       "matchId": "400021523",
       "matchNumber": 77,
-      "updatedAt": "2026-06-24T04:20:00Z",
+      "updatedAt": "2026-06-29T04:28:07Z",
       "locked": false,
-      "resultTip": "待定",
-      "confidenceLevel": "待定",
+      "resultTip": "胜",
+      "confidenceLevel": "稳胆级",
       "probabilities": {
-        "homeWin": 34,
-        "draw": 33,
-        "awayWin": 33
+        "homeWin": 76,
+        "draw": 16,
+        "awayWin": 8
       },
-      "score": "待定",
-      "totalGoals": "待定",
-      "halfFull": "待定",
-      "rationale": "淘汰赛对阵尚未在FIFA官方赛程中完全确定，需待小组赛结束并形成正式对阵后再按球队状态与官方赔率刷新。",
-      "sourceSummary": "FIFA官方赛程/淘汰赛签位页（截至2026-06-24）；对阵未完全确定，中国竞彩网赔率待定。",
-      "oddsSource": "对阵待定；中国竞彩网官方赔率待定。"
+      "score": "3:1",
+      "totalGoals": "4球",
+      "halfFull": "胜胜",
+      "rationale": "法国小组三战全胜、10比2的进失球体现出前场终结和中后场控制都在高位；瑞典虽然首轮5比1大胜突尼斯，但后两战对荷兰和日本只拿到1分，强强对抗里的防线承压问题已暴露。中国竞彩网SPF 1.17/5.60/10.50和半全场胜胜1.60是这轮最深的正路结构之一，法国仍是更稳的一边。",
+      "sourceSummary": "中国竞彩网官方足球计算器 getMatchCalculatorV1.qry（2026-06-29 抓取） + public/schedule.json 当前小组赛已结束赛果（来源含 FIFA 官方赛程/比分页）。",
+      "oddsSource": "中国竞彩网官方足球计算器：SPF 1.17/5.60/10.50；让球(-1) 1.63/3.90/3.85；半全场最低赔 胜胜 1.60；总进球最低赔 3球 3.55、4球 4.25。"
     },
     {
       "matchId": "400021514",
       "matchNumber": 78,
-      "updatedAt": "2026-06-24T04:20:00Z",
+      "updatedAt": "2026-06-29T04:28:07Z",
       "locked": false,
-      "resultTip": "待定",
-      "confidenceLevel": "待定",
+      "resultTip": "负",
+      "confidenceLevel": "中等概率",
       "probabilities": {
-        "homeWin": 34,
-        "draw": 33,
-        "awayWin": 33
+        "homeWin": 24,
+        "draw": 27,
+        "awayWin": 49
       },
-      "score": "待定",
-      "totalGoals": "待定",
-      "halfFull": "待定",
-      "rationale": "淘汰赛对阵尚未在FIFA官方赛程中完全确定，需待小组赛结束并形成正式对阵后再按球队状态与官方赔率刷新。",
-      "sourceSummary": "FIFA官方赛程/淘汰赛签位页（截至2026-06-24）；对阵未完全确定，中国竞彩网赔率待定。",
-      "oddsSource": "对阵待定；中国竞彩网官方赔率待定。"
+      "score": "1:2",
+      "totalGoals": "3球",
+      "halfFull": "平负",
+      "rationale": "科特迪瓦小组赛2胜1负、防线整体失球不多，但赢球内容更多偏低比分控制；挪威虽然被法国4比1击败，前两轮对伊拉克和塞内加尔仍打出7球，进攻上限更高。中国竞彩网SPF 3.70/3.33/1.79直接把客胜压在最低位，说明市场更看重挪威的转换速度和锋线产出，这场更偏向其在对攻中占上风。",
+      "sourceSummary": "中国竞彩网官方足球计算器 getMatchCalculatorV1.qry（2026-06-29 抓取） + public/schedule.json 当前小组赛已结束赛果（来源含 FIFA 官方赛程/比分页）。",
+      "oddsSource": "中国竞彩网官方足球计算器：SPF 3.70/3.33/1.79；让球(+1) 1.79/3.70/3.33；半全场最低赔 负负 2.85；总进球最低赔 2球 3.35。"
     },
     {
       "matchId": "400021520",
       "matchNumber": 79,
-      "updatedAt": "2026-06-24T04:20:00Z",
+      "updatedAt": "2026-06-29T04:28:07Z",
       "locked": false,
-      "resultTip": "待定",
-      "confidenceLevel": "待定",
+      "resultTip": "胜",
+      "confidenceLevel": "中等概率",
       "probabilities": {
-        "homeWin": 34,
-        "draw": 33,
-        "awayWin": 33
+        "homeWin": 46,
+        "draw": 30,
+        "awayWin": 24
       },
-      "score": "待定",
-      "totalGoals": "待定",
-      "halfFull": "待定",
-      "rationale": "淘汰赛对阵尚未在FIFA官方赛程中完全确定，需待小组赛结束并形成正式对阵后再按球队状态与官方赔率刷新。",
-      "sourceSummary": "FIFA官方赛程/淘汰赛签位页（截至2026-06-24）；对阵未完全确定，中国竞彩网赔率待定。",
-      "oddsSource": "对阵待定；中国竞彩网官方赔率待定。"
+      "score": "1:0",
+      "totalGoals": "1球",
+      "halfFull": "平胜",
+      "rationale": "墨西哥小组三战全胜且零失球，连续拿下南非、韩国和捷克，主办优势与防线稳定性都很突出；厄瓜多尔虽然末轮击败德国完成晋级，但三场总共只进2球，进攻端波动较大。中国竞彩网SPF 2.04/2.70/3.72只给墨西哥有限优势，不过比赛地在墨西哥城，高原与主场氛围仍让其在低比分拉锯战里更值得高看。",
+      "sourceSummary": "中国竞彩网官方足球计算器 getMatchCalculatorV1.qry（2026-06-29 抓取） + public/schedule.json 当前小组赛已结束赛果（来源含 FIFA 官方赛程/比分页）。",
+      "oddsSource": "中国竞彩网官方足球计算器：SPF 2.04/2.70/3.72；让球(-1) 4.68/3.40/1.61；半全场最低赔 胜胜 3.25；总进球最低赔 2球 3.00、1球 3.30。"
     },
     {
       "matchId": "400021512",
       "matchNumber": 80,
-      "updatedAt": "2026-06-24T04:20:00Z",
+      "updatedAt": "2026-06-29T04:28:07Z",
       "locked": false,
-      "resultTip": "待定",
-      "confidenceLevel": "待定",
+      "resultTip": "胜",
+      "confidenceLevel": "稳胆级",
       "probabilities": {
-        "homeWin": 34,
-        "draw": 33,
-        "awayWin": 33
+        "homeWin": 76,
+        "draw": 17,
+        "awayWin": 7
       },
-      "score": "待定",
-      "totalGoals": "待定",
-      "halfFull": "待定",
-      "rationale": "淘汰赛对阵尚未在FIFA官方赛程中完全确定，需待小组赛结束并形成正式对阵后再按球队状态与官方赔率刷新。",
-      "sourceSummary": "FIFA官方赛程/淘汰赛签位页（截至2026-06-24）；对阵未完全确定，中国竞彩网赔率待定。",
-      "oddsSource": "对阵待定；中国竞彩网官方赔率待定。"
+      "score": "3:0",
+      "totalGoals": "3球",
+      "halfFull": "胜胜",
+      "rationale": "英格兰小组赛2胜1平保持不败，6进2失，面对克罗地亚和巴拿马都踢出了较稳定的压迫与二次进攻；民主刚果末轮3比1击败乌兹别克斯坦拿到出线权，但此前对葡萄牙和哥伦比亚只进1球，整体上限仍逊一档。中国竞彩网SPF 1.17/5.25/12.00与半全场胜胜1.57持续压低主胜，这场仍是标准正路。",
+      "sourceSummary": "中国竞彩网官方足球计算器 getMatchCalculatorV1.qry（2026-06-29 抓取） + public/schedule.json 当前小组赛已结束赛果（来源含 FIFA 官方赛程/比分页）。",
+      "oddsSource": "中国竞彩网官方足球计算器：SPF 1.17/5.25/12.00；让球(-1) 1.71/3.50/3.86；半全场最低赔 胜胜 1.57；总进球最低赔 2球 3.50、3球 3.50。"
     },
     {
       "matchId": "400021524",
       "matchNumber": 81,
-      "updatedAt": "2026-06-24T04:20:00Z",
+      "updatedAt": "2026-06-29T04:28:07Z",
       "locked": false,
-      "resultTip": "待定",
-      "confidenceLevel": "待定",
+      "resultTip": "胜",
+      "confidenceLevel": "大概率",
       "probabilities": {
-        "homeWin": 34,
-        "draw": 33,
-        "awayWin": 33
+        "homeWin": 67,
+        "draw": 21,
+        "awayWin": 12
       },
-      "score": "待定",
-      "totalGoals": "待定",
-      "halfFull": "待定",
-      "rationale": "淘汰赛对阵尚未在FIFA官方赛程中完全确定，需待小组赛结束并形成正式对阵后再按球队状态与官方赔率刷新。",
-      "sourceSummary": "FIFA官方赛程/淘汰赛签位页（截至2026-06-24）；对阵未完全确定，中国竞彩网赔率待定。",
-      "oddsSource": "对阵待定；中国竞彩网官方赔率待定。"
+      "score": "2:0",
+      "totalGoals": "2球",
+      "halfFull": "胜胜",
+      "rationale": "美国小组赛前两轮连胜巴拉圭和澳大利亚，虽然末轮输给土耳其，但整体8球火力仍在淘汰赛球队里处于前列；波黑1胜1平1负出线，防线三场失6球，对更快节奏的高位冲击承压明显。中国竞彩网SPF 1.28/4.40/8.25和半全场胜胜1.85都明显支持美国，主场环境同样是附加分。",
+      "sourceSummary": "中国竞彩网官方足球计算器 getMatchCalculatorV1.qry（2026-06-29 抓取） + public/schedule.json 当前小组赛已结束赛果（来源含 FIFA 官方赛程/比分页）。",
+      "oddsSource": "中国竞彩网官方足球计算器：SPF 1.28/4.40/8.25；让球(-1) 1.97/3.50/2.98；半全场最低赔 胜胜 1.85；总进球最低赔 3球 3.45、2球 3.60。"
     },
     {
       "matchId": "400021525",
       "matchNumber": 82,
-      "updatedAt": "2026-06-24T04:20:00Z",
+      "updatedAt": "2026-06-29T04:28:07Z",
       "locked": false,
-      "resultTip": "待定",
-      "confidenceLevel": "待定",
+      "resultTip": "胜",
+      "confidenceLevel": "中等概率",
       "probabilities": {
-        "homeWin": 34,
-        "draw": 33,
-        "awayWin": 33
+        "homeWin": 44,
+        "draw": 30,
+        "awayWin": 26
       },
-      "score": "待定",
-      "totalGoals": "待定",
-      "halfFull": "待定",
-      "rationale": "淘汰赛对阵尚未在FIFA官方赛程中完全确定，需待小组赛结束并形成正式对阵后再按球队状态与官方赔率刷新。",
-      "sourceSummary": "FIFA官方赛程/淘汰赛签位页（截至2026-06-24）；对阵未完全确定，中国竞彩网赔率待定。",
-      "oddsSource": "对阵待定；中国竞彩网官方赔率待定。"
+      "score": "2:1",
+      "totalGoals": "3球",
+      "halfFull": "平胜",
+      "rationale": "比利时1胜2平不败出线，末轮5比1击穿新西兰后进攻状态明显回升；塞内加尔虽然以5比0大胜伊拉克收官，但此前连续输给法国和挪威，面对更高层级对抗时防线并不稳。中国竞彩网SPF 1.99/3.00/3.42只给比利时轻度优势，说明这不是强弱极端分明的对阵，但主队控场和阵容厚度仍略胜一筹。",
+      "sourceSummary": "中国竞彩网官方足球计算器 getMatchCalculatorV1.qry（2026-06-29 抓取） + public/schedule.json 当前小组赛已结束赛果（来源含 FIFA 官方赛程/比分页）。",
+      "oddsSource": "中国竞彩网官方足球计算器：SPF 1.99/3.00/3.42；让球(-1) 4.15/3.60/1.64；半全场最低赔 胜胜 3.25；总进球最低赔 2球 3.20。"
     },
     {
       "matchId": "400021526",
       "matchNumber": 83,
-      "updatedAt": "2026-06-24T04:20:00Z",
+      "updatedAt": "2026-06-29T04:28:07Z",
       "locked": false,
-      "resultTip": "待定",
-      "confidenceLevel": "待定",
+      "resultTip": "胜",
+      "confidenceLevel": "中等概率",
       "probabilities": {
-        "homeWin": 34,
-        "draw": 33,
-        "awayWin": 33
+        "homeWin": 48,
+        "draw": 28,
+        "awayWin": 24
       },
-      "score": "待定",
-      "totalGoals": "待定",
-      "halfFull": "待定",
-      "rationale": "淘汰赛对阵尚未在FIFA官方赛程中完全确定，需待小组赛结束并形成正式对阵后再按球队状态与官方赔率刷新。",
-      "sourceSummary": "FIFA官方赛程/淘汰赛签位页（截至2026-06-24）；对阵未完全确定，中国竞彩网赔率待定。",
-      "oddsSource": "对阵待定；中国竞彩网官方赔率待定。"
+      "score": "2:1",
+      "totalGoals": "3球",
+      "halfFull": "平胜",
+      "rationale": "葡萄牙小组赛1胜2平保持不败，面对民主刚果和哥伦比亚都把失球控制在1球以内，对乌兹别克斯坦则打出5比0高点；克罗地亚2胜1负出线，比赛经验在线，但三场丢了5球，面对高位逼抢时并非没有漏洞。由于中国竞彩网截至本次抓取尚未开售本场，判断更多基于葡萄牙整体控制力和后场稳定性略优。",
+      "sourceSummary": "中国竞彩网官方足球计算器 getMatchCalculatorV1.qry（2026-06-29 抓取）未返回本场 + public/schedule.json 当前小组赛已结束赛果（来源含 FIFA 官方赛程/比分页）。",
+      "oddsSource": "中国竞彩网官方足球计算器截至 2026-06-29 12:22:56 未开售/未返回本场 SPF/HHAD/HAFU/TTG，赔率待定；参考 public/schedule.json 小组赛赛果。"
     },
     {
       "matchId": "400021519",
       "matchNumber": 84,
-      "updatedAt": "2026-06-24T04:20:00Z",
+      "updatedAt": "2026-06-29T04:28:07Z",
       "locked": false,
-      "resultTip": "待定",
-      "confidenceLevel": "待定",
+      "resultTip": "胜",
+      "confidenceLevel": "大概率",
       "probabilities": {
-        "homeWin": 34,
-        "draw": 33,
-        "awayWin": 33
+        "homeWin": 62,
+        "draw": 23,
+        "awayWin": 15
       },
-      "score": "待定",
-      "totalGoals": "待定",
-      "halfFull": "待定",
-      "rationale": "淘汰赛对阵尚未在FIFA官方赛程中完全确定，需待小组赛结束并形成正式对阵后再按球队状态与官方赔率刷新。",
-      "sourceSummary": "FIFA官方赛程/淘汰赛签位页（截至2026-06-24）；对阵未完全确定，中国竞彩网赔率待定。",
-      "oddsSource": "对阵待定；中国竞彩网官方赔率待定。"
+      "score": "2:0",
+      "totalGoals": "2球",
+      "halfFull": "胜胜",
+      "rationale": "西班牙小组三战2胜1平且0失球，面对沙特和乌拉圭都把比赛拖入自己熟悉的控场节奏；奥地利虽然打入6球，但对阿根廷0比2失利、对阿尔及利亚3比3失3球，防线稳定性明显弱一档。官方竞彩网本次尚未返回这场淘汰赛赔率，因此仍以小组赛内容衡量，西班牙在低失误和控球端更值得高看。",
+      "sourceSummary": "中国竞彩网官方足球计算器 getMatchCalculatorV1.qry（2026-06-29 抓取）未返回本场 + public/schedule.json 当前小组赛已结束赛果（来源含 FIFA 官方赛程/比分页）。",
+      "oddsSource": "中国竞彩网官方足球计算器截至 2026-06-29 12:22:56 未开售/未返回本场 SPF/HHAD/HAFU/TTG，赔率待定；参考 public/schedule.json 小组赛赛果。"
     },
     {
       "matchId": "400021527",
       "matchNumber": 85,
-      "updatedAt": "2026-06-24T04:20:00Z",
+      "updatedAt": "2026-06-29T04:28:07Z",
       "locked": false,
-      "resultTip": "待定",
-      "confidenceLevel": "待定",
+      "resultTip": "胜",
+      "confidenceLevel": "大概率",
       "probabilities": {
-        "homeWin": 34,
-        "draw": 33,
-        "awayWin": 33
+        "homeWin": 55,
+        "draw": 25,
+        "awayWin": 20
       },
-      "score": "待定",
-      "totalGoals": "待定",
-      "halfFull": "待定",
-      "rationale": "淘汰赛对阵尚未在FIFA官方赛程中完全确定，需待小组赛结束并形成正式对阵后再按球队状态与官方赔率刷新。",
-      "sourceSummary": "FIFA官方赛程/淘汰赛签位页（截至2026-06-24）；对阵未完全确定，中国竞彩网赔率待定。",
-      "oddsSource": "对阵待定；中国竞彩网官方赔率待定。"
+      "score": "2:1",
+      "totalGoals": "3球",
+      "halfFull": "胜胜",
+      "rationale": "瑞士小组赛2胜1平，先后击败波黑和加拿大，三场只丢3球，攻守平衡度更稳定；阿尔及利亚虽然末轮3比3战平奥地利、进攻端有回弹，但首战0比3负于阿根廷也暴露出强强对抗里的承压问题。竞彩网本次尚未返回该场官方固定奖金，在无官方赔率的前提下仍稍偏瑞士以更整齐的结构拿到先手。",
+      "sourceSummary": "中国竞彩网官方足球计算器 getMatchCalculatorV1.qry（2026-06-29 抓取）未返回本场 + public/schedule.json 当前小组赛已结束赛果（来源含 FIFA 官方赛程/比分页）。",
+      "oddsSource": "中国竞彩网官方足球计算器截至 2026-06-29 12:22:56 未开售/未返回本场 SPF/HHAD/HAFU/TTG，赔率待定；参考 public/schedule.json 小组赛赛果。"
     },
     {
       "matchId": "400021521",
       "matchNumber": 86,
-      "updatedAt": "2026-06-24T04:20:00Z",
+      "updatedAt": "2026-06-29T04:28:07Z",
       "locked": false,
-      "resultTip": "待定",
-      "confidenceLevel": "待定",
+      "resultTip": "胜",
+      "confidenceLevel": "稳胆级",
       "probabilities": {
-        "homeWin": 34,
-        "draw": 33,
-        "awayWin": 33
+        "homeWin": 73,
+        "draw": 18,
+        "awayWin": 9
       },
-      "score": "待定",
-      "totalGoals": "待定",
-      "halfFull": "待定",
-      "rationale": "淘汰赛对阵尚未在FIFA官方赛程中完全确定，需待小组赛结束并形成正式对阵后再按球队状态与官方赔率刷新。",
-      "sourceSummary": "FIFA官方赛程/淘汰赛签位页（截至2026-06-24）；对阵未完全确定，中国竞彩网赔率待定。",
-      "oddsSource": "对阵待定；中国竞彩网官方赔率待定。"
+      "score": "2:0",
+      "totalGoals": "2球",
+      "halfFull": "胜胜",
+      "rationale": "阿根廷小组三战全胜、8进1失，连续击败阿尔及利亚、奥地利和约旦，比赛控制力在本届至今仍属顶档；佛得角虽然三连平不败，但三场总共只进2球，更多依靠低位防守维持比赛。竞彩网官方本次尚未开出本场固定奖金，不过从两队小组赛内容看，阿根廷在阵地压制和终结质量上都高出明显一档。",
+      "sourceSummary": "中国竞彩网官方足球计算器 getMatchCalculatorV1.qry（2026-06-29 抓取）未返回本场 + public/schedule.json 当前小组赛已结束赛果（来源含 FIFA 官方赛程/比分页）。",
+      "oddsSource": "中国竞彩网官方足球计算器截至 2026-06-29 12:22:56 未开售/未返回本场 SPF/HHAD/HAFU/TTG，赔率待定；参考 public/schedule.json 小组赛赛果。"
     },
     {
       "matchId": "400021517",
       "matchNumber": 87,
-      "updatedAt": "2026-06-24T04:20:00Z",
+      "updatedAt": "2026-06-29T04:28:07Z",
       "locked": false,
-      "resultTip": "待定",
-      "confidenceLevel": "待定",
+      "resultTip": "胜",
+      "confidenceLevel": "中等概率",
       "probabilities": {
-        "homeWin": 34,
-        "draw": 33,
-        "awayWin": 33
+        "homeWin": 52,
+        "draw": 28,
+        "awayWin": 20
       },
-      "score": "待定",
-      "totalGoals": "待定",
-      "halfFull": "待定",
-      "rationale": "淘汰赛对阵尚未在FIFA官方赛程中完全确定，需待小组赛结束并形成正式对阵后再按球队状态与官方赔率刷新。",
-      "sourceSummary": "FIFA官方赛程/淘汰赛签位页（截至2026-06-24）；对阵未完全确定，中国竞彩网赔率待定。",
-      "oddsSource": "对阵待定；中国竞彩网官方赔率待定。"
+      "score": "1:0",
+      "totalGoals": "1球",
+      "halfFull": "平胜",
+      "rationale": "哥伦比亚2胜1平出线，3场只丢1球，面对民主刚果和葡萄牙时都把比赛节奏压得较低；加纳则1胜1平1负，三场总共只进2球，更多依赖防守对抗和定位球。中国竞彩网本次尚未返回本场赔率，因此更看重已验证的小组赛内容，哥伦比亚在防线完整度和比赛控制感上略优。",
+      "sourceSummary": "中国竞彩网官方足球计算器 getMatchCalculatorV1.qry（2026-06-29 抓取）未返回本场 + public/schedule.json 当前小组赛已结束赛果（来源含 FIFA 官方赛程/比分页）。",
+      "oddsSource": "中国竞彩网官方足球计算器截至 2026-06-29 12:22:56 未开售/未返回本场 SPF/HHAD/HAFU/TTG，赔率待定；参考 public/schedule.json 小组赛赛果。"
     },
     {
       "matchId": "400021515",
       "matchNumber": 88,
-      "updatedAt": "2026-06-24T04:20:00Z",
+      "updatedAt": "2026-06-29T04:28:07Z",
       "locked": false,
-      "resultTip": "待定",
-      "confidenceLevel": "待定",
+      "resultTip": "负",
+      "confidenceLevel": "中等概率",
       "probabilities": {
-        "homeWin": 34,
-        "draw": 33,
-        "awayWin": 33
+        "homeWin": 28,
+        "draw": 31,
+        "awayWin": 41
       },
-      "score": "待定",
-      "totalGoals": "待定",
-      "halfFull": "待定",
-      "rationale": "淘汰赛对阵尚未在FIFA官方赛程中完全确定，需待小组赛结束并形成正式对阵后再按球队状态与官方赔率刷新。",
-      "sourceSummary": "FIFA官方赛程/淘汰赛签位页（截至2026-06-24）；对阵未完全确定，中国竞彩网赔率待定。",
-      "oddsSource": "对阵待定；中国竞彩网官方赔率待定。"
+      "score": "0:1",
+      "totalGoals": "1球",
+      "halfFull": "平负",
+      "rationale": "澳大利亚小组三战只打进2球，面对美国和巴拉圭两场都没能在阵地战持续创造高质量机会；埃及1胜2平保持不败，先后从比利时和伊朗身上拿分，整体比赛成熟度更高。由于中国竞彩网截至本次抓取尚未返回本场官方赔率，这里更偏向依据已完成小组赛的内容判断，埃及在低比分对抗里的拿分能力略强。",
+      "sourceSummary": "中国竞彩网官方足球计算器 getMatchCalculatorV1.qry（2026-06-29 抓取）未返回本场 + public/schedule.json 当前小组赛已结束赛果（来源含 FIFA 官方赛程/比分页）。",
+      "oddsSource": "中国竞彩网官方足球计算器截至 2026-06-29 12:22:56 未开售/未返回本场 SPF/HHAD/HAFU/TTG，赔率待定；参考 public/schedule.json 小组赛赛果。"
     },
     {
       "matchId": "400021533",
