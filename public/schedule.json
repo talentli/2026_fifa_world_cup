@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T22:15:52.251Z",
+  "generatedAt": "2026-06-29T23:29:53.412Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "sources": [
@@ -3389,8 +3389,8 @@
       "stageZh": "32 强赛",
       "group": "",
       "groupZh": "",
-      "status": 3,
-      "matchClock": "82'",
+      "status": 0,
+      "matchClock": "132'",
       "statusText": "",
       "home": {
         "code": "GER",
@@ -3399,7 +3399,7 @@
         "flag": "",
         "flagEmoji": "🇩🇪",
         "score": 1,
-        "penaltyScore": null
+        "penaltyScore": 3
       },
       "away": {
         "code": "PAR",
@@ -3408,13 +3408,13 @@
         "flag": "",
         "flagEmoji": "🇵🇾",
         "score": 1,
-        "penaltyScore": null
+        "penaltyScore": 4
       },
       "score": {
         "home": 1,
         "away": 1,
-        "homePenalty": null,
-        "awayPenalty": null
+        "homePenalty": 3,
+        "awayPenalty": 4
       },
       "goals": [],
       "venue": {
