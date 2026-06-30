@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T01:34:31.161Z",
+  "generatedAt": "2026-06-30T05:54:45.301Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "stages": [
@@ -151,8 +151,8 @@
           "stageZh": "32 强赛",
           "group": "",
           "groupZh": "",
-          "status": 3,
-          "matchClock": "35'",
+          "status": 0,
+          "matchClock": "130'",
           "statusText": "",
           "home": {
             "code": "NED",
@@ -160,8 +160,8 @@
             "nameZh": "荷兰",
             "flag": "",
             "flagEmoji": "🇳🇱",
-            "score": 0,
-            "penaltyScore": null
+            "score": 1,
+            "penaltyScore": 2
           },
           "away": {
             "code": "MAR",
@@ -169,14 +169,14 @@
             "nameZh": "摩洛哥",
             "flag": "",
             "flagEmoji": "🇲🇦",
-            "score": 0,
-            "penaltyScore": null
+            "score": 1,
+            "penaltyScore": 3
           },
           "score": {
-            "home": 0,
-            "away": 0,
-            "homePenalty": null,
-            "awayPenalty": null
+            "home": 1,
+            "away": 1,
+            "homePenalty": 2,
+            "awayPenalty": 3
           },
           "goals": [],
           "venue": {
@@ -755,11 +755,11 @@
             "penaltyScore": null
           },
           "away": {
-            "code": "TBD",
-            "name": "TBD",
-            "nameZh": "待定",
+            "code": "MAR",
+            "name": "Morocco",
+            "nameZh": "摩洛哥",
             "flag": "",
-            "flagEmoji": "◇",
+            "flagEmoji": "🇲🇦",
             "score": null,
             "penaltyScore": null
           },
