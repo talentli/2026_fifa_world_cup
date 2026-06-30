@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T16:57:53.029Z",
+  "generatedAt": "2026-06-30T19:04:24.564Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "stages": [
@@ -196,8 +196,8 @@
           "stageZh": "32 强赛",
           "group": "",
           "groupZh": "",
-          "status": 1,
-          "matchClock": "0'",
+          "status": 0,
+          "matchClock": "98'",
           "statusText": "",
           "home": {
             "code": "CIV",
@@ -205,7 +205,7 @@
             "nameZh": "科特迪瓦",
             "flag": "",
             "flagEmoji": "🇨🇮",
-            "score": null,
+            "score": 1,
             "penaltyScore": null
           },
           "away": {
@@ -214,12 +214,12 @@
             "nameZh": "挪威",
             "flag": "",
             "flagEmoji": "🇳🇴",
-            "score": null,
+            "score": 2,
             "penaltyScore": null
           },
           "score": {
-            "home": null,
-            "away": null,
+            "home": 1,
+            "away": 2,
             "homePenalty": null,
             "awayPenalty": null
           },
