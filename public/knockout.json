@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T19:04:24.564Z",
+  "generatedAt": "2026-06-30T21:03:34.046Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "stages": [
@@ -241,8 +241,8 @@
           "stageZh": "32 强赛",
           "group": "",
           "groupZh": "",
-          "status": 1,
-          "matchClock": "",
+          "status": 3,
+          "matchClock": "3'",
           "statusText": "",
           "home": {
             "code": "FRA",
@@ -250,7 +250,7 @@
             "nameZh": "法国",
             "flag": "",
             "flagEmoji": "🇫🇷",
-            "score": null,
+            "score": 0,
             "penaltyScore": null
           },
           "away": {
@@ -259,12 +259,12 @@
             "nameZh": "瑞典",
             "flag": "",
             "flagEmoji": "🇸🇪",
-            "score": null,
+            "score": 0,
             "penaltyScore": null
           },
           "score": {
-            "home": null,
-            "away": null,
+            "home": 0,
+            "away": 0,
             "homePenalty": null,
             "awayPenalty": null
           },
@@ -845,11 +845,11 @@
             "penaltyScore": null
           },
           "away": {
-            "code": "TBD",
-            "name": "TBD",
-            "nameZh": "待定",
+            "code": "NOR",
+            "name": "Norway",
+            "nameZh": "挪威",
             "flag": "",
-            "flagEmoji": "◇",
+            "flagEmoji": "🇳🇴",
             "score": null,
             "penaltyScore": null
           },
