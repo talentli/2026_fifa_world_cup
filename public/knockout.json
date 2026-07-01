@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T16:33:22.365Z",
+  "generatedAt": "2026-07-01T18:29:21.834Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "stages": [
@@ -331,8 +331,8 @@
           "stageZh": "32 强赛",
           "group": "",
           "groupZh": "",
-          "status": 3,
-          "matchClock": "33'",
+          "status": 0,
+          "matchClock": "97'",
           "statusText": "",
           "home": {
             "code": "ENG",
@@ -340,7 +340,7 @@
             "nameZh": "英格兰",
             "flag": "",
             "flagEmoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-            "score": 0,
+            "score": 2,
             "penaltyScore": null
           },
           "away": {
@@ -353,7 +353,7 @@
             "penaltyScore": null
           },
           "score": {
-            "home": 0,
+            "home": 2,
             "away": 1,
             "homePenalty": null,
             "awayPenalty": null
@@ -890,11 +890,11 @@
             "penaltyScore": null
           },
           "away": {
-            "code": "TBD",
-            "name": "TBD",
-            "nameZh": "待定",
+            "code": "ENG",
+            "name": "England",
+            "nameZh": "英格兰",
             "flag": "",
-            "flagEmoji": "◇",
+            "flagEmoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
             "score": null,
             "penaltyScore": null
           },
