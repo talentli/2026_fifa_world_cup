@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T18:29:21.834Z",
+  "generatedAt": "2026-07-01T20:28:09.651Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "sources": [
@@ -3659,8 +3659,8 @@
       "stageZh": "32 强赛",
       "group": "",
       "groupZh": "",
-      "status": 1,
-      "matchClock": "",
+      "status": 3,
+      "matchClock": "27'",
       "statusText": "",
       "home": {
         "code": "BEL",
@@ -3668,7 +3668,7 @@
         "nameZh": "比利时",
         "flag": "",
         "flagEmoji": "🇧🇪",
-        "score": null,
+        "score": 0,
         "penaltyScore": null
       },
       "away": {
@@ -3677,12 +3677,12 @@
         "nameZh": "塞内加尔",
         "flag": "",
         "flagEmoji": "🇸🇳",
-        "score": null,
+        "score": 1,
         "penaltyScore": null
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": 0,
+        "away": 1,
         "homePenalty": null,
         "awayPenalty": null
       },
