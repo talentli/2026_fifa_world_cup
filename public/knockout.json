@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T01:51:52.161Z",
+  "generatedAt": "2026-07-02T05:58:58.966Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "stages": [
@@ -421,8 +421,8 @@
           "stageZh": "32 强赛",
           "group": "",
           "groupZh": "",
-          "status": 3,
-          "matchClock": "86'",
+          "status": 0,
+          "matchClock": "101'",
           "statusText": "",
           "home": {
             "code": "USA",
@@ -971,11 +971,11 @@
           "matchClock": "",
           "statusText": "",
           "home": {
-            "code": "TBD",
-            "name": "TBD",
-            "nameZh": "待定",
+            "code": "USA",
+            "name": "USA",
+            "nameZh": "美国",
             "flag": "",
-            "flagEmoji": "◇",
+            "flagEmoji": "🇺🇸",
             "score": null,
             "penaltyScore": null
           },
