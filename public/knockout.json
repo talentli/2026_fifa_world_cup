@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T21:18:42.992Z",
+  "generatedAt": "2026-07-02T22:36:14.437Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "stages": [
@@ -512,7 +512,7 @@
           "group": "",
           "groupZh": "",
           "status": 1,
-          "matchClock": "",
+          "matchClock": "0'",
           "statusText": "",
           "home": {
             "code": "POR",
