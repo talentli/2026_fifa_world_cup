@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T19:57:25.671Z",
+  "generatedAt": "2026-07-03T21:20:47.813Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "sources": [
@@ -3884,8 +3884,8 @@
       "stageZh": "32 强赛",
       "group": "",
       "groupZh": "",
-      "status": 3,
-      "matchClock": "90'+6'",
+      "status": 0,
+      "matchClock": "129'",
       "statusText": "",
       "home": {
         "code": "AUS",
@@ -3894,7 +3894,7 @@
         "flag": "",
         "flagEmoji": "🇦🇺",
         "score": 1,
-        "penaltyScore": null
+        "penaltyScore": 2
       },
       "away": {
         "code": "EGY",
@@ -3903,13 +3903,13 @@
         "flag": "",
         "flagEmoji": "🇪🇬",
         "score": 1,
-        "penaltyScore": null
+        "penaltyScore": 4
       },
       "score": {
         "home": 1,
         "away": 1,
-        "homePenalty": null,
-        "awayPenalty": null
+        "homePenalty": 2,
+        "awayPenalty": 4
       },
       "goals": [],
       "venue": {
@@ -3930,7 +3930,7 @@
       "group": "",
       "groupZh": "",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "ARG",
@@ -4302,11 +4302,11 @@
         "penaltyScore": null
       },
       "away": {
-        "code": "TBD",
-        "name": "TBD",
-        "nameZh": "待定",
+        "code": "EGY",
+        "name": "Egypt",
+        "nameZh": "埃及",
         "flag": "",
-        "flagEmoji": "◇",
+        "flagEmoji": "🇪🇬",
         "score": null,
         "penaltyScore": null
       },
