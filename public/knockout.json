@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T23:44:37.022Z",
+  "generatedAt": "2026-07-03T01:21:28.566Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "stages": [
@@ -511,8 +511,8 @@
           "stageZh": "32 强赛",
           "group": "",
           "groupZh": "",
-          "status": 3,
-          "matchClock": "44'",
+          "status": 0,
+          "matchClock": "109'",
           "statusText": "",
           "home": {
             "code": "POR",
@@ -520,7 +520,7 @@
             "nameZh": "葡萄牙",
             "flag": "",
             "flagEmoji": "🇵🇹",
-            "score": 0,
+            "score": 2,
             "penaltyScore": null
           },
           "away": {
@@ -529,12 +529,12 @@
             "nameZh": "克罗地亚",
             "flag": "",
             "flagEmoji": "🇭🇷",
-            "score": 0,
+            "score": 1,
             "penaltyScore": null
           },
           "score": {
-            "home": 0,
-            "away": 0,
+            "home": 2,
+            "away": 1,
             "homePenalty": null,
             "awayPenalty": null
           },
@@ -926,11 +926,11 @@
           "matchClock": "",
           "statusText": "",
           "home": {
-            "code": "TBD",
-            "name": "TBD",
-            "nameZh": "待定",
+            "code": "POR",
+            "name": "Portugal",
+            "nameZh": "葡萄牙",
             "flag": "",
-            "flagEmoji": "◇",
+            "flagEmoji": "🇵🇹",
             "score": null,
             "penaltyScore": null
           },
