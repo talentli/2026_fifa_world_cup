@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T04:08:37.601Z",
+  "generatedAt": "2026-07-03T04:09:22Z",
   "timezone": "Asia/Shanghai",
   "sourceSkill": "lottery-analyzer",
   "status": "ready",
@@ -1073,7 +1073,7 @@
       "matchId": "400021526",
       "matchNumber": 83,
       "updatedAt": "2026-07-02T04:08:37.601Z",
-      "locked": false,
+      "locked": true,
       "resultTip": "胜",
       "confidenceLevel": "大概率",
       "probabilities": {
@@ -1092,7 +1092,7 @@
       "matchId": "400021519",
       "matchNumber": 84,
       "updatedAt": "2026-07-02T04:08:37.601Z",
-      "locked": false,
+      "locked": true,
       "resultTip": "胜",
       "confidenceLevel": "稳胆级",
       "probabilities": {
@@ -1129,135 +1129,135 @@
     {
       "matchId": "400021521",
       "matchNumber": 86,
-      "updatedAt": "2026-07-02T04:08:37.601Z",
+      "updatedAt": "2026-07-03T04:09:22Z",
       "locked": false,
       "resultTip": "胜",
       "confidenceLevel": "稳胆级",
       "probabilities": {
-        "homeWin": 80,
-        "draw": 13,
-        "awayWin": 7
+        "homeWin": 77,
+        "draw": 15,
+        "awayWin": 8
       },
       "score": "3:0",
       "totalGoals": "3球",
       "halfFull": "胜胜",
-      "rationale": "阿根廷小组三战全胜、8进1失，连续击败阿尔及利亚、奥地利和约旦，比赛控制力仍在本届顶档；佛得角虽三连平不败，但三场仅进2球，更多依赖低位防守和门前解围维持比赛。FIFA赛前预告仍把阿根廷列为明显热门，中国竞彩网截至本次查询未返回SPF，但让球(-2)与半全场胜胜1.32已经给出深让结构，因此依旧更看好阿根廷在迈阿密常规时间内拉开差距。",
-      "sourceSummary": "FIFA Argentina v Cabo Verde Round of 32 赛前预告 + public/schedule.json 已赛战绩（来源含 FIFA 官方赛程） + 中国竞彩网官方足球计算器（2026-07-02 查询，HHAD/HAFU/TTG，SPF未返回）。",
-      "oddsSource": "中国竞彩网官方足球计算器：SPF待定；让球(-2) 2.20/3.75/2.45；半全场最低赔 胜胜 1.32；总进球最低赔 3球 3.40、4球 4.40。"
+      "rationale": "阿根廷三战全胜且仅失1球，梅西已在本届打入6球，攻防稳定性仍是这一区间最强；佛得角虽然以不败姿态晋级，但更多依赖Vozinha领衔的低位防守，阵地战火力明显逊色。中国竞彩网本次仍未返回本场SPF，但让球(-2)与半全场胜胜1.32继续给出深让信号，结合Goal赛前预告提到双方暂无新增伤停，更倾向阿根廷在迈阿密常规时间内拉开差距。",
+      "sourceSummary": "中国竞彩网官方足球计算器（2026-07-03 11:53:33，SPF未返回） + Goal 2026-07-02 阿根廷vs佛得角赛前预告（梅西状态、Vozinha表现、双方暂无新增伤停） + public/schedule.json 小组赛已结束赛果（来源含 FIFA 官方赛程）。",
+      "oddsSource": "中国竞彩网官方足球计算器：SPF待定；让球(-2) 2.17/3.62/2.55；半全场最低赔 胜胜 1.32；总进球最低赔 3球 3.30。"
     },
     {
       "matchId": "400021517",
       "matchNumber": 87,
-      "updatedAt": "2026-07-02T04:08:37.601Z",
+      "updatedAt": "2026-07-03T04:09:22Z",
       "locked": false,
       "resultTip": "胜",
       "confidenceLevel": "稳胆级",
       "probabilities": {
-        "homeWin": 71,
-        "draw": 18,
-        "awayWin": 11
+        "homeWin": 73,
+        "draw": 17,
+        "awayWin": 10
       },
       "score": "2:0",
       "totalGoals": "2球",
       "halfFull": "胜胜",
-      "rationale": "哥伦比亚2胜1平头名出线，三战只丢1球，面对民主刚果与葡萄牙都把比赛节奏压在自己舒适区；加纳1胜1平1负，三场总共只进2球，更依赖防守对抗和定位球。FIFA预告提到这是双方首次在世界杯舞台相遇，而中国竞彩网官方SPF 1.32/4.00/8.20与半全场胜胜1.90已把主队优势拉开，常规时间更倾向哥伦比亚稳守后拿下。",
-      "sourceSummary": "FIFA Colombia v Ghana Round of 32 赛前预告 + public/schedule.json 已赛战绩（来源含 FIFA 官方赛程） + 中国竞彩网官方足球计算器（2026-07-02 查询，HAD/HHAD/HAFU/TTG）。",
-      "oddsSource": "中国竞彩网官方足球计算器：SPF 1.32/4.00/8.20；让球(-1) 2.29/3.05/2.75；半全场最低赔 胜胜 1.90；总进球最低赔 2球 3.15。"
+      "rationale": "哥伦比亚以2胜1平、仅失1球的内容头名出线，Goal赛前预告还提到路易斯·苏亚雷斯已摆脱小伤、可回到先发；加纳虽有帕尔特伊和塞门约支撑反击，但整体仍更多依赖防守韧性。中国竞彩网SPF 1.29/4.20/8.60和半全场胜胜1.90都明显压向主队，结合哥伦比亚边路推进和压迫质量，本场更看好其在堪萨斯城常规时间零封过关。",
+      "sourceSummary": "中国竞彩网官方足球计算器（2026-07-03 11:53:33） + Goal 2026-07-02 哥伦比亚vs加纳赛前预告（苏亚雷斯恢复、塞门约可出战、双方无明确停赛） + public/schedule.json 小组赛已结束赛果（来源含 FIFA 官方赛程）。",
+      "oddsSource": "中国竞彩网官方足球计算器：SPF 1.29/4.20/8.60；让球(-1) 2.20/2.95/2.98；半全场最低赔 胜胜 1.90；总进球最低赔 2球 3.15。"
     },
     {
       "matchId": "400021515",
       "matchNumber": 88,
-      "updatedAt": "2026-07-02T04:08:37.601Z",
+      "updatedAt": "2026-07-03T04:09:22Z",
       "locked": false,
       "resultTip": "负",
       "confidenceLevel": "中等概率",
       "probabilities": {
-        "homeWin": 28,
-        "draw": 33,
-        "awayWin": 39
+        "homeWin": 27,
+        "draw": 31,
+        "awayWin": 42
       },
       "score": "0:1",
       "totalGoals": "1球",
       "halfFull": "平负",
-      "rationale": "澳大利亚小组三战只打进2球，面对美国和巴拉圭两场都没能在阵地战持续创造高质量机会；埃及1胜2平保持不败，先后从比利时和伊朗身上拿分，整体比赛成熟度与防守层次更完整。FIFA赛前预告把这场描述为两支执行力强的球队碰撞，而中国竞彩网官方SPF 3.15/2.60/2.34把客胜压在最低位，结合总进球分布，本场更像是埃及在低比分拉锯中后程制胜。",
-      "sourceSummary": "FIFA Australia v Egypt Round of 32 赛前预告 + public/schedule.json 已赛战绩（来源含 FIFA 官方赛程） + 中国竞彩网官方足球计算器（2026-07-02 查询，官方更新时间 2026-07-01 的 HAD/HHAD/HAFU/TTG）。",
-      "oddsSource": "中国竞彩网官方足球计算器：SPF 3.15/2.60/2.34；让球(+1) 1.45/3.65/6.05；半全场最低赔 负负 4.10、平负 5.20；总进球最低赔 2球 2.90、1球 3.35。"
+      "rationale": "澳大利亚小组三战只进2球，Leckie和Italiano继续缺阵，进攻端更依赖Irankunda的纵向冲刺；埃及保持不败，虽然Salah有过腿后侧不适，但Guardian和Goal赛前消息都确认他已恢复合练并具备出场条件。中国竞彩网SPF 3.15/2.65/2.30把客胜压在最低位，总进球分布也偏向低开，本场更像是埃及在拉锯战后段兑现关键一击。",
+      "sourceSummary": "中国竞彩网官方足球计算器（2026-07-03 11:53:33） + Goal 2026-07-02 澳大利亚vs埃及赛前预告（Salah腿后侧情况、Leckie/Italiano缺阵） + The Guardian 2026-07-03 埃及赛前发布会（确认Salah可出战） + public/schedule.json 小组赛已结束赛果（来源含 FIFA 官方赛程）。",
+      "oddsSource": "中国竞彩网官方足球计算器：SPF 3.15/2.65/2.30；让球(+1) 1.48/3.55/5.80；半全场最低赔 平负 5.20、负负 4.15；总进球最低赔 2球 2.90、1球 3.35。"
     },
     {
       "matchId": "400021533",
       "matchNumber": 89,
-      "updatedAt": "2026-07-02T04:08:37.601Z",
+      "updatedAt": "2026-07-03T04:09:22Z",
       "locked": false,
       "resultTip": "负",
       "confidenceLevel": "大概率",
       "probabilities": {
-        "homeWin": 12,
-        "draw": 19,
-        "awayWin": 69
+        "homeWin": 17,
+        "draw": 24,
+        "awayWin": 59
       },
       "score": "0:2",
       "totalGoals": "2球",
       "halfFull": "负负",
-      "rationale": "巴拉圭虽然通过点球淘汰德国晋级，但此前小组赛只拿到1胜1平1负，进攻持续性一般；法国则已经连赢塞内加尔、伊拉克、挪威、瑞典四场，近四战打进13球，整体强度和前场效率都明显更高。FIFA赛前预告继续把法国列为热门，中国竞彩网本次查询未返回SPF，但半全场负负1.43与受让(+2)结构仍明显倾向客队，常规时间更看好法国稳步控制局面后过关。",
-      "sourceSummary": "FIFA Paraguay v France Round of 16 赛前预告 + public/schedule.json 已赛战绩（来源含 FIFA 官方赛程） + 中国竞彩网官方足球计算器（2026-07-02 查询，HHAD/HAFU/TTG，SPF未返回）。",
-      "oddsSource": "中国竞彩网官方足球计算器：SPF待定；让球(+2) 2.24/3.80/2.38；半全场最低赔 负负 1.43；总进球最低赔 3球 3.45、4球 4.50。"
+      "rationale": "巴拉圭上一轮通过点球淘汰德国，Gill的门线发挥和低位防守值得尊重，但进攻端仍主要依赖Enciso的单点突袭；法国则刚以3比0击败瑞典，Mbappe与Olise继续保持高效输出。中国竞彩网本次仍未返回本场SPF，但半全场负负1.43和受让(+2)结构都继续倾向法国，结合双方火力层级差异，更看好法国在费城常规时间稳步过关。",
+      "sourceSummary": "中国竞彩网官方足球计算器（2026-07-03 11:53:33，SPF未返回） + Reuters/Guardian 2026-06-30至2026-07-01 法国3比0瑞典报道（Mbappe、Olise状态） + Reuters Connect / Squawka 对巴拉圭点球淘汰德国与Gill发挥的已结束赛果信息 + public/schedule.json。",
+      "oddsSource": "中国竞彩网官方足球计算器：SPF待定；让球(+2) 2.28/3.75/2.36；半全场最低赔 负负 1.43；总进球最低赔 3球 3.45。"
     },
     {
       "matchId": "400021530",
       "matchNumber": 90,
-      "updatedAt": "2026-07-02T04:08:37.601Z",
+      "updatedAt": "2026-07-03T04:09:22Z",
       "locked": false,
       "resultTip": "负",
       "confidenceLevel": "大概率",
       "probabilities": {
-        "homeWin": 20,
-        "draw": 27,
-        "awayWin": 53
+        "homeWin": 21,
+        "draw": 24,
+        "awayWin": 55
       },
       "score": "1:2",
       "totalGoals": "3球",
       "halfFull": "平负",
-      "rationale": "加拿大刚在32强赛1比0淘汰南非，主场氛围仍是加分项，但此前小组赛对强硬对手波黑和瑞士时防线承压不小；摩洛哥本届保持不败，既逼平巴西，也在32强赛点球淘汰荷兰，整体对抗质量与大赛韧性更硬。FIFA赛前预告指出加拿大已来到队史新高度，而中国竞彩网官方SPF 4.70/3.12/1.68明确压低客胜，综合两队近期内容，更倾向摩洛哥在休斯敦常规时间险胜。",
-      "sourceSummary": "FIFA Canada v Morocco Round of 16 赛前预告 + public/schedule.json 已赛战绩（来源含 FIFA 官方赛程） + 中国竞彩网官方足球计算器（2026-07-02 查询，HAD/HHAD/HAFU/TTG）。",
-      "oddsSource": "中国竞彩网官方足球计算器：SPF 4.70/3.12/1.68；让球(+1) 1.92/3.25/3.32；半全场最低赔 负负 2.65；总进球最低赔 2球 3.05。"
+      "rationale": "摩洛哥延续高强度和不败走势，上一轮鏖战120分钟后淘汰荷兰，但Goal的加拿大专题也指出他们多踢30分钟且休息时间更短；加拿大则刚靠补时绝杀南非晋级，Davies状态回升、Bombito出场时间仍需管理。中国竞彩网SPF 5.05/3.26/1.60明确压低客胜，考虑到加拿大主场氛围与体能优势会让比赛更胶着，但综合强度和阵地战质量仍更偏向摩洛哥。",
+      "sourceSummary": "中国竞彩网官方足球计算器（2026-07-03 11:53:33） + Goal 2026-07-03 加拿大vs摩洛哥五点前瞻（Davies/Bombito状态、摩洛哥120分钟消耗与热区强度） + public/schedule.json 32强赛及小组赛已结束赛果（来源含 FIFA 官方赛程）。",
+      "oddsSource": "中国竞彩网官方足球计算器：SPF 5.05/3.26/1.60；让球(+1) 2.02/3.12/3.19；半全场最低赔 负负 2.55；总进球最低赔 2球 3.05。"
     },
     {
       "matchId": "400021532",
       "matchNumber": 91,
-      "updatedAt": "2026-07-02T04:08:37.601Z",
+      "updatedAt": "2026-07-03T04:09:22Z",
       "locked": false,
       "resultTip": "胜",
-      "confidenceLevel": "大概率",
+      "confidenceLevel": "中等概率",
       "probabilities": {
-        "homeWin": 61,
-        "draw": 22,
-        "awayWin": 17
+        "homeWin": 49,
+        "draw": 24,
+        "awayWin": 27
       },
       "score": "2:1",
       "totalGoals": "3球",
       "halfFull": "平胜",
-      "rationale": "巴西在小组赛后两战与32强赛先后击败海地、苏格兰、日本，近三场打进8球且稳定回到强队节奏；挪威虽然连胜塞内加尔和科特迪瓦，但对法国1比4的比赛也暴露了面对顶级压迫时中后场承压问题。FIFA赛前预告把这场列为16强重点对决，截至本次查询中国竞彩网尚未开出本场固定奖金，因此保守维持巴西占优、但挪威有反击进球能力的判断。",
-      "sourceSummary": "FIFA Brazil v Norway Round of 16 赛前预告 + public/schedule.json 已赛战绩（来源含 FIFA 官方赛程） ；中国竞彩网官方足球计算器截至 2026-07-02 11:56 仍未开出本场。",
-      "oddsSource": "中国竞彩网官方足球计算器截至 2026-07-02 11:56 未检索到本场 SPF/HHAD/HAFU/TTG，赔率待定；参考 FIFA 官方赛前预告。"
+      "rationale": "巴西终于把节奏拉回正轨，但Goal赛前预告明确指出Paqueta伤情影响后续出场，Neymar也还在控制负荷；挪威则由Haaland、Nusa和Odegaard持续制造高比分比赛，本届四场共打出18球。中国竞彩网SPF 1.73/3.40/3.90虽仍把主胜放在最低位，但已不是碾压盘，考虑巴西的经验与个人能力仍略占上风，更适合看成一场高质量对攻中的小比分主胜。",
+      "sourceSummary": "中国竞彩网官方足球计算器（2026-07-03 11:53:33） + Goal 2026-07-02 巴西vs挪威赛前预告（Paqueta伤情、Raphinha恢复、Neymar负荷与挪威锋线状态） + public/schedule.json 已结束赛果（来源含 FIFA 官方赛程）。",
+      "oddsSource": "中国竞彩网官方足球计算器：SPF 1.73/3.40/3.90；让球(-1) 3.35/3.45/1.85；半全场最低赔 胜胜 2.75；总进球最低赔 3球 3.45、2球 3.50。"
     },
     {
       "matchId": "400021531",
       "matchNumber": 92,
-      "updatedAt": "2026-06-24T04:20:00Z",
+      "updatedAt": "2026-07-03T04:09:22Z",
       "locked": false,
-      "resultTip": "待定",
-      "confidenceLevel": "待定",
+      "resultTip": "平",
+      "confidenceLevel": "中等概率",
       "probabilities": {
-        "homeWin": 34,
-        "draw": 33,
-        "awayWin": 33
+        "homeWin": 31,
+        "draw": 35,
+        "awayWin": 34
       },
-      "score": "待定",
-      "totalGoals": "待定",
-      "halfFull": "待定",
-      "rationale": "淘汰赛对阵尚未在FIFA官方赛程中完全确定，需待小组赛结束并形成正式对阵后再按球队状态与官方赔率刷新。",
-      "sourceSummary": "FIFA官方赛程/淘汰赛签位页（截至2026-06-24）；对阵未完全确定，中国竞彩网赔率待定。",
-      "oddsSource": "对阵待定；中国竞彩网官方赔率待定。"
+      "score": "1:1",
+      "totalGoals": "2球",
+      "halfFull": "平平",
+      "rationale": "英格兰纸面实力和中国竞彩网SPF都略占上风，但Azteca的海拔、主场球迷压迫和墨西哥本届至今零封的防守内容，足以把常规时间拉回五五开；Guardian与Goal连续报道也都提到英格兰对酒店安保、高原和慢热问题的担忧。墨西哥若延续主场防守强度，英格兰则更多依赖Kane单点终结，这场90分钟更像是比分不高的僵持局。",
+      "sourceSummary": "中国竞彩网官方足球计算器（2026-07-03 11:53:33） + The Guardian 2026-07-02/03 英格兰在墨西哥城的安保与高原适应报道 + Goal 2026-07-02 Thierry Henry 对英格兰慢热与Azteca环境的警示 + Fox Sports 2026-07-01 墨西哥零封晋级信息 + public/schedule.json 已结束赛果（来源含 FIFA 官方赛程）。",
+      "oddsSource": "中国竞彩网官方足球计算器：SPF 3.28/2.80/2.14；让球(+1) 1.55/3.50/5.05；半全场最低赔 平平 4.30、平负 4.90；总进球最低赔 2球 3.00。"
     },
     {
       "matchId": "400021529",
