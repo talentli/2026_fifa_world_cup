@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T22:33:16.235Z",
+  "generatedAt": "2026-07-03T23:39:55.159Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "stages": [
@@ -647,7 +647,7 @@
           "group": "",
           "groupZh": "",
           "status": 3,
-          "matchClock": "33'",
+          "matchClock": "79'",
           "statusText": "",
           "home": {
             "code": "ARG",
@@ -664,12 +664,12 @@
             "nameZh": "佛得角",
             "flag": "",
             "flagEmoji": "🇨🇻",
-            "score": 0,
+            "score": 1,
             "penaltyScore": null
           },
           "score": {
             "home": 1,
-            "away": 0,
+            "away": 1,
             "homePenalty": null,
             "awayPenalty": null
           },
