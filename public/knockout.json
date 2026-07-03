@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T15:30:43.164Z",
+  "generatedAt": "2026-07-03T17:01:56.816Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "stages": [
@@ -602,7 +602,7 @@
           "group": "",
           "groupZh": "",
           "status": 1,
-          "matchClock": "",
+          "matchClock": "0'",
           "statusText": "",
           "home": {
             "code": "AUS",
