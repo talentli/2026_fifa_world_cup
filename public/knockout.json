@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T18:23:06.888Z",
+  "generatedAt": "2026-07-03T19:57:25.671Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "stages": [
@@ -602,7 +602,7 @@
           "group": "",
           "groupZh": "",
           "status": 3,
-          "matchClock": "23'",
+          "matchClock": "90'+6'",
           "statusText": "",
           "home": {
             "code": "AUS",
@@ -610,7 +610,7 @@
             "nameZh": "澳大利亚",
             "flag": "",
             "flagEmoji": "🇦🇺",
-            "score": 0,
+            "score": 1,
             "penaltyScore": null
           },
           "away": {
@@ -623,7 +623,7 @@
             "penaltyScore": null
           },
           "score": {
-            "home": 0,
+            "home": 1,
             "away": 1,
             "homePenalty": null,
             "awayPenalty": null
