@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T01:21:28.566Z",
+  "generatedAt": "2026-07-03T05:25:14.772Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "sources": [
@@ -3839,8 +3839,8 @@
       "stageZh": "32 强赛",
       "group": "",
       "groupZh": "",
-      "status": 1,
-      "matchClock": "",
+      "status": 0,
+      "matchClock": "97'",
       "statusText": "",
       "home": {
         "code": "SUI",
@@ -3848,7 +3848,7 @@
         "nameZh": "瑞士",
         "flag": "",
         "flagEmoji": "🇨🇭",
-        "score": null,
+        "score": 2,
         "penaltyScore": null
       },
       "away": {
@@ -3857,12 +3857,12 @@
         "nameZh": "阿尔及利亚",
         "flag": "",
         "flagEmoji": "🇩🇿",
-        "score": null,
+        "score": 0,
         "penaltyScore": null
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": 2,
+        "away": 0,
         "homePenalty": null,
         "awayPenalty": null
       },
@@ -4338,11 +4338,11 @@
       "matchClock": "",
       "statusText": "",
       "home": {
-        "code": "TBD",
-        "name": "TBD",
-        "nameZh": "待定",
+        "code": "SUI",
+        "name": "Switzerland",
+        "nameZh": "瑞士",
         "flag": "",
-        "flagEmoji": "◇",
+        "flagEmoji": "🇨🇭",
         "score": null,
         "penaltyScore": null
       },
