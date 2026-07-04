@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T22:05:53.587Z",
+  "generatedAt": "2026-07-04T23:12:17.001Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "stages": [
@@ -787,8 +787,8 @@
           "stageZh": "16 强赛",
           "group": "",
           "groupZh": "",
-          "status": 3,
-          "matchClock": "",
+          "status": 0,
+          "matchClock": "101'",
           "statusText": "",
           "home": {
             "code": "PAR",
@@ -805,12 +805,12 @@
             "nameZh": "法国",
             "flag": "",
             "flagEmoji": "🇫🇷",
-            "score": 0,
+            "score": 1,
             "penaltyScore": null
           },
           "score": {
             "home": 0,
-            "away": 0,
+            "away": 1,
             "homePenalty": null,
             "awayPenalty": null
           },
