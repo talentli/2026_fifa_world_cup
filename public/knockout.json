@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T14:50:45.664Z",
+  "generatedAt": "2026-07-04T16:01:05.602Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "stages": [
@@ -743,7 +743,7 @@
           "group": "",
           "groupZh": "",
           "status": 1,
-          "matchClock": "",
+          "matchClock": "0'",
           "statusText": "",
           "home": {
             "code": "CAN",
