@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T01:19:49.193Z",
+  "generatedAt": "2026-07-04T05:08:34.582Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "sources": [
@@ -3974,8 +3974,8 @@
       "stageZh": "32 强赛",
       "group": "",
       "groupZh": "",
-      "status": 1,
-      "matchClock": "0'",
+      "status": 0,
+      "matchClock": "98'",
       "statusText": "",
       "home": {
         "code": "COL",
@@ -3983,7 +3983,7 @@
         "nameZh": "哥伦比亚",
         "flag": "",
         "flagEmoji": "🇨🇴",
-        "score": null,
+        "score": 1,
         "penaltyScore": null
       },
       "away": {
@@ -3992,12 +3992,12 @@
         "nameZh": "加纳",
         "flag": "",
         "flagEmoji": "🇬🇭",
-        "score": null,
+        "score": 0,
         "penaltyScore": null
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": 1,
+        "away": 0,
         "homePenalty": null,
         "awayPenalty": null
       },
@@ -4347,11 +4347,11 @@
         "penaltyScore": null
       },
       "away": {
-        "code": "TBD",
-        "name": "TBD",
-        "nameZh": "待定",
+        "code": "COL",
+        "name": "Colombia",
+        "nameZh": "哥伦比亚",
         "flag": "",
-        "flagEmoji": "◇",
+        "flagEmoji": "🇨🇴",
         "score": null,
         "penaltyScore": null
       },
