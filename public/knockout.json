@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T18:29:34.138Z",
+  "generatedAt": "2026-07-04T19:49:45.513Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "stages": [
@@ -742,8 +742,8 @@
           "stageZh": "16 强赛",
           "group": "",
           "groupZh": "",
-          "status": 3,
-          "matchClock": "65'",
+          "status": 0,
+          "matchClock": "100'",
           "statusText": "",
           "home": {
             "code": "CAN",
@@ -760,12 +760,12 @@
             "nameZh": "摩洛哥",
             "flag": "",
             "flagEmoji": "🇲🇦",
-            "score": 1,
+            "score": 3,
             "penaltyScore": null
           },
           "score": {
             "home": 0,
-            "away": 1,
+            "away": 3,
             "homePenalty": null,
             "awayPenalty": null
           },
@@ -788,7 +788,7 @@
           "group": "",
           "groupZh": "",
           "status": 1,
-          "matchClock": "",
+          "matchClock": "0'",
           "statusText": "",
           "home": {
             "code": "PAR",
@@ -1121,11 +1121,11 @@
             "penaltyScore": null
           },
           "away": {
-            "code": "TBD",
-            "name": "TBD",
-            "nameZh": "待定",
+            "code": "MAR",
+            "name": "Morocco",
+            "nameZh": "摩洛哥",
             "flag": "",
-            "flagEmoji": "◇",
+            "flagEmoji": "🇲🇦",
             "score": null,
             "penaltyScore": null
           },
