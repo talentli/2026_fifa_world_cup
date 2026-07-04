@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T23:39:55.159Z",
+  "generatedAt": "2026-07-04T01:19:49.193Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "sources": [
@@ -3929,8 +3929,8 @@
       "stageZh": "32 强赛",
       "group": "",
       "groupZh": "",
-      "status": 3,
-      "matchClock": "79'",
+      "status": 0,
+      "matchClock": "124'",
       "statusText": "",
       "home": {
         "code": "ARG",
@@ -3938,7 +3938,7 @@
         "nameZh": "阿根廷",
         "flag": "",
         "flagEmoji": "🇦🇷",
-        "score": 1,
+        "score": 3,
         "penaltyScore": null
       },
       "away": {
@@ -3947,12 +3947,12 @@
         "nameZh": "佛得角",
         "flag": "",
         "flagEmoji": "🇨🇻",
-        "score": 1,
+        "score": 2,
         "penaltyScore": null
       },
       "score": {
-        "home": 1,
-        "away": 1,
+        "home": 3,
+        "away": 2,
         "homePenalty": null,
         "awayPenalty": null
       },
@@ -3975,7 +3975,7 @@
       "group": "",
       "groupZh": "",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "COL",
@@ -4293,11 +4293,11 @@
       "matchClock": "",
       "statusText": "",
       "home": {
-        "code": "TBD",
-        "name": "TBD",
-        "nameZh": "待定",
+        "code": "ARG",
+        "name": "Argentina",
+        "nameZh": "阿根廷",
         "flag": "",
-        "flagEmoji": "◇",
+        "flagEmoji": "🇦🇷",
         "score": null,
         "penaltyScore": null
       },
