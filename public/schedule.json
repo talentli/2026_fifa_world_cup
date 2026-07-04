@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T17:16:56.755Z",
+  "generatedAt": "2026-07-04T18:29:34.138Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "sources": [
@@ -4020,7 +4020,7 @@
       "group": "",
       "groupZh": "",
       "status": 3,
-      "matchClock": "15'",
+      "matchClock": "65'",
       "statusText": "",
       "home": {
         "code": "CAN",
@@ -4037,12 +4037,12 @@
         "nameZh": "摩洛哥",
         "flag": "",
         "flagEmoji": "🇲🇦",
-        "score": 0,
+        "score": 1,
         "penaltyScore": null
       },
       "score": {
         "home": 0,
-        "away": 0,
+        "away": 1,
         "homePenalty": null,
         "awayPenalty": null
       },
