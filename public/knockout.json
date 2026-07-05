@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T04:36:22.018Z",
+  "generatedAt": "2026-07-05T07:48:29.230Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "stages": [
@@ -833,7 +833,7 @@
           "group": "",
           "groupZh": "",
           "status": 1,
-          "matchClock": "",
+          "matchClock": "0'",
           "statusText": "",
           "home": {
             "code": "BRA",
@@ -878,7 +878,7 @@
           "group": "",
           "groupZh": "",
           "status": 1,
-          "matchClock": "",
+          "matchClock": "0'",
           "statusText": "",
           "home": {
             "code": "MEX",
@@ -923,7 +923,7 @@
           "group": "",
           "groupZh": "",
           "status": 1,
-          "matchClock": "",
+          "matchClock": "0'",
           "statusText": "",
           "home": {
             "code": "POR",
@@ -968,7 +968,7 @@
           "group": "",
           "groupZh": "",
           "status": 1,
-          "matchClock": "",
+          "matchClock": "0'",
           "statusText": "",
           "home": {
             "code": "USA",
@@ -1013,7 +1013,7 @@
           "group": "",
           "groupZh": "",
           "status": 1,
-          "matchClock": "",
+          "matchClock": "0'",
           "statusText": "",
           "home": {
             "code": "ARG",
@@ -1058,7 +1058,7 @@
           "group": "",
           "groupZh": "",
           "status": 1,
-          "matchClock": "",
+          "matchClock": "0'",
           "statusText": "",
           "home": {
             "code": "SUI",
@@ -1109,7 +1109,7 @@
           "group": "",
           "groupZh": "",
           "status": 1,
-          "matchClock": "",
+          "matchClock": "0'",
           "statusText": "",
           "home": {
             "code": "FRA",
