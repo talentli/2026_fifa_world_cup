@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T20:02:38.823Z",
+  "generatedAt": "2026-07-05T21:16:53.362Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "stages": [
@@ -833,7 +833,7 @@
           "group": "",
           "groupZh": "",
           "status": 3,
-          "matchClock": "2'",
+          "matchClock": "54'",
           "statusText": "",
           "home": {
             "code": "BRA",
