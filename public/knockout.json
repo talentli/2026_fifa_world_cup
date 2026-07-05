@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T23:12:17.001Z",
+  "generatedAt": "2026-07-05T00:15:53.869Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "stages": [
@@ -1112,11 +1112,11 @@
           "matchClock": "",
           "statusText": "",
           "home": {
-            "code": "TBD",
-            "name": "TBD",
-            "nameZh": "待定",
+            "code": "FRA",
+            "name": "France",
+            "nameZh": "法国",
             "flag": "",
-            "flagEmoji": "◇",
+            "flagEmoji": "🇫🇷",
             "score": null,
             "penaltyScore": null
           },
