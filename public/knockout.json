@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T23:38:41.861Z",
+  "generatedAt": "2026-07-06T01:26:56.948Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "stages": [
@@ -871,14 +871,14 @@
         {
           "id": "400021531",
           "matchNumber": 92,
-          "dateUtc": "2026-07-06T00:00:00Z",
-          "localDate": "2026-07-05T18:00:00Z",
+          "dateUtc": "2026-07-06T01:00:00Z",
+          "localDate": "2026-07-05T19:00:00Z",
           "stage": "Round of 16",
           "stageZh": "16 强赛",
           "group": "",
           "groupZh": "",
-          "status": 1,
-          "matchClock": "0'",
+          "status": 3,
+          "matchClock": "27'",
           "statusText": "",
           "home": {
             "code": "MEX",
@@ -886,7 +886,7 @@
             "nameZh": "墨西哥",
             "flag": "",
             "flagEmoji": "🇲🇽",
-            "score": null,
+            "score": 0,
             "penaltyScore": null
           },
           "away": {
@@ -895,12 +895,12 @@
             "nameZh": "英格兰",
             "flag": "",
             "flagEmoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-            "score": null,
+            "score": 0,
             "penaltyScore": null
           },
           "score": {
-            "home": null,
-            "away": null,
+            "home": 0,
+            "away": 0,
             "homePenalty": null,
             "awayPenalty": null
           },
