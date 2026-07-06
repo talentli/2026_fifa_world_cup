@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T21:10:03.496Z",
+  "generatedAt": "2026-07-06T22:40:19.604Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "sources": [
@@ -4245,7 +4245,7 @@
       "group": "",
       "groupZh": "",
       "status": 1,
-      "matchClock": "",
+      "matchClock": "0'",
       "statusText": "",
       "home": {
         "code": "USA",
