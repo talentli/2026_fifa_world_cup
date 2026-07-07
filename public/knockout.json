@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T21:44:32.128Z",
+  "generatedAt": "2026-07-07T22:46:17.202Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "stages": [
@@ -1058,7 +1058,7 @@
           "group": "",
           "groupZh": "",
           "status": 3,
-          "matchClock": "85'",
+          "matchClock": "",
           "statusText": "",
           "home": {
             "code": "SUI",
@@ -1067,7 +1067,7 @@
             "flag": "",
             "flagEmoji": "🇨🇭",
             "score": 0,
-            "penaltyScore": null
+            "penaltyScore": 2
           },
           "away": {
             "code": "COL",
@@ -1076,13 +1076,13 @@
             "flag": "",
             "flagEmoji": "🇨🇴",
             "score": 0,
-            "penaltyScore": null
+            "penaltyScore": 2
           },
           "score": {
             "home": 0,
             "away": 0,
-            "homePenalty": null,
-            "awayPenalty": null
+            "homePenalty": 2,
+            "awayPenalty": 2
           },
           "goals": [],
           "venue": {
