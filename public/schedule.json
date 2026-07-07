@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T20:09:53.498Z",
+  "generatedAt": "2026-07-07T21:44:32.128Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "sources": [
@@ -4335,7 +4335,7 @@
       "group": "",
       "groupZh": "",
       "status": 3,
-      "matchClock": "10'",
+      "matchClock": "85'",
       "statusText": "",
       "home": {
         "code": "SUI",
