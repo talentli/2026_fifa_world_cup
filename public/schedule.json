@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T15:49:10.108Z",
+  "generatedAt": "2026-07-07T17:58:25.906Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "sources": [
@@ -4289,8 +4289,8 @@
       "stageZh": "16 强赛",
       "group": "",
       "groupZh": "",
-      "status": 1,
-      "matchClock": "0'",
+      "status": 3,
+      "matchClock": "90'+4'",
       "statusText": "",
       "home": {
         "code": "ARG",
@@ -4298,7 +4298,7 @@
         "nameZh": "阿根廷",
         "flag": "",
         "flagEmoji": "🇦🇷",
-        "score": null,
+        "score": 3,
         "penaltyScore": null
       },
       "away": {
@@ -4307,12 +4307,12 @@
         "nameZh": "埃及",
         "flag": "",
         "flagEmoji": "🇪🇬",
-        "score": null,
+        "score": 2,
         "penaltyScore": null
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": 3,
+        "away": 2,
         "homePenalty": null,
         "awayPenalty": null
       },
