@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T04:11:24Z",
+  "generatedAt": "2026-07-08T04:05:46Z",
   "timezone": "Asia/Shanghai",
   "sourceSkill": "lottery-analyzer",
   "status": "ready",
@@ -1111,7 +1111,7 @@
       "matchId": "400021527",
       "matchNumber": 85,
       "updatedAt": "2026-07-02T04:08:37.601Z",
-      "locked": false,
+      "locked": true,
       "resultTip": "胜",
       "confidenceLevel": "中等概率",
       "probabilities": {
@@ -1130,7 +1130,7 @@
       "matchId": "400021521",
       "matchNumber": 86,
       "updatedAt": "2026-07-03T04:09:22Z",
-      "locked": false,
+      "locked": true,
       "resultTip": "胜",
       "confidenceLevel": "稳胆级",
       "probabilities": {
@@ -1149,7 +1149,7 @@
       "matchId": "400021517",
       "matchNumber": 87,
       "updatedAt": "2026-07-03T04:09:22Z",
-      "locked": false,
+      "locked": true,
       "resultTip": "胜",
       "confidenceLevel": "稳胆级",
       "probabilities": {
@@ -1168,7 +1168,7 @@
       "matchId": "400021515",
       "matchNumber": 88,
       "updatedAt": "2026-07-03T04:09:22Z",
-      "locked": false,
+      "locked": true,
       "resultTip": "负",
       "confidenceLevel": "中等概率",
       "probabilities": {
@@ -1187,7 +1187,7 @@
       "matchId": "400021533",
       "matchNumber": 89,
       "updatedAt": "2026-07-03T04:09:22Z",
-      "locked": false,
+      "locked": true,
       "resultTip": "负",
       "confidenceLevel": "大概率",
       "probabilities": {
@@ -1206,7 +1206,7 @@
       "matchId": "400021530",
       "matchNumber": 90,
       "updatedAt": "2026-07-03T04:09:22Z",
-      "locked": false,
+      "locked": true,
       "resultTip": "负",
       "confidenceLevel": "大概率",
       "probabilities": {
@@ -1225,7 +1225,7 @@
       "matchId": "400021532",
       "matchNumber": 91,
       "updatedAt": "2026-07-03T04:09:22Z",
-      "locked": false,
+      "locked": true,
       "resultTip": "胜",
       "confidenceLevel": "中等概率",
       "probabilities": {
@@ -1244,7 +1244,7 @@
       "matchId": "400021531",
       "matchNumber": 92,
       "updatedAt": "2026-07-03T04:09:22Z",
-      "locked": false,
+      "locked": true,
       "resultTip": "平",
       "confidenceLevel": "中等概率",
       "probabilities": {
@@ -1263,7 +1263,7 @@
       "matchId": "400021529",
       "matchNumber": 93,
       "updatedAt": "2026-06-24T04:20:00Z",
-      "locked": false,
+      "locked": true,
       "resultTip": "待定",
       "confidenceLevel": "待定",
       "probabilities": {
@@ -1282,7 +1282,7 @@
       "matchId": "400021534",
       "matchNumber": 94,
       "updatedAt": "2026-06-24T04:20:00Z",
-      "locked": false,
+      "locked": true,
       "resultTip": "待定",
       "confidenceLevel": "待定",
       "probabilities": {
@@ -1338,64 +1338,64 @@
     {
       "matchId": "400021536",
       "matchNumber": 97,
-      "updatedAt": "2026-07-07T04:11:24Z",
+      "updatedAt": "2026-07-08T04:05:46Z",
       "locked": false,
       "resultTip": "胜",
       "confidenceLevel": "大概率",
       "probabilities": {
-        "homeWin": 66,
-        "draw": 22,
-        "awayWin": 12
+        "homeWin": 64,
+        "draw": 23,
+        "awayWin": 13
       },
-      "score": "2:0",
-      "totalGoals": "2球",
+      "score": "2:1",
+      "totalGoals": "3球",
       "halfFull": "胜胜",
-      "rationale": "中国竞彩网SPF 1.44/3.65/6.20继续明显压低法国主胜，但让球(-1) 2.45/3.32/2.38说明摩洛哥的抗压能力得到尊重。FIFA官方四强前瞻已经把法国和摩洛哥列为先行闯入八强的两队，法国从小组赛到16强累计13比2，火力与稳定性仍是这一档最强；摩洛哥则延续了反击效率和身体对抗。综合Mbappe线的终结层级、半全场胜胜2.05与总进球最低赔2球3.25，仍更倾向法国在常规时间内控制住节奏后过关。",
-      "sourceSummary": "中国竞彩网周四097 HAD/HHAD/HAFU/TTG（2026-07-07 抓取，按 matchNumber/开球时间对应本地 97 号位） + FIFA 法国vs摩洛哥 1/4决赛预告/淘汰赛综述。",
-      "oddsSource": "中国竞彩网官方足球计算器：SPF 1.44/3.65/6.20（2026-07-07 09:25:00）；让球(-1) 2.45/3.32/2.38；半全场最低赔 胜胜 2.05；总进球最低赔 2球 3.25、3球 3.60。"
+      "rationale": "法国从小组赛到16强连续击败塞内加尔、伊拉克、挪威、瑞典和巴拉圭，近5场打出14比2，比赛控制和终结效率仍是这一档最稳；摩洛哥同样强势，近4场3胜1平且刚3比0淘汰加拿大，反击质量和对抗强度都在线。中国竞彩网7月8日最新SPF 1.39/3.87/6.60继续明显压低法国主胜，配合让球(-1)与半全场胜胜最低位，仍更倾向法国在常规时间小胜过关。",
+      "sourceSummary": "中国竞彩网周四097 HAD/HHAD/HAFU/TTG（2026-07-08 抓取） + public/schedule.json 已赛战绩（来源含 FIFA 官方赛程） + FIFA 法国vs摩洛哥 1/4决赛预告/赛程页。",
+      "oddsSource": "中国竞彩网官方足球计算器：SPF 1.39/3.87/6.60（2026-07-08 11:08:42）；让球(-1) 2.35/3.22/2.54；半全场最低赔 胜胜 2.13；总进球最低赔 2球 3.35、3球 3.60。"
     },
     {
       "matchId": "400021538",
       "matchNumber": 98,
-      "updatedAt": "2026-07-07T04:11:24Z",
+      "updatedAt": "2026-07-08T04:05:46Z",
       "locked": false,
-      "resultTip": "待定",
-      "confidenceLevel": "待定",
+      "resultTip": "胜",
+      "confidenceLevel": "大概率",
       "probabilities": {
-        "homeWin": 34,
-        "draw": 33,
-        "awayWin": 33
+        "homeWin": 58,
+        "draw": 24,
+        "awayWin": 18
       },
-      "score": "待定",
-      "totalGoals": "待定",
-      "halfFull": "待定",
-      "rationale": "public/schedule.json 当前仍显示 TBD 对 TBD，本地页面尚未形成可展示的正式对阵；在未能把 FIFA 赛程与中国竞彩网开售条目和该 matchId 安全一一映射前，继续保留待定更稳妥。",
-      "sourceSummary": "public/schedule.json（2026-07-07 读取）仍为 TBD/TBD；FIFA 官方赛程与中国竞彩网截至当前未提供可安全写入本地 98 号位的已核验对阵。",
-      "oddsSource": "本地 schedule 未确认对阵映射；中国竞彩网官方赔率待定或暂不写入。"
+      "score": "2:1",
+      "totalGoals": "3球",
+      "halfFull": "胜胜",
+      "rationale": "西班牙近5场取得4胜1平且保持零封，连续拿下沙特、乌拉圭、奥地利和葡萄牙，比赛节奏基本都被它拖进自己的控球框架；比利时则在近两战连续打出3比2塞内加尔、4比1美国，进攻端更活，但防线稳定性不如西班牙。中国竞彩网7月8日最新SPF 1.54/3.72/4.75与让球(-1)结构都继续支持西班牙，结合其本届至今零失球的内容，仍更倾向主队90分钟内兑现优势。",
+      "sourceSummary": "中国竞彩网周五098 HAD/HHAD/HAFU/TTG（2026-07-08 抓取） + public/schedule.json 已赛战绩（来源含 FIFA 官方赛程） + FIFA match centre / Royal Belgian FA 晋级信息。",
+      "oddsSource": "中国竞彩网官方足球计算器：SPF 1.54/3.72/4.75（2026-07-08 09:22:20）；让球(-1) 2.66/3.45/2.16；半全场最低赔 胜胜 2.35；总进球最低赔 3球 3.40、2球 3.65。"
     },
     {
       "matchId": "400021539",
       "matchNumber": 99,
-      "updatedAt": "2026-07-07T04:11:24Z",
+      "updatedAt": "2026-07-08T04:05:46Z",
       "locked": false,
-      "resultTip": "待定",
-      "confidenceLevel": "待定",
+      "resultTip": "负",
+      "confidenceLevel": "中等概率",
       "probabilities": {
-        "homeWin": 34,
-        "draw": 33,
-        "awayWin": 33
+        "homeWin": 30,
+        "draw": 30,
+        "awayWin": 40
       },
-      "score": "待定",
-      "totalGoals": "待定",
-      "halfFull": "待定",
-      "rationale": "public/schedule.json 当前仍显示 TBD 对 TBD，本地页面尚未形成可展示的正式对阵；在未能把 FIFA 赛程与中国竞彩网开售条目和该 matchId 安全一一映射前，继续保留待定更稳妥。",
-      "sourceSummary": "public/schedule.json（2026-07-07 读取）仍为 TBD/TBD；FIFA 官方赛程与中国竞彩网截至当前未提供可安全写入本地 99 号位的已核验对阵。",
-      "oddsSource": "本地 schedule 未确认对阵映射；中国竞彩网官方赔率待定或暂不写入。"
+      "score": "1:2",
+      "totalGoals": "3球",
+      "halfFull": "平负",
+      "rationale": "挪威先后击败科特迪瓦和巴西，Haaland、Odegaard一线的反击效率已经打出来，但最近又出现队内多人发热咳嗽的健康问题；英格兰则连续逆转民主刚果、墨西哥，Bellingham和Kane的关键球产出仍是更高一档。Sky Sports披露英格兰右路存在Reece James伤情、Quansah停赛与Henderson赛会报销的问题，因此不适合高信心处理，但在挪威赛前健康状况存疑、英格兰淘汰赛经验更足的前提下，仍稍偏客队常规时间小胜。",
+      "sourceSummary": "England Football 2026-07-06 挪威vs英格兰赛程确认 + Sky Sports 2026-07-07 英格兰伤停更新（Reece James/Jarell Quansah/Jordan Henderson） + Norway illness 报道检索摘要 + public/schedule.json 已赛战绩（来源含 FIFA 官方赛程）。",
+      "oddsSource": "中国竞彩网官方足球计算器截至 2026-07-08 检索 `had/hhad/hafu/ttg` 未返回周六099 挪威vs英格兰对应开售条目，官方赔率待定。"
     },
     {
       "matchId": "400021537",
       "matchNumber": 100,
-      "updatedAt": "2026-07-07T04:11:24Z",
+      "updatedAt": "2026-07-08T04:05:46Z",
       "locked": false,
       "resultTip": "待定",
       "confidenceLevel": "待定",
@@ -1407,14 +1407,14 @@
       "score": "待定",
       "totalGoals": "待定",
       "halfFull": "待定",
-      "rationale": "public/schedule.json 当前仍显示 TBD 对 TBD，本地页面尚未形成可展示的正式对阵；在未能把 FIFA 赛程与中国竞彩网开售条目和该 matchId 安全一一映射前，继续保留待定更稳妥。",
-      "sourceSummary": "public/schedule.json（2026-07-07 读取）仍为 TBD/TBD；FIFA 官方赛程与中国竞彩网截至当前未提供可安全写入本地 100 号位的已核验对阵。",
-      "oddsSource": "本地 schedule 未确认对阵映射；中国竞彩网官方赔率待定或暂不写入。"
+      "rationale": "FIFA 官方淘汰赛签位页已经明确这一支线仍在等待最后一场16强赛结果，但 public/schedule.json 对应 matchId 仍显示待定对待定。为避免本地赛程与预测卡片出现错位，100 号位继续保留占位更稳妥。",
+      "sourceSummary": "FIFA 官方淘汰赛签位页（2026-07-08 校验） + public/schedule.json 当前 100 号位仍为待定/待定。",
+      "oddsSource": "对阵未在本地 schedule 落定；中国竞彩网官方足球计算器未检索到可安全映射到 100 号位的开售赔率，待定。"
     },
     {
       "matchId": "400021541",
       "matchNumber": 101,
-      "updatedAt": "2026-07-07T04:11:24Z",
+      "updatedAt": "2026-07-08T04:05:46Z",
       "locked": false,
       "resultTip": "待定",
       "confidenceLevel": "待定",
@@ -1426,14 +1426,14 @@
       "score": "待定",
       "totalGoals": "待定",
       "halfFull": "待定",
-      "rationale": "public/schedule.json 当前仍显示 TBD 对 TBD，本地页面尚未形成可展示的正式对阵；在未能把 FIFA 赛程与中国竞彩网开售条目和该 matchId 安全一一映射前，继续保留待定更稳妥。",
-      "sourceSummary": "public/schedule.json（2026-07-07 读取）仍为 TBD/TBD；FIFA 官方赛程与中国竞彩网截至当前未提供可安全写入本地 101 号位的已核验对阵。",
-      "oddsSource": "本地 schedule 未确认对阵映射；中国竞彩网官方赔率待定或暂不写入。"
+      "rationale": "半决赛 101 的参赛队仍取决于四分之一决赛后续结果，而 public/schedule.json 当前尚未同步具体对阵。继续以待定占位可以保持页面与赛程源数据一致，避免在 bracket 尚未落定时提前写入方向性判断。",
+      "sourceSummary": "FIFA 官方淘汰赛签位页（2026-07-08 校验） + public/schedule.json 当前 101 号位仍为待定/待定。",
+      "oddsSource": "半决赛对阵未落定；中国竞彩网官方足球计算器暂无可安全映射到 101 号位的赔率，待定。"
     },
     {
       "matchId": "400021540",
       "matchNumber": 102,
-      "updatedAt": "2026-07-07T04:11:24Z",
+      "updatedAt": "2026-07-08T04:05:46Z",
       "locked": false,
       "resultTip": "待定",
       "confidenceLevel": "待定",
@@ -1445,14 +1445,14 @@
       "score": "待定",
       "totalGoals": "待定",
       "halfFull": "待定",
-      "rationale": "public/schedule.json 当前仍显示 TBD 对 TBD，本地页面尚未形成可展示的正式对阵；在未能把 FIFA 赛程与中国竞彩网开售条目和该 matchId 安全一一映射前，继续保留待定更稳妥。",
-      "sourceSummary": "public/schedule.json（2026-07-07 读取）仍为 TBD/TBD；FIFA 官方赛程与中国竞彩网截至当前未提供可安全写入本地 102 号位的已核验对阵。",
-      "oddsSource": "本地 schedule 未确认对阵映射；中国竞彩网官方赔率待定或暂不写入。"
+      "rationale": "半决赛 102 同样尚未生成正式对阵，public/schedule.json 仍保留待定占位。当前阶段最稳妥的处理仍是维持待定，不凭外部 bracket 推演提前落到具体球队。",
+      "sourceSummary": "FIFA 官方淘汰赛签位页（2026-07-08 校验） + public/schedule.json 当前 102 号位仍为待定/待定。",
+      "oddsSource": "半决赛对阵未落定；中国竞彩网官方足球计算器暂无可安全映射到 102 号位的赔率，待定。"
     },
     {
       "matchId": "400021542",
       "matchNumber": 103,
-      "updatedAt": "2026-07-07T04:11:24Z",
+      "updatedAt": "2026-07-08T04:05:46Z",
       "locked": false,
       "resultTip": "待定",
       "confidenceLevel": "待定",
@@ -1464,14 +1464,14 @@
       "score": "待定",
       "totalGoals": "待定",
       "halfFull": "待定",
-      "rationale": "public/schedule.json 当前仍显示 TBD 对 TBD，本地页面尚未形成可展示的正式对阵；在未能把 FIFA 赛程与中国竞彩网开售条目和该 matchId 安全一一映射前，继续保留待定更稳妥。",
-      "sourceSummary": "public/schedule.json（2026-07-07 读取）仍为 TBD/TBD；FIFA 官方赛程与中国竞彩网截至当前未提供可安全写入本地 103 号位的已核验对阵。",
-      "oddsSource": "本地 schedule 未确认对阵映射；中国竞彩网官方赔率待定或暂不写入。"
+      "rationale": "三四名决赛必须等待两场半决赛全部结束后才能确定对阵。public/schedule.json 仍未同步球队，当前保留待定最符合本地页面依赖的数据状态。",
+      "sourceSummary": "FIFA 官方淘汰赛签位页（2026-07-08 校验） + public/schedule.json 当前 103 号位仍为待定/待定。",
+      "oddsSource": "对阵未落定；中国竞彩网官方足球计算器暂无对应 103 号位的已核验赔率，待定。"
     },
     {
       "matchId": "400021543",
       "matchNumber": 104,
-      "updatedAt": "2026-07-07T04:11:24Z",
+      "updatedAt": "2026-07-08T04:05:46Z",
       "locked": false,
       "resultTip": "待定",
       "confidenceLevel": "待定",
@@ -1483,9 +1483,9 @@
       "score": "待定",
       "totalGoals": "待定",
       "halfFull": "待定",
-      "rationale": "public/schedule.json 当前仍显示 TBD 对 TBD，本地页面尚未形成可展示的正式对阵；在未能把 FIFA 赛程与中国竞彩网开售条目和该 matchId 安全一一映射前，继续保留待定更稳妥。",
-      "sourceSummary": "public/schedule.json（2026-07-07 读取）仍为 TBD/TBD；FIFA 官方赛程与中国竞彩网截至当前未提供可安全写入本地 104 号位的已核验对阵。",
-      "oddsSource": "本地 schedule 未确认对阵映射；中国竞彩网官方赔率待定或暂不写入。"
+      "rationale": "决赛席位尚未生成，public/schedule.json 当前也仍以待定占位。此时写入任何具体方向都会与本地赛程源脱节，因此继续保持待定。",
+      "sourceSummary": "FIFA 官方淘汰赛签位页（2026-07-08 校验） + public/schedule.json 当前 104 号位仍为待定/待定。",
+      "oddsSource": "决赛对阵未落定；中国竞彩网官方足球计算器暂无对应 104 号位的已核验赔率，待定。"
     }
   ]
 }
