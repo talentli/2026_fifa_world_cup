@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T07:14:30.048Z",
+  "generatedAt": "2026-07-08T09:41:41.503Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "sources": [
@@ -4380,7 +4380,7 @@
       "group": "",
       "groupZh": "",
       "status": 1,
-      "matchClock": "0'",
+      "matchClock": "",
       "statusText": "",
       "home": {
         "code": "FRA",
@@ -4425,7 +4425,7 @@
       "group": "",
       "groupZh": "",
       "status": 1,
-      "matchClock": "0'",
+      "matchClock": "",
       "statusText": "",
       "home": {
         "code": "ESP",
@@ -4470,7 +4470,7 @@
       "group": "",
       "groupZh": "",
       "status": 1,
-      "matchClock": "0'",
+      "matchClock": "",
       "statusText": "",
       "home": {
         "code": "NOR",
@@ -4515,7 +4515,7 @@
       "group": "",
       "groupZh": "",
       "status": 1,
-      "matchClock": "0'",
+      "matchClock": "",
       "statusText": "",
       "home": {
         "code": "ARG",
