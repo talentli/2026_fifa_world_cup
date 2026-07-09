@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T18:23:47.953Z",
+  "generatedAt": "2026-07-09T20:21:10.717Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "stages": [
@@ -1108,8 +1108,8 @@
           "stageZh": "四分之一决赛",
           "group": "",
           "groupZh": "",
-          "status": 1,
-          "matchClock": "",
+          "status": 3,
+          "matchClock": "20'",
           "statusText": "",
           "home": {
             "code": "FRA",
@@ -1117,7 +1117,7 @@
             "nameZh": "法国",
             "flag": "",
             "flagEmoji": "🇫🇷",
-            "score": null,
+            "score": 0,
             "penaltyScore": null
           },
           "away": {
@@ -1126,12 +1126,12 @@
             "nameZh": "摩洛哥",
             "flag": "",
             "flagEmoji": "🇲🇦",
-            "score": null,
+            "score": 0,
             "penaltyScore": null
           },
           "score": {
-            "home": null,
-            "away": null,
+            "home": 0,
+            "away": 0,
             "homePenalty": null,
             "awayPenalty": null
           },
