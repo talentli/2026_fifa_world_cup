@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T20:21:10.717Z",
+  "generatedAt": "2026-07-09T21:56:50.055Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "sources": [
@@ -4380,7 +4380,7 @@
       "group": "",
       "groupZh": "",
       "status": 3,
-      "matchClock": "20'",
+      "matchClock": "90'+2'",
       "statusText": "",
       "home": {
         "code": "FRA",
@@ -4388,7 +4388,7 @@
         "nameZh": "法国",
         "flag": "",
         "flagEmoji": "🇫🇷",
-        "score": 0,
+        "score": 2,
         "penaltyScore": null
       },
       "away": {
@@ -4401,7 +4401,7 @@
         "penaltyScore": null
       },
       "score": {
-        "home": 0,
+        "home": 2,
         "away": 0,
         "homePenalty": null,
         "awayPenalty": null
