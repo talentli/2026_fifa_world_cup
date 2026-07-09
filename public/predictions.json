@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T04:05:46Z",
+  "generatedAt": "2026-07-09T04:08:20Z",
   "timezone": "Asia/Shanghai",
   "sourceSkill": "lottery-analyzer",
   "status": "ready",
@@ -1301,7 +1301,7 @@
       "matchId": "400021528",
       "matchNumber": 95,
       "updatedAt": "2026-07-07T04:11:24Z",
-      "locked": false,
+      "locked": true,
       "resultTip": "胜",
       "confidenceLevel": "稳胆级",
       "probabilities": {
@@ -1320,7 +1320,7 @@
       "matchId": "400021535",
       "matchNumber": 96,
       "updatedAt": "2026-07-07T04:11:24Z",
-      "locked": false,
+      "locked": true,
       "resultTip": "负",
       "confidenceLevel": "中等概率",
       "probabilities": {
@@ -1338,7 +1338,7 @@
     {
       "matchId": "400021536",
       "matchNumber": 97,
-      "updatedAt": "2026-07-08T04:05:46Z",
+      "updatedAt": "2026-07-09T04:08:20Z",
       "locked": false,
       "resultTip": "胜",
       "confidenceLevel": "大概率",
@@ -1350,14 +1350,14 @@
       "score": "2:1",
       "totalGoals": "3球",
       "halfFull": "胜胜",
-      "rationale": "法国从小组赛到16强连续击败塞内加尔、伊拉克、挪威、瑞典和巴拉圭，近5场打出14比2，比赛控制和终结效率仍是这一档最稳；摩洛哥同样强势，近4场3胜1平且刚3比0淘汰加拿大，反击质量和对抗强度都在线。中国竞彩网7月8日最新SPF 1.39/3.87/6.60继续明显压低法国主胜，配合让球(-1)与半全场胜胜最低位，仍更倾向法国在常规时间小胜过关。",
-      "sourceSummary": "中国竞彩网周四097 HAD/HHAD/HAFU/TTG（2026-07-08 抓取） + public/schedule.json 已赛战绩（来源含 FIFA 官方赛程） + FIFA 法国vs摩洛哥 1/4决赛预告/赛程页。",
+      "rationale": "FIFA 官方在赛前预告与 road so far 专题里都把法国描述为本届最稳定的压制型球队之一，五场比赛全部取胜且近两轮淘汰赛连续零封，Mbappe 仍是纵深杀伤点；摩洛哥则延续黑马走势，已经连续淘汰荷兰和加拿大，Saibari、Hakimi一侧的反击质量很高。结合中国竞彩网7月8日最后一次可核验的官方SPF 1.39/3.87/6.60，法国在阵容厚度与持续控场上仍略稳一档。",
+      "sourceSummary": "FIFA 法国vs摩洛哥 1/4决赛预告 + France/Morocco road so far + FIFA 八强观察；中国竞彩网周四097 HAD/HHAD/HAFU/TTG（2026-07-08 最后一次核验）。",
       "oddsSource": "中国竞彩网官方足球计算器：SPF 1.39/3.87/6.60（2026-07-08 11:08:42）；让球(-1) 2.35/3.22/2.54；半全场最低赔 胜胜 2.13；总进球最低赔 2球 3.35、3球 3.60。"
     },
     {
       "matchId": "400021538",
       "matchNumber": 98,
-      "updatedAt": "2026-07-08T04:05:46Z",
+      "updatedAt": "2026-07-09T04:08:20Z",
       "locked": false,
       "resultTip": "胜",
       "confidenceLevel": "大概率",
@@ -1369,14 +1369,14 @@
       "score": "2:1",
       "totalGoals": "3球",
       "halfFull": "胜胜",
-      "rationale": "西班牙近5场取得4胜1平且保持零封，连续拿下沙特、乌拉圭、奥地利和葡萄牙，比赛节奏基本都被它拖进自己的控球框架；比利时则在近两战连续打出3比2塞内加尔、4比1美国，进攻端更活，但防线稳定性不如西班牙。中国竞彩网7月8日最新SPF 1.54/3.72/4.75与让球(-1)结构都继续支持西班牙，结合其本届至今零失球的内容，仍更倾向主队90分钟内兑现优势。",
-      "sourceSummary": "中国竞彩网周五098 HAD/HHAD/HAFU/TTG（2026-07-08 抓取） + public/schedule.json 已赛战绩（来源含 FIFA 官方赛程） + FIFA match centre / Royal Belgian FA 晋级信息。",
+      "rationale": "FIFA 官方 road so far 把西班牙列为本届唯一保持零失球的八强队，连续面对乌拉圭、奥地利和葡萄牙都能把比赛拖进自己的控球节奏；比利时虽然最近两战打出7球、Lukaku 一线火力不低，但 FIFA 与比利时足协赛后信息都显示其晋级过程更依赖前场爆点而非整体防守稳定。结合中国竞彩网7月8日最后一次可核验的官方SPF 1.54/3.72/4.75，仍偏西班牙在90分钟内小胜。",
+      "sourceSummary": "FIFA 西班牙vs比利时赛程/road so far + Royal Belgian FA 晋级信息；中国竞彩网周五098 HAD/HHAD/HAFU/TTG（2026-07-08 最后一次核验）。",
       "oddsSource": "中国竞彩网官方足球计算器：SPF 1.54/3.72/4.75（2026-07-08 09:22:20）；让球(-1) 2.66/3.45/2.16；半全场最低赔 胜胜 2.35；总进球最低赔 3球 3.40、2球 3.65。"
     },
     {
       "matchId": "400021539",
       "matchNumber": 99,
-      "updatedAt": "2026-07-08T04:05:46Z",
+      "updatedAt": "2026-07-09T04:08:20Z",
       "locked": false,
       "resultTip": "负",
       "confidenceLevel": "中等概率",
@@ -1388,28 +1388,28 @@
       "score": "1:2",
       "totalGoals": "3球",
       "halfFull": "平负",
-      "rationale": "挪威先后击败科特迪瓦和巴西，Haaland、Odegaard一线的反击效率已经打出来，但最近又出现队内多人发热咳嗽的健康问题；英格兰则连续逆转民主刚果、墨西哥，Bellingham和Kane的关键球产出仍是更高一档。Sky Sports披露英格兰右路存在Reece James伤情、Quansah停赛与Henderson赛会报销的问题，因此不适合高信心处理，但在挪威赛前健康状况存疑、英格兰淘汰赛经验更足的前提下，仍稍偏客队常规时间小胜。",
-      "sourceSummary": "England Football 2026-07-06 挪威vs英格兰赛程确认 + Sky Sports 2026-07-07 英格兰伤停更新（Reece James/Jarell Quansah/Jordan Henderson） + Norway illness 报道检索摘要 + public/schedule.json 已赛战绩（来源含 FIFA 官方赛程）。",
-      "oddsSource": "中国竞彩网官方足球计算器截至 2026-07-08 检索 `had/hhad/hafu/ttg` 未返回周六099 挪威vs英格兰对应开售条目，官方赔率待定。"
+      "rationale": "FIFA 官方 road so far 显示挪威首次闯入世界杯八强，Haaland 与 Odegaard 带出的纵向推进和转换效率足够制造高比分比赛；英格兰则连续淘汰民主刚果和墨西哥，Kane、Bellingham 的关键球能力与大赛经验仍更成熟。The Guardian 7月8日报道 Reece James 赛前仍需观察、Quansah 停赛，这让三狮优势不适合拔得过高，但在整体阵容深度与淘汰赛稳定性上仍稍偏客队。",
+      "sourceSummary": "FIFA Norway road so far + FIFA England road to quarter-finals + The Guardian 2026-07-08 英格兰赛前伤停更新 + public/schedule.json 已赛战绩（来源含 FIFA 官方赛程）。",
+      "oddsSource": "中国竞彩网官方足球计算器 2026-07-09 经公开渠道检索未取得可安全映射到周六099的 HAD/HHAD/HAFU/TTG 条目，官方赔率待定。"
     },
     {
       "matchId": "400021537",
       "matchNumber": 100,
-      "updatedAt": "2026-07-08T04:05:46Z",
+      "updatedAt": "2026-07-09T04:08:20Z",
       "locked": false,
-      "resultTip": "待定",
-      "confidenceLevel": "待定",
+      "resultTip": "胜",
+      "confidenceLevel": "大概率",
       "probabilities": {
-        "homeWin": 34,
-        "draw": 33,
-        "awayWin": 33
+        "homeWin": 60,
+        "draw": 24,
+        "awayWin": 16
       },
-      "score": "待定",
-      "totalGoals": "待定",
-      "halfFull": "待定",
-      "rationale": "FIFA 官方淘汰赛签位页已经明确这一支线仍在等待最后一场16强赛结果，但 public/schedule.json 对应 matchId 仍显示待定对待定。为避免本地赛程与预测卡片出现错位，100 号位继续保留占位更稳妥。",
-      "sourceSummary": "FIFA 官方淘汰赛签位页（2026-07-08 校验） + public/schedule.json 当前 100 号位仍为待定/待定。",
-      "oddsSource": "对阵未在本地 schedule 落定；中国竞彩网官方足球计算器未检索到可安全映射到 100 号位的开售赔率，待定。"
+      "score": "2:1",
+      "totalGoals": "3球",
+      "halfFull": "平胜",
+      "rationale": "public/schedule.json 已落定阿根廷对瑞士后，FIFA 官方八强观察与两队 road so far 都显示这是一场控场能力对防守韧性的对冲。阿根廷本届5战全胜、连续高产，Messi 领衔的前场在强强战里仍能持续制造终结；瑞士上一轮与哥伦比亚鏖战到点球才过关，Xhaka 组织与门将体系值得尊重，但持续压制力和锋线上限仍略逊一档。没有可安全核验的中国竞彩网100号位赔率时，保守仍偏阿根廷90分钟小胜。",
+      "sourceSummary": "FIFA Argentina road to quarter-finals + Switzerland road so far + 阿根廷vs埃及/瑞士vs哥伦比亚 match reports + public/schedule.json。",
+      "oddsSource": "中国竞彩网官方足球计算器 2026-07-09 经公开渠道检索未取得可安全映射到周日100的 HAD/HHAD/HAFU/TTG 条目，官方赔率待定。"
     },
     {
       "matchId": "400021541",
