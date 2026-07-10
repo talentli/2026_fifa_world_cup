@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T18:00:23.497Z",
+  "generatedAt": "2026-07-10T19:48:29.081Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "stages": [
@@ -1153,8 +1153,8 @@
           "stageZh": "四分之一决赛",
           "group": "",
           "groupZh": "",
-          "status": 1,
-          "matchClock": "0'",
+          "status": 3,
+          "matchClock": "45'+3'",
           "statusText": "",
           "home": {
             "code": "ESP",
@@ -1162,7 +1162,7 @@
             "nameZh": "西班牙",
             "flag": "",
             "flagEmoji": "🇪🇸",
-            "score": null,
+            "score": 1,
             "penaltyScore": null
           },
           "away": {
@@ -1171,12 +1171,12 @@
             "nameZh": "比利时",
             "flag": "",
             "flagEmoji": "🇧🇪",
-            "score": null,
+            "score": 1,
             "penaltyScore": null
           },
           "score": {
-            "home": null,
-            "away": null,
+            "home": 1,
+            "away": 1,
             "homePenalty": null,
             "awayPenalty": null
           },
