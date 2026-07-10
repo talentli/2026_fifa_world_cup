@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T19:48:29.081Z",
+  "generatedAt": "2026-07-10T21:04:56.011Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "sources": [
@@ -4424,8 +4424,8 @@
       "stageZh": "四分之一决赛",
       "group": "",
       "groupZh": "",
-      "status": 3,
-      "matchClock": "45'+3'",
+      "status": 0,
+      "matchClock": "98'",
       "statusText": "",
       "home": {
         "code": "ESP",
@@ -4433,7 +4433,7 @@
         "nameZh": "西班牙",
         "flag": "",
         "flagEmoji": "🇪🇸",
-        "score": 1,
+        "score": 2,
         "penaltyScore": null
       },
       "away": {
@@ -4446,7 +4446,7 @@
         "penaltyScore": null
       },
       "score": {
-        "home": 1,
+        "home": 2,
         "away": 1,
         "homePenalty": null,
         "awayPenalty": null
@@ -4572,11 +4572,11 @@
         "penaltyScore": null
       },
       "away": {
-        "code": "TBD",
-        "name": "TBD",
-        "nameZh": "待定",
+        "code": "ESP",
+        "name": "Spain",
+        "nameZh": "西班牙",
         "flag": "",
-        "flagEmoji": "◇",
+        "flagEmoji": "🇪🇸",
         "score": null,
         "penaltyScore": null
       },
