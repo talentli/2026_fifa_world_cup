@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T22:28:18.188Z",
+  "generatedAt": "2026-07-11T23:34:07.488Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "stages": [
@@ -1199,7 +1199,7 @@
           "group": "",
           "groupZh": "",
           "status": 3,
-          "matchClock": "66'",
+          "matchClock": "110'",
           "statusText": "",
           "home": {
             "code": "NOR",
@@ -1216,12 +1216,12 @@
             "nameZh": "英格兰",
             "flag": "",
             "flagEmoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-            "score": 1,
+            "score": 2,
             "penaltyScore": null
           },
           "score": {
             "home": 1,
-            "away": 1,
+            "away": 2,
             "homePenalty": null,
             "awayPenalty": null
           },
@@ -1244,7 +1244,7 @@
           "group": "",
           "groupZh": "",
           "status": 1,
-          "matchClock": "",
+          "matchClock": "0'",
           "statusText": "",
           "home": {
             "code": "ARG",
