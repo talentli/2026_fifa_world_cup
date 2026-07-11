@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T20:27:35.878Z",
+  "generatedAt": "2026-07-11T21:29:27.029Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "stages": [
@@ -1198,8 +1198,8 @@
           "stageZh": "四分之一决赛",
           "group": "",
           "groupZh": "",
-          "status": 1,
-          "matchClock": "0'",
+          "status": 3,
+          "matchClock": "28'",
           "statusText": "",
           "home": {
             "code": "NOR",
@@ -1207,7 +1207,7 @@
             "nameZh": "挪威",
             "flag": "",
             "flagEmoji": "🇳🇴",
-            "score": null,
+            "score": 0,
             "penaltyScore": null
           },
           "away": {
@@ -1216,12 +1216,12 @@
             "nameZh": "英格兰",
             "flag": "",
             "flagEmoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-            "score": null,
+            "score": 0,
             "penaltyScore": null
           },
           "score": {
-            "home": null,
-            "away": null,
+            "home": 0,
+            "away": 0,
             "homePenalty": null,
             "awayPenalty": null
           },
