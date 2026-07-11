@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T04:08:20Z",
+  "generatedAt": "2026-07-11T04:04:34Z",
   "timezone": "Asia/Shanghai",
   "sourceSkill": "lottery-analyzer",
   "status": "ready",
@@ -1339,7 +1339,7 @@
       "matchId": "400021536",
       "matchNumber": 97,
       "updatedAt": "2026-07-09T04:08:20Z",
-      "locked": false,
+      "locked": true,
       "resultTip": "胜",
       "confidenceLevel": "大概率",
       "probabilities": {
@@ -1358,7 +1358,7 @@
       "matchId": "400021538",
       "matchNumber": 98,
       "updatedAt": "2026-07-09T04:08:20Z",
-      "locked": false,
+      "locked": true,
       "resultTip": "胜",
       "confidenceLevel": "大概率",
       "probabilities": {
@@ -1376,45 +1376,45 @@
     {
       "matchId": "400021539",
       "matchNumber": 99,
-      "updatedAt": "2026-07-09T04:08:20Z",
+      "updatedAt": "2026-07-11T04:04:34Z",
       "locked": false,
       "resultTip": "负",
       "confidenceLevel": "中等概率",
       "probabilities": {
-        "homeWin": 30,
-        "draw": 30,
-        "awayWin": 40
+        "homeWin": 29,
+        "draw": 29,
+        "awayWin": 42
       },
       "score": "1:2",
       "totalGoals": "3球",
       "halfFull": "平负",
-      "rationale": "FIFA 官方 road so far 显示挪威首次闯入世界杯八强，Haaland 与 Odegaard 带出的纵向推进和转换效率足够制造高比分比赛；英格兰则连续淘汰民主刚果和墨西哥，Kane、Bellingham 的关键球能力与大赛经验仍更成熟。The Guardian 7月8日报道 Reece James 赛前仍需观察、Quansah 停赛，这让三狮优势不适合拔得过高，但在整体阵容深度与淘汰赛稳定性上仍稍偏客队。",
-      "sourceSummary": "FIFA Norway road so far + FIFA England road to quarter-finals + The Guardian 2026-07-08 英格兰赛前伤停更新 + public/schedule.json 已赛战绩（来源含 FIFA 官方赛程）。",
-      "oddsSource": "中国竞彩网官方足球计算器 2026-07-09 经公开渠道检索未取得可安全映射到周六099的 HAD/HHAD/HAFU/TTG 条目，官方赔率待定。"
+      "rationale": "FIFA 赛前预告与两队 road so far 显示，这是一场英格兰淘汰赛经验对挪威历史级冲击力的正面对冲。挪威首次杀入世界杯八强，Haaland、Odegaard 与左路输送仍是最大爆点；但英格兰连续扛过民主刚果与墨西哥两场高压淘汰赛，Kane、Bellingham 的关键球稳定性更成熟。The Guardian 7月11日更新称 Rice、Guehi、Reece James 已恢复合练迹象，而 Quansah 停赛、Henderson 伤退仍削弱轮换深度；综合阵容上限与比赛管理能力，仍稍偏英格兰90分钟险胜。",
+      "sourceSummary": "FIFA Norway v England quarter-final preview + Norway/England road so far + FIFA how England stop Haaland + The Guardian 2026-07-10/11 英格兰训练与边路对位分析。",
+      "oddsSource": "中国竞彩网官方足球计算器截至 2026-07-11 公开渠道仍未检得可安全映射到周六099的 HAD/HHAD/HAFU/TTG 条目，官方赔率待定。"
     },
     {
       "matchId": "400021537",
       "matchNumber": 100,
-      "updatedAt": "2026-07-09T04:08:20Z",
+      "updatedAt": "2026-07-11T04:04:34Z",
       "locked": false,
       "resultTip": "胜",
-      "confidenceLevel": "大概率",
+      "confidenceLevel": "中等概率",
       "probabilities": {
-        "homeWin": 60,
-        "draw": 24,
-        "awayWin": 16
+        "homeWin": 55,
+        "draw": 26,
+        "awayWin": 19
       },
       "score": "2:1",
       "totalGoals": "3球",
       "halfFull": "平胜",
-      "rationale": "public/schedule.json 已落定阿根廷对瑞士后，FIFA 官方八强观察与两队 road so far 都显示这是一场控场能力对防守韧性的对冲。阿根廷本届5战全胜、连续高产，Messi 领衔的前场在强强战里仍能持续制造终结；瑞士上一轮与哥伦比亚鏖战到点球才过关，Xhaka 组织与门将体系值得尊重，但持续压制力和锋线上限仍略逊一档。没有可安全核验的中国竞彩网100号位赔率时，保守仍偏阿根廷90分钟小胜。",
-      "sourceSummary": "FIFA Argentina road to quarter-finals + Switzerland road so far + 阿根廷vs埃及/瑞士vs哥伦比亚 match reports + public/schedule.json。",
-      "oddsSource": "中国竞彩网官方足球计算器 2026-07-09 经公开渠道检索未取得可安全映射到周日100的 HAD/HHAD/HAFU/TTG 条目，官方赔率待定。"
+      "rationale": "FIFA 官方预告与两队 road so far 都把这场定义为阿根廷控场创造力对瑞士纪律性防守的较量。阿根廷本届仍保持全胜，Messi 延续连续进球与关键传球输出，但 Guardian 7月10日点出其面对佛得角、埃及都出现过比赛控制松动；瑞士则以更低噪音的方式连过阿尔及利亚、哥伦比亚，Xhaka-Freuler 的中场秩序与门将体系足以把比赛拖入拉锯。没有可安全核验的中国竞彩网100号位赔率时，仍偏阿根廷凭上限和终结点在90分钟内小胜，但信心下调到中等概率。",
+      "sourceSummary": "FIFA Argentina v Switzerland quarter-final preview + Argentina road to quarter-finals + Switzerland road so far + The Guardian 2026-07-10 阿根廷赛前状态分析。",
+      "oddsSource": "中国竞彩网官方足球计算器截至 2026-07-11 公开渠道仍未检得可安全映射到周日100的 HAD/HHAD/HAFU/TTG 条目，官方赔率待定。"
     },
     {
       "matchId": "400021541",
       "matchNumber": 101,
-      "updatedAt": "2026-07-08T04:05:46Z",
+      "updatedAt": "2026-07-11T04:04:34Z",
       "locked": false,
       "resultTip": "待定",
       "confidenceLevel": "待定",
@@ -1426,14 +1426,14 @@
       "score": "待定",
       "totalGoals": "待定",
       "halfFull": "待定",
-      "rationale": "半决赛 101 的参赛队仍取决于四分之一决赛后续结果，而 public/schedule.json 当前尚未同步具体对阵。继续以待定占位可以保持页面与赛程源数据一致，避免在 bracket 尚未落定时提前写入方向性判断。",
-      "sourceSummary": "FIFA 官方淘汰赛签位页（2026-07-08 校验） + public/schedule.json 当前 101 号位仍为待定/待定。",
-      "oddsSource": "半决赛对阵未落定；中国竞彩网官方足球计算器暂无可安全映射到 101 号位的赔率，待定。"
+      "rationale": "FIFA 7月11日赛报已确认半决赛 101 的真实签位是法国对西班牙，但 public/schedule.json 当前仍显示待定/待定。为保持本地页面按赛程源正常渲染，本次继续保留待定占位，不提前写入会与页面队名脱节的方向性预测。",
+      "sourceSummary": "FIFA 法国 2比0 摩洛哥、西班牙 2比1 比利时赛报（2026-07-11 核验） + public/schedule.json 当前 101 号位仍为待定/待定。",
+      "oddsSource": "半决赛 101 实际对阵已由 FIFA 赛果确认，但中国竞彩网官方足球计算器截至 2026-07-11 未检得可安全映射到本地 101 号位的已核验赔率，待定。"
     },
     {
       "matchId": "400021540",
       "matchNumber": 102,
-      "updatedAt": "2026-07-08T04:05:46Z",
+      "updatedAt": "2026-07-11T04:04:34Z",
       "locked": false,
       "resultTip": "待定",
       "confidenceLevel": "待定",
@@ -1445,14 +1445,14 @@
       "score": "待定",
       "totalGoals": "待定",
       "halfFull": "待定",
-      "rationale": "半决赛 102 同样尚未生成正式对阵，public/schedule.json 仍保留待定占位。当前阶段最稳妥的处理仍是维持待定，不凭外部 bracket 推演提前落到具体球队。",
-      "sourceSummary": "FIFA 官方淘汰赛签位页（2026-07-08 校验） + public/schedule.json 当前 102 号位仍为待定/待定。",
-      "oddsSource": "半决赛对阵未落定；中国竞彩网官方足球计算器暂无可安全映射到 102 号位的赔率，待定。"
+      "rationale": "半决赛 102 仍取决于挪威vs英格兰与阿根廷vs瑞士两场四分之一决赛结果，而 public/schedule.json 继续以待定/待定占位。当前最稳妥的处理仍是维持待定，不在参赛队尚未产生时提前写入方向性判断。",
+      "sourceSummary": "FIFA 官方淘汰赛签位页与 Norway v England / Argentina v Switzerland quarter-final previews（2026-07-11 核验） + public/schedule.json 当前 102 号位仍为待定/待定。",
+      "oddsSource": "半决赛 102 对阵尚未落定；中国竞彩网官方足球计算器暂无可安全映射到 102 号位的已核验赔率，待定。"
     },
     {
       "matchId": "400021542",
       "matchNumber": 103,
-      "updatedAt": "2026-07-08T04:05:46Z",
+      "updatedAt": "2026-07-11T04:04:34Z",
       "locked": false,
       "resultTip": "待定",
       "confidenceLevel": "待定",
@@ -1464,14 +1464,14 @@
       "score": "待定",
       "totalGoals": "待定",
       "halfFull": "待定",
-      "rationale": "三四名决赛必须等待两场半决赛全部结束后才能确定对阵。public/schedule.json 仍未同步球队，当前保留待定最符合本地页面依赖的数据状态。",
-      "sourceSummary": "FIFA 官方淘汰赛签位页（2026-07-08 校验） + public/schedule.json 当前 103 号位仍为待定/待定。",
+      "rationale": "三四名决赛仍必须等待两场半决赛全部结束后才能确定对阵，而 public/schedule.json 当前仍未同步球队。此阶段继续保留待定，最符合本地页面依赖的数据状态。",
+      "sourceSummary": "FIFA 官方淘汰赛签位页（2026-07-11 核验） + public/schedule.json 当前 103 号位仍为待定/待定。",
       "oddsSource": "对阵未落定；中国竞彩网官方足球计算器暂无对应 103 号位的已核验赔率，待定。"
     },
     {
       "matchId": "400021543",
       "matchNumber": 104,
-      "updatedAt": "2026-07-08T04:05:46Z",
+      "updatedAt": "2026-07-11T04:04:34Z",
       "locked": false,
       "resultTip": "待定",
       "confidenceLevel": "待定",
@@ -1484,7 +1484,7 @@
       "totalGoals": "待定",
       "halfFull": "待定",
       "rationale": "决赛席位尚未生成，public/schedule.json 当前也仍以待定占位。此时写入任何具体方向都会与本地赛程源脱节，因此继续保持待定。",
-      "sourceSummary": "FIFA 官方淘汰赛签位页（2026-07-08 校验） + public/schedule.json 当前 104 号位仍为待定/待定。",
+      "sourceSummary": "FIFA 官方淘汰赛签位页（2026-07-11 核验） + public/schedule.json 当前 104 号位仍为待定/待定。",
       "oddsSource": "决赛对阵未落定；中国竞彩网官方足球计算器暂无对应 104 号位的已核验赔率，待定。"
     }
   ]
