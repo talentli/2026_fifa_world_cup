@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T04:05:45Z",
+  "generatedAt": "2026-07-12T04:07:34Z",
   "timezone": "Asia/Shanghai",
   "sourceSkill": "lottery-analyzer",
   "status": "ready",
@@ -1376,7 +1376,7 @@
     {
       "matchId": "400021539",
       "matchNumber": 99,
-      "updatedAt": "2026-07-12T04:05:45Z",
+      "updatedAt": "2026-07-12T04:07:34Z",
       "locked": true,
       "resultTip": "负",
       "confidenceLevel": "中等概率",
@@ -1395,7 +1395,7 @@
     {
       "matchId": "400021537",
       "matchNumber": 100,
-      "updatedAt": "2026-07-12T04:05:45Z",
+      "updatedAt": "2026-07-12T04:07:34Z",
       "locked": true,
       "resultTip": "胜",
       "confidenceLevel": "中等概率",
@@ -1445,9 +1445,9 @@
       "score": "待定",
       "totalGoals": "待定",
       "halfFull": "待定",
-      "rationale": "FIFA 已确认 99 号位由英格兰晋级，100 号位由瑞士晋级，理论上的 102 半决赛签位已收敛为英格兰对瑞士；但 public/schedule.json 当前仍保持待定/待定，本地页面也依赖该赛程源渲染。为避免预测文本和页面队名脱节，本次继续保留待定占位，不提前写入方向性判断。",
-      "sourceSummary": "FIFA Norway 1-2 England match report + Argentina v Switzerland match centre/Swiss progression signals + FIFA 淘汰赛签位页（2026-07-12 核验） + public/schedule.json 当前 102 号位仍为待定/待定。",
-      "oddsSource": "FIFA 公开页面已显示 102 号位签位收敛，但中国竞彩网官方足球计算器在当前环境未提供可安全映射到本地 102 号位的已核验赔率；赔率待定。"
+      "rationale": "public/schedule.json 最新只把 102 号位同步到“英格兰 vs 待定”，说明本地赛程源已确认英格兰占住一个半决赛席位，但另一侧参赛队仍未完成同步。页面展示依赖该赛程源，因此在 away 端仍为待定时，不提前写入方向性判断，继续保留待定占位更稳妥。",
+      "sourceSummary": "FIFA Norway 1-2 England match report + public/schedule.json（2026-07-12 当前 100 已完赛、102 已同步为英格兰 vs 待定） + FIFA 淘汰赛签位页核验。",
+      "oddsSource": "102 号位对阵在本地赛程源仍未完全落定；中国竞彩网官方足球计算器在当前环境未提供可安全映射到该场的已核验赔率，赔率待定。"
     },
     {
       "matchId": "400021542",
