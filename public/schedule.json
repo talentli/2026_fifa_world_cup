@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T01:12:08.651Z",
+  "generatedAt": "2026-07-12T04:42:48.287Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "sources": [
@@ -4514,8 +4514,8 @@
       "stageZh": "四分之一决赛",
       "group": "",
       "groupZh": "",
-      "status": 3,
-      "matchClock": "11'",
+      "status": 0,
+      "matchClock": "125'",
       "statusText": "",
       "home": {
         "code": "ARG",
@@ -4523,7 +4523,7 @@
         "nameZh": "阿根廷",
         "flag": "",
         "flagEmoji": "🇦🇷",
-        "score": 2,
+        "score": 3,
         "penaltyScore": null
       },
       "away": {
@@ -4532,12 +4532,12 @@
         "nameZh": "瑞士",
         "flag": "",
         "flagEmoji": "🇨🇭",
-        "score": 0,
+        "score": 1,
         "penaltyScore": null
       },
       "score": {
-        "home": 2,
-        "away": 0,
+        "home": 3,
+        "away": 1,
         "homePenalty": null,
         "awayPenalty": null
       },
@@ -4617,11 +4617,11 @@
         "penaltyScore": null
       },
       "away": {
-        "code": "TBD",
-        "name": "TBD",
-        "nameZh": "待定",
+        "code": "ARG",
+        "name": "Argentina",
+        "nameZh": "阿根廷",
         "flag": "",
-        "flagEmoji": "◇",
+        "flagEmoji": "🇦🇷",
         "score": null,
         "penaltyScore": null
       },
