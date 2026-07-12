@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T23:34:07.488Z",
+  "generatedAt": "2026-07-12T01:12:08.651Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "sources": [
@@ -4469,8 +4469,8 @@
       "stageZh": "四分之一决赛",
       "group": "",
       "groupZh": "",
-      "status": 3,
-      "matchClock": "110'",
+      "status": 0,
+      "matchClock": "123'",
       "statusText": "",
       "home": {
         "code": "NOR",
@@ -4514,8 +4514,8 @@
       "stageZh": "四分之一决赛",
       "group": "",
       "groupZh": "",
-      "status": 1,
-      "matchClock": "0'",
+      "status": 3,
+      "matchClock": "11'",
       "statusText": "",
       "home": {
         "code": "ARG",
@@ -4523,7 +4523,7 @@
         "nameZh": "阿根廷",
         "flag": "",
         "flagEmoji": "🇦🇷",
-        "score": null,
+        "score": 2,
         "penaltyScore": null
       },
       "away": {
@@ -4532,12 +4532,12 @@
         "nameZh": "瑞士",
         "flag": "",
         "flagEmoji": "🇨🇭",
-        "score": null,
+        "score": 0,
         "penaltyScore": null
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": 2,
+        "away": 0,
         "homePenalty": null,
         "awayPenalty": null
       },
@@ -4608,11 +4608,11 @@
       "matchClock": "",
       "statusText": "",
       "home": {
-        "code": "TBD",
-        "name": "TBD",
-        "nameZh": "待定",
+        "code": "ENG",
+        "name": "England",
+        "nameZh": "英格兰",
         "flag": "",
-        "flagEmoji": "◇",
+        "flagEmoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
         "score": null,
         "penaltyScore": null
       },
