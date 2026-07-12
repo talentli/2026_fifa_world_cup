@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T04:04:34Z",
+  "generatedAt": "2026-07-12T04:05:45Z",
   "timezone": "Asia/Shanghai",
   "sourceSkill": "lottery-analyzer",
   "status": "ready",
@@ -1376,8 +1376,8 @@
     {
       "matchId": "400021539",
       "matchNumber": 99,
-      "updatedAt": "2026-07-11T04:04:34Z",
-      "locked": false,
+      "updatedAt": "2026-07-12T04:05:45Z",
+      "locked": true,
       "resultTip": "负",
       "confidenceLevel": "中等概率",
       "probabilities": {
@@ -1395,8 +1395,8 @@
     {
       "matchId": "400021537",
       "matchNumber": 100,
-      "updatedAt": "2026-07-11T04:04:34Z",
-      "locked": false,
+      "updatedAt": "2026-07-12T04:05:45Z",
+      "locked": true,
       "resultTip": "胜",
       "confidenceLevel": "中等概率",
       "probabilities": {
@@ -1414,26 +1414,26 @@
     {
       "matchId": "400021541",
       "matchNumber": 101,
-      "updatedAt": "2026-07-11T04:04:34Z",
+      "updatedAt": "2026-07-12T04:05:45Z",
       "locked": false,
-      "resultTip": "待定",
-      "confidenceLevel": "待定",
+      "resultTip": "平",
+      "confidenceLevel": "中等概率",
       "probabilities": {
-        "homeWin": 34,
-        "draw": 33,
-        "awayWin": 33
+        "homeWin": 33,
+        "draw": 35,
+        "awayWin": 32
       },
-      "score": "待定",
-      "totalGoals": "待定",
-      "halfFull": "待定",
-      "rationale": "FIFA 7月11日赛报已确认半决赛 101 的真实签位是法国对西班牙，但 public/schedule.json 当前仍显示待定/待定。为保持本地页面按赛程源正常渲染，本次继续保留待定占位，不提前写入会与页面队名脱节的方向性预测。",
-      "sourceSummary": "FIFA 法国 2比0 摩洛哥、西班牙 2比1 比利时赛报（2026-07-11 核验） + public/schedule.json 当前 101 号位仍为待定/待定。",
-      "oddsSource": "半决赛 101 实际对阵已由 FIFA 赛果确认，但中国竞彩网官方足球计算器截至 2026-07-11 未检得可安全映射到本地 101 号位的已核验赔率，待定。"
+      "score": "1:1",
+      "totalGoals": "2球",
+      "halfFull": "平平",
+      "rationale": "FIFA 半决赛预告把这场定义为法国前场爆点与西班牙控球体系的直接对撞：法国这边 Mbappe 与 Dembele 持续提供终结效率，7月10日击败摩洛哥后已连六场由 Mbappe 取得进球；西班牙则一路以控场和传递质量推进，FIFA road so far 一度将其列为本届防守表现最稳的球队，而 Yamal 赛前也明确表态不会惧怕法国。两队风格互相牵制、近况都够硬，且当前环境无法安全核验中国竞彩网 101 号位官方赔率时，更适合把 90 分钟判断压在僵持局。",
+      "sourceSummary": "FIFA France v Spain semi-final preview + France's road so far + Spain's road so far + Lamine Yamal: Spain are not afraid of France（2026-07-10 至 2026-07-12 核验）。",
+      "oddsSource": "中国竞彩网官方足球计算器/公开接口在当前环境对 101 号位查询触发 WAF 拦截，未取得可安全核验的 SPF/HAFU/TTG 官方赔率；赔率待定。"
     },
     {
       "matchId": "400021540",
       "matchNumber": 102,
-      "updatedAt": "2026-07-11T04:04:34Z",
+      "updatedAt": "2026-07-12T04:05:45Z",
       "locked": false,
       "resultTip": "待定",
       "confidenceLevel": "待定",
@@ -1445,9 +1445,9 @@
       "score": "待定",
       "totalGoals": "待定",
       "halfFull": "待定",
-      "rationale": "半决赛 102 仍取决于挪威vs英格兰与阿根廷vs瑞士两场四分之一决赛结果，而 public/schedule.json 继续以待定/待定占位。当前最稳妥的处理仍是维持待定，不在参赛队尚未产生时提前写入方向性判断。",
-      "sourceSummary": "FIFA 官方淘汰赛签位页与 Norway v England / Argentina v Switzerland quarter-final previews（2026-07-11 核验） + public/schedule.json 当前 102 号位仍为待定/待定。",
-      "oddsSource": "半决赛 102 对阵尚未落定；中国竞彩网官方足球计算器暂无可安全映射到 102 号位的已核验赔率，待定。"
+      "rationale": "FIFA 已确认 99 号位由英格兰晋级，100 号位由瑞士晋级，理论上的 102 半决赛签位已收敛为英格兰对瑞士；但 public/schedule.json 当前仍保持待定/待定，本地页面也依赖该赛程源渲染。为避免预测文本和页面队名脱节，本次继续保留待定占位，不提前写入方向性判断。",
+      "sourceSummary": "FIFA Norway 1-2 England match report + Argentina v Switzerland match centre/Swiss progression signals + FIFA 淘汰赛签位页（2026-07-12 核验） + public/schedule.json 当前 102 号位仍为待定/待定。",
+      "oddsSource": "FIFA 公开页面已显示 102 号位签位收敛，但中国竞彩网官方足球计算器在当前环境未提供可安全映射到本地 102 号位的已核验赔率；赔率待定。"
     },
     {
       "matchId": "400021542",
