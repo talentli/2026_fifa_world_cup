@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T20:36:59.017Z",
+  "generatedAt": "2026-07-14T21:37:23.740Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "stages": [
@@ -1294,8 +1294,8 @@
           "stageZh": "半决赛",
           "group": "",
           "groupZh": "",
-          "status": 3,
-          "matchClock": "75'",
+          "status": 0,
+          "matchClock": "98'",
           "statusText": "",
           "home": {
             "code": "FRA",
@@ -1394,11 +1394,11 @@
           "matchClock": "",
           "statusText": "",
           "home": {
-            "code": "TBD",
-            "name": "TBD",
-            "nameZh": "待定",
+            "code": "ESP",
+            "name": "Spain",
+            "nameZh": "西班牙",
             "flag": "",
-            "flagEmoji": "◇",
+            "flagEmoji": "🇪🇸",
             "score": null,
             "penaltyScore": null
           },
