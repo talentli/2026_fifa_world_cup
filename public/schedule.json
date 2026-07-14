@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T17:52:37.852Z",
+  "generatedAt": "2026-07-14T19:20:18.822Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "sources": [
@@ -4559,8 +4559,8 @@
       "stageZh": "半决赛",
       "group": "",
       "groupZh": "",
-      "status": 1,
-      "matchClock": "0'",
+      "status": 3,
+      "matchClock": "20'",
       "statusText": "",
       "home": {
         "code": "FRA",
@@ -4568,7 +4568,7 @@
         "nameZh": "法国",
         "flag": "",
         "flagEmoji": "🇫🇷",
-        "score": null,
+        "score": 0,
         "penaltyScore": null
       },
       "away": {
@@ -4577,12 +4577,12 @@
         "nameZh": "西班牙",
         "flag": "",
         "flagEmoji": "🇪🇸",
-        "score": null,
+        "score": 0,
         "penaltyScore": null
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": 0,
+        "away": 0,
         "homePenalty": null,
         "awayPenalty": null
       },
@@ -4645,8 +4645,8 @@
       "matchNumber": 103,
       "dateUtc": "2026-07-18T21:00:00Z",
       "localDate": "2026-07-18T17:00:00Z",
-      "stage": "Play-off for third place",
-      "stageZh": "三四名决赛",
+      "stage": "Bronze final",
+      "stageZh": "Bronze final",
       "group": "",
       "groupZh": "",
       "status": 1,
