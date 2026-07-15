@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T18:44:14.967Z",
+  "generatedAt": "2026-07-15T19:56:49.288Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "sources": [
@@ -4604,8 +4604,8 @@
       "stageZh": "半决赛",
       "group": "",
       "groupZh": "",
-      "status": 1,
-      "matchClock": "0'",
+      "status": 3,
+      "matchClock": "",
       "statusText": "",
       "home": {
         "code": "ENG",
@@ -4613,7 +4613,7 @@
         "nameZh": "英格兰",
         "flag": "",
         "flagEmoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-        "score": null,
+        "score": 0,
         "penaltyScore": null
       },
       "away": {
@@ -4622,12 +4622,12 @@
         "nameZh": "阿根廷",
         "flag": "",
         "flagEmoji": "🇦🇷",
-        "score": null,
+        "score": 0,
         "penaltyScore": null
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": 0,
+        "away": 0,
         "homePenalty": null,
         "awayPenalty": null
       },
