@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T20:26:23.697Z",
+  "generatedAt": "2026-07-18T21:27:34.807Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "sources": [
@@ -4649,8 +4649,8 @@
       "stageZh": "Bronze final",
       "group": "",
       "groupZh": "",
-      "status": 1,
-      "matchClock": "0'",
+      "status": 3,
+      "matchClock": "27'",
       "statusText": "",
       "home": {
         "code": "FRA",
@@ -4658,7 +4658,7 @@
         "nameZh": "法国",
         "flag": "",
         "flagEmoji": "🇫🇷",
-        "score": null,
+        "score": 0,
         "penaltyScore": null
       },
       "away": {
@@ -4667,12 +4667,12 @@
         "nameZh": "英格兰",
         "flag": "",
         "flagEmoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-        "score": null,
+        "score": 2,
         "penaltyScore": null
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": 0,
+        "away": 2,
         "homePenalty": null,
         "awayPenalty": null
       },
