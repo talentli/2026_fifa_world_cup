@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T20:27:50.702Z",
+  "generatedAt": "2026-07-19T21:31:41.120Z",
   "timezone": "Asia/Shanghai",
   "canonicalHost": "2026fifa.2long.cloud",
   "sources": [
@@ -4695,7 +4695,7 @@
       "group": "",
       "groupZh": "",
       "status": 3,
-      "matchClock": "50'",
+      "matchClock": "101'",
       "statusText": "",
       "home": {
         "code": "ESP",
